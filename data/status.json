@@ -1,0 +1,29 @@
+{
+ "generated_at": "2026-10-08T20:34:54.499986+00:00",
+ "sources": [
+  {
+   "id": "cisa",
+   "name": "CISA(米国)",
+   "feed": null,
+   "count": 0,
+   "error": "すべての候補フィードで取得できませんでした",
+   "checked_at": "2026-10-08T20:34:54.499986+00:00"
+  },
+  {
+   "id": "jpcert",
+   "name": "JPCERT/CC(日本)",
+   "feed": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+   "count": 21,
+   "error": null,
+   "checked_at": "2026-10-08T20:34:54.499986+00:00"
+  },
+  {
+   "id": "ncsc",
+   "name": "NCSC(英国)",
+   "feed": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+   "count": 20,
+   "error": null,
+   "checked_at": "2026-10-08T20:34:54.499986+00:00"
+  }
+ ]
+}
