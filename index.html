@@ -123,6 +123,7 @@
 
   <footer>
     <p>各項目の見出しをクリックすると、発表元の公式サイトの原文が開きます。本サイトは公式発表の所在を案内するもので、公式機関とは関係がありません。</p>
+    <p>発表元が日付を公開していない場合は、本サイトが更新を確認した日を「確認日」として表示しています。正確な公表日は原文をご確認ください。</p>
     <p>英語の発表には機械翻訳または編集者による日本語の見出しを添える場合があります。正確な内容は必ず原文をご確認ください。本サイトの情報の利用により生じた損害について、運営者は責任を負いません。</p>
     <p>出典:<a href="https://www.cisa.gov/news-events/cybersecurity-advisories" target="_blank" rel="noopener noreferrer">CISA</a>、<a href="https://www.jpcert.or.jp/" target="_blank" rel="noopener noreferrer">JPCERT/CC</a>、<a href="https://www.ncsc.gov.uk/" target="_blank" rel="noopener noreferrer">NCSC</a></p>
   </footer>
@@ -195,7 +196,8 @@
       var badges = el("div","badges");
       badges.appendChild(el("span","badge b-"+(it.country||""), it.source_name || it.source_id));
       if(it.lang !== "ja") badges.appendChild(el("span","badge", "原文: 英語"));
-      badges.appendChild(el("span","date", fmtDate(it.published)));
+      badges.appendChild(el("span","date",
+        (it.date_estimated ? "確認日 " : "") + fmtDate(it.published)));
       li.appendChild(badges);
 
       var h = el("p","title");
