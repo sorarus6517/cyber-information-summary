@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-規制・当局アップデート横断ビューア — 収集スクリプト(v0.2)
+規制・当局アップデート横断ビューア — 収集スクリプト(v0.3)
 
-v0.1からの変更点
-・CISAはRSSが取得できないことがあるため、公式のKEVカタログ(JSON)にも対応
-・フィードに日付が入っていない場合は「確認日」として扱い、印を付ける
-・取得時のヘッダーを調整(機械的なアクセスを弾くサイト対策)
+v0.2からの変更点
+・情報源に JVN と IPA を追加
+・CISAのKEVは見出しを自動で日本語化(脆弱性の種類を対訳表で変換)
+・手動の対訳(titles_ja.json)がある場合はそちらを優先
 """
 
 import json
@@ -26,58 +26,39 @@ ITEMS_PATH = os.path.join(DATA_DIR, "items.json")
 TITLES_JA_PATH = os.path.join(DATA_DIR, "titles_ja.json")
 STATUS_PATH = os.path.join(DATA_DIR, "status.json")
 
-# 連絡先は自分のものに書き換えてください
 CONTACT = "https://cyber-information-summary.pages.dev"
-USER_AGENT = (
-    "Mozilla/5.0 (compatible; RegWatchBot/0.2; +%s) "
-    "personal non-commercial aggregator" % CONTACT
-)
+USER_AGENT = ("Mozilla/5.0 (compatible; RegWatchBot/0.3; +%s) "
+              "personal non-commercial aggregator" % CONTACT)
 HEADERS = {
     "User-Agent": USER_AGENT,
     "Accept": "application/rss+xml, application/atom+xml, application/xml, "
               "text/xml, application/json;q=0.9, */*;q=0.8",
-    "Accept-Language": "en,ja;q=0.8",
+    "Accept-Language": "ja,en;q=0.8",
 }
 TIMEOUT = 30
 KEEP_DAYS = 400
-KEV_LIMIT = 30  # KEVカタログから取り込む最新件数
+KEV_LIMIT = 30
 
 SOURCES = [
-    {
-        "id": "cisa",
-        "name": "CISA(米国)",
-        "country": "US",
-        "theme": "cyber",
-        "lang": "en",
-        "site": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-        # 上から順に試す。kev: で始まるものはJSON形式として扱う
-        "feeds": [
-            "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-            "https://www.cisa.gov/news-events/cybersecurity-advisories/all.xml",
-            "kev:https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-        ],
-    },
-    {
-        "id": "jpcert",
-        "name": "JPCERT/CC(日本)",
-        "country": "JP",
-        "theme": "cyber",
-        "lang": "ja",
-        "site": "https://www.jpcert.or.jp/",
-        "feeds": ["https://www.jpcert.or.jp/rss/jpcert.rdf"],
-    },
-    {
-        "id": "ncsc",
-        "name": "NCSC(英国)",
-        "country": "GB",
-        "theme": "cyber",
-        "lang": "en",
-        "site": "https://www.ncsc.gov.uk/",
-        "feeds": [
-            "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-            "https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml",
-        ],
-    },
+    {"id": "cisa", "name": "CISA(米国)", "country": "US", "theme": "cyber",
+     "lang": "en", "site": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+     "feeds": [
+         "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+         "kev:https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+     ]},
+    {"id": "jpcert", "name": "JPCERT/CC(日本)", "country": "JP", "theme": "cyber",
+     "lang": "ja", "site": "https://www.jpcert.or.jp/",
+     "feeds": ["https://www.jpcert.or.jp/rss/jpcert.rdf"]},
+    {"id": "ncsc", "name": "NCSC(英国)", "country": "GB", "theme": "cyber",
+     "lang": "en", "site": "https://www.ncsc.gov.uk/",
+     "feeds": ["https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml"]},
+    {"id": "jvn", "name": "JVN(日本)", "country": "JP", "theme": "cyber",
+     "lang": "ja", "site": "https://jvn.jp/",
+     "feeds": ["https://jvn.jp/rss/jvn.rdf"]},
+    {"id": "ipa", "name": "IPA(日本)", "country": "JP", "theme": "cyber",
+     "lang": "ja", "site": "https://www.ipa.go.jp/security/",
+     "feeds": ["https://www.ipa.go.jp/security/alert-rss.rdf",
+               "https://www.ipa.go.jp/security/rss/alert.rdf"]},
 ]
 
 EXCLUDE_KEYWORDS = [
@@ -85,6 +66,51 @@ EXCLUDE_KEYWORDS = [
     "fsb", "gru", "svr", "sanction", "sanctions",
     "ロシア", "ウクライナ", "クレムリン", "制裁",
 ]
+
+# 脆弱性の種類の対訳(長い語句から順に照合する)
+VULN_TYPES = {
+    "improper restriction of operations within the bounds of a memory buffer":
+        "メモリ範囲外の操作(バッファ処理の不備)",
+    "improper check for unusual or exceptional conditions": "例外条件のチェック不備",
+    "unrestricted upload of file with dangerous type": "危険な種類のファイルのアップロード制限不備",
+    "exposure of dangerous method or function": "危険なメソッド・機能の公開",
+    "cleartext storage of sensitive information": "重要情報の平文保存",
+    "exposure of sensitive information": "重要情報の漏えい",
+    "missing authentication for critical function": "重要機能における認証の欠如",
+    "improper enforcement of behavioral workflow": "処理手順の制御不備",
+    "deserialization of untrusted data": "信頼できないデータのデシリアライズ",
+    "incorrect use of privileged apis": "特権APIの不適切な利用",
+    "server-side request forgery": "サーバーサイドリクエストフォージェリ(SSRF)",
+    "cross-site request forgery": "クロスサイトリクエストフォージェリ(CSRF)",
+    "improper certificate validation": "証明書検証の不備",
+    "incorrect default permissions": "既定の権限設定の不備",
+    "use of hard-coded credentials": "ハードコードされた認証情報",
+    "remote file inclusion": "リモートファイルインクルージョン",
+    "improper privilege management": "権限管理の不備",
+    "stack-based buffer overflow": "スタックバッファオーバーフロー",
+    "heap-based buffer overflow": "ヒープバッファオーバーフロー",
+    "improper input validation": "入力値検証の不備",
+    "cross-site scripting": "クロスサイトスクリプティング(XSS)",
+    "improper access control": "アクセス制御の不備",
+    "incorrect authorization": "認可の不備",
+    "improper authorization": "認可の不備",
+    "improper authentication": "認証の不備",
+    "authentication bypass": "認証回避",
+    "data processing errors": "データ処理の誤り",
+    "os command injection": "OSコマンドインジェクション",
+    "command injection": "コマンドインジェクション",
+    "code injection": "コードインジェクション",
+    "sql injection": "SQLインジェクション",
+    "path traversal": "パストラバーサル",
+    "out-of-bounds write": "境界外書き込み",
+    "out-of-bounds read": "境界外読み取り",
+    "buffer overflow": "バッファオーバーフロー",
+    "use-after-free": "解放済みメモリの使用",
+    "race condition": "競合状態",
+    "session fixation": "セッション固定",
+    "privilege escalation": "権限昇格",
+    "information disclosure": "情報漏えい",
+}
 
 
 def log(msg):
@@ -94,8 +120,7 @@ def log(msg):
 def strip_tags(text):
     if not text:
         return ""
-    text = re.sub(r"<[^>]+>", "", text)
-    return re.sub(r"\s+", " ", text).strip()
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", text)).strip()
 
 
 def localname(tag):
@@ -116,7 +141,7 @@ def parse_date(value):
         pass
     iso = value.replace("Z", "+00:00")
     for fmt in ("%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%S.%f%z",
-                "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d"):
+                "%Y-%m-%dT%H:%M%z", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d"):
         try:
             dt = datetime.strptime(iso, fmt)
             if dt.tzinfo is None:
@@ -139,14 +164,10 @@ def fetch(url):
 
 
 def parse_feed(xml_bytes):
-    """RSS 2.0 / RSS 1.0(RDF) / Atom を同じ形に揃える。"""
     root = ET.fromstring(xml_bytes)
     entries = []
-    nodes = [el for el in root.iter() if localname(el.tag) in ("item", "entry")]
-
-    for node in nodes:
-        title = ""
-        link = ""
+    for node in [el for el in root.iter() if localname(el.tag) in ("item", "entry")]:
+        title = link = ""
         date = None
         for child in node:
             name = localname(child.tag)
@@ -161,37 +182,51 @@ def parse_feed(xml_bytes):
                 elif child.text and not link:
                     link = child.text.strip()
             elif name in ("pubDate", "published", "updated", "date",
-                          "modified", "created") and not date:
+                          "issued", "modified", "created") and not date:
                 date = parse_date(child.text)
             elif name == "guid" and not link and child.text:
                 if child.text.startswith("http"):
                     link = child.text.strip()
         if title and link:
-            entries.append({"title": title, "url": link, "published": date})
+            entries.append({"title": title, "url": link, "published": date,
+                            "title_ja": None})
     return entries
 
 
+def ja_vuln_type(text):
+    """英語の脆弱性名から種類を取り出して日本語にする。対訳がなければ原文を返す。"""
+    cleaned = re.sub(r"\s+vulnerabilit(y|ies)$", "", text.strip(), flags=re.I).strip()
+    low = cleaned.lower()
+    for en in sorted(VULN_TYPES, key=len, reverse=True):
+        if en in low:
+            return VULN_TYPES[en]
+    return cleaned or text.strip()
+
+
 def parse_kev(json_bytes):
-    """CISAのKnown Exploited Vulnerabilities カタログ(JSON)を項目に変換する。"""
     data = json.loads(json_bytes.decode("utf-8"))
-    vulns = data.get("vulnerabilities", [])
-
-    def key(v):
-        return v.get("dateAdded") or ""
-
-    vulns = sorted(vulns, key=key, reverse=True)[:KEV_LIMIT]
-
+    vulns = sorted(data.get("vulnerabilities", []),
+                   key=lambda v: v.get("dateAdded") or "", reverse=True)[:KEV_LIMIT]
     entries = []
     for v in vulns:
         cve = v.get("cveID", "")
-        vendor = v.get("vendorProject", "")
-        product = v.get("product", "")
-        name = v.get("vulnerabilityName", "")
         if not cve:
             continue
-        title = "KEV追加: %s %s — %s (%s)" % (vendor, product, name, cve)
+        vendor = (v.get("vendorProject") or "").strip()
+        product = (v.get("product") or "").strip()
+        name = (v.get("vulnerabilityName") or "").strip()
+        target = (vendor + " " + product).strip()
+
+        # 「ベンダー名 製品名」が脆弱性名の先頭に重複して入っているので取り除く
+        kind = name
+        for prefix in (target, vendor, product):
+            if prefix and kind.lower().startswith(prefix.lower()):
+                kind = kind[len(prefix):].strip()
+        kind_ja = ja_vuln_type(kind or name)
+
         entries.append({
-            "title": strip_tags(title),
+            "title": "KEV追加: %s — %s (%s)" % (target, name, cve),
+            "title_ja": "悪用確認(KEV): %s — %s (%s)" % (target, kind_ja, cve),
             "url": "https://nvd.nist.gov/vuln/detail/" + cve,
             "published": parse_date(v.get("dateAdded")),
         })
@@ -247,10 +282,9 @@ def main():
     log("収集開始 %s" % now.isoformat())
     for source in SOURCES:
         entries, used_feed, error = collect_source(source)
-        status.append({
-            "id": source["id"], "name": source["name"], "feed": used_feed,
-            "count": len(entries), "error": error, "checked_at": now.isoformat(),
-        })
+        status.append({"id": source["id"], "name": source["name"], "feed": used_feed,
+                       "count": len(entries), "error": error,
+                       "checked_at": now.isoformat()})
 
         for e in entries:
             if is_excluded(e["title"]):
@@ -259,16 +293,17 @@ def main():
             if e["url"] in by_url:
                 item = by_url[e["url"]]
                 item["title"] = e["title"]
-                # 後からフィードに日付が入った場合は正しい日付で上書きする
+                if e.get("title_ja"):
+                    item["title_ja"] = e["title_ja"]
+                    item["title_ja_source"] = "auto"
                 if e["published"]:
                     item["published"] = e["published"]
                     item["date_estimated"] = False
                 continue
-            by_url[e["url"]] = {
+            item = {
                 "title": e["title"],
                 "url": e["url"],
                 "published": e["published"] or now.isoformat(),
-                # フィードに日付がなく、取得日で代用した場合に印を付ける
                 "date_estimated": e["published"] is None,
                 "first_seen": now.isoformat(),
                 "source_id": source["id"],
@@ -277,14 +312,21 @@ def main():
                 "theme": source["theme"],
                 "lang": source["lang"],
             }
+            if e.get("title_ja"):
+                item["title_ja"] = e["title_ja"]
+                item["title_ja_source"] = "auto"
+            by_url[e["url"]] = item
             added += 1
 
+    # 手動の対訳が最優先。なければ自動生成のものを残す。
     for url, item in by_url.items():
-        ja = titles_ja.get(url)
-        if ja:
-            item["title_ja"] = ja
-        else:
+        manual = titles_ja.get(url)
+        if manual:
+            item["title_ja"] = manual
+            item["title_ja_source"] = "manual"
+        elif item.get("title_ja_source") != "auto":
             item.pop("title_ja", None)
+            item.pop("title_ja_source", None)
         item.setdefault("date_estimated", False)
 
     items = list(by_url.values())
@@ -299,11 +341,11 @@ def main():
     items = [it for it in items if ts(it) >= cutoff]
     items.sort(key=ts, reverse=True)
 
-    save_json(ITEMS_PATH, {
-        "generated_at": now.isoformat(), "count": len(items), "items": items,
-    })
+    save_json(ITEMS_PATH, {"generated_at": now.isoformat(),
+                           "count": len(items), "items": items})
     save_json(STATUS_PATH, {"generated_at": now.isoformat(), "sources": status})
 
+    # 日本語の見出しがまだ無いものだけを書き出す(手動で訳す用)
     pending = {it["url"]: "" for it in items
                if it["lang"] != "ja" and not it.get("title_ja")}
     save_json(os.path.join(DATA_DIR, "titles_ja_pending.json"), pending)
