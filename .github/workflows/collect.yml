@@ -1,6 +1,6 @@
 name: collect
 
-# 1日1回、各機関の公式フィードを取得して data/ を更新する。
+# 1日1回、各機関の公式フィードを取得して data/ とページを更新する。
 # 手動でも実行できる(Actions タブの「Run workflow」)。
 on:
   schedule:
@@ -29,12 +29,15 @@ jobs:
       - name: 収集を実行
         run: python collect.py
 
+      - name: ページを生成
+        run: python build.py
+
       - name: 変更があればコミット
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain data)" ]; then
-            git add data
+          git add data w archive.html notify.html feed.xml sitemap.xml robots.txt
+          if [ -n "$(git diff --cached --name-only)" ]; then
             git commit -m "data: 自動更新 $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           else
