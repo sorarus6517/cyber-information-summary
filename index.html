@@ -4,7 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>サイバー勧告ウォッチ｜日米英の公式注意喚起を一か所で</title>
-<meta name="description" content="CISA(米国)、JPCERT/CC(日本)、NCSC(英国)が公表したサイバーセキュリティの注意喚起・勧告を、日本語の一覧で横断的に確認できます。各項目は公式サイトの原文へリンクします。">
+<meta name="description" content="米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起や脆弱性情報を、日本語の一覧で横断的に確認できます。各項目は公式サイトの原文へリンクします。">
+<link rel="canonical" href="https://cyber-information-summary.pages.dev/">
+<link rel="alternate" type="application/rss+xml" title="サイバー勧告ウォッチ" href="/feed.xml">
 <style>
   :root{
     --bg:#f7f8fa; --panel:#fff; --text:#15181d; --muted:#5c6572;
@@ -36,6 +38,18 @@
   h1{margin:0; font-size:20px; letter-spacing:.01em}
   .tagline{margin:4px 0 0; color:var(--muted); font-size:13px}
   .meta{margin-top:10px; color:var(--muted); font-size:12px}
+  .nav{margin:8px 0 0; font-size:13px}
+  .bm-row{margin-top:10px}
+  .mini{font:inherit; font-size:12.5px; background:var(--bg); border:1px solid var(--line);
+    border-radius:8px; color:var(--muted); padding:5px 10px; cursor:pointer}
+  .mini:hover{color:var(--accent); border-color:var(--accent)}
+  .star{background:none; border:none; cursor:pointer; font-size:17px; line-height:1;
+    color:var(--muted); padding:0 2px; margin-left:6px}
+  .star[aria-pressed="true"]{color:#e0a106}
+  .star:hover{color:var(--accent)}
+  .notice{background:var(--accent-weak); border:1px solid var(--line); border-radius:var(--radius);
+    padding:12px 14px; margin:18px 0; font-size:13.5px}
+  .notice p{margin:4px 0}
   .panel{
     background:var(--panel); border:1px solid var(--line);
     border-radius:var(--radius); padding:14px; margin:18px 0;
@@ -90,10 +104,11 @@
     <div class="row">
       <div>
         <h1>サイバー勧告ウォッチ</h1>
-        <p class="tagline">米国 CISA・日本 JPCERT/CC・英国 NCSC の公式な注意喚起を、一か所で。</p>
+        <p class="tagline">日本(JPCERT/CC・JVN・IPA)、米国(CISA)、英国(NCSC)の公式な注意喚起を、一か所で。</p>
       </div>
       <button class="toggle" id="themeBtn" type="button">表示切替</button>
     </div>
+    <p class="nav"><a href="/archive.html">週ごとのまとめ</a> ・ <a href="/notify.html">お知らせメール</a> ・ <a href="/feed.xml">RSS</a></p>
     <p class="meta" id="generated">読み込み中…</p>
   </div>
 </header>
@@ -114,7 +129,22 @@
       </select>
     </div>
     <div class="chips" id="sourceChips"></div>
+    <div class="row bm-row">
+      <label class="chip" id="bmOnlyChip">
+        <input type="checkbox" id="bmOnly">
+        <span>保存した項目だけ表示(<span id="bmCount">0</span>)</span>
+      </label>
+      <button type="button" class="mini" id="bmExport">保存リストを書き出す</button>
+      <label class="mini" for="bmImportFile">読み込む</label>
+      <input type="file" id="bmImportFile" accept="application/json" hidden>
+    </div>
     <div class="status" id="status"></div>
+  </div>
+
+  <div class="notice">
+    <p><strong>更新を見落とさないために</strong></p>
+    <p><a href="/feed.xml">RSS(/feed.xml)</a> を購読すると、新しい注意喚起がRSSリーダーに届きます。メールで受け取りたい方は<a href="/notify.html">お知らせメールの案内</a>をご覧ください。</p>
+    <p>各項目の☆を押すと、あとで見返すために保存できます。保存した内容はお使いのブラウザの中だけに残り、本サイトには送信されません。</p>
   </div>
 
   <p class="count" id="count"></p>
@@ -125,7 +155,7 @@
     <p>各項目の見出しをクリックすると、発表元の公式サイトの原文が開きます。本サイトは公式発表の所在を案内するもので、公式機関とは関係がありません。</p>
     <p>発表元が日付を公開していない場合は、本サイトが更新を確認した日を「確認日」として表示しています。正確な公表日は原文をご確認ください。</p>
     <p>英語の発表には機械翻訳または編集者による日本語の見出しを添える場合があります。正確な内容は必ず原文をご確認ください。本サイトの情報の利用により生じた損害について、運営者は責任を負いません。</p>
-    <p>出典:<a href="https://www.cisa.gov/news-events/cybersecurity-advisories" target="_blank" rel="noopener noreferrer">CISA</a>、<a href="https://www.jpcert.or.jp/" target="_blank" rel="noopener noreferrer">JPCERT/CC</a>、<a href="https://www.ncsc.gov.uk/" target="_blank" rel="noopener noreferrer">NCSC</a></p>
+    <p>出典:<a href="https://www.jpcert.or.jp/" target="_blank" rel="noopener noreferrer">JPCERT/CC</a>、<a href="https://jvn.jp/" target="_blank" rel="noopener noreferrer">JVN</a>、<a href="https://www.ipa.go.jp/security/" target="_blank" rel="noopener noreferrer">IPA</a>、<a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer">CISA</a>、<a href="https://www.ncsc.gov.uk/" target="_blank" rel="noopener noreferrer">NCSC</a></p>
   </footer>
 </div>
 
@@ -136,10 +166,12 @@
   var SOURCES = [
     {id:"cisa",   name:"CISA(米国)",      country:"US"},
     {id:"jpcert", name:"JPCERT/CC(日本)", country:"JP"},
+    {id:"jvn",    name:"JVN(日本)",       country:"JP"},
+    {id:"ipa",    name:"IPA(日本)",       country:"JP"},
     {id:"ncsc",   name:"NCSC(英国)",      country:"GB"}
   ];
 
-  var state = { items: [], q:"", period:30, order:"desc", off:{} };
+  var state = { items: [], q:"", period:30, order:"desc", off:{}, bm:[], bmOnly:false };
 
   // ---- 安全なDOM生成(フィード由来の文字列は textContent のみで扱う) ----
   function el(tag, cls, text){
@@ -161,6 +193,59 @@
     return d.getFullYear()+"年"+(d.getMonth()+1)+"月"+d.getDate()+"日";
   }
 
+  // ---- ブックマーク(この端末のブラウザ内にのみ保存) ----
+  var BM_KEY = "bookmarks.v1";
+
+  function bmLoad(){
+    try{
+      var raw = localStorage.getItem(BM_KEY);
+      var arr = raw ? JSON.parse(raw) : [];
+      return Array.isArray(arr) ? arr.filter(function(u){ return typeof u === "string"; }) : [];
+    }catch(e){ return []; }   // プライベートモード等で読めない場合も動かす
+  }
+  function bmSave(list){
+    try{ localStorage.setItem(BM_KEY, JSON.stringify(list)); }
+    catch(e){ /* 保存できない環境では、その回限りの保持にとどめる */ }
+  }
+  function bmHas(url){ return state.bm.indexOf(url) !== -1; }
+  function bmToggle(url){
+    var i = state.bm.indexOf(url);
+    if(i === -1){ state.bm.push(url); } else { state.bm.splice(i,1); }
+    bmSave(state.bm);
+    updateBmCount();
+  }
+  function updateBmCount(){
+    document.getElementById("bmCount").textContent = String(state.bm.length);
+  }
+  function bmExport(){
+    var blob = new Blob([JSON.stringify({saved_at:new Date().toISOString(), urls:state.bm}, null, 1)],
+                        {type:"application/json"});
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "bookmarks.json";
+    document.body.appendChild(a); a.click();
+    document.body.removeChild(a);
+    setTimeout(function(){ URL.revokeObjectURL(a.href); }, 1000);
+  }
+  function bmImport(file){
+    var reader = new FileReader();
+    reader.onload = function(){
+      try{
+        var obj = JSON.parse(String(reader.result));
+        var urls = Array.isArray(obj) ? obj : (obj && obj.urls);
+        if(!Array.isArray(urls)) throw new Error("形式が違います");
+        urls.forEach(function(u){
+          if(typeof u === "string" && state.bm.indexOf(u) === -1) state.bm.push(u);
+        });
+        bmSave(state.bm); updateBmCount(); render();
+      }catch(e){
+        document.getElementById("status").textContent =
+          "読み込めませんでした。書き出したファイルを選んでください。";
+      }
+    };
+    reader.readAsText(file);
+  }
+
   // ---- 描画 ----
   function render(){
     var list = document.getElementById("list");
@@ -169,6 +254,7 @@
     var q = state.q.trim().toLowerCase();
 
     var rows = state.items.filter(function(it){
+      if(state.bmOnly && !bmHas(it.url)) return false;
       if(state.off[it.source_id]) return false;
       if(state.period > 0){
         var t = new Date(it.published).getTime();
@@ -198,6 +284,20 @@
       if(it.lang !== "ja") badges.appendChild(el("span","badge", "原文: 英語"));
       badges.appendChild(el("span","date",
         (it.date_estimated ? "確認日 " : "") + fmtDate(it.published)));
+
+      var star = el("button","star", bmHas(it.url) ? "★" : "☆");
+      star.type = "button";
+      star.title = "あとで見返すために保存(この端末のみ)";
+      star.setAttribute("aria-label", "保存する");
+      star.setAttribute("aria-pressed", bmHas(it.url) ? "true" : "false");
+      star.addEventListener("click", function(){
+        bmToggle(it.url);
+        var on = bmHas(it.url);
+        star.textContent = on ? "★" : "☆";
+        star.setAttribute("aria-pressed", on ? "true" : "false");
+        if(state.bmOnly) render();
+      });
+      badges.appendChild(star);
       li.appendChild(badges);
 
       var h = el("p","title");
@@ -250,6 +350,21 @@
     document.getElementById("order").addEventListener("change", function(e){
       state.order = e.target.value; render();
     });
+    var bmOnly = document.getElementById("bmOnly");
+    bmOnly.addEventListener("change", function(){
+      state.bmOnly = bmOnly.checked;
+      document.getElementById("bmOnlyChip").className = "chip" + (bmOnly.checked ? " on" : "");
+      render();
+    });
+    document.getElementById("bmExport").addEventListener("click", bmExport);
+    var imp = document.getElementById("bmImportFile");
+    document.querySelector('label[for="bmImportFile"]').addEventListener("click", function(){
+      imp.click();
+    });
+    imp.addEventListener("change", function(){
+      if(imp.files && imp.files[0]) bmImport(imp.files[0]);
+      imp.value = "";
+    });
     document.getElementById("themeBtn").addEventListener("click", function(){
       var cur = document.documentElement.getAttribute("data-theme");
       var next = cur === "dark" ? "light" : "dark";
@@ -290,8 +405,10 @@
       });
   }
 
+  state.bm = bmLoad();
   buildChips();
   bind();
+  updateBmCount();
   load();
 })();
 </script>
