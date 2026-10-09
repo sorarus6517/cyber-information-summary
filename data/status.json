@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T19:17:41.700375+00:00",
+ "generated_at": "2026-10-09T21:25:02.778894+00:00",
  "sources": [
   {
    "id": "cisa",
@@ -7,7 +7,7 @@
    "feed": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
    "count": 30,
    "error": null,
-   "checked_at": "2026-10-09T19:17:41.700375+00:00"
+   "checked_at": "2026-10-09T21:25:02.778894+00:00"
   },
   {
    "id": "jpcert",
@@ -15,7 +15,7 @@
    "feed": "https://www.jpcert.or.jp/rss/jpcert.rdf",
    "count": 21,
    "error": null,
-   "checked_at": "2026-10-09T19:17:41.700375+00:00"
+   "checked_at": "2026-10-09T21:25:02.778894+00:00"
   },
   {
    "id": "ncsc",
@@ -23,7 +23,7 @@
    "feed": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
    "count": 20,
    "error": null,
-   "checked_at": "2026-10-09T19:17:41.700375+00:00"
+   "checked_at": "2026-10-09T21:25:02.778894+00:00"
   },
   {
    "id": "jvn",
@@ -31,7 +31,7 @@
    "feed": "https://jvn.jp/rss/jvn.rdf",
    "count": 20,
    "error": null,
-   "checked_at": "2026-10-09T19:17:41.700375+00:00"
+   "checked_at": "2026-10-09T21:25:02.778894+00:00"
   },
   {
    "id": "ipa",
@@ -39,7 +39,7 @@
    "feed": "https://www.ipa.go.jp/security/alert-rss.rdf",
    "count": 30,
    "error": null,
-   "checked_at": "2026-10-09T19:17:41.700375+00:00"
+   "checked_at": "2026-10-09T21:25:02.778894+00:00"
   }
  ]
 }
