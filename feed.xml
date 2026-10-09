@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>サイバー勧告ウォッチ</title>
+<link>https://cyber-information-summary.pages.dev/</link>
+<description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
+<language>ja</language>
+<lastBuildDate>Fri, 09 Oct 2026 08:19:10 +0000</lastBuildDate>
+<item>
+<title>[JPCERT/CC(日本)] 注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)</title>
+<link>https://www.jpcert.or.jp/at/2026/at260030.html</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/at/2026/at260030.html</guid>
+<pubDate>Fri, 09 Oct 2026 01:12:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/at/2026/at260030.html</description>
+</item>
+<item>
+<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年10月08日）</title>
+<link>https://jvn.jp/vu/JVNVU91137775/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU91137775/</guid>
+<pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU91137775/</description>
+</item>
+<item>
+<title>[IPA(日本)] 不正アクセスによる漏えい等の事案を踏まえ、速やかに実施すべき対策等について</title>
+<link>https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html</link>
+<guid isPermaLink="true">https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html</guid>
+<pubDate>Thu, 08 Oct 2026 15:00:00 +0000</pubDate>
+<description>IPA(日本) が公表。原文: https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html</description>
+</item>
+<item>
+<title>[NCSC(英国)] 英国と各国のパートナー、機微データを世界的に狙う中国関連の攻撃者を名指しで非難</title>
+<link>https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data</link>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data</guid>
+<pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
+<description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): ISC BIND — データ処理の誤り (CVE-2015-5477)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2015-5477</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2015-5477</guid>
+<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2015-5477</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Apache Struts — コマンドインジェクション (CVE-2016-3081)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2016-3081</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2016-3081</guid>
+<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2016-3081</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Strapi Strapi — 重要情報の平文保存 (CVE-2023-22894)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2023-22894</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2023-22894</guid>
+<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2023-22894</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): ONLYOFFICE Docs — パストラバーサル (CVE-2021-3199)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2021-3199</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2021-3199</guid>
+<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2021-3199</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): ProFTPD ProFTPD — アクセス制御の不備 (CVE-2015-3306)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2015-3306</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2015-3306</guid>
+<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2015-3306</description>
+</item>
+<item>
+<title>[JVN(日本)] Movable Typeにおける複数の脆弱性</title>
+<link>https://jvn.jp/jp/JVN91153973/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN91153973/</guid>
+<pubDate>Wed, 07 Oct 2026 05:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN91153973/</description>
+</item>
+<item>
+<title>[JVN(日本)] キーエンス製複数製品におけるXML外部エンティティ参照（XXE）の不適切な制限の脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU98062224/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU98062224/</guid>
+<pubDate>Wed, 07 Oct 2026 04:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98062224/</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: Google Chromeに複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#1</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#1</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#1</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: Apache HTTP Server 2.4に複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#2</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#2</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#2</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: FortinetのFortiMailに未認証のリモートコード実行につながる脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#3</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#3</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#3</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: 複数のMozilla製品に脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#4</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#4</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#4</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: Cisco Catalyst SD-WAN Managerに認証回避につながる脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#5</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#5</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#5</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: OpenSSLに複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#6</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#6</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#6</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: 複数のWatchGuard製品に脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#7</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#7</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#7</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: 複数のHPE製品に脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#8</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#8</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#8</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: Pgpool-IIに複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#9</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#9</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#9</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: 複数のApple製品に脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#10</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#10</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#10</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: 複数のElastic製品に脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#11</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#11</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#11</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: NCOが「サイバーセキュリティ関係法令Q&amp;AハンドブックVer.3.0」を公開</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#12</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#12</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#12</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: NICTが「NICTER観測統計 - 2026年4月-6月」を公開</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#13</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#13</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#13</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: 「情報セキュリティ早期警戒パートナーシップガイドライン」の2026年版を公開</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#14</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#14</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#14</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: NetScaler ADCおよびNetScaler Gatewayに複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261007.html#15</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261007.html#15</guid>
+<pubDate>Wed, 07 Oct 2026 00:05:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261007.html#15</description>
+</item>
+<item>
+<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年10月06日）</title>
+<link>https://jvn.jp/vu/JVNVU94062711/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU94062711/</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU94062711/</description>
+</item>
+<item>
+<title>[IPA(日本)] 「Movable Type」における複数の脆弱性について（JVN#91153973）</title>
+<link>https://www.ipa.go.jp/security/security-alert/2026/20261007-jvn.html</link>
+<guid isPermaLink="true">https://www.ipa.go.jp/security/security-alert/2026/20261007-jvn.html</guid>
+<pubDate>Tue, 06 Oct 2026 15:00:00 +0000</pubDate>
+<description>IPA(日本) が公表。原文: https://www.ipa.go.jp/security/security-alert/2026/20261007-jvn.html</description>
+</item>
+<item>
+<title>[NCSC(英国)] 通販サイトASOSの利用者に影響するインシデントについて</title>
+<link>https://www.ncsc.gov.uk/news/incident-affecting-asos-customers</link>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/news/incident-affecting-asos-customers</guid>
+<pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+<description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/news/incident-affecting-asos-customers</description>
+</item>
+<item>
+<title>[JVN(日本)] MCC製Universal Library for Linux (uldaq)におけるバッファオーバーフローの脆弱性</title>
+<link>https://jvn.jp/jp/JVN13510969/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN13510969/</guid>
+<pubDate>Tue, 06 Oct 2026 03:00:15 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN13510969/</description>
+</item>
+<item>
+<title>[JVN(日本)] Androidアプリ「チケット流通センター」における複数の脆弱性</title>
+<link>https://jvn.jp/jp/JVN53292492/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN53292492/</guid>
+<pubDate>Tue, 06 Oct 2026 03:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN53292492/</description>
+</item>
+<item>
+<title>[JVN(日本)] GROWIにおけるアクセス制限不備の脆弱性</title>
+<link>https://jvn.jp/jp/JVN24352487/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN24352487/</guid>
+<pubDate>Mon, 05 Oct 2026 06:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN24352487/</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Citrix NetScaler — メモリ範囲外の操作(バッファ処理の不備) (CVE-2026-88779)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2026-88779</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-88779</guid>
+<pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-88779</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] 注意喚起: NetScaler ADCおよびNetScaler Gatewayにおける複数の脆弱性（CVE-2026-88771、CVE-2026-88772等）に関する注意喚起 (更新)</title>
+<link>https://www.jpcert.or.jp/at/2026/at260029.html</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/at/2026/at260029.html</guid>
+<pubDate>Fri, 02 Oct 2026 05:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/at/2026/at260029.html</description>
+</item>
+<item>
+<title>[JVN(日本)] Apache HTTP Server 2.4における複数の脆弱性に対するアップデート（2026年10月1日）</title>
+<link>https://jvn.jp/vu/JVNVU94648869/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU94648869/</guid>
+<pubDate>Fri, 02 Oct 2026 01:00:30 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU94648869/</description>
+</item>
+<item>
+<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年10月01日）</title>
+<link>https://jvn.jp/vu/JVNVU91842649/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU91842649/</guid>
+<pubDate>Fri, 02 Oct 2026 01:00:15 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU91842649/</description>
+</item>
+<item>
+<title>[JVN(日本)] InsydeH2O IHISIにおける安全でないメモリ書き込みの脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU92911062/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU92911062/</guid>
+<pubDate>Fri, 02 Oct 2026 01:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU92911062/</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Zammad GmbH Zammad — 権限管理の不備 (CVE-2026-102490)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2026-102490</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-102490</guid>
+<pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-102490</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Zammad GmbH Zammad — セッション固定 (CVE-2026-102489)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2026-102489</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-102489</guid>
+<pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-102489</description>
+</item>
+<item>
+<title>[JVN(日本)] OpenSSLにおける脆弱性に対するアップデート（2026年9月29日）</title>
+<link>https://jvn.jp/vu/JVNVU93468181/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU93468181/</guid>
+<pubDate>Thu, 01 Oct 2026 02:30:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU93468181/</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Fortinet FortiMail — パストラバーサル (CVE-2026-104286)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2026-104286</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-104286</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-104286</description>
+</item>
+<item>
+<title>[JVN(日本)] 富士フイルムビジネスイノベーション製およびシャープ製複合機（MFP）におけるパストラバーサルの脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU90160989/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90160989/</guid>
+<pubDate>Wed, 30 Sep 2026 03:30:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90160989/</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Cisco Catalyst SD-WAN Manager — Hex Encoding (CVE-2026-76504)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2026-76504</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-76504</guid>
+<pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-76504</description>
+</item>
+<item>
+<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年09月29日）</title>
+<link>https://jvn.jp/vu/JVNVU93754811/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU93754811/</guid>
+<pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU93754811/</description>
+</item>
+<item>
+<title>[JVN(日本)] PFU製Image Scanner Driver for Linuxにおける複数の脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU96968110/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU96968110/</guid>
+<pubDate>Tue, 29 Sep 2026 06:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU96968110/</description>
+</item>
+<item>
+<title>[JVN(日本)] Pgpool-IIにおける複数の脆弱性</title>
+<link>https://jvn.jp/jp/JVN22475874/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN22475874/</guid>
+<pubDate>Tue, 29 Sep 2026 05:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN22475874/</description>
+</item>
+<item>
+<title>[JVN(日本)] Authlibライブラリにおける署名検証が回避される脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU99151548/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU99151548/</guid>
+<pubDate>Tue, 29 Sep 2026 00:15:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99151548/</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Apple Multiple Products — 境界外書き込み (CVE-2026-86950)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2026-86950</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-86950</guid>
+<pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-86950</description>
+</item>
+<item>
+<title>[JVN(日本)] Siemens製品に対するアップデート（2026年9月）</title>
+<link>https://jvn.jp/vu/JVNVU97027767/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU97027767/</guid>
+<pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU97027767/</description>
+</item>
+<item>
+<title>[NCSC(英国)] Citrix NetScaler ADCおよびNetScaler Gatewayの脆弱性の悪用について</title>
+<link>https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway</link>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway</guid>
+<pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
+<description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway</description>
+</item>
+</channel></rss>
