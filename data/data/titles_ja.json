@@ -1,4 +1,0 @@
-{
- "_説明": "英語の発表に日本語の見出しを付けるための対応表です。キーは原文のURL、値は日本語の見出しです。collect.py が data/titles_ja_pending.json に未翻訳のURLを書き出すので、そこからコピーして訳を埋め、このファイルに移してください。",
- "_例": "https://www.ncsc.gov.uk/news/example は『例:NCSCが○○に関する注意喚起を公表』のように書きます"
-}
