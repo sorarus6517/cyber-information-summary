@@ -26,7 +26,9 @@ ITEMS_PATH = os.path.join(DATA_DIR, "items.json")
 WEEK_DIR = os.path.join(ROOT, "w")
 
 SITE_URL = "https://cyber-information-summary.pages.dev"
-SITE_NAME = "サイバー勧告ウォッチ"
+SITE_NAME = "公式セキュリティ情報まとめ"
+VERIFY_META = ('<meta name="google-site-verification" content="-yUwQXTz4etJef7kX5fnyTQXLTrKwNhpkPILpJBuGrM" />')
+
 SITE_DESC = ("米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表した"
              "サイバーセキュリティの注意喚起を、日本語で横断的にまとめています。")
 FEED_ITEMS = 50
@@ -106,6 +108,7 @@ def page(title, description, canonical, body, extra_head=""):
 <html lang="ja">
 <head>
 <meta charset="utf-8">
+%s
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>%s</title>
 <meta name="description" content="%s">
@@ -122,8 +125,8 @@ def page(title, description, canonical, body, extra_head=""):
 </footer>
 </div></body>
 </html>
-""" % (esc(title), esc(description), esc(canonical), esc(SITE_NAME), SITE_URL,
-       extra_head, CSS, body)
+""" % (VERIFY_META, esc(title), esc(description), esc(canonical), esc(SITE_NAME),
+       SITE_URL, extra_head, CSS, body)
 
 
 def render_items(items):
