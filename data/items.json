@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-08T21:26:19.523516+00:00",
- "count": 70,
+ "generated_at": "2026-10-09T08:01:10.596332+00:00",
+ "count": 119,
  "items": [
   {
-   "title": "注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (公開)",
+   "title": "注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)",
    "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
-   "published": "2026-10-08T20:34:54.499986+00:00",
+   "published": "2026-10-09T01:12:00+00:00",
    "first_seen": "2026-10-08T20:34:54.499986+00:00",
    "source_id": "jpcert",
    "source_name": "JPCERT/CC(日本)",
@@ -15,244 +15,28 @@
    "date_estimated": false
   },
   {
-   "title": "注意喚起: NetScaler ADCおよびNetScaler Gatewayにおける複数の脆弱性（CVE-2026-88771、CVE-2026-88772等）に関する注意喚起 (更新)",
-   "url": "https://www.jpcert.or.jp/at/2026/at260029.html",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
+   "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月08日）",
+   "url": "https://jvn.jp/vu/JVNVU91137775/",
+   "published": "2026-10-09T00:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
    "country": "JP",
    "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
+   "lang": "ja"
   },
   {
-   "title": "注意喚起: F5 BIG-IP Access Policy Managerにおけるヒープベースのバッファオーバーフローの脆弱性（CVE-2026-94127）に関する注意喚起 (公開)",
-   "url": "https://www.jpcert.or.jp/at/2026/at260028.html",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
+   "title": "不正アクセスによる漏えい等の事案を踏まえ、速やかに実施すべき対策等について",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html",
+   "published": "2026-10-08T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
    "country": "JP",
    "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "注意喚起: Cisco Secure Email GatewayにおけるSQLインジェクションの脆弱性（CVE-2026-76461）に関する注意喚起 (公開)",
-   "url": "https://www.jpcert.or.jp/at/2026/at260027.html",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "注意喚起: Adobe AcrobatおよびReaderの脆弱性（APSB26-141）に関する注意喚起 (公開)",
-   "url": "https://www.jpcert.or.jp/at/2026/at260026.html",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "注意喚起: 2026年9月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)",
-   "url": "https://www.jpcert.or.jp/at/2026/at260025.html",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: Google Chromeに複数の脆弱性",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#1",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: Apache HTTP Server 2.4に複数の脆弱性",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#2",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: FortinetのFortiMailに未認証のリモートコード実行につながる脆弱性",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#3",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: 複数のMozilla製品に脆弱性",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#4",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: Cisco Catalyst SD-WAN Managerに認証回避につながる脆弱性",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#5",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: OpenSSLに複数の脆弱性",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#6",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: 複数のWatchGuard製品に脆弱性",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#7",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: 複数のHPE製品に脆弱性",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#8",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: Pgpool-IIに複数の脆弱性",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#9",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: 複数のApple製品に脆弱性",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#10",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: 複数のElastic製品に脆弱性",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#11",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: NCOが「サイバーセキュリティ関係法令Q&AハンドブックVer.3.0」を公開",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#12",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: NICTが「NICTER観測統計 - 2026年4月-6月」を公開",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#13",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: 「情報セキュリティ早期警戒パートナーシップガイドライン」の2026年版を公開",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#14",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
-  },
-  {
-   "title": "Weekly Report: NetScaler ADCおよびNetScaler Gatewayに複数の脆弱性",
-   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#15",
-   "published": "2026-10-08T20:34:54.499986+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
+   "lang": "ja"
   },
   {
    "title": "China-linked malicious actors called out by UK and international partners for targeting sensitive data globally",
@@ -264,7 +48,9 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "英国と各国のパートナー、機微データを世界的に狙う中国関連の攻撃者を名指しで非難",
+   "title_ja_source": "manual"
   },
   {
    "title": "KEV追加: ISC BIND — ISC BIND Data Processing Errors Vulnerability (CVE-2015-5477)",
@@ -276,7 +62,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): ISC BIND — データ処理の誤り (CVE-2015-5477)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: Apache Struts — Apache Struts Command Injection Vulnerability (CVE-2016-3081)",
@@ -288,7 +76,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Apache Struts — コマンドインジェクション (CVE-2016-3081)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: Strapi Strapi — Strapi Cleartext Storage of Sensitive Information Vulnerability (CVE-2023-22894)",
@@ -300,7 +90,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Strapi Strapi — 重要情報の平文保存 (CVE-2023-22894)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: ONLYOFFICE Docs — ONLYOFFICE Docs Server Path Traversal Vulnerability (CVE-2021-3199)",
@@ -312,7 +104,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): ONLYOFFICE Docs — パストラバーサル (CVE-2021-3199)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: ProFTPD ProFTPD — ProFTPD Improper Access Control Vulnerability (CVE-2015-3306)",
@@ -324,7 +118,237 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): ProFTPD ProFTPD — アクセス制御の不備 (CVE-2015-3306)",
+   "title_ja_source": "auto"
+  },
+  {
+   "title": "Movable Typeにおける複数の脆弱性",
+   "url": "https://jvn.jp/jp/JVN91153973/",
+   "published": "2026-10-07T05:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "キーエンス製複数製品におけるXML外部エンティティ参照（XXE）の不適切な制限の脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU98062224/",
+   "published": "2026-10-07T04:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Weekly Report: Google Chromeに複数の脆弱性",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#1",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Weekly Report: Apache HTTP Server 2.4に複数の脆弱性",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#2",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Weekly Report: FortinetのFortiMailに未認証のリモートコード実行につながる脆弱性",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#3",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Weekly Report: 複数のMozilla製品に脆弱性",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#4",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Weekly Report: Cisco Catalyst SD-WAN Managerに認証回避につながる脆弱性",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#5",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Weekly Report: OpenSSLに複数の脆弱性",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#6",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Weekly Report: 複数のWatchGuard製品に脆弱性",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#7",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Weekly Report: 複数のHPE製品に脆弱性",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#8",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Weekly Report: Pgpool-IIに複数の脆弱性",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#9",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Weekly Report: 複数のApple製品に脆弱性",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#10",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Weekly Report: 複数のElastic製品に脆弱性",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#11",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Weekly Report: NCOが「サイバーセキュリティ関係法令Q&AハンドブックVer.3.0」を公開",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#12",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Weekly Report: NICTが「NICTER観測統計 - 2026年4月-6月」を公開",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#13",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Weekly Report: 「情報セキュリティ早期警戒パートナーシップガイドライン」の2026年版を公開",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#14",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Weekly Report: NetScaler ADCおよびNetScaler Gatewayに複数の脆弱性",
+   "url": "https://www.jpcert.or.jp/wr/2026/wr261007.html#15",
+   "published": "2026-10-07T00:05:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月06日）",
+   "url": "https://jvn.jp/vu/JVNVU94062711/",
+   "published": "2026-10-07T00:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "「Movable Type」における複数の脆弱性について（JVN#91153973）",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/20261007-jvn.html",
+   "published": "2026-10-06T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
   },
   {
    "title": "Incident affecting ASOS customers",
@@ -336,7 +360,45 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "通販サイトASOSの利用者に影響するインシデントについて",
+   "title_ja_source": "manual"
+  },
+  {
+   "title": "MCC製Universal Library for Linux (uldaq)におけるバッファオーバーフローの脆弱性",
+   "url": "https://jvn.jp/jp/JVN13510969/",
+   "published": "2026-10-06T03:00:15+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Androidアプリ「チケット流通センター」における複数の脆弱性",
+   "url": "https://jvn.jp/jp/JVN53292492/",
+   "published": "2026-10-06T03:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "GROWIにおけるアクセス制限不備の脆弱性",
+   "url": "https://jvn.jp/jp/JVN24352487/",
+   "published": "2026-10-05T06:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
   },
   {
    "title": "KEV追加: Citrix NetScaler — Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability (CVE-2026-88779)",
@@ -348,7 +410,57 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Citrix NetScaler — メモリ範囲外の操作(バッファ処理の不備) (CVE-2026-88779)",
+   "title_ja_source": "auto"
+  },
+  {
+   "title": "注意喚起: NetScaler ADCおよびNetScaler Gatewayにおける複数の脆弱性（CVE-2026-88771、CVE-2026-88772等）に関する注意喚起 (更新)",
+   "url": "https://www.jpcert.or.jp/at/2026/at260029.html",
+   "published": "2026-10-02T05:15:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Apache HTTP Server 2.4における複数の脆弱性に対するアップデート（2026年10月1日）",
+   "url": "https://jvn.jp/vu/JVNVU94648869/",
+   "published": "2026-10-02T01:00:30+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月01日）",
+   "url": "https://jvn.jp/vu/JVNVU91842649/",
+   "published": "2026-10-02T01:00:15+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "InsydeH2O IHISIにおける安全でないメモリ書き込みの脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU92911062/",
+   "published": "2026-10-02T01:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
   },
   {
    "title": "KEV追加: Zammad GmbH Zammad — Zammad GmbH Zammad Improper Privilege Management Vulnerability (CVE-2026-102490)",
@@ -360,7 +472,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Zammad GmbH Zammad — 権限管理の不備 (CVE-2026-102490)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: Zammad GmbH Zammad — Zammad GmbH Zammad Session Fixation Vulnerability (CVE-2026-102489)",
@@ -372,7 +486,21 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Zammad GmbH Zammad — セッション固定 (CVE-2026-102489)",
+   "title_ja_source": "auto"
+  },
+  {
+   "title": "OpenSSLにおける脆弱性に対するアップデート（2026年9月29日）",
+   "url": "https://jvn.jp/vu/JVNVU93468181/",
+   "published": "2026-10-01T02:30:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
   },
   {
    "title": "KEV追加: Fortinet FortiMail — Fortinet FortiMail Path Traversal Vulnerability (CVE-2026-104286)",
@@ -384,7 +512,21 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Fortinet FortiMail — パストラバーサル (CVE-2026-104286)",
+   "title_ja_source": "auto"
+  },
+  {
+   "title": "富士フイルムビジネスイノベーション製およびシャープ製複合機（MFP）におけるパストラバーサルの脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU90160989/",
+   "published": "2026-09-30T03:30:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
   },
   {
    "title": "KEV追加: Cisco Catalyst SD-WAN Manager — Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability (CVE-2026-76504)",
@@ -396,7 +538,57 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Cisco Catalyst SD-WAN Manager — Hex Encoding (CVE-2026-76504)",
+   "title_ja_source": "auto"
+  },
+  {
+   "title": "CISA ICS Advisory / ICS Medical Advisory（2026年09月29日）",
+   "url": "https://jvn.jp/vu/JVNVU93754811/",
+   "published": "2026-09-30T00:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "PFU製Image Scanner Driver for Linuxにおける複数の脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU96968110/",
+   "published": "2026-09-29T06:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Pgpool-IIにおける複数の脆弱性",
+   "url": "https://jvn.jp/jp/JVN22475874/",
+   "published": "2026-09-29T05:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Authlibライブラリにおける署名検証が回避される脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU99151548/",
+   "published": "2026-09-29T00:15:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
   },
   {
    "title": "KEV追加: Apple Multiple Products — Apple Multiple Products Out-of-Bounds Write Vulnerability (CVE-2026-86950)",
@@ -408,7 +600,21 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Apple Multiple Products — 境界外書き込み (CVE-2026-86950)",
+   "title_ja_source": "auto"
+  },
+  {
+   "title": "Siemens製品に対するアップデート（2026年9月）",
+   "url": "https://jvn.jp/vu/JVNVU97027767/",
+   "published": "2026-09-29T00:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
   },
   {
    "title": "Exploitation of vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway",
@@ -420,7 +626,57 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "Citrix NetScaler ADCおよびNetScaler Gatewayの脆弱性の悪用について",
+   "title_ja_source": "manual"
+  },
+  {
+   "title": "バッファロー製Wi-Fi製品における複数の脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU94863997/",
+   "published": "2026-09-28T04:30:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "ISC BINDにおける複数の脆弱性（2026年9月）",
+   "url": "https://jvn.jp/vu/JVNVU97703430/",
+   "published": "2026-09-28T02:30:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Androidアプリ「Readwise Reader」における複数のクロスサイトスクリプティングの脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU96520526/",
+   "published": "2026-09-28T00:15:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "NetScaler ADCおよびNetScaler Gatewayの脆弱性について(CVE-2026-88771、CVE-2026-88772等)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20260928.html",
+   "published": "2026-09-27T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
   },
   {
    "title": "KEV追加: Citrix NetScaler — Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability (CVE-2026-88772)",
@@ -432,7 +688,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Citrix NetScaler — メモリ範囲外の操作(バッファ処理の不備) (CVE-2026-88772)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: Citrix NetScaler — Citrix NetScaler Improper Input Validation Vulnerability (CVE-2026-88771)",
@@ -444,7 +702,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Citrix NetScaler — 入力値検証の不備 (CVE-2026-88771)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: MikroTik RouterOS — Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability (CVE-2026-67279)",
@@ -456,7 +716,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): MikroTik RouterOS — 処理手順の制御不備 (CVE-2026-67279)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: Microsoft SharePoint — Microsoft SharePoint Code Injection Vulnerability (CVE-2026-65660)",
@@ -468,7 +730,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Microsoft SharePoint — コードインジェクション (CVE-2026-65660)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: WordPress Core — WordPress Core Remote File Inclusion Vulnerability (CVE-2026-87902)",
@@ -480,7 +744,21 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): WordPress Core — リモートファイルインクルージョン (CVE-2026-87902)",
+   "title_ja_source": "auto"
+  },
+  {
+   "title": "注意喚起: F5 BIG-IP Access Policy Managerにおけるヒープベースのバッファオーバーフローの脆弱性（CVE-2026-94127）に関する注意喚起 (公開)",
+   "url": "https://www.jpcert.or.jp/at/2026/at260028.html",
+   "published": "2026-09-24T07:14:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
   },
   {
    "title": "KEV追加: WSO2 Multiple Products — WSO2 Multiple Products Path Traversal Vulnerability (CVE-2026-5430)",
@@ -492,7 +770,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): WSO2 Multiple Products — パストラバーサル (CVE-2026-5430)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: Adobe Commerce and Magento — Adobe Commerce and Magento Incorrect Authorization Vulnerability (CVE-2026-71362)",
@@ -504,7 +784,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Adobe Commerce and Magento — 認可の不備 (CVE-2026-71362)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: Arista VeloCloud Orchestrator — Arista VeloCloud Orchestrator Improper Input Validation Vulnerability (CVE-2026-93952)",
@@ -516,7 +798,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Arista VeloCloud Orchestrator — 入力値検証の不備 (CVE-2026-93952)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: F5 BIG-IP APM — F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability (CVE-2026-94127)",
@@ -528,7 +812,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): F5 BIG-IP APM — ヒープバッファオーバーフロー (CVE-2026-94127)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: Check Point Multiple Products — Check Point Multiple Products Path Traversal Vulnerability (CVE-2026-93616)",
@@ -540,7 +826,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Check Point Multiple Products — パストラバーサル (CVE-2026-93616)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: Check Point Multiple Products — Check Point Multiple Products Improper Certificate Validation Vulnerability (CVE-2026-85102)",
@@ -552,7 +840,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Check Point Multiple Products — 証明書検証の不備 (CVE-2026-85102)",
+   "title_ja_source": "auto"
   },
   {
    "title": "One does not simply defend agentically",
@@ -564,7 +854,9 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "エージェント型AIによる防御は、そう単純ではない",
+   "title_ja_source": "manual"
   },
   {
    "title": "KEV追加: Zyxel GS1900 Series Switches — Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability (CVE-2026-7273)",
@@ -576,7 +868,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Zyxel GS1900 Series Switches — スタックバッファオーバーフロー (CVE-2026-7273)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: Linux Kernel — Linux Kernel Race Condition Vulnerability (CVE-2025-39964)",
@@ -588,7 +882,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Linux Kernel — 競合状態 (CVE-2025-39964)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: Linux Kernel — Linux Kernel Out-of-Bounds Write Vulnerability (CVE-2026-53266)",
@@ -600,7 +896,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Linux Kernel — 境界外書き込み (CVE-2026-53266)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: Linux Kernel — Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability (CVE-2025-39682)",
@@ -612,7 +910,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Linux Kernel — 例外条件のチェック不備 (CVE-2025-39682)",
+   "title_ja_source": "auto"
   },
   {
    "title": "Adversary simulation: what you need to know",
@@ -624,7 +924,9 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "敵対者シミュレーション:知っておくべきこと",
+   "title_ja_source": "manual"
   },
   {
    "title": "Cyber Adversary Simulation (CyAS): scheme documents now available",
@@ -636,7 +938,9 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "サイバー敵対者シミュレーション(CyAS):制度文書を公開",
+   "title_ja_source": "manual"
   },
   {
    "title": "KEV追加: Google Pixel — Google Pixel Improper Authorization Vulnerability (CVE-2026-58704)",
@@ -648,7 +952,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Google Pixel — 認可の不備 (CVE-2026-58704)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: Cisco Identity Services Engine — Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability (CVE-2026-76460)",
@@ -660,7 +966,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Cisco Identity Services Engine — 特権APIの不適切な利用 (CVE-2026-76460)",
+   "title_ja_source": "auto"
   },
   {
    "title": "KEV追加: Acronis Backup — Acronis Backup Incorrect Default Permissions Vulnerability (CVE-2026-87886)",
@@ -672,7 +980,9 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Acronis Backup — 既定の権限設定の不備 (CVE-2026-87886)",
+   "title_ja_source": "auto"
   },
   {
    "title": "Iranian cyber targeting of dissidents, activists and journalists",
@@ -684,7 +994,9 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "反体制派・活動家・ジャーナリストを狙うイランのサイバー攻撃",
+   "title_ja_source": "manual"
   },
   {
    "title": "UK and allies expose spyware used by Iranian state actors to target dissidents, activists and journalists",
@@ -696,6 +1008,20 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
+   "date_estimated": false,
+   "title_ja": "英国と同盟国、イラン国家関与の攻撃者が反体制派らの標的に用いたスパイウェアを公表",
+   "title_ja_source": "manual"
+  },
+  {
+   "title": "注意喚起: Cisco Secure Email GatewayにおけるSQLインジェクションの脆弱性（CVE-2026-76461）に関する注意喚起 (公開)",
+   "url": "https://www.jpcert.or.jp/at/2026/at260027.html",
+   "published": "2026-09-15T06:42:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
    "date_estimated": false
   },
   {
@@ -708,7 +1034,57 @@
    "source_name": "CISA(米国)",
    "country": "US",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Cisco Secure Email Gateway — SQLインジェクション (CVE-2026-76461)",
+   "title_ja_source": "auto"
+  },
+  {
+   "title": "注意喚起: Adobe AcrobatおよびReaderの脆弱性（APSB26-141）に関する注意喚起 (公開)",
+   "url": "https://www.jpcert.or.jp/at/2026/at260026.html",
+   "published": "2026-09-09T02:20:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "注意喚起: 2026年9月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)",
+   "url": "https://www.jpcert.or.jp/at/2026/at260025.html",
+   "published": "2026-09-09T02:20:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
+  {
+   "title": "Microsoft 製品の脆弱性対策について(2026年9月)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/0909-ms.html",
+   "published": "2026-09-08T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Adobe Acrobat および Reader の脆弱性対策について(2026年9月)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/0909-adobereader.html",
+   "published": "2026-09-08T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
   },
   {
    "title": "The hidden risks of shadow AI",
@@ -720,7 +1096,9 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "管理外のAI利用(シャドーAI)に潜むリスク",
+   "title_ja_source": "manual"
   },
   {
    "title": "Disruptive cyber activity highlights risk from internet-exposed systems and edge devices",
@@ -732,7 +1110,9 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "業務妨害型のサイバー活動が示す、インターネットに露出したシステムとエッジ機器のリスク",
+   "title_ja_source": "manual"
   },
   {
    "title": "Managing the cyber risk of agentic AI",
@@ -744,7 +1124,9 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "エージェント型AIのサイバーリスクにどう向き合うか",
+   "title_ja_source": "manual"
   },
   {
    "title": "How BitLocker PINs help protect your data and devices",
@@ -756,7 +1138,9 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "BitLockerのPINがデータと端末を守るしくみ",
+   "title_ja_source": "manual"
   },
   {
    "title": "Help shape the future of resilient private 5G",
@@ -768,7 +1152,21 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "強靭なプライベート5Gの将来づくりへの意見募集",
+   "title_ja_source": "manual"
+  },
+  {
+   "title": "Microsoft 製品の脆弱性対策について(2026年8月)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/0812-ms.html",
+   "published": "2026-08-11T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
   },
   {
    "title": "Water sector example added to the NCSC’s Secure connectivity principles",
@@ -780,7 +1178,9 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "NCSCの「安全な接続の原則」に水道分野の事例を追加",
+   "title_ja_source": "manual"
   },
   {
    "title": "NCSC statement in response to recent incidents resulting from frontier AI evaluations",
@@ -792,7 +1192,9 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "先端AIの評価に起因する最近のインシデントに関するNCSCの声明",
+   "title_ja_source": "manual"
   },
   {
    "title": "Making forensic observability the norm for network devices",
@@ -804,7 +1206,9 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "ネットワーク機器における調査可能性(フォレンジック)を標準に",
+   "title_ja_source": "manual"
   },
   {
    "title": "When cyber attacks happen: helping organisations recover",
@@ -816,7 +1220,9 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "サイバー攻撃が起きたとき:組織の復旧をどう支えるか",
+   "title_ja_source": "manual"
   },
   {
    "title": "Post-quantum cryptography (PQC) migration workshop report",
@@ -828,7 +1234,33 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "耐量子計算機暗号(PQC)への移行に関するワークショップ報告",
+   "title_ja_source": "manual"
+  },
+  {
+   "title": "Oracle Java の脆弱性対策について(2026年7月)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/0722-jre.html",
+   "published": "2026-07-21T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "WordPressの脆弱性対策について(CVE-2026-60137、CVE-2026-63030：wp2shell)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20260722.html",
+   "published": "2026-07-21T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
   },
   {
    "title": "Helping small businesses with free, hands-on cyber consultancy",
@@ -840,7 +1272,261 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en",
-   "date_estimated": false
+   "date_estimated": false,
+   "title_ja": "小規模事業者向けの無償・実践型サイバー相談支援",
+   "title_ja_source": "manual"
+  },
+  {
+   "title": "Microsoft 製品の脆弱性対策について(2026年7月)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/0715-ms.html",
+   "published": "2026-07-14T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "更新：Windows 10のサポート終了に伴う注意喚起",
+   "url": "https://www.ipa.go.jp/security/security-alert/2024/win10_eos.html",
+   "published": "2026-06-25T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Check Point Software Technologies製品の脆弱性対策について(CVE-2026-50751)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20260610.html",
+   "published": "2026-06-09T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Microsoft 製品の脆弱性対策について(2026年6月)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/0610-ms.html",
+   "published": "2026-06-09T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Adobe Acrobat および Reader の脆弱性対策について(2026年6月)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/0610-adobereader.html",
+   "published": "2026-06-09T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "「GUARDIANWALL MailSuite」におけるスタックベースのバッファオーバーフローの脆弱性について（JVN#35567473）",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/20260513-jvn.html",
+   "published": "2026-05-12T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Microsoft 製品の脆弱性対策について(2026年5月)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/0513-ms.html",
+   "published": "2026-05-12T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Palo Alto Networks製PAN-OSの脆弱性対策について(CVE-2026-0300)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20260508.html",
+   "published": "2026-05-07T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Linuxの脆弱性対策について(CVE-2026-31431、Copy Fail)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20260501.html",
+   "published": "2026-04-30T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "更新：Cisco Secure Firewall ASAおよびCisco Secure FTDの脆弱性について (CVE-2025-20333等)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2025/alert20251106.html",
+   "published": "2026-04-26T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Oracle Java の脆弱性対策について(2026年4月)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/0422-jre.html",
+   "published": "2026-04-21T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Adobe Acrobat および Reader の脆弱性対策について(2026年4月)_2",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/0415-adobereader.html",
+   "published": "2026-04-14T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Microsoft 製品の脆弱性対策について(2026年4月)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/0415-ms.html",
+   "published": "2026-04-14T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Adobe Acrobat および Reader の脆弱性対策について(2026年4月)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/0413-adobereader.html",
+   "published": "2026-04-12T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "「Movable Type」における複数の脆弱性について（JVN#66473735）",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/20260408-jvn.html",
+   "published": "2026-04-07T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Microsoft 製品の脆弱性対策について(2026年3月)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2025/0311-ms.html",
+   "published": "2026-03-10T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Adobe Acrobat および Reader の脆弱性対策について(2026年3月)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2025/0311-adobereader.html",
+   "published": "2026-03-10T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "「LANSCOPE エンドポイントマネージャー オンプレミス版」におけるパストラバーサルの脆弱性について（JVN#79096585）",
+   "url": "https://www.ipa.go.jp/security/security-alert/2025/20260225-jvn.html",
+   "published": "2026-02-24T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "「FileZen」におけるOSコマンドインジェクションの脆弱性について（JVN#84622767）",
+   "url": "https://www.ipa.go.jp/security/security-alert/2025/20260213-jvn.html",
+   "published": "2026-02-12T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Microsoft 製品の脆弱性対策について(2026年2月)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2025/0212-ms.html",
+   "published": "2026-02-11T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "BIND 9の脆弱性対策について（CVE-2025-13878）",
+   "url": "https://www.ipa.go.jp/security/security-alert/2025/alert20260123.html",
+   "published": "2026-01-22T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-09T08:01:10.596332+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
   }
  ]
 }
