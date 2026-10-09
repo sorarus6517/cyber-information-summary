@@ -40,6 +40,30 @@
   .tagline{margin:4px 0 0; color:var(--muted); font-size:13px}
   .meta{margin-top:10px; color:var(--muted); font-size:12px}
   .nav{margin:8px 0 0; font-size:13px}
+  /* 機関ごとに列で並べる表示 */
+  .board{display:flex; gap:12px; align-items:flex-start; overflow-x:auto; padding-bottom:10px}
+  .col{flex:1 1 0; min-width:200px; display:flex; flex-direction:column}
+  /* 機関ごとの表示のときだけ、横幅を広げて5機関を並べられるようにする */
+  body.board-mode .wrap, body.board-mode .head-in{max-width:1240px}
+  .col-head{position:sticky; top:0; z-index:1; background:var(--bg);
+    display:flex; align-items:baseline; gap:8px; padding:4px 2px 8px}
+  .col-name{font-weight:600; font-size:13.5px; border:1px solid currentColor;
+    border-radius:6px; padding:1px 8px}
+  .col-count{color:var(--muted); font-size:12px; margin-left:auto}
+  .col-empty{color:var(--muted); font-size:12.5px; padding:6px 2px}
+  .ci{background:var(--panel); border:1px solid var(--line); border-radius:10px;
+    padding:10px 11px; margin-bottom:8px}
+  .ci-top{display:flex; align-items:center; gap:6px; margin-bottom:3px}
+  .ci-date{color:var(--muted); font-size:11.5px}
+  .ci-top .star{margin-left:auto; font-size:15px}
+  .ci-title{display:block; font-size:13.5px; font-weight:600; line-height:1.6;
+    color:inherit; text-decoration:none; word-break:break-word}
+  .ci-title:hover{color:var(--accent); text-decoration:underline}
+  .ci-orig{color:var(--muted); font-size:11.5px; margin:3px 0 0; word-break:break-word}
+  @media (max-width:760px){
+    .board{scroll-snap-type:x mandatory}
+    .col{flex:0 0 82%; scroll-snap-align:start}
+  }
   .bm-row{margin-top:10px}
   .mini{font:inherit; font-size:12.5px; background:var(--bg); border:1px solid var(--line);
     border-radius:8px; color:var(--muted); padding:5px 10px; cursor:pointer}
@@ -128,6 +152,10 @@
         <option value="desc">新しい順</option>
         <option value="asc">古い順</option>
       </select>
+      <select id="view" title="表示の形">
+        <option value="board">機関ごとに並べる</option>
+        <option value="list">一覧で並べる</option>
+      </select>
     </div>
     <div class="chips" id="sourceChips"></div>
     <div class="row bm-row">
@@ -149,6 +177,7 @@
   </div>
 
   <p class="count" id="count"></p>
+  <div class="board" id="board" hidden></div>
   <ul class="items" id="list"></ul>
   <p class="empty" id="empty" hidden>条件に合う項目がありません。期間やキーワードを変えてみてください。</p>
 
@@ -165,14 +194,14 @@
   "use strict";
 
   var SOURCES = [
-    {id:"cisa",   name:"CISA(米国)",      country:"US"},
     {id:"jpcert", name:"JPCERT/CC(日本)", country:"JP"},
     {id:"jvn",    name:"JVN(日本)",       country:"JP"},
     {id:"ipa",    name:"IPA(日本)",       country:"JP"},
+    {id:"cisa",   name:"CISA(米国)",      country:"US"},
     {id:"ncsc",   name:"NCSC(英国)",      country:"GB"}
   ];
 
-  var state = { items: [], q:"", period:30, order:"desc", off:{}, bm:[], bmOnly:false };
+  var state = { items: [], q:"", period:30, order:"desc", view:"board", off:{}, bm:[], bmOnly:false };
 
   // ---- 安全なDOM生成(フィード由来の文字列は textContent のみで扱う) ----
   function el(tag, cls, text){
@@ -248,9 +277,75 @@
   }
 
   // ---- 描画 ----
+  // 1件分の「星」ボタン(どちらの表示でも使う)
+  function makeStar(it){
+    var star = el("button","star", bmHas(it.url) ? "★" : "☆");
+    star.type = "button";
+    star.title = "あとで見返すために保存(この端末のみ)";
+    star.setAttribute("aria-label", "保存する");
+    star.setAttribute("aria-pressed", bmHas(it.url) ? "true" : "false");
+    star.addEventListener("click", function(){
+      bmToggle(it.url);
+      var on = bmHas(it.url);
+      star.textContent = on ? "★" : "☆";
+      star.setAttribute("aria-pressed", on ? "true" : "false");
+      if(state.bmOnly) render();
+    });
+    return star;
+  }
+
+  // 機関別(列)の表示
+  function renderBoard(rows){
+    var board = document.getElementById("board");
+    board.textContent = "";
+
+    SOURCES.forEach(function(s){
+      if(state.off[s.id]) return;              // 絞り込みで外した機関は列ごと出さない
+      var mine = rows.filter(function(it){ return it.source_id === s.id; });
+
+      var col = el("div","col");
+      var head = el("div","col-head");
+      head.appendChild(el("span","col-name b-"+(s.country||""), s.name));
+      head.appendChild(el("span","col-count", String(mine.length) + "件"));
+      col.appendChild(head);
+
+      if(mine.length === 0){
+        col.appendChild(el("p","col-empty","該当なし"));
+      }
+      mine.forEach(function(it){
+        var card = el("div","ci");
+
+        var top = el("div","ci-top");
+        top.appendChild(el("span","ci-date",
+          (it.date_estimated ? "確認日 " : "") + fmtDate(it.published)));
+        top.appendChild(makeStar(it));
+        card.appendChild(top);
+
+        var a = el("a","ci-title", it.title_ja || it.title);
+        a.href = safeHref(it.url);
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        card.appendChild(a);
+
+        if(it.title_ja && it.title && it.title_ja !== it.title){
+          card.appendChild(el("p","ci-orig", it.title));
+        }
+        col.appendChild(card);
+      });
+      board.appendChild(col);
+    });
+  }
+
   function render(){
     var list = document.getElementById("list");
+    var board = document.getElementById("board");
     list.textContent = "";
+    board.textContent = "";
+    var isBoard = state.view === "board";
+    list.hidden = isBoard;
+    board.hidden = !isBoard;
+    document.body.classList.toggle("board-mode", isBoard);
+
     var now = Date.now();
     var q = state.q.trim().toLowerCase();
 
@@ -277,6 +372,8 @@
     document.getElementById("count").textContent = rows.length + "件を表示中（全" + state.items.length + "件）";
     document.getElementById("empty").hidden = rows.length > 0;
 
+    if(isBoard){ renderBoard(rows); return; }
+
     rows.forEach(function(it){
       var li = el("li");
 
@@ -285,20 +382,7 @@
       if(it.lang !== "ja") badges.appendChild(el("span","badge", "原文: 英語"));
       badges.appendChild(el("span","date",
         (it.date_estimated ? "確認日 " : "") + fmtDate(it.published)));
-
-      var star = el("button","star", bmHas(it.url) ? "★" : "☆");
-      star.type = "button";
-      star.title = "あとで見返すために保存(この端末のみ)";
-      star.setAttribute("aria-label", "保存する");
-      star.setAttribute("aria-pressed", bmHas(it.url) ? "true" : "false");
-      star.addEventListener("click", function(){
-        bmToggle(it.url);
-        var on = bmHas(it.url);
-        star.textContent = on ? "★" : "☆";
-        star.setAttribute("aria-pressed", on ? "true" : "false");
-        if(state.bmOnly) render();
-      });
-      badges.appendChild(star);
+      badges.appendChild(makeStar(it));
       li.appendChild(badges);
 
       var h = el("p","title");
@@ -350,6 +434,17 @@
     });
     document.getElementById("order").addEventListener("change", function(e){
       state.order = e.target.value; render();
+    });
+    var viewSel = document.getElementById("view");
+    try{
+      var sv = localStorage.getItem("view");
+      if(sv === "board" || sv === "list") state.view = sv;
+    }catch(e){}
+    viewSel.value = state.view;
+    viewSel.addEventListener("change", function(e){
+      state.view = e.target.value;
+      try{ localStorage.setItem("view", state.view); }catch(e){}
+      render();
     });
     var bmOnly = document.getElementById("bmOnly");
     bmOnly.addEventListener("change", function(){
