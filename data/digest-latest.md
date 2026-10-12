@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年10月11日時点 / 32件)
+件名: 今週のサイバー注意喚起まとめ(2026年10月12日時点 / 32件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -49,8 +49,6 @@
   https://jvn.jp/jp/JVN13510969/
 ・Androidアプリ「チケット流通センター」における複数の脆弱性（2026年10月6日）
   https://jvn.jp/jp/JVN53292492/
-・GROWIにおけるアクセス制限不備の脆弱性（2026年10月5日）
-  https://jvn.jp/jp/JVN24352487/
 
 ■ IPA(日本)
 ・不正アクセスによる漏えい等の事案を踏まえ、速やかに実施すべき対策等について（2026年10月8日）
@@ -71,6 +69,8 @@
   https://nvd.nist.gov/vuln/detail/CVE-2015-3306
 
 ■ NCSC(英国)
+・Help the NCSC understand how organisations approach external attack surface risk（2026年10月12日）
+  https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk
 ・英国と各国のパートナー、機微データを世界的に狙う中国関連の攻撃者を名指しで非難（2026年10月8日）
   https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data
 ・通販サイトASOSの利用者に影響するインシデントについて（2026年10月6日）

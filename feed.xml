@@ -4,7 +4,14 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Sun, 11 Oct 2026 21:24:35 +0000</lastBuildDate>
+<lastBuildDate>Mon, 12 Oct 2026 21:24:59 +0000</lastBuildDate>
+<item>
+<title>[NCSC(英国)] Help the NCSC understand how organisations approach external attack surface risk</title>
+<link>https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk</link>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk</guid>
+<pubDate>Mon, 12 Oct 2026 12:00:00 +0000</pubDate>
+<description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk</description>
+</item>
 <item>
 <title>[JPCERT/CC(日本)] 注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)</title>
 <link>https://www.jpcert.or.jp/at/2026/at260030.html</link>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU97027767/</guid>
 <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU97027767/</description>
-</item>
-<item>
-<title>[NCSC(英国)] Citrix NetScaler ADCおよびNetScaler Gatewayの脆弱性の悪用について</title>
-<link>https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway</link>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway</guid>
-<pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
-<description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/news/exploitation-of-vulnerabilities-affecting-citrix-netscaler-adc-and-citrix-netscaler-gateway</description>
 </item>
 </channel></rss>

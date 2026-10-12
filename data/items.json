@@ -1,7 +1,19 @@
 {
- "generated_at": "2026-10-11T21:24:29.960790+00:00",
- "count": 119,
+ "generated_at": "2026-10-12T21:24:55.401078+00:00",
+ "count": 120,
  "items": [
+  {
+   "title": "Help the NCSC understand how organisations approach external attack surface risk",
+   "url": "https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk",
+   "published": "2026-10-12T12:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-12T21:24:55.401078+00:00",
+   "source_id": "ncsc",
+   "source_name": "NCSC(英国)",
+   "country": "GB",
+   "theme": "cyber",
+   "lang": "en"
+  },
   {
    "title": "注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)",
    "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
