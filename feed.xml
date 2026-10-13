@@ -4,7 +4,35 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Mon, 12 Oct 2026 21:24:59 +0000</lastBuildDate>
+<lastBuildDate>Tue, 13 Oct 2026 21:34:59 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] AssetViewにおける重要なリソースに対する不適切なアクセス権の割り当ての脆弱性</title>
+<link>https://jvn.jp/jp/JVN38664315/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN38664315/</guid>
+<pubDate>Tue, 13 Oct 2026 03:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN38664315/</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Ivanti Connect Secure — 認証回避 (CVE-2026-104935)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2026-104935</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-104935</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-104935</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Microsoft Windows — コマンドインジェクション (CVE-2026-96951)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2026-96951</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-96951</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-96951</description>
+</item>
+<item>
+<title>[JVN(日本)] Theliaにおける複数の脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU99982995/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU99982995/</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99982995/</description>
+</item>
 <item>
 <title>[NCSC(英国)] Help the NCSC understand how organisations approach external attack surface risk</title>
 <link>https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk</link>
@@ -326,33 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU96968110/</guid>
 <pubDate>Tue, 29 Sep 2026 06:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU96968110/</description>
-</item>
-<item>
-<title>[JVN(日本)] Pgpool-IIにおける複数の脆弱性</title>
-<link>https://jvn.jp/jp/JVN22475874/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN22475874/</guid>
-<pubDate>Tue, 29 Sep 2026 05:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN22475874/</description>
-</item>
-<item>
-<title>[JVN(日本)] Authlibライブラリにおける署名検証が回避される脆弱性</title>
-<link>https://jvn.jp/vu/JVNVU99151548/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU99151548/</guid>
-<pubDate>Tue, 29 Sep 2026 00:15:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99151548/</description>
-</item>
-<item>
-<title>[CISA(米国)] 悪用確認(KEV): Apple Multiple Products — 境界外書き込み (CVE-2026-86950)</title>
-<link>https://nvd.nist.gov/vuln/detail/CVE-2026-86950</link>
-<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-86950</guid>
-<pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-86950</description>
-</item>
-<item>
-<title>[JVN(日本)] Siemens製品に対するアップデート（2026年9月）</title>
-<link>https://jvn.jp/vu/JVNVU97027767/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU97027767/</guid>
-<pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU97027767/</description>
 </item>
 </channel></rss>

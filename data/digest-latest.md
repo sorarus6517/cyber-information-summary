@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年10月12日時点 / 32件)
+件名: 今週のサイバー注意喚起まとめ(2026年10月13日時点 / 32件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -37,6 +37,10 @@
   https://www.jpcert.or.jp/wr/2026/wr261007.html#15
 
 ■ JVN(日本)
+・AssetViewにおける重要なリソースに対する不適切なアクセス権の割り当ての脆弱性（2026年10月13日）
+  https://jvn.jp/jp/JVN38664315/
+・Theliaにおける複数の脆弱性（2026年10月13日）
+  https://jvn.jp/vu/JVNVU99982995/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年10月08日）（2026年10月9日）
   https://jvn.jp/vu/JVNVU91137775/
 ・Movable Typeにおける複数の脆弱性（2026年10月7日）
@@ -45,18 +49,16 @@
   https://jvn.jp/vu/JVNVU98062224/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年10月06日）（2026年10月7日）
   https://jvn.jp/vu/JVNVU94062711/
-・MCC製Universal Library for Linux (uldaq)におけるバッファオーバーフローの脆弱性（2026年10月6日）
-  https://jvn.jp/jp/JVN13510969/
-・Androidアプリ「チケット流通センター」における複数の脆弱性（2026年10月6日）
-  https://jvn.jp/jp/JVN53292492/
 
 ■ IPA(日本)
 ・不正アクセスによる漏えい等の事案を踏まえ、速やかに実施すべき対策等について（2026年10月8日）
   https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html
-・「Movable Type」における複数の脆弱性について（JVN#91153973）（2026年10月6日）
-  https://www.ipa.go.jp/security/security-alert/2026/20261007-jvn.html
 
 ■ CISA(米国)
+・悪用確認(KEV): Ivanti Connect Secure — 認証回避 (CVE-2026-104935)（2026年10月13日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-104935
+・悪用確認(KEV): Microsoft Windows — コマンドインジェクション (CVE-2026-96951)（2026年10月13日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-96951
 ・悪用確認(KEV): ISC BIND — データ処理の誤り (CVE-2015-5477)（2026年10月8日）
   https://nvd.nist.gov/vuln/detail/CVE-2015-5477
 ・悪用確認(KEV): Apache Struts — コマンドインジェクション (CVE-2016-3081)（2026年10月8日）
@@ -73,8 +75,6 @@
   https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk
 ・英国と各国のパートナー、機微データを世界的に狙う中国関連の攻撃者を名指しで非難（2026年10月8日）
   https://www.ncsc.gov.uk/news/china-linked-actors-called-out-by-uk-and-international-partners-for-targeting-sensitive-data
-・通販サイトASOSの利用者に影響するインシデントについて（2026年10月6日）
-  https://www.ncsc.gov.uk/news/incident-affecting-asos-customers
 
 すべての項目: https://cyber-information-summary.pages.dev/
 週ごとのまとめ: https://cyber-information-summary.pages.dev/archive.html
