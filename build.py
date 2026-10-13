@@ -46,8 +46,13 @@ DIGEST_MAX = 40
 # ----- Xの投稿下書きの設定 -------------------------------------------------
 # data/x-draft.md に、そのままコピーできる投稿文を作る。
 X_LIMIT = 280          # Xの1投稿の上限(日本語1文字=2、URL=23として数える)
+# Xは見出しの中の「example.com」のような裸のドメインも自動でリンクにして23文字と数える。
+# こちらの計算と数文字ずれることがあるので、常にこのぶんだけ余裕を残して組み立てる。
+X_MARGIN = 12
+X_FIT = X_LIMIT - X_MARGIN
 X_HASHTAGS = "#セキュリティ #脆弱性情報"
 X_HIGHLIGHTS = 2       # 週まとめに載せる「注目」の件数
+X_DAILY_HIGHLIGHTS = 3  # 本日のまとめに載せる「注目」の件数
 X_ITEM_DRAFTS = 12     # 1件ずつ紹介する下書きを作る件数
 
 CSS = """
@@ -303,6 +308,50 @@ def x_trim(text, limit):
     return t + "…" if t else ""
 
 
+def x_priority(pair):
+    """悪用が確認された脆弱性(KEV)、次にJPCERT/CCの注意喚起を優先して「注目」に出す。"""
+    dt, it = pair
+    ja = it.get("title_ja") or it["title"]
+    if "悪用確認" in ja:
+        rank = 0
+    elif it["source_id"] == "jpcert" and "注意喚起" in ja:
+        rank = 1
+    else:
+        rank = 2
+    return (rank, -dt.timestamp())
+
+
+def x_summary(headline, rows, url, max_picks):
+    """まとめ投稿を1本作る。上限に収まるぶんだけ「注目」を足す。"""
+    by_src = OrderedDict()
+    for dt, it in rows:
+        by_src.setdefault(it["source_id"], []).append((dt, it))
+    counts = []
+    for sid in SOURCE_ORDER:
+        if sid in by_src:
+            name = by_src[sid][0][1]["source_name"].split("(")[0]
+            counts.append("%s %d" % (name, len(by_src[sid])))
+
+    head = [headline, "・".join(counts) + "（計%d件）" % len(rows)]
+    tail = ["一覧はこちら", url, X_HASHTAGS]
+
+    def compose(picks):
+        middle = ["", "注目:"] + picks if picks else []
+        return "\n".join(head + middle + [""] + tail)
+
+    # 見出しは途中で切らない。丸ごと入るものだけを採り、入らなければ次の候補へ送る。
+    # (CVE番号が「(CV…」のように切れた投稿を出さないため)
+    picks = []
+    for dt, it in sorted(rows, key=x_priority):
+        if len(picks) >= max_picks:
+            break
+        line = "・" + " ".join((it.get("title_ja") or it["title"]).split())
+        cand = picks + [line]
+        if x_len(compose(cand)) <= X_FIT:
+            picks = cand
+    return compose(picks)
+
+
 def build_x_draft(items, built):
     """Xにそのまま貼れる投稿文の下書きを data/x-draft.md に作る。"""
     now = datetime.now(timezone.utc)
@@ -317,54 +366,22 @@ def build_x_draft(items, built):
             rows.append((dt, it))
     rows.sort(key=lambda x: x[0], reverse=True)
 
-    by_src = OrderedDict()
-    for dt, it in rows:
-        by_src.setdefault(it["source_id"], []).append((dt, it))
-    counts = []
-    for sid in SOURCE_ORDER:
-        if sid in by_src:
-            name = by_src[sid][0][1]["source_name"].split("(")[0]
-            counts.append("%s %d" % (name, len(by_src[sid])))
-
     period = "%d月%d日〜%d月%d日" % (start.month, start.day, end.month, end.day)
-    head = ["【今週の公式セキュリティ情報】" + period,
-            "・".join(counts) + "（計%d件）" % len(rows)]
-    tail = ["一覧はこちら", week_url, X_HASHTAGS]
+    weekly = x_summary("【今週の公式セキュリティ情報】" + period,
+                       rows, week_url, X_HIGHLIGHTS) if rows else ""
 
-    def compose(picks):
-        middle = ["", "注目:"] + picks if picks else []
-        return "\n".join(head + middle + [""] + tail)
-
-    # 悪用が確認された脆弱性(KEV)、次にJPCERT/CCの注意喚起を優先して「注目」に出す
-    def priority(pair):
-        dt, it = pair
-        ja = it.get("title_ja") or it["title"]
-        if "悪用確認" in ja:
-            rank = 0
-        elif it["source_id"] == "jpcert" and "注意喚起" in ja:
-            rank = 1
-        else:
-            rank = 2
-        return (rank, -dt.timestamp())
-
-    # 上限に収まるぶんだけ「注目」を足す(長い見出しは末尾を詰める)
-    picks = []
-    for dt, it in sorted(rows, key=priority):
-        if len(picks) >= X_HIGHLIGHTS:
-            break
-        ja = it.get("title_ja") or it["title"]
-        cand = picks + ["・" + ja]
-        over = x_len(compose(cand)) - X_LIMIT
-        if over > 0:
-            allowed = x_len(ja) - over
-            if allowed < 24:
-                break
-            cand = picks + ["・" + x_trim(ja, allowed)]
-            if x_len(compose(cand)) > X_LIMIT:
-                break
-        picks = cand
-
-    weekly = compose(picks)
+    # 「本日分」= データの中でいちばん新しい日付の項目(収集は1日1回なので前日になることもある)
+    all_dated = [(to_dt(it["published"]), it) for it in items if to_dt(it["published"])]
+    daily = ""
+    day_rows = []
+    latest = None
+    if all_dated:
+        latest = max(dt for dt, _ in all_dated).date()
+        day_rows = [(dt, it) for dt, it in all_dated if dt.date() == latest]
+        day_rows.sort(key=lambda x: x[0], reverse=True)
+        daily = x_summary("【本日の公式セキュリティ情報】%d月%d日"
+                          % (latest.month, latest.day),
+                          day_rows, SITE_URL + "/", X_DAILY_HIGHLIGHTS)
 
     out = ["# Xの投稿下書き（%s 自動生成）" % jp_date(now),
            "",
@@ -373,33 +390,42 @@ def build_x_draft(items, built):
            "日本語1文字=2、URL=23として数えています。",
            "",
            "---",
-           "",
-           "## 1. 今週のまとめ（1投稿） [ %d / %d ]" % (x_len(weekly), X_LIMIT),
-           "",
-           "```",
-           weekly,
-           "```",
            ""]
+
+    if daily:
+        stale = (now.date() - latest).days
+        note = "" if stale <= 1 else "（注意: %d日前の分です。新しい発表がまだありません）" % stale
+        out += ["## 1. 本日のまとめ（1投稿） [ %d / %d ]%s"
+                % (x_len(daily), X_LIMIT, note),
+                "", "```", daily, "```", ""]
+    else:
+        out += ["## 1. 本日のまとめ（1投稿）", "", "（本日分の新着はありません）", ""]
+
+    out += ["---", "",
+            "## 2. 今週のまとめ（1投稿） [ %d / %d ]" % (x_len(weekly), X_LIMIT),
+            ""]
+    if weekly:
+        out += ["```", weekly, "```", ""]
+    else:
+        out += ["（この週はまだ新着がありません）", ""]
 
     if rows:
         out += ["---", "",
-                "## 2. 1件ずつ紹介する下書き（新しい順に最大%d件）" % X_ITEM_DRAFTS,
+                "## 3. 1件ずつ紹介する下書き（新しい順に最大%d件）" % X_ITEM_DRAFTS,
                 ""]
         for dt, it in rows[:X_ITEM_DRAFTS]:
             name = it["source_name"].split("(")[0]
             fixed = "【%s】\n%s\n#セキュリティ" % (name, it["url"])
-            room2 = X_LIMIT - x_len(fixed)
+            room2 = X_FIT - x_len(fixed)
             title = x_trim(it.get("title_ja") or it["title"], room2)
             body = "【%s】%s\n%s\n#セキュリティ" % (name, title, it["url"])
             out += ["### %s（%s） [ %d / %d ]"
                     % (name, jp_date(dt), x_len(body), X_LIMIT),
                     "", "```", body, "```", ""]
-    else:
-        out += ["（この週はまだ新着がありません）", ""]
 
     with open(os.path.join(DATA_DIR, "x-draft.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(out) + "\n")
-    return len(rows)
+    return len(day_rows), len(rows)
 
 
 def rfc822(dt):
@@ -464,10 +490,10 @@ def main():
     build_feed(items)
     build_sitemap(built)
     n = build_digest(items)
-    x = build_x_draft(items, built)
+    xd, xw = build_x_draft(items, built)
     print("生成: 週ページ%d件 / archive.html / notify.html / feed.xml / sitemap.xml / "
-          "robots.txt / digest-latest.md(%d件) / x-draft.md(今週%d件)"
-          % (len(built), n, x))
+          "robots.txt / digest-latest.md(%d件) / x-draft.md(本日%d件・今週%d件)"
+          % (len(built), n, xd, xw))
     return 0
 
 
