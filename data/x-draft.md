@@ -5,7 +5,24 @@
 
 ---
 
-## 1. 今週のまとめ（1投稿） [ 280 / 280 ]
+## 1. 本日のまとめ（1投稿） [ 229 / 280 ]
+
+```
+【本日の公式セキュリティ情報】10月13日
+JVN 2・CISA 2（計4件）
+
+注目:
+・悪用確認(KEV): Ivanti Connect Secure — 認証回避 (CVE-2026-104935)
+・Theliaにおける複数の脆弱性
+
+一覧はこちら
+https://cyber-information-summary.pages.dev/
+#セキュリティ #脆弱性情報
+```
+
+---
+
+## 2. 今週のまとめ（1投稿） [ 247 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】10月12日〜10月18日
@@ -13,7 +30,7 @@ JVN 2・CISA 2・NCSC 1（計5件）
 
 注目:
 ・悪用確認(KEV): Ivanti Connect Secure — 認証回避 (CVE-2026-104935)
-・悪用確認(KEV): Microsoft Windows — コマンドインジェクショ…
+・Theliaにおける複数の脆弱性
 
 一覧はこちら
 https://cyber-information-summary.pages.dev/w/2026-W42.html
@@ -22,7 +39,7 @@ https://cyber-information-summary.pages.dev/w/2026-W42.html
 
 ---
 
-## 2. 1件ずつ紹介する下書き（新しい順に最大12件）
+## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
 ### JVN（2026年10月13日） [ 120 / 280 ]
 
