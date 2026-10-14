@@ -1,60 +1,56 @@
-件名: 今週のサイバー注意喚起まとめ(2026年10月13日時点 / 32件)
+件名: 今週のサイバー注意喚起まとめ(2026年10月14日時点 / 30件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
 ■ JPCERT/CC(日本)
+・注意喚起: SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起 (公開)（2026年10月14日）
+  https://www.jpcert.or.jp/at/2026/at260032.html
+・注意喚起: 2026年10月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)（2026年10月14日）
+  https://www.jpcert.or.jp/at/2026/at260031.html
 ・注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)（2026年10月9日）
   https://www.jpcert.or.jp/at/2026/at260030.html
-・Weekly Report: Google Chromeに複数の脆弱性（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#1
-・Weekly Report: Apache HTTP Server 2.4に複数の脆弱性（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#2
-・Weekly Report: FortinetのFortiMailに未認証のリモートコード実行につながる脆弱性（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#3
-・Weekly Report: 複数のMozilla製品に脆弱性（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#4
-・Weekly Report: Cisco Catalyst SD-WAN Managerに認証回避につながる脆弱性（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#5
-・Weekly Report: OpenSSLに複数の脆弱性（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#6
-・Weekly Report: 複数のWatchGuard製品に脆弱性（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#7
-・Weekly Report: 複数のHPE製品に脆弱性（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#8
-・Weekly Report: Pgpool-IIに複数の脆弱性（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#9
-・Weekly Report: 複数のApple製品に脆弱性（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#10
-・Weekly Report: 複数のElastic製品に脆弱性（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#11
-・Weekly Report: NCOが「サイバーセキュリティ関係法令Q&AハンドブックVer.3.0」を公開（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#12
-・Weekly Report: NICTが「NICTER観測統計 - 2026年4月-6月」を公開（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#13
-・Weekly Report: 「情報セキュリティ早期警戒パートナーシップガイドライン」の2026年版を公開（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#14
-・Weekly Report: NetScaler ADCおよびNetScaler Gatewayに複数の脆弱性（2026年10月7日）
-  https://www.jpcert.or.jp/wr/2026/wr261007.html#15
 
 ■ JVN(日本)
+・EC-CUBE4系用プラグイン「AmazonPayプラグイン」における不変と想定しているWebパラメータの外部制御の脆弱性（2026年10月14日）
+  https://jvn.jp/jp/JVN43511918/
+・SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（2026年10月14日）
+  https://jvn.jp/jp/JVN88474777/
+・Siemens製品に対するアップデート（2026年10月）（2026年10月14日）
+  https://jvn.jp/vu/JVNVU90141693/
+・CISA ICS Advisory / ICS Medical Advisory（2026年10月13日）（2026年10月14日）
+  https://jvn.jp/vu/JVNVU92045336/
+・KomodoサーバーのエージェントPeripheryにおけるOSコマンドインジェクションの脆弱性（2026年10月14日）
+  https://jvn.jp/vu/JVNVU96061614/
+・Lowcoder Query Library APIにおける認可回避の脆弱性（2026年10月14日）
+  https://jvn.jp/vu/JVNVU91984971/
+・Go、OpenSSL、Apple、LibreSSL、pyca、wolfSSLのRFC 5280実装における名前制約が不整合である脆弱性（2026年10月14日）
+  https://jvn.jp/vu/JVNVU91265939/
+・Shopwareにおけるクロスサイトスクリプティングの脆弱性（2026年10月14日）
+  https://jvn.jp/vu/JVNVU94083107/
+・楽天モバイルの複数のスマートフォンのAndroid Verified Boot機能において既知のテスト用鍵がそのまま使用されている問題（2026年10月14日）
+  https://jvn.jp/jp/JVN47427200/
 ・AssetViewにおける重要なリソースに対する不適切なアクセス権の割り当ての脆弱性（2026年10月13日）
   https://jvn.jp/jp/JVN38664315/
 ・Theliaにおける複数の脆弱性（2026年10月13日）
   https://jvn.jp/vu/JVNVU99982995/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年10月08日）（2026年10月9日）
   https://jvn.jp/vu/JVNVU91137775/
-・Movable Typeにおける複数の脆弱性（2026年10月7日）
-  https://jvn.jp/jp/JVN91153973/
-・キーエンス製複数製品におけるXML外部エンティティ参照（XXE）の不適切な制限の脆弱性（2026年10月7日）
-  https://jvn.jp/vu/JVNVU98062224/
-・CISA ICS Advisory / ICS Medical Advisory（2026年10月06日）（2026年10月7日）
-  https://jvn.jp/vu/JVNVU94062711/
 
 ■ IPA(日本)
+・Microsoft 製品の脆弱性対策について(2026年10月)（2026年10月13日）
+  https://www.ipa.go.jp/security/security-alert/2026/1014-ms.html
 ・不正アクセスによる漏えい等の事案を踏まえ、速やかに実施すべき対策等について（2026年10月8日）
   https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html
 
 ■ CISA(米国)
+・悪用確認(KEV): Ahsay AhsayCBS — コマンドインジェクション (CVE-2026-105134)（2026年10月14日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-105134
+・悪用確認(KEV): Cisco Secure Email Gateway — パストラバーサル (CVE-2026-76519)（2026年10月14日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-76519
+・悪用確認(KEV): Ahsay AhsayCBS — 認証の不備 (CVE-2026-105133)（2026年10月14日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-105133
+・悪用確認(KEV): Palo Alto Networks PAN-OS — コードインジェクション (CVE-2026-0322)（2026年10月14日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-0322
 ・悪用確認(KEV): Ivanti Connect Secure — 認証回避 (CVE-2026-104935)（2026年10月13日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-104935
 ・悪用確認(KEV): Microsoft Windows — コマンドインジェクション (CVE-2026-96951)（2026年10月13日）
