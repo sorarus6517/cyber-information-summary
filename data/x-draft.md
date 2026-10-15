@@ -1,18 +1,19 @@
-# Xの投稿下書き（2026年10月14日 自動生成）
+# Xの投稿下書き（2026年10月15日 自動生成）
 
 そのままコピーして投稿できます。[ ]内はXの数え方での文字数（上限280）です。
 日本語1文字=2、URL=23として数えています。
 
 ---
 
-## 1. 本日のまとめ（1投稿） [ 223 / 280 ]
+## 1. 本日のまとめ（1投稿） [ 263 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】10月14日
-JPCERT/CC 2・JVN 9・CISA 4（計15件）
+【本日の公式セキュリティ情報】10月15日
+JPCERT/CC 18・JVN 6・CISA 1・NCSC 2（計27件）
 
 注目:
-・悪用確認(KEV): Ahsay AhsayCBS — コマンドインジェクション (CVE-2026-105134)
+・Weekly Report: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起
+・Using TLS to protect data
 
 一覧はこちら
 https://cyber-information-summary.pages.dev/
@@ -21,11 +22,11 @@ https://cyber-information-summary.pages.dev/
 
 ---
 
-## 2. 今週のまとめ（1投稿） [ 249 / 280 ]
+## 2. 今週のまとめ（1投稿） [ 250 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】10月12日〜10月18日
-JPCERT/CC 2・JVN 11・IPA 1・CISA 6・NCSC 1（計21件）
+JPCERT/CC 20・JVN 17・IPA 1・CISA 7・NCSC 3（計48件）
 
 注目:
 ・悪用確認(KEV): Ahsay AhsayCBS — コマンドインジェクション (CVE-2026-105134)
@@ -39,99 +40,99 @@ https://cyber-information-summary.pages.dev/w/2026-W42.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
-### JVN（2026年10月14日） [ 147 / 280 ]
+### NCSC（2026年10月15日） [ 86 / 280 ]
 
 ```
-【JVN】EC-CUBE4系用プラグイン「AmazonPayプラグイン」における不変と想定しているWebパラメータの外部制御の脆弱性
-https://jvn.jp/jp/JVN43511918/
+【NCSC】Post-quantum updates to our TLS guidance
+https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance
 #セキュリティ
 ```
 
-### JVN（2026年10月14日） [ 111 / 280 ]
+### NCSC（2026年10月15日） [ 71 / 280 ]
 
 ```
-【JVN】SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性
-https://jvn.jp/jp/JVN88474777/
+【NCSC】Using TLS to protect data
+https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data
 #セキュリティ
 ```
 
-### JPCERT/CC（2026年10月14日） [ 169 / 280 ]
+### JVN（2026年10月15日） [ 111 / 280 ]
 
 ```
-【JPCERT/CC】注意喚起: SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起 (公開)
-https://www.jpcert.or.jp/at/2026/at260032.html
+【JVN】「車検証閲覧アプリ」における送信データへの機微な情報の挿入の脆弱性
+https://jvn.jp/jp/JVN94004488/
 #セキュリティ
 ```
 
-### JVN（2026年10月14日） [ 90 / 280 ]
+### JVN（2026年10月15日） [ 154 / 280 ]
 
 ```
-【JVN】Siemens製品に対するアップデート（2026年10月）
-https://jvn.jp/vu/JVNVU90141693/
+【JVN】スマートフォンアプリ「ハンドメイドマーケットアプリ - Creema（クリーマ）」におけるオープンリダイレクトの脆弱性
+https://jvn.jp/jp/JVN48627289/
 #セキュリティ
 ```
 
-### JVN（2026年10月14日） [ 103 / 280 ]
+### JVN（2026年10月15日） [ 99 / 280 ]
 
 ```
-【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年10月13日）
-https://jvn.jp/vu/JVNVU92045336/
+【JVN】スマートフォンアプリ「ゲオアプリ」における複数の脆弱性
+https://jvn.jp/jp/JVN40460777/
 #セキュリティ
 ```
 
-### JVN（2026年10月14日） [ 124 / 280 ]
+### JVN（2026年10月15日） [ 105 / 280 ]
 
 ```
-【JVN】KomodoサーバーのエージェントPeripheryにおけるOSコマンドインジェクションの脆弱性
-https://jvn.jp/vu/JVNVU96061614/
+【JVN】Google BoringSSL証明書検証における複数の名前制約回避の脆弱性
+https://jvn.jp/vu/JVNVU95613365/
 #セキュリティ
 ```
 
-### JVN（2026年10月14日） [ 95 / 280 ]
+### JVN（2026年10月15日） [ 90 / 280 ]
 
 ```
-【JVN】Lowcoder Query Library APIにおける認可回避の脆弱性
-https://jvn.jp/vu/JVNVU91984971/
+【JVN】複数のTLSライブラリにおける名前制約回避の問題
+https://jvn.jp/vu/JVNVU95474776/
 #セキュリティ
 ```
 
-### JVN（2026年10月14日） [ 138 / 280 ]
+### JVN（2026年10月15日） [ 82 / 280 ]
 
 ```
-【JVN】Go、OpenSSL、Apple、LibreSSL、pyca、wolfSSLのRFC 5280実装における名前制約が不整合である脆弱性
-https://jvn.jp/vu/JVNVU91265939/
+【JVN】Bishengにおける複数の認証回避の脆弱性
+https://jvn.jp/vu/JVNVU94697946/
 #セキュリティ
 ```
 
-### JVN（2026年10月14日） [ 97 / 280 ]
+### JPCERT/CC（2026年10月15日） [ 98 / 280 ]
 
 ```
-【JVN】Shopwareにおけるクロスサイトスクリプティングの脆弱性
-https://jvn.jp/vu/JVNVU94083107/
+【JPCERT/CC】Weekly Report: Drupalの複数のモジュールに脆弱性
+https://www.jpcert.or.jp/wr/2026/wr261015.html#1
 #セキュリティ
 ```
 
-### JVN（2026年10月14日） [ 158 / 280 ]
+### JPCERT/CC（2026年10月15日） [ 90 / 280 ]
 
 ```
-【JVN】楽天モバイルの複数のスマートフォンのAndroid Verified Boot機能において既知のテスト用鍵がそのまま使用されている問題
-https://jvn.jp/jp/JVN47427200/
+【JPCERT/CC】Weekly Report: 複数のSplunk製品に脆弱性
+https://www.jpcert.or.jp/wr/2026/wr261015.html#2
 #セキュリティ
 ```
 
-### JPCERT/CC（2026年10月14日） [ 134 / 280 ]
+### JPCERT/CC（2026年10月15日） [ 89 / 280 ]
 
 ```
-【JPCERT/CC】注意喚起: 2026年10月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)
-https://www.jpcert.or.jp/at/2026/at260031.html
+【JPCERT/CC】Weekly Report: 複数のCisco製品に脆弱性
+https://www.jpcert.or.jp/wr/2026/wr261015.html#3
 #セキュリティ
 ```
 
-### CISA（2026年10月14日） [ 120 / 280 ]
+### JPCERT/CC（2026年10月15日） [ 92 / 280 ]
 
 ```
-【CISA】悪用確認(KEV): Ahsay AhsayCBS — コマンドインジェクション (CVE-2026-105134)
-https://nvd.nist.gov/vuln/detail/CVE-2026-105134
+【JPCERT/CC】Weekly Report: Movable Typeに複数の脆弱性
+https://www.jpcert.or.jp/wr/2026/wr261015.html#4
 #セキュリティ
 ```
 
