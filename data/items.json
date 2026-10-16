@@ -1,7 +1,59 @@
 {
- "generated_at": "2026-10-15T21:38:19.902127+00:00",
- "count": 167,
+ "generated_at": "2026-10-16T21:25:49.136097+00:00",
+ "count": 170,
  "items": [
+  {
+   "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）",
+   "url": "https://jvn.jp/vu/JVNVU96928590/",
+   "published": "2026-10-16T00:15:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-16T21:25:49.136097+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Siemens製品に対するアップデート（2026年10月）",
+   "url": "https://jvn.jp/vu/JVNVU90141693/",
+   "published": "2026-10-16T00:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-14T21:36:48.379972+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "KEV追加: BeyondTrust Remote Support — BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability (CVE-2026-102764)",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+   "published": "2026-10-16T00:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-16T21:25:49.136097+00:00",
+   "source_id": "cisa",
+   "source_name": "CISA(米国)",
+   "country": "US",
+   "theme": "cyber",
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): BeyondTrust Remote Support — 認証回避 (CVE-2026-102764)",
+   "title_ja_source": "auto"
+  },
+  {
+   "title": "KEV追加: Fortinet Multiple Products — Fortinet Multiple Products Path Traversal Vulnerability (CVE-2025-61624)",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
+   "published": "2026-10-16T00:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-16T21:25:49.136097+00:00",
+   "source_id": "cisa",
+   "source_name": "CISA(米国)",
+   "country": "US",
+   "theme": "cyber",
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): Fortinet Multiple Products — パストラバーサル (CVE-2025-61624)",
+   "title_ja_source": "auto"
+  },
   {
    "title": "Post-quantum updates to our TLS guidance",
    "url": "https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance",
@@ -360,18 +412,6 @@
    "first_seen": "2026-10-14T21:36:48.379972+00:00",
    "source_id": "jpcert",
    "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja"
-  },
-  {
-   "title": "Siemens製品に対するアップデート（2026年10月）",
-   "url": "https://jvn.jp/vu/JVNVU90141693/",
-   "published": "2026-10-14T04:30:50+00:00",
-   "date_estimated": false,
-   "first_seen": "2026-10-14T21:36:48.379972+00:00",
-   "source_id": "jvn",
-   "source_name": "JVN(日本)",
    "country": "JP",
    "theme": "cyber",
    "lang": "ja"

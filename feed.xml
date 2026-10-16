@@ -4,7 +4,35 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Thu, 15 Oct 2026 21:38:24 +0000</lastBuildDate>
+<lastBuildDate>Fri, 16 Oct 2026 21:25:54 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）</title>
+<link>https://jvn.jp/vu/JVNVU96928590/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU96928590/</guid>
+<pubDate>Fri, 16 Oct 2026 00:15:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU96928590/</description>
+</item>
+<item>
+<title>[JVN(日本)] Siemens製品に対するアップデート（2026年10月）</title>
+<link>https://jvn.jp/vu/JVNVU90141693/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90141693/</guid>
+<pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90141693/</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): BeyondTrust Remote Support — 認証回避 (CVE-2026-102764)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2026-102764</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-102764</guid>
+<pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-102764</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Fortinet Multiple Products — パストラバーサル (CVE-2025-61624)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2025-61624</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2025-61624</guid>
+<pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2025-61624</description>
+</item>
 <item>
 <title>[NCSC(英国)] Post-quantum updates to our TLS guidance</title>
 <link>https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance</link>
@@ -216,13 +244,6 @@
 <description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/at/2026/at260032.html</description>
 </item>
 <item>
-<title>[JVN(日本)] Siemens製品に対するアップデート（2026年10月）</title>
-<link>https://jvn.jp/vu/JVNVU90141693/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90141693/</guid>
-<pubDate>Wed, 14 Oct 2026 04:30:50 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90141693/</description>
-</item>
-<item>
 <title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年10月13日）</title>
 <link>https://jvn.jp/vu/JVNVU92045336/</link>
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU92045336/</guid>
@@ -333,26 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU99982995/</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99982995/</description>
-</item>
-<item>
-<title>[NCSC(英国)] Help the NCSC understand how organisations approach external attack surface risk</title>
-<link>https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk</link>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk</guid>
-<pubDate>Mon, 12 Oct 2026 12:00:00 +0000</pubDate>
-<description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] 注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)</title>
-<link>https://www.jpcert.or.jp/at/2026/at260030.html</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/at/2026/at260030.html</guid>
-<pubDate>Fri, 09 Oct 2026 01:12:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/at/2026/at260030.html</description>
-</item>
-<item>
-<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年10月08日）</title>
-<link>https://jvn.jp/vu/JVNVU91137775/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU91137775/</guid>
-<pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU91137775/</description>
 </item>
 </channel></rss>

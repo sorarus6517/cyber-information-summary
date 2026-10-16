@@ -1,19 +1,19 @@
-# Xの投稿下書き（2026年10月15日 自動生成）
+# Xの投稿下書き（2026年10月16日 自動生成）
 
 そのままコピーして投稿できます。[ ]内はXの数え方での文字数（上限280）です。
 日本語1文字=2、URL=23として数えています。
 
 ---
 
-## 1. 本日のまとめ（1投稿） [ 263 / 280 ]
+## 1. 本日のまとめ（1投稿） [ 266 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】10月15日
-JPCERT/CC 18・JVN 6・CISA 1・NCSC 2（計27件）
+【本日の公式セキュリティ情報】10月16日
+JVN 2・CISA 2（計4件）
 
 注目:
-・Weekly Report: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起
-・Using TLS to protect data
+・悪用確認(KEV): BeyondTrust Remote Support — 認証回避 (CVE-2026-102764)
+・CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）
 
 一覧はこちら
 https://cyber-information-summary.pages.dev/
@@ -22,14 +22,14 @@ https://cyber-information-summary.pages.dev/
 
 ---
 
-## 2. 今週のまとめ（1投稿） [ 250 / 280 ]
+## 2. 今週のまとめ（1投稿） [ 246 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】10月12日〜10月18日
-JPCERT/CC 20・JVN 17・IPA 1・CISA 7・NCSC 3（計48件）
+JPCERT/CC 20・JVN 18・IPA 1・CISA 9・NCSC 3（計51件）
 
 注目:
-・悪用確認(KEV): Ahsay AhsayCBS — コマンドインジェクション (CVE-2026-105134)
+・悪用確認(KEV): BeyondTrust Remote Support — 認証回避 (CVE-2026-102764)
 
 一覧はこちら
 https://cyber-information-summary.pages.dev/w/2026-W42.html
@@ -39,6 +39,38 @@ https://cyber-information-summary.pages.dev/w/2026-W42.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### JVN（2026年10月16日） [ 103 / 280 ]
+
+```
+【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）
+https://jvn.jp/vu/JVNVU96928590/
+#セキュリティ
+```
+
+### JVN（2026年10月16日） [ 90 / 280 ]
+
+```
+【JVN】Siemens製品に対するアップデート（2026年10月）
+https://jvn.jp/vu/JVNVU90141693/
+#セキュリティ
+```
+
+### CISA（2026年10月16日） [ 116 / 280 ]
+
+```
+【CISA】悪用確認(KEV): BeyondTrust Remote Support — 認証回避 (CVE-2026-102764)
+https://nvd.nist.gov/vuln/detail/CVE-2026-102764
+#セキュリティ
+```
+
+### CISA（2026年10月16日） [ 123 / 280 ]
+
+```
+【CISA】悪用確認(KEV): Fortinet Multiple Products — パストラバーサル (CVE-2025-61624)
+https://nvd.nist.gov/vuln/detail/CVE-2025-61624
+#セキュリティ
+```
 
 ### NCSC（2026年10月15日） [ 86 / 280 ]
 
@@ -101,38 +133,6 @@ https://jvn.jp/vu/JVNVU95474776/
 ```
 【JVN】Bishengにおける複数の認証回避の脆弱性
 https://jvn.jp/vu/JVNVU94697946/
-#セキュリティ
-```
-
-### JPCERT/CC（2026年10月15日） [ 98 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Drupalの複数のモジュールに脆弱性
-https://www.jpcert.or.jp/wr/2026/wr261015.html#1
-#セキュリティ
-```
-
-### JPCERT/CC（2026年10月15日） [ 90 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のSplunk製品に脆弱性
-https://www.jpcert.or.jp/wr/2026/wr261015.html#2
-#セキュリティ
-```
-
-### JPCERT/CC（2026年10月15日） [ 89 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のCisco製品に脆弱性
-https://www.jpcert.or.jp/wr/2026/wr261015.html#3
-#セキュリティ
-```
-
-### JPCERT/CC（2026年10月15日） [ 92 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Movable Typeに複数の脆弱性
-https://www.jpcert.or.jp/wr/2026/wr261015.html#4
 #セキュリティ
 ```
 

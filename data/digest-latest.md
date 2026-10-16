@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年10月15日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年10月16日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -41,10 +41,12 @@
   https://www.jpcert.or.jp/wr/2026/wr261015.html#18
 ・注意喚起: SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起 (公開)（2026年10月14日）
   https://www.jpcert.or.jp/at/2026/at260032.html
-・注意喚起: 2026年10月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)（2026年10月14日）
-  https://www.jpcert.or.jp/at/2026/at260031.html
 
 ■ JVN(日本)
+・CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）（2026年10月16日）
+  https://jvn.jp/vu/JVNVU96928590/
+・Siemens製品に対するアップデート（2026年10月）（2026年10月16日）
+  https://jvn.jp/vu/JVNVU90141693/
 ・「車検証閲覧アプリ」における送信データへの機微な情報の挿入の脆弱性（2026年10月15日）
   https://jvn.jp/jp/JVN94004488/
 ・スマートフォンアプリ「ハンドメイドマーケットアプリ - Creema（クリーマ）」におけるオープンリダイレクトの脆弱性（2026年10月15日）
@@ -61,8 +63,6 @@
   https://jvn.jp/jp/JVN43511918/
 ・SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（2026年10月14日）
   https://jvn.jp/jp/JVN88474777/
-・Siemens製品に対するアップデート（2026年10月）（2026年10月14日）
-  https://jvn.jp/vu/JVNVU90141693/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年10月13日）（2026年10月14日）
   https://jvn.jp/vu/JVNVU92045336/
 ・KomodoサーバーのエージェントPeripheryにおけるOSコマンドインジェクションの脆弱性（2026年10月14日）
@@ -77,12 +77,12 @@
   https://jvn.jp/jp/JVN47427200/
 
 ■ CISA(米国)
+・悪用確認(KEV): BeyondTrust Remote Support — 認証回避 (CVE-2026-102764)（2026年10月16日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-102764
+・悪用確認(KEV): Fortinet Multiple Products — パストラバーサル (CVE-2025-61624)（2026年10月16日）
+  https://nvd.nist.gov/vuln/detail/CVE-2025-61624
 ・悪用確認(KEV): Atlassian Multiple Products — Files or Directories Accessible to External Parties (CVE-2026-21589)（2026年10月15日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-21589
-・悪用確認(KEV): Ahsay AhsayCBS — コマンドインジェクション (CVE-2026-105134)（2026年10月14日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-105134
-・悪用確認(KEV): Cisco Secure Email Gateway — パストラバーサル (CVE-2026-76519)（2026年10月14日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-76519
 
 ■ NCSC(英国)
 ・Post-quantum updates to our TLS guidance（2026年10月15日）
