@@ -598,13 +598,16 @@ def build_cve_pages(items):
                 cwe_ja.append(label)
 
         # 1行目の要約(検索結果の説明文にも使う)。主語は見出し由来を優先する
-        subject = dedupe_words(subject_from_items(rows))
+        subject = subject_from_items(rows)
         if not subject and products:
             vendors = {v for v, _ in products}
             if len(products) == 1:
                 subject = product_label(*products[0])
             elif len(vendors) == 1:
                 subject = product_label(products[0][0], "").strip()
+        # どの経路で決まった主語でも、最後に重複語をまとめる
+        # (CPE由来の wordpress|wordpress が「Wordpress Wordpress」になるため)
+        subject = dedupe_words(subject)
         kind = "・".join(cwe_ja[:2])
         if subject and kind:
             lead = "%s における%sの脆弱性です。" % (subject, kind)
