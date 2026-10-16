@@ -289,6 +289,130 @@
    "published": "2023-04-19T16:15:07.303",
    "status": "Analyzed"
   },
+  "CVE-2025-13878": {
+   "cvss": {
+    "score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-617",
+    "CWE-1286"
+   ],
+   "desc_en": "Malformed BRID/HHIT records can cause `named` to terminate unexpectedly.\nThis issue affects BIND 9 versions 9.18.40 through 9.18.43, 9.20.13 through 9.20.17, 9.21.12 through 9.21.16, 9.18.40-S1 through 9.18.43-S1, and 9.20.13-S1 through 9.20.17-S1.",
+   "fetched_at": "2026-10-16T22:03:39.256402+00:00",
+   "found": true,
+   "id": "CVE-2025-13878",
+   "last_modified": "2026-09-01T13:17:44.690",
+   "products": [],
+   "published": "2026-01-21T15:16:05.650",
+   "status": "Deferred"
+  },
+  "CVE-2025-20333": {
+   "cvss": {
+    "score": 9.9,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-120"
+   ],
+   "desc_en": "A vulnerability in the VPN web server of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an authenticated, remote attacker to execute arbitrary code on an affected device.\r\n\r This vulnerability is due to improper validation of user-supplied input in HTTP(S) requests. An attacker with valid VPN user credentials could exploit this vulnerability by sending crafted HTTP requests to an affected device. A successful exploit could allow the attacker to execute arbitrary code as root, possibly resulting in the complete compromise of the affected device.",
+   "fetched_at": "2026-10-16T22:03:32.088170+00:00",
+   "found": true,
+   "id": "CVE-2025-20333",
+   "last_modified": "2026-08-11T19:33:44.513",
+   "products": [
+    [
+     "cisco",
+     "secure_firewall_threat_defense"
+    ],
+    [
+     "cisco",
+     "adaptive_security_appliance_software"
+    ]
+   ],
+   "published": "2025-09-25T16:15:32.073",
+   "status": "Analyzed"
+  },
+  "CVE-2025-39682": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-754"
+   ],
+   "desc_en": "In the Linux kernel, the following vulnerability has been resolved:\n\ntls: fix handling of zero-length records on the rx_list\n\nEach recvmsg() call must process either\n - only contiguous DATA records (any number of them)\n - one non-DATA record\n\nIf the next record has different type than what has already been\nprocessed we break out of the main processing loop. If the record\nhas already been decrypted (which may be the case for TLS 1.3 where\nwe don't know type until decryption) we queue the pending record\nto the rx_list. Next recvmsg() will pick it up from there.\n\nQueuing the skb to rx_list after zero-copy decrypt is not possible,\nsince in that case we decrypted directly to the user space buffer,\nand we don't have an skb to queue (darg.skb points to the ciphertext\nskb for access to metadata like length).\n\nOnly data records are allowed zero-copy, and we break the processing\nloop after each non-data record. So we should never zero-copy and\nthen find out that the record type has changed. The corner case\nwe missed is when the initial record comes from rx_list, and it's\nzero length.",
+   "fetched_at": "2026-10-16T22:02:19.415030+00:00",
+   "found": true,
+   "id": "CVE-2025-39682",
+   "last_modified": "2026-10-07T18:17:13.443",
+   "products": [
+    [
+     "linux",
+     "linux_kernel"
+    ],
+    [
+     "debian",
+     "debian_linux"
+    ],
+    [
+     "siemens",
+     "simatic_cn_4100_firmware"
+    ],
+    [
+     "siemens",
+     "simatic_cn_4100"
+    ]
+   ],
+   "published": "2025-09-05T18:15:44.670",
+   "status": "Analyzed"
+  },
+  "CVE-2025-39964": {
+   "cvss": {
+    "score": 7.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-362"
+   ],
+   "desc_en": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: af_alg - Disallow concurrent writes in af_alg_sendmsg\n\nIssuing two writes to the same af_alg socket is bogus as the\ndata will be interleaved in an unpredictable fashion.  Furthermore,\nconcurrent writes may create inconsistencies in the internal\nsocket state.\n\nDisallow this by adding a new ctx->write field that indiciates\nexclusive ownership for writing.",
+   "fetched_at": "2026-10-16T22:02:05.025136+00:00",
+   "found": true,
+   "id": "CVE-2025-39964",
+   "last_modified": "2026-10-15T13:46:50.340",
+   "products": [
+    [
+     "linux",
+     "linux_kernel"
+    ],
+    [
+     "siemens",
+     "simatic_s7-1500_cpu_1518-4_pn\\/dp_mfp_firmware"
+    ],
+    [
+     "siemens",
+     "simatic_s7-1500_cpu_1518-4_pn\\/dp_mfp"
+    ],
+    [
+     "siemens",
+     "simatic_s7-1500_cpu_1518f-4_pn\\/dp_mfp_firmware"
+    ],
+    [
+     "siemens",
+     "simatic_s7-1500_cpu_1518f-4_pn\\/dp_mfp"
+    ]
+   ],
+   "published": "2025-10-13T14:15:34.737",
+   "status": "Analyzed"
+  },
   "CVE-2025-61624": {
    "cvss": {
     "score": 6.0,
@@ -331,6 +455,106 @@
     ]
    ],
    "published": "2026-04-14T16:16:31.300",
+   "status": "Analyzed"
+  },
+  "CVE-2026-0300": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-787"
+   ],
+   "desc_en": "A buffer overflow vulnerability in the User-ID™ Authentication Portal (aka Captive Portal) service of Palo Alto Networks PAN-OS software allows an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Series and VM-Series firewalls by sending specially crafted packets. \n\nThe risk of this issue is greatly reduced if you secure access to the User-ID™ Authentication Portal per the  best practice guidelines https://knowledgebase.paloaltonetworks.com/KCSArticleDetail  by restricting access to only trusted internal IP addresses.\n\nPrisma Access, Cloud NGFW and Panorama appliances are not impacted by this vulnerability.",
+   "fetched_at": "2026-10-16T22:03:17.594651+00:00",
+   "found": true,
+   "id": "CVE-2026-0300",
+   "last_modified": "2026-06-17T10:10:43.073",
+   "products": [
+    [
+     "paloaltonetworks",
+     "pan-os"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-1410"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-1420"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-3410"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-3420"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-3430"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-3440"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-410"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-410r"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-410r-5g"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-415"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-415-5g"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-440"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-445"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-450"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-450r"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-450r-5g"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-455"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-455-5g"
+    ],
+    [
+     "paloaltonetworks",
+     "pa-455r-5g"
+    ]
+   ],
+   "published": "2026-05-06T19:16:35.730",
    "status": "Analyzed"
   },
   "CVE-2026-0322": {
@@ -572,6 +796,231 @@
    "published": "2026-10-05T22:16:58.423",
    "status": "Rejected"
   },
+  "CVE-2026-31431": {
+   "cvss": {
+    "score": 7.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-669",
+    "CWE-1288"
+   ],
+   "desc_en": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: algif_aead - Revert to operating out-of-place\n\nThis mostly reverts commit 72548b093ee3 except for the copying of\nthe associated data.\n\nThere is no benefit in operating in-place in algif_aead since the\nsource and destination come from different mappings.  Get rid of\nall the complexity added for in-place operation and just copy the\nAD directly.",
+   "fetched_at": "2026-10-16T22:03:24.885250+00:00",
+   "found": true,
+   "id": "CVE-2026-31431",
+   "last_modified": "2026-09-08T15:13:07.273",
+   "products": [
+    [
+     "linux",
+     "linux_kernel"
+    ],
+    [
+     "suse",
+     "linux_enterprise_desktop"
+    ],
+    [
+     "suse",
+     "linux_enterprise_high_availability_extension"
+    ],
+    [
+     "suse",
+     "linux_enterprise_high_performance_computing"
+    ],
+    [
+     "suse",
+     "linux_enterprise_live_patching"
+    ],
+    [
+     "suse",
+     "linux_enterprise_micro"
+    ],
+    [
+     "suse",
+     "linux_enterprise_real_time"
+    ],
+    [
+     "suse",
+     "linux_enterprise_server"
+    ],
+    [
+     "suse",
+     "linux_enterprise_workstation_extension"
+    ],
+    [
+     "suse",
+     "linux_micro"
+    ],
+    [
+     "redhat",
+     "openshift_container_platform"
+    ],
+    [
+     "redhat",
+     "enterprise_linux"
+    ],
+    [
+     "redhat",
+     "enterprise_linux_aus"
+    ],
+    [
+     "redhat",
+     "enterprise_linux_eus"
+    ],
+    [
+     "redhat",
+     "enterprise_linux_tus"
+    ],
+    [
+     "redhat",
+     "enterprise_linux_update_services_for_sap_solutions"
+    ],
+    [
+     "amazon",
+     "amazon_linux"
+    ],
+    [
+     "canonical",
+     "ubuntu_linux"
+    ],
+    [
+     "debian",
+     "debian_linux"
+    ],
+    [
+     "opensuse",
+     "leap"
+    ]
+   ],
+   "published": "2026-04-22T09:16:21.270",
+   "status": "Analyzed"
+  },
+  "CVE-2026-50751": {
+   "cvss": {
+    "score": 9.3,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-287"
+   ],
+   "desc_en": "A logic flow weakness in Remote Access and Mobile Access certificate validation in deprecated IKEv1 key exchange allows an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.",
+   "fetched_at": "2026-10-16T22:03:10.176296+00:00",
+   "found": true,
+   "id": "CVE-2026-50751",
+   "last_modified": "2026-08-04T05:16:39.710",
+   "products": [
+    [
+     "checkpoint",
+     "gaia_os"
+    ],
+    [
+     "checkpoint",
+     "gaia_embedded"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1530"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1550"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1570"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1570r"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1590"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1595r"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1600"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1800"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1900"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_2000"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1535"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1555"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1575"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1575r"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_2530"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_2550"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_2560"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_2570"
+    ]
+   ],
+   "published": "2026-06-08T12:16:32.367",
+   "status": "Analyzed"
+  },
+  "CVE-2026-53266": {
+   "cvss": {
+    "score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-787"
+   ],
+   "desc_en": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: bridge: make ebt_snat ARP rewrite writable\n\nThe ebtables SNAT target keeps the Ethernet source address rewrite\nbehind skb_ensure_writable(skb, 0).  This is intentional: at the bridge\nebtables hooks the Ethernet header is addressed through\nskb_mac_header()/eth_hdr(), while skb->data points at the Ethernet\npayload.  Asking skb_ensure_writable() for ETH_HLEN bytes would check\nthe payload, not the Ethernet header, and would reintroduce the small\npacket regression fixed by commit 63137bc5882a.\n\nHowever, the optional ARP sender hardware address rewrite is different.\nIt writes through skb_store_bits() at an offset relative to skb->data:\n\n        skb_store_bits(skb, sizeof(struct arphdr), info->mac, ETH_ALEN)\n\nskb_header_pointer() only safely reads the ARP header; it does not make\nthe later sender hardware address range writable.  If that range is\nstill held in a nonlinear skb fragment backed by a splice-imported file\npage, skb_store_bits() maps the frag page and copies the new MAC address\ndirectly into it.\n\nEnsure the ARP SHA range is writable before reading the ARP header and\nbefore calling skb_store_bits().",
+   "fetched_at": "2026-10-16T22:02:12.187699+00:00",
+   "found": true,
+   "id": "CVE-2026-53266",
+   "last_modified": "2026-09-19T04:17:53.580",
+   "products": [
+    [
+     "linux",
+     "linux_kernel"
+    ]
+   ],
+   "published": "2026-06-25T09:16:44.643",
+   "status": "Analyzed"
+  },
   "CVE-2026-5430": {
    "cvss": {
     "score": 10.0,
@@ -606,6 +1055,79 @@
     ]
    ],
    "published": "2026-08-06T08:16:33.240",
+   "status": "Analyzed"
+  },
+  "CVE-2026-58704": {
+   "cvss": {
+    "score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-285",
+    "CWE-693"
+   ],
+   "desc_en": "In Cellular Modem, there is a possible permission bypass due to a logic error in the code. This could lead to remote (proximal/adjacent) escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+   "fetched_at": "2026-10-16T22:02:26.612132+00:00",
+   "found": true,
+   "id": "CVE-2026-58704",
+   "last_modified": "2026-10-07T19:17:39.150",
+   "products": [
+    [
+     "google",
+     "android"
+    ]
+   ],
+   "published": "2026-09-15T19:17:32.297",
+   "status": "Analyzed"
+  },
+  "CVE-2026-60137": {
+   "cvss": {
+    "score": 5.9,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-89"
+   ],
+   "desc_en": "WordPress 6.8.x before 6.8.6, 6.9.x before 6.9.5, and 7.0.x before 7.0.2 does not properly sanitise the author__not_in parameter of WP_Query, which could allow SQL Injection when a plugin or theme passes untrusted input to the parameter.",
+   "fetched_at": "2026-10-16T22:02:55.595066+00:00",
+   "found": true,
+   "id": "CVE-2026-60137",
+   "last_modified": "2026-10-08T10:35:47.777",
+   "products": [
+    [
+     "wordpress",
+     "wordpress"
+    ]
+   ],
+   "published": "2026-07-17T20:17:27.790",
+   "status": "Analyzed"
+  },
+  "CVE-2026-63030": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-436"
+   ],
+   "desc_en": "WordPress 6.9.x before 6.9.5 and 7.0.x before 7.0.2 is affected by a REST API batch endpoint route confusion issue which, combined with the author__not_in WP_Query SQL Injection (CVE-2026-60137), could allow an attacker to perform SQL Injection and achieve Remote Code Execution.",
+   "fetched_at": "2026-10-16T22:03:02.910136+00:00",
+   "found": true,
+   "id": "CVE-2026-63030",
+   "last_modified": "2026-10-08T10:35:50.787",
+   "products": [
+    [
+     "wordpress",
+     "wordpress"
+    ]
+   ],
+   "published": "2026-07-17T20:17:28.490",
    "status": "Analyzed"
   },
   "CVE-2026-65660": {
@@ -688,6 +1210,182 @@
    "published": "2026-08-11T18:18:21.610",
    "status": "Analyzed"
   },
+  "CVE-2026-7273": {
+   "cvss": {
+    "score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-121"
+   ],
+   "desc_en": "A stack-based buffer overflow vulnerability in the CGI program of Zyxel GS1900-48HPv2 firmware versions through 2.90(ABTQ.1)C0 could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.",
+   "fetched_at": "2026-10-16T22:01:57.816920+00:00",
+   "found": true,
+   "id": "CVE-2026-7273",
+   "last_modified": "2026-09-22T12:10:51.067",
+   "products": [
+    [
+     "zyxel",
+     "gs1900-48"
+    ],
+    [
+     "zyxel",
+     "gs1900-48hpv2_firmware"
+    ],
+    [
+     "zyxel",
+     "gs1900-48hpv2"
+    ],
+    [
+     "zyxel",
+     "gs1900-48_firmware"
+    ],
+    [
+     "zyxel",
+     "gs1900-8_firmware"
+    ],
+    [
+     "zyxel",
+     "gs1900-8"
+    ],
+    [
+     "zyxel",
+     "gs1900-8hp_firmware"
+    ],
+    [
+     "zyxel",
+     "gs1900-8hp"
+    ],
+    [
+     "zyxel",
+     "gs1900-10hp_firmware"
+    ],
+    [
+     "zyxel",
+     "gs1900-10hp"
+    ],
+    [
+     "zyxel",
+     "gs1900-16_firmware"
+    ],
+    [
+     "zyxel",
+     "gs1900-16"
+    ],
+    [
+     "zyxel",
+     "gs1900-24_firmware"
+    ],
+    [
+     "zyxel",
+     "gs1900-24"
+    ],
+    [
+     "zyxel",
+     "gs1900-24e_firmware"
+    ],
+    [
+     "zyxel",
+     "gs1900-24e"
+    ],
+    [
+     "zyxel",
+     "gs1900-24ep_firmware"
+    ],
+    [
+     "zyxel",
+     "gs1900-24ep"
+    ],
+    [
+     "zyxel",
+     "gs1900-24hpv2_firmware"
+    ],
+    [
+     "zyxel",
+     "gs1900-24hpv2"
+    ]
+   ],
+   "published": "2026-06-16T03:16:13.557",
+   "status": "Analyzed"
+  },
+  "CVE-2026-76460": {
+   "cvss": {
+    "score": 10.0,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-648"
+   ],
+   "desc_en": "A vulnerability in an API of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to bypass authentication.\r\n\r\nThis vulnerability is due to insufficient authentication control on an API endpoint. An attacker could exploit this vulnerability by sending a crafted request to an affected API endpoint. A successful exploit could allow the attacker to gain unauthorized access to the affected device by bypassing the web-based management interface.",
+   "fetched_at": "2026-10-16T22:02:33.822096+00:00",
+   "found": true,
+   "id": "CVE-2026-76460",
+   "last_modified": "2026-10-07T19:17:40.417",
+   "products": [
+    [
+     "cisco",
+     "identity_services_engine"
+    ],
+    [
+     "cisco",
+     "identity_services_engine_passive_identity_connector"
+    ]
+   ],
+   "published": "2026-09-16T21:17:21.430",
+   "status": "Analyzed"
+  },
+  "CVE-2026-76461": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-89"
+   ],
+   "desc_en": "A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.\r\n\r\nThis vulnerability is due to insufficient validation in the email parsing logic. An attacker could exploit this vulnerability by sending a crafted email message that contains malicious SQL statements through an affected device. A successful exploit could allow the attacker to execute arbitrary SQL statements, leading to command execution with root privileges on the underlying operating system.",
+   "fetched_at": "2026-10-16T22:02:48.456591+00:00",
+   "found": true,
+   "id": "CVE-2026-76461",
+   "last_modified": "2026-09-15T12:47:32.497",
+   "products": [
+    [
+     "cisco",
+     "asyncos"
+    ],
+    [
+     "cisco",
+     "secure_email_gateway_virtual_appliance_c100v"
+    ],
+    [
+     "cisco",
+     "secure_email_gateway_virtual_appliance_c300v"
+    ],
+    [
+     "cisco",
+     "secure_email_gateway_virtual_appliance_c600v"
+    ],
+    [
+     "cisco",
+     "secure_email_gateway_c195"
+    ],
+    [
+     "cisco",
+     "secure_email_gateway_c395"
+    ],
+    [
+     "cisco",
+     "secure_email_gateway_c695"
+    ]
+   ],
+   "published": "2026-09-14T17:17:51.113",
+   "status": "Analyzed"
+  },
   "CVE-2026-76504": {
    "cvss": {
     "score": 9.8,
@@ -760,6 +1458,106 @@
    "published": "2026-10-14T17:19:10.747",
    "status": "Analyzed"
   },
+  "CVE-2026-85102": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-295"
+   ],
+   "desc_en": "Improper certificate trust validation during VPN negotiation in Check Point Quantum Security Gateway may allow an unauthenticated remote attacker to execute arbitrary code on the Gateway.",
+   "fetched_at": "2026-10-16T22:01:50.635203+00:00",
+   "found": true,
+   "id": "CVE-2026-85102",
+   "last_modified": "2026-09-23T18:22:07.453",
+   "products": [
+    [
+     "checkpoint",
+     "quantum_spark_1530"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1535"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1550"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1555"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1570"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1570r"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1575"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1575r"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1590"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1595"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1595r"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1600"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1800"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_1900"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_2000"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_2530"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_2550"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_2560"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_2570"
+    ],
+    [
+     "checkpoint",
+     "quantum_spark_2580"
+    ]
+   ],
+   "published": "2026-09-09T13:20:43.793",
+   "status": "Analyzed"
+  },
   "CVE-2026-86950": {
    "cvss": {
     "score": 8.8,
@@ -790,6 +1588,34 @@
     ]
    ],
    "published": "2026-09-28T20:17:11.193",
+   "status": "Analyzed"
+  },
+  "CVE-2026-87886": {
+   "cvss": {
+    "score": 7.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.0"
+   },
+   "cwe": [
+    "CWE-276"
+   ],
+   "desc_en": "Local privilege escalation due to insecure file permissions. The following products are affected: Acronis Backup plugin for cPanel & WHM (Linux) before build 1.9.3.1021, Acronis Backup extension for Plesk (Linux) before build 1.8.11.638, Acronis Backup plugin for DirectAdmin (Linux) before build 1.2.3.238.",
+   "fetched_at": "2026-10-16T22:02:41.304761+00:00",
+   "found": true,
+   "id": "CVE-2026-87886",
+   "last_modified": "2026-09-18T19:29:35.067",
+   "products": [
+    [
+     "acronis",
+     "acronis_backup"
+    ],
+    [
+     "linux",
+     "linux_kernel"
+    ]
+   ],
+   "published": "2026-09-17T23:18:53.763",
    "status": "Analyzed"
   },
   "CVE-2026-87902": {
@@ -898,6 +1724,34 @@
     ]
    ],
    "published": "2026-10-04T04:16:43.680",
+   "status": "Analyzed"
+  },
+  "CVE-2026-93616": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-22"
+   ],
+   "desc_en": "A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute arbitrary scripts on Check Point Management Server.",
+   "fetched_at": "2026-10-16T22:01:43.190197+00:00",
+   "found": true,
+   "id": "CVE-2026-93616",
+   "last_modified": "2026-09-23T16:38:38.987",
+   "products": [
+    [
+     "checkpoint",
+     "multi-domain_security_management"
+    ],
+    [
+     "checkpoint",
+     "quantum_security_management"
+    ]
+   ],
+   "published": "2026-09-22T13:17:11.963",
    "status": "Analyzed"
   },
   "CVE-2026-93952": {
@@ -1029,5 +1883,5 @@
    "status": "Analyzed"
   }
  },
- "generated_at": "2026-10-16T21:48:16.369384+00:00"
+ "generated_at": "2026-10-16T22:01:42.780574+00:00"
 }
