@@ -1,0 +1,1033 @@
+{
+ "cves": {
+  "CVE-2015-3306": {
+   "cvss": {
+    "score": 10.0,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-284"
+   ],
+   "desc_en": "The mod_copy module in ProFTPD 1.3.5 allows remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.",
+   "fetched_at": "2026-10-16T21:49:57.170439+00:00",
+   "found": true,
+   "id": "CVE-2015-3306",
+   "last_modified": "2026-10-09T16:17:18.210",
+   "products": [
+    [
+     "proftpd",
+     "proftpd"
+    ],
+    [
+     "fedoraproject",
+     "fedora"
+    ],
+    [
+     "debian",
+     "debian_linux"
+    ],
+    [
+     "opensuse",
+     "tumbleweed"
+    ],
+    [
+     "suse",
+     "linux_enterprise_server"
+    ]
+   ],
+   "published": "2015-05-18T15:59:10.743",
+   "status": "Analyzed"
+  },
+  "CVE-2015-5477": {
+   "cvss": {
+    "score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-19",
+    "CWE-617"
+   ],
+   "desc_en": "named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote attackers to cause a denial of service (REQUIRE assertion failure and daemon exit) via TKEY queries.",
+   "fetched_at": "2026-10-16T21:49:28.523975+00:00",
+   "found": true,
+   "id": "CVE-2015-5477",
+   "last_modified": "2026-10-09T19:12:37.977",
+   "products": [
+    [
+     "isc",
+     "bind"
+    ],
+    [
+     "juniper",
+     "junos"
+    ],
+    [
+     "juniper",
+     "j2300"
+    ],
+    [
+     "juniper",
+     "j2320"
+    ],
+    [
+     "juniper",
+     "j2350"
+    ],
+    [
+     "juniper",
+     "j4300"
+    ],
+    [
+     "juniper",
+     "j4350"
+    ],
+    [
+     "juniper",
+     "j4350_nebs"
+    ],
+    [
+     "juniper",
+     "j6300"
+    ],
+    [
+     "juniper",
+     "j635_nebs"
+    ],
+    [
+     "juniper",
+     "j6350"
+    ],
+    [
+     "juniper",
+     "jx-4bri"
+    ],
+    [
+     "juniper",
+     "jx-4ct1e1"
+    ],
+    [
+     "juniper",
+     "srx100"
+    ],
+    [
+     "juniper",
+     "srx1400"
+    ],
+    [
+     "juniper",
+     "srx1500"
+    ],
+    [
+     "juniper",
+     "srx1600"
+    ],
+    [
+     "juniper",
+     "srx2300"
+    ],
+    [
+     "juniper",
+     "srx300"
+    ],
+    [
+     "juniper",
+     "srx320"
+    ]
+   ],
+   "published": "2015-07-29T14:59:05.397",
+   "status": "Analyzed"
+  },
+  "CVE-2016-3081": {
+   "cvss": {
+    "score": 8.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-77"
+   ],
+   "desc_en": "Apache Struts 2.3.19 to 2.3.20.2, 2.3.21 to 2.3.24.1, and 2.3.25 to 2.3.28, when Dynamic Method Invocation is enabled, allow remote attackers to execute arbitrary code via method: prefix, related to chained expressions.",
+   "fetched_at": "2026-10-16T21:49:35.696818+00:00",
+   "found": true,
+   "id": "CVE-2016-3081",
+   "last_modified": "2026-10-09T14:43:05.703",
+   "products": [
+    [
+     "apache",
+     "struts"
+    ],
+    [
+     "huawei",
+     "agile_controller-campus_firmware"
+    ],
+    [
+     "huawei",
+     "agile_controller-campus"
+    ],
+    [
+     "huawei",
+     "anyoffice"
+    ],
+    [
+     "huawei",
+     "logcenter"
+    ],
+    [
+     "huawei",
+     "firehunter6000_firmware"
+    ],
+    [
+     "huawei",
+     "firehunter6000"
+    ],
+    [
+     "huawei",
+     "oceanstor_5300_v3_firmware"
+    ],
+    [
+     "huawei",
+     "oceanstor_5300_v3"
+    ],
+    [
+     "huawei",
+     "oceanstor_5500_v3_firmware"
+    ],
+    [
+     "huawei",
+     "oceanstor_5500_v3"
+    ],
+    [
+     "huawei",
+     "oceanstor_5600_v3_firmware"
+    ],
+    [
+     "huawei",
+     "oceanstor_5600_v3"
+    ],
+    [
+     "huawei",
+     "oceanstor_5800_v3_firmware"
+    ],
+    [
+     "huawei",
+     "oceanstor_5800_v3"
+    ],
+    [
+     "huawei",
+     "oceanstor_6800_v3_firmware"
+    ],
+    [
+     "huawei",
+     "oceanstor_6800_v3"
+    ],
+    [
+     "huawei",
+     "oceanstor_18500_v3_firmware"
+    ],
+    [
+     "huawei",
+     "oceanstor_18500_v3"
+    ],
+    [
+     "huawei",
+     "oceanstor_18500f_firmware"
+    ]
+   ],
+   "published": "2016-04-26T14:59:02.207",
+   "status": "Analyzed"
+  },
+  "CVE-2021-3199": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-22"
+   ],
+   "desc_en": "Directory traversal with remote code execution can occur in /upload in ONLYOFFICE Document Server before 5.6.3, when JWT is used, via a /.. sequence in an image upload parameter.",
+   "fetched_at": "2026-10-16T21:49:49.986554+00:00",
+   "found": true,
+   "id": "CVE-2021-3199",
+   "last_modified": "2026-10-09T14:20:47.350",
+   "products": [
+    [
+     "onlyoffice",
+     "document_server"
+    ]
+   ],
+   "published": "2021-01-26T18:16:28.507",
+   "status": "Analyzed"
+  },
+  "CVE-2023-22894": {
+   "cvss": {
+    "score": 4.9,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-312"
+   ],
+   "desc_en": "Strapi through 4.5.5 allows attackers (with access to the admin panel) to discover sensitive user details by exploiting the query filter. The attacker can filter users by columns that contain sensitive information and infer a value from API responses. If the attacker has super admin access, then this can be exploited to discover the password hash and password reset token of all users. If the attacker has admin panel access to an account with permission to access the username and email of API users with a lower privileged role (e.g., Editor or Author), then this can be exploited to discover sensitive information for all API users but not other admin accounts.",
+   "fetched_at": "2026-10-16T21:49:42.853356+00:00",
+   "found": true,
+   "id": "CVE-2023-22894",
+   "last_modified": "2026-10-09T14:20:41.113",
+   "products": [
+    [
+     "strapi",
+     "strapi"
+    ]
+   ],
+   "published": "2023-04-19T16:15:07.303",
+   "status": "Analyzed"
+  },
+  "CVE-2025-61624": {
+   "cvss": {
+    "score": 6.0,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-22"
+   ],
+   "desc_en": "An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') [CWE-22] vulnerability in Fortinet FortiOS 7.6.0 through 7.6.4, FortiOS 7.4.0 through 7.4.9, FortiOS 7.2 all versions, FortiOS 7.0 all versions, FortiOS 6.4 all versions, FortiPAM 1.7.0, FortiPAM 1.6 all versions, FortiPAM 1.5 all versions, FortiPAM 1.4 all versions, FortiPAM 1.3 all versions, FortiPAM 1.2 all versions, FortiPAM 1.1 all versions, FortiPAM 1.0 all versions, FortiProxy 7.6.0 through 7.6.4, FortiProxy 7.4.0 through 7.4.11, FortiProxy 7.2 all versions, FortiProxy 7.0 all versions, FortiSwitchManager 7.2.0 through 7.2.7, FortiSwitchManager 7.0.0 through 7.0.6 may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.",
+   "fetched_at": "2026-10-16T21:48:23.777814+00:00",
+   "found": true,
+   "id": "CVE-2025-61624",
+   "last_modified": "2026-10-16T19:11:31.003",
+   "products": [
+    [
+     "fortinet",
+     "fortios"
+    ],
+    [
+     "fortinet",
+     "fortipam"
+    ],
+    [
+     "fortinet",
+     "fortiproxy"
+    ],
+    [
+     "fortinet",
+     "fortiswitchmanager"
+    ],
+    [
+     "siemens",
+     "ruggedcom_ape1808_firmware"
+    ],
+    [
+     "siemens",
+     "ruggedcom_ape1808"
+    ]
+   ],
+   "published": "2026-04-14T16:16:31.300",
+   "status": "Analyzed"
+  },
+  "CVE-2026-0322": {
+   "cvss": {
+    "score": 7.2,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-94"
+   ],
+   "desc_en": "A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS® software enables an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.\n\n\n\nThe security risk posed by this issue is minimized by restricting access to the management interface to only trusted internal IP addresses according to our recommended  best practice deployment guidelines https://live.paloaltonetworks.com/t5/community-blogs/tips-amp-tricks-how-to-secure-the-management-access-of-your-palo/ba-p/464431 .\n\n\n\nThis issue is applicable to PAN-OS software on PA-Series and VM-Series firewalls and on Panorama (virtual and M-Series).\n\n\n\nCloud NGFW and Prisma® Access are not impacted by this vulnerability.",
+   "fetched_at": "2026-10-16T21:49:06.774941+00:00",
+   "found": true,
+   "id": "CVE-2026-0322",
+   "last_modified": "2026-10-15T13:47:26.713",
+   "products": [
+    [
+     "paloaltonetworks",
+     "pan-os"
+    ]
+   ],
+   "published": "2026-10-14T18:17:07.743",
+   "status": "Analyzed"
+  },
+  "CVE-2026-102489": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-384"
+   ],
+   "desc_en": "Zammad versions 6.3.0 to 6.5.4 are vulnerable a session hijack vulnerability that leads to remote code execution as the zammad user. The bug is also present in version 7.0.0 to version 7.1.2, but not exploitable due to changes in the underlying framework.",
+   "fetched_at": "2026-10-16T21:50:33.042462+00:00",
+   "found": true,
+   "id": "CVE-2026-102489",
+   "last_modified": "2026-10-10T04:18:08.040",
+   "products": [
+    [
+     "zammad",
+     "zammad"
+    ],
+    [
+     "docker",
+     "docker"
+    ],
+    [
+     "linux",
+     "linux_kernel"
+    ]
+   ],
+   "published": "2026-09-30T17:16:40.550",
+   "status": "Analyzed"
+  },
+  "CVE-2026-102490": {
+   "cvss": {
+    "score": 7.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-269"
+   ],
+   "desc_en": "Zammad packages built with packager.io (DEB and RPM) could have allowed a local attacker who already had file system write privileges as the unprivileged zammad service account to escalate to full root privileges on the host. Service processes began running as root and executed files that were owned and writable by the zammad account before dropping their identity to that account. An attacker holding that foothold could have escalated within seconds, because the affected services were restarted automatically whenever they stopped; no administrator interaction was required. Only installations from the DEB and RPM packages were affected — installations from source or the official container images were not. All released packaged versions were affected.",
+   "fetched_at": "2026-10-16T21:50:25.838328+00:00",
+   "found": true,
+   "id": "CVE-2026-102490",
+   "last_modified": "2026-10-09T14:21:05.030",
+   "products": [
+    [
+     "zammad",
+     "zammad"
+    ],
+    [
+     "docker",
+     "docker"
+    ],
+    [
+     "linux",
+     "linux_kernel"
+    ]
+   ],
+   "published": "2026-09-30T17:16:40.707",
+   "status": "Analyzed"
+  },
+  "CVE-2026-102764": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-290"
+   ],
+   "desc_en": "The vulnerability exists within internal components of BeyondTrust’s Remote Support product. The components did not adequately validate the origin of the messages it received. Under the right conditions, this could allow an attacker to perform file operations on the appliance.",
+   "fetched_at": "2026-10-16T21:48:16.559768+00:00",
+   "found": true,
+   "id": "CVE-2026-102764",
+   "last_modified": "2026-10-16T19:10:55.057",
+   "products": [
+    [
+     "beyondtrust",
+     "remote_support"
+    ]
+   ],
+   "published": "2026-10-15T21:17:00.117",
+   "status": "Analyzed"
+  },
+  "CVE-2026-104286": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-22"
+   ],
+   "desc_en": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2.0 through 7.2.9 may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
+   "fetched_at": "2026-10-16T21:50:40.273241+00:00",
+   "found": true,
+   "id": "CVE-2026-104286",
+   "last_modified": "2026-10-07T18:17:15.240",
+   "products": [
+    [
+     "fortinet",
+     "fortimail"
+    ]
+   ],
+   "published": "2026-10-01T20:17:24.010",
+   "status": "Analyzed"
+  },
+  "CVE-2026-104935": {
+   "cvss": {
+    "score": 8.6,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-290"
+   ],
+   "desc_en": "Authentication bypass by spoofing in ICS before version 25.1.3.0 allows a remote unauthenticated attacker to execute arbitrary commands. This does not impact ICS version 22.7R2.14 or prior.",
+   "fetched_at": "2026-10-16T21:49:14.167129+00:00",
+   "found": true,
+   "id": "CVE-2026-104935",
+   "last_modified": "2026-10-13T19:24:36.243",
+   "products": [
+    [
+     "ivanti",
+     "connect_secure"
+    ]
+   ],
+   "published": "2026-10-13T16:17:11.640",
+   "status": "Analyzed"
+  },
+  "CVE-2026-105133": {
+   "cvss": {
+    "score": 7.3,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-287"
+   ],
+   "desc_en": "A vulnerability was detected in Ahsay AhsayCBS up to 10.3.2. This affects the function checkSysPwd of the file com/ahsay/obs/api/ApiStructsAction.java of the component API. Performing a manipulation of the argument random results in improper authentication. It is possible to initiate the attack remotely. The exploit is now public and may be used. Upgrading to version 10.3.4 is able to mitigate this issue. It is recommended to upgrade the affected component.",
+   "fetched_at": "2026-10-16T21:48:59.599463+00:00",
+   "found": true,
+   "id": "CVE-2026-105133",
+   "last_modified": "2026-10-15T13:47:06.283",
+   "products": [
+    [
+     "ahsay",
+     "cloud_backup_suite"
+    ]
+   ],
+   "published": "2026-10-04T07:16:33.087",
+   "status": "Analyzed"
+  },
+  "CVE-2026-105134": {
+   "cvss": {
+    "score": 10.0,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-77",
+    "CWE-78"
+   ],
+   "desc_en": "A flaw has been found in Ahsay AhsayCBS up to 10.3.2. This vulnerability affects unknown code of the file /rps/api/json/UpdateReceivers.do of the component Replication Receiver. Executing a manipulation of the argument random can lead to os command injection. It is possible to launch the attack remotely. The exploit has been published and may be used. Upgrading to version 10.3.4 is able to resolve this issue. Upgrading the affected component is advised.",
+   "fetched_at": "2026-10-16T21:48:45.307823+00:00",
+   "found": true,
+   "id": "CVE-2026-105134",
+   "last_modified": "2026-10-15T13:47:12.400",
+   "products": [
+    [
+     "ahsay",
+     "cloud_backup_suite"
+    ]
+   ],
+   "published": "2026-10-04T07:16:33.480",
+   "status": "Analyzed"
+  },
+  "CVE-2026-106931": {
+   "cvss": {
+    "score": 7.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.0"
+   },
+   "cwe": [
+    "CWE-78"
+   ],
+   "desc_en": "SiteGuard Server Edition contains an OS command injection vulnerability, which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
+   "fetched_at": "2026-10-16T21:48:38.169003+00:00",
+   "found": true,
+   "id": "CVE-2026-106931",
+   "last_modified": "2026-10-16T16:16:57.180",
+   "products": [],
+   "published": "2026-10-14T05:16:42.633",
+   "status": "Deferred"
+  },
+  "CVE-2026-21589": {
+   "cwe": [],
+   "desc_en": "Rejected reason: This CVE's publication may have been a false positive or a mistake. As a result, we have rejected this record.",
+   "fetched_at": "2026-10-16T21:48:31.021812+00:00",
+   "found": true,
+   "id": "CVE-2026-21589",
+   "last_modified": "2026-10-16T21:17:24.280",
+   "products": [],
+   "published": "2026-10-05T22:16:58.423",
+   "status": "Rejected"
+  },
+  "CVE-2026-5430": {
+   "cvss": {
+    "score": 10.0,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-347"
+   ],
+   "desc_en": "The JWT authentication mechanism accepts tokens signed with algorithms other than those explicitly configured or supported. This allows an attacker to craft a JWT with an unsupported algorithm, which is then incorrectly validated, leading to unauthorized access.\n\nSuccessful exploitation of this vulnerability may result in unauthorized access to the system, including the potential compromise of administrative accounts and full account takeover. The CVSS score is adjusted to 9.8 (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H) in single-tenant deployments, reflecting that the impact is contained within a single security authority boundary.",
+   "fetched_at": "2026-10-16T21:51:30.477262+00:00",
+   "found": true,
+   "id": "CVE-2026-5430",
+   "last_modified": "2026-09-25T12:53:05.517",
+   "products": [
+    [
+     "wso2",
+     "api_control_plane"
+    ],
+    [
+     "wso2",
+     "api_manager"
+    ],
+    [
+     "wso2",
+     "traffic_manager"
+    ],
+    [
+     "wso2",
+     "universal_gateway"
+    ]
+   ],
+   "published": "2026-08-06T08:16:33.240",
+   "status": "Analyzed"
+  },
+  "CVE-2026-65660": {
+   "cvss": {
+    "score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-94"
+   ],
+   "desc_en": "Improper control of generation of code ('code injection') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+   "fetched_at": "2026-10-16T21:51:09.044186+00:00",
+   "found": true,
+   "id": "CVE-2026-65660",
+   "last_modified": "2026-09-26T04:17:45.630",
+   "products": [
+    [
+     "microsoft",
+     "sharepoint_server"
+    ]
+   ],
+   "published": "2026-08-11T17:18:54.080",
+   "status": "Analyzed"
+  },
+  "CVE-2026-67279": {
+   "cvss": {
+    "score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-841"
+   ],
+   "desc_en": "RouterOS SSH enters the connection protocol after a client-requested rekey even though user authentication was never attempted, allowing an unauthenticated client to open a session channel and send an exec request. On affected builds the server dispatches the command, enabling unauthenticated creation, overwrite, and reconstruction of files in the RouterOS managed file namespace, including support files containing configuration and diagnostic data.This issue was fixed in versions: 6.49.21 (Long-term), 7.23.4 (Long-term) and 7.24.2 (Stable)",
+   "fetched_at": "2026-10-16T21:51:01.801342+00:00",
+   "found": true,
+   "id": "CVE-2026-67279",
+   "last_modified": "2026-09-26T04:17:47.273",
+   "products": [
+    [
+     "mikrotik",
+     "routeros"
+    ]
+   ],
+   "published": "2026-09-05T20:17:18.390",
+   "status": "Analyzed"
+  },
+  "CVE-2026-71362": {
+   "cvss": {
+    "score": 9.1,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-863"
+   ],
+   "desc_en": "Adobe Commerce is affected by an Incorrect Authorization vulnerability that could result in privilege escalation. An attacker could leverage this vulnerability to gain elevated access to sensitive resources. Exploitation of this issue does not require user interaction.",
+   "fetched_at": "2026-10-16T21:51:37.674014+00:00",
+   "found": true,
+   "id": "CVE-2026-71362",
+   "last_modified": "2026-09-25T12:53:15.757",
+   "products": [
+    [
+     "adobe",
+     "commerce"
+    ],
+    [
+     "adobe",
+     "commerce_b2b"
+    ],
+    [
+     "adobe",
+     "magento"
+    ]
+   ],
+   "published": "2026-08-11T18:18:21.610",
+   "status": "Analyzed"
+  },
+  "CVE-2026-76504": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-177"
+   ],
+   "desc_en": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user.\r\n\r\nThis vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of the affected system. A successful exploit could allow the attacker to bypass authentication and gain access to the API as the admin user.",
+   "fetched_at": "2026-10-16T21:50:47.468790+00:00",
+   "found": true,
+   "id": "CVE-2026-76504",
+   "last_modified": "2026-10-03T00:16:39.140",
+   "products": [
+    [
+     "cisco",
+     "catalyst_sd-wan_manager"
+    ]
+   ],
+   "published": "2026-09-30T13:17:20.247",
+   "status": "Analyzed"
+  },
+  "CVE-2026-76519": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-23"
+   ],
+   "desc_en": "A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.\r\n\r\nThis vulnerability is due to improper handling of email attachments when the file reputation service is enabled. An attacker could exploit this vulnerability by sending an email that contains a crafted attachment through an affected device. A successful exploit could allow the attacker to write arbitrary files and execute commands with&nbsp;root privileges on the underlying operating system.",
+   "fetched_at": "2026-10-16T21:48:52.452699+00:00",
+   "found": true,
+   "id": "CVE-2026-76519",
+   "last_modified": "2026-10-15T13:47:19.470",
+   "products": [
+    [
+     "cisco",
+     "secure_email_gateway_virtual_appliance_c100v"
+    ],
+    [
+     "cisco",
+     "secure_email_gateway_virtual_appliance_c300v"
+    ],
+    [
+     "cisco",
+     "secure_email_gateway_virtual_appliance_c600v"
+    ],
+    [
+     "cisco",
+     "secure_email_gateway_c195"
+    ],
+    [
+     "cisco",
+     "secure_email_gateway_c395"
+    ],
+    [
+     "cisco",
+     "secure_email_gateway_c695"
+    ],
+    [
+     "cisco",
+     "asyncos"
+    ]
+   ],
+   "published": "2026-10-14T17:19:10.747",
+   "status": "Analyzed"
+  },
+  "CVE-2026-86950": {
+   "cvss": {
+    "score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-787"
+   ],
+   "desc_en": "An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 26.7.1 and iPadOS 26.7.1, macOS Sequoia 15.8.1, macOS Tahoe 26.7.1. Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27.",
+   "fetched_at": "2026-10-16T21:50:54.663523+00:00",
+   "found": true,
+   "id": "CVE-2026-86950",
+   "last_modified": "2026-10-01T18:17:28.430",
+   "products": [
+    [
+     "apple",
+     "ipados"
+    ],
+    [
+     "apple",
+     "macos"
+    ],
+    [
+     "apple",
+     "iphone_os"
+    ]
+   ],
+   "published": "2026-09-28T20:17:11.193",
+   "status": "Analyzed"
+  },
+  "CVE-2026-87902": {
+   "cvss": {
+    "score": 8.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-98"
+   ],
+   "desc_en": "An unauthenticated attacker can make `get_page_template()` page-template resolution include a chosen readable local `.php` file outside the active theme directories. If relevant pre-conditions for both the server and the active theme are met, this can lead to RCE.",
+   "fetched_at": "2026-10-16T21:51:16.187128+00:00",
+   "found": true,
+   "id": "CVE-2026-87902",
+   "last_modified": "2026-09-28T12:20:54.040",
+   "products": [
+    [
+     "wordpress",
+     "wordpress"
+    ]
+   ],
+   "published": "2026-09-22T17:17:28.310",
+   "status": "Analyzed"
+  },
+  "CVE-2026-88771": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-20"
+   ],
+   "desc_en": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
+   "fetched_at": "2026-10-16T21:50:11.528747+00:00",
+   "found": true,
+   "id": "CVE-2026-88771",
+   "last_modified": "2026-09-29T04:18:01.603",
+   "products": [
+    [
+     "citrix",
+     "netscaler_gateway"
+    ],
+    [
+     "citrix",
+     "netscaler_application_delivery_controller"
+    ]
+   ],
+   "published": "2026-09-27T17:16:56.260",
+   "status": "Analyzed"
+  },
+  "CVE-2026-88772": {
+   "cvss": {
+    "score": 8.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-119"
+   ],
+   "desc_en": "Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to Remote Code Execution or Denial of Service",
+   "fetched_at": "2026-10-16T21:50:18.684935+00:00",
+   "found": true,
+   "id": "CVE-2026-88772",
+   "last_modified": "2026-09-28T12:26:47.670",
+   "products": [
+    [
+     "citrix",
+     "netscaler_gateway"
+    ],
+    [
+     "citrix",
+     "netscaler_application_delivery_controller"
+    ]
+   ],
+   "published": "2026-09-27T17:16:56.390",
+   "status": "Analyzed"
+  },
+  "CVE-2026-88779": {
+   "cvss": {
+    "score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-119"
+   ],
+   "desc_en": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.41, before 13.1-64.28, before 14.1-73.41 FIPS, and before 13.1-37.282; Gateway: before 14.1-73.41 and before 13.1-64.28.",
+   "fetched_at": "2026-10-16T21:50:04.393068+00:00",
+   "found": true,
+   "id": "CVE-2026-88779",
+   "last_modified": "2026-10-05T13:35:24.663",
+   "products": [
+    [
+     "citrix",
+     "netscaler_gateway"
+    ],
+    [
+     "citrix",
+     "netscaler_application_delivery_controller"
+    ]
+   ],
+   "published": "2026-10-04T04:16:43.680",
+   "status": "Analyzed"
+  },
+  "CVE-2026-93952": {
+   "cvss": {
+    "score": 10.0,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-20"
+   ],
+   "desc_en": "VeloCloud Orchestrator (VCO) on-prem has a security issue where this issue may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.\n\nHosted, including Dedicated, versions of VCO were impacted and have already been patched.",
+   "fetched_at": "2026-10-16T21:51:45.183087+00:00",
+   "found": true,
+   "id": "CVE-2026-93952",
+   "last_modified": "2026-09-23T14:32:12.417",
+   "products": [
+    [
+     "arista",
+     "velocloud_orchestrator"
+    ]
+   ],
+   "published": "2026-09-22T08:16:43.047",
+   "status": "Analyzed"
+  },
+  "CVE-2026-94127": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-122"
+   ],
+   "desc_en": "When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious traffic can lead to remote code execution (RCE). This vulnerability is only present when BIG-IP APM is configured as an OAuth Authorization Server. Deployments using APM strictly as an OAuth Client / Resource Server (without OAuth authorization server profiles configured) are not affected by this vulnerability.\n\nImpact:\nThis vulnerability allows an unauthenticated attacker to perform remote code execution. The BIG-IP system in Appliance mode is also vulnerable. This is a data plane issue; there is no control plane exposure.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+   "fetched_at": "2026-10-16T21:51:23.319437+00:00",
+   "found": true,
+   "id": "CVE-2026-94127",
+   "last_modified": "2026-09-23T14:32:07.910",
+   "products": [
+    [
+     "f5",
+     "big-ip_access_policy_manager"
+    ]
+   ],
+   "published": "2026-09-22T15:17:24.313",
+   "status": "Analyzed"
+  },
+  "CVE-2026-96951": {
+   "cvss": {
+    "score": 8.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-77"
+   ],
+   "desc_en": "Improper neutralization of special elements used in a command ('command injection') in Windows Shell allows an unauthorized attacker to bypass a security feature over a network.",
+   "fetched_at": "2026-10-16T21:49:21.313831+00:00",
+   "found": true,
+   "id": "CVE-2026-96951",
+   "last_modified": "2026-10-16T17:18:00.760",
+   "products": [
+    [
+     "microsoft",
+     "windows_10_1607"
+    ],
+    [
+     "microsoft",
+     "windows_10_1809"
+    ],
+    [
+     "microsoft",
+     "windows_10_21h2"
+    ],
+    [
+     "microsoft",
+     "windows_10_22h2"
+    ],
+    [
+     "microsoft",
+     "windows_11_23h2"
+    ],
+    [
+     "microsoft",
+     "windows_11_24h2"
+    ],
+    [
+     "microsoft",
+     "windows_11_25h2"
+    ],
+    [
+     "microsoft",
+     "windows_11_26h1"
+    ],
+    [
+     "microsoft",
+     "windows_11_26h2"
+    ],
+    [
+     "microsoft",
+     "windows_server_2012"
+    ],
+    [
+     "microsoft",
+     "windows_server_2016"
+    ],
+    [
+     "microsoft",
+     "windows_server_2019"
+    ],
+    [
+     "microsoft",
+     "windows_server_2022"
+    ],
+    [
+     "microsoft",
+     "windows_server_2025"
+    ],
+    [
+     "microsoft",
+     "outlook_web"
+    ]
+   ],
+   "published": "2026-10-13T19:22:07.760",
+   "status": "Analyzed"
+  }
+ },
+ "generated_at": "2026-10-16T21:48:16.369384+00:00"
+}
