@@ -25,6 +25,8 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(ROOT, "data")
 ITEMS_PATH = os.path.join(DATA_DIR, "items.json")
 WEEK_DIR = os.path.join(ROOT, "w")
+CVE_DIR = os.path.join(ROOT, "cve")
+CVE_PATH = os.path.join(DATA_DIR, "cve.json")
 
 SITE_URL = "https://cyber-information-summary.pages.dev"
 SITE_NAME = "公式セキュリティ情報まとめ"
@@ -89,6 +91,7 @@ color:var(--muted);font-size:12.5px}
 """
 
 SOURCE_ORDER = ["jpcert", "jvn", "ipa", "cisa", "ncsc"]
+CVE_RE = re.compile(r"CVE-\d{4}-\d{4,7}")
 
 
 def esc(s):
@@ -175,7 +178,7 @@ def page(title, description, canonical, body, extra_head="", noindex=False):
 %s%s%s<style>%s</style>
 </head>
 <body><div class="wrap">
-<nav class="top"><a href="/">最新一覧</a><a href="/archive.html">週ごとのまとめ</a><a href="/about.html">このサイトについて</a><a href="/feed.xml">RSS</a></nav>
+<nav class="top"><a href="/">最新一覧</a><a href="/archive.html">週ごとのまとめ</a><a href="/cve/">CVEから探す</a><a href="/about.html">このサイトについて</a><a href="/feed.xml">RSS</a></nav>
 %s
 <footer>
 <p>本サイトは各国の公的機関が公表した情報の所在を案内するものです。公式機関とは関係がありません。内容は必ず原文をご確認ください。</p>
@@ -359,6 +362,339 @@ def build_404():
         f.write(page("ページが見つかりません｜" + SITE_NAME,
                      "お探しのページは見つかりませんでした。",
                      SITE_URL + "/404.html", "\n".join(body), noindex=True))
+
+
+# ----- CVE別ページ ---------------------------------------------------------
+NVD_NOTICE = ("This product uses data from the NVD API but is not endorsed "
+              "or certified by the NVD.")
+
+CWE_JA = {
+    "CWE-20": "入力値の検証不備", "CWE-22": "パストラバーサル",
+    "CWE-77": "コマンドインジェクション", "CWE-78": "OSコマンドインジェクション",
+    "CWE-79": "クロスサイトスクリプティング", "CWE-89": "SQLインジェクション",
+    "CWE-94": "コードインジェクション", "CWE-119": "メモリ範囲外の操作",
+    "CWE-120": "バッファオーバーフロー", "CWE-121": "スタックバッファオーバーフロー",
+    "CWE-122": "ヒープバッファオーバーフロー", "CWE-125": "境界外読み取り",
+    "CWE-190": "整数オーバーフロー", "CWE-200": "情報漏えい",
+    "CWE-209": "エラーメッセージからの情報漏えい", "CWE-250": "不必要な権限での実行",
+    "CWE-269": "権限管理の不備", "CWE-276": "既定の権限設定の不備",
+    "CWE-284": "アクセス制御の不備", "CWE-285": "認可の不備",
+    "CWE-287": "認証の不備", "CWE-295": "証明書検証の不備",
+    "CWE-306": "重要な機能に対する認証の欠如", "CWE-311": "重要情報の暗号化の欠如",
+    "CWE-312": "重要情報の平文保存", "CWE-319": "重要情報の平文送信",
+    "CWE-327": "脆弱な暗号アルゴリズムの使用", "CWE-352": "クロスサイトリクエストフォージェリ",
+    "CWE-362": "競合状態", "CWE-384": "セッション固定",
+    "CWE-400": "リソースの枯渇", "CWE-415": "二重解放",
+    "CWE-416": "解放済みメモリの使用", "CWE-434": "危険なファイルのアップロード",
+    "CWE-502": "信頼できないデータのデシリアライズ", "CWE-522": "認証情報の保護不足",
+    "CWE-532": "ログへの機微情報の出力", "CWE-601": "オープンリダイレクト",
+    "CWE-611": "XML外部エンティティ参照(XXE)", "CWE-639": "認可の回避",
+    "CWE-732": "重要なリソースに対する不適切な権限割り当て",
+    "CWE-770": "リソース割り当ての制限不備", "CWE-787": "境界外書き込み",
+    "CWE-798": "ハードコードされた認証情報", "CWE-862": "認可の欠如",
+    "CWE-863": "不正な認可", "CWE-918": "サーバサイドリクエストフォージェリ(SSRF)",
+    "CWE-1321": "プロトタイプ汚染", "CWE-19": "データ処理の誤り",
+    "CWE-288": "代替経路による認証回避", "CWE-290": "なりすましによる認証回避",
+    "CWE-330": "不十分な乱数の使用", "CWE-345": "データの真正性の検証不足",
+    "CWE-404": "資源の不適切な解放", "CWE-444": "HTTPリクエストの解釈の相違",
+    "CWE-617": "到達可能なアサーション", "CWE-918 ": "SSRF",
+    "CWE-1188": "安全でない初期設定",
+}
+
+
+def group_products(products):
+    """ベンダーごとにまとめて表示用の文字列にする。
+
+    Windowsのように版違いが大量に並ぶことがあるので、1ベンダーにつき3件まで、
+    ベンダーは4社までにし、残りは件数で示す。
+    """
+    by_vendor = OrderedDict()
+    for v, p in products:
+        by_vendor.setdefault(v, []).append(p)
+    lines = []
+    for v, ps in list(by_vendor.items())[:4]:
+        names = [product_label("", p).strip() for p in ps[:3]]
+        more = len(ps) - len(names)
+        label = "%s: %s" % (product_label(v, "").strip(), "、".join(names))
+        if more > 0:
+            label += " ほか%d件" % more
+        lines.append(label)
+    rest = len(by_vendor) - min(len(by_vendor), 4)
+    if rest > 0:
+        lines.append("ほか%dベンダーの製品" % rest)
+    return lines
+
+
+def ja_severity(score):
+    """CVSSの基本値を、JVNやIPAで使われている日本語の区分に置き換える。"""
+    try:
+        s = float(score)
+    except (TypeError, ValueError):
+        return ""
+    if s >= 9.0:
+        return "緊急"
+    if s >= 7.0:
+        return "重要"
+    if s >= 4.0:
+        return "警告"
+    if s > 0:
+        return "注意"
+    return "なし"
+
+
+def ja_conditions(vector):
+    """CVSSベクトルから、攻撃の条件と起こりうる影響を日本語の文にする。"""
+    if not vector:
+        return ""
+    parts = {}
+    for chunk in vector.split("/"):
+        if ":" in chunk:
+            k, v = chunk.split(":", 1)
+            parts[k] = v
+
+    cond = []
+    av = {"N": "ネットワーク経由で", "A": "隣接するネットワークから",
+          "L": "対象の端末にログインできる状態で", "P": "機器に直接触れられる状態で"}
+    if parts.get("AV") in av:
+        cond.append(av[parts["AV"]])
+    pr = {"N": "認証なしに", "L": "一般利用者の権限で", "H": "管理者権限で"}
+    if parts.get("PR") in pr:
+        cond.append(pr[parts["PR"]])
+    ui = {"N": "利用者の操作を必要とせず", "R": "利用者に操作をさせることで",
+          "P": "利用者に操作をさせることで", "A": "利用者に操作をさせることで"}
+    if parts.get("UI") in ui:
+        cond.append(ui[parts["UI"]])
+
+    # 影響は v3.x が C/I/A、v4.0 が VC/VI/VA
+    imp = []
+    pick = lambda a, b: parts.get(a) or parts.get(b)
+    if pick("C", "VC") in ("H", "L"):
+        imp.append("情報の漏えい")
+    if pick("I", "VI") in ("H", "L"):
+        imp.append("データの改ざん")
+    if pick("A", "VA") in ("H", "L"):
+        imp.append("サービスの停止")
+
+    if not cond and not imp:
+        return ""
+    head = "".join(cond) if cond else "一定の条件下で"
+    tail = ("、".join(imp) + "につながるおそれがあります。") if imp \
+        else "影響が生じるおそれがあります。"
+    hard = "なお攻撃には特別な条件が必要とされています。" \
+        if parts.get("AC") == "H" else ""
+    return head + "攻撃が可能とされており、" + tail + hard
+
+
+def product_label(vendor, product):
+    def nice(s):
+        return " ".join(w.capitalize() if w.islower() else w
+                        for w in s.replace("_", " ").replace("-", " ").split())
+    return "%s %s" % (nice(vendor), nice(product))
+
+
+def cve_slug(cve_id):
+    return "cve/%s.html" % cve_id
+
+
+KEV_SUBJ_RE = re.compile(r"悪用確認\(KEV\):\s*(.+?)\s*—")
+
+
+def subject_from_items(rows):
+    """見出しの中の製品名を拾う。
+
+    NVDのCPE一覧は、問題の部品を同梱しているだけの他社製品まで含むため、
+    そこから主語を決めると「ISC BINDの脆弱性」が「Juniperの脆弱性」に
+    なってしまう。CISAが書いた見出しのほうが主語として正しい。
+    """
+    for r in rows:
+        m = KEV_SUBJ_RE.match(r.get("title_ja") or "")
+        if m:
+            return m.group(1).strip()
+    return ""
+
+
+def build_cve_pages(items):
+    """CVE番号ごとのページを作る。材料が乏しいものはページにしない。"""
+    cache = {}
+    try:
+        with open(CVE_PATH, encoding="utf-8") as f:
+            cache = json.load(f).get("cves", {})
+    except Exception:
+        pass
+    if not cache:
+        return []
+
+    # どの項目がどのCVEに触れているか
+    mentions = OrderedDict()
+    for it in items:
+        text = " ".join([it.get("title") or "", it.get("title_ja") or "",
+                         it.get("url") or ""]).upper()
+        for cid in sorted(set(CVE_RE.findall(text))):
+            mentions.setdefault(cid, []).append(it)
+
+    os.makedirs(CVE_DIR, exist_ok=True)
+    built = []
+    for cid, rows in mentions.items():
+        rec = cache.get(cid)
+        if not rec or not rec.get("found"):
+            continue
+        cvss = rec.get("cvss") or {}
+        products = rec.get("products") or []
+        # 深刻度も製品情報も無いものは、作っても中身がないので飛ばす
+        if not cvss and not products:
+            continue
+
+        rows = sorted(rows, key=lambda x: x.get("published") or "", reverse=True)
+        kev = [r for r in rows if r.get("source_id") == "cisa"]
+        jp = [r for r in rows if r.get("source_id") in ("jpcert", "jvn", "ipa")]
+
+        score = cvss.get("score")
+        sev_ja = ja_severity(score)
+        prod_names = group_products(products)
+        cwe_ja = []
+        for c in (rec.get("cwe") or []):
+            if c in ("NVD-CWE-noinfo", "NVD-CWE-Other"):
+                continue
+            label = CWE_JA.get(c, c)
+            if label not in cwe_ja:      # 別のCWE番号が同じ訳語になることがある
+                cwe_ja.append(label)
+
+        # 1行目の要約(検索結果の説明文にも使う)。主語は見出し由来を優先する
+        subject = subject_from_items(rows)
+        if not subject and products:
+            vendors = {v for v, _ in products}
+            if len(products) == 1:
+                subject = product_label(*products[0])
+            elif len(vendors) == 1:
+                subject = product_label(products[0][0], "").strip()
+        kind = "・".join(cwe_ja[:2])
+        if subject and kind:
+            lead = "%s における%sの脆弱性です。" % (subject, kind)
+        elif subject:
+            lead = "%s の脆弱性です。" % subject
+        elif kind:
+            lead = "%sの脆弱性です。" % kind
+        else:
+            lead = "脆弱性の情報です。"
+        if score is not None:
+            lead += "CVSS %s の基本値は %s（%s）。" % (cvss.get("version", ""), score, sev_ja)
+        if kev:
+            lead += "米国CISAにより、悪用が確認された脆弱性として登録されています。"
+
+        title = "%s｜%s" % (cid, SITE_NAME)
+        desc = (lead + "日本・米国・英国の公的機関による関連発表へのリンクをまとめています。")[:150]
+
+        body = ['<h1>%s</h1>' % esc(cid),
+                '<p class="lead">%s</p>' % esc(lead)]
+
+        if kev:
+            body.append('<h2>悪用の状況</h2>')
+            body.append('<p>米国CISAの「悪用が確認された脆弱性カタログ(KEV)」に'
+                        '登録されています。KEVは深刻度の高さではなく、実際に攻撃に'
+                        '使われたことが確認された脆弱性だけを集めたもので、'
+                        '対応の優先度を判断する材料になります。</p>')
+
+        body.append("<h2>基本情報</h2>")
+        rowsd = []
+        if score is not None:
+            rowsd.append(("深刻度", "CVSS %s 基本値 %s（%s）"
+                          % (cvss.get("version", ""), score, sev_ja)))
+        if cvss.get("vector"):
+            rowsd.append(("評価ベクトル", cvss["vector"]))
+        if cwe_ja:
+            rowsd.append(("脆弱性の種類", "・".join(cwe_ja)))
+        if rec.get("published"):
+            rowsd.append(("NVD公表日", rec["published"][:10]))
+        if rec.get("last_modified"):
+            rowsd.append(("NVD最終更新", rec["last_modified"][:10]))
+        body.append('<ul class="items">')
+        for k, v in rowsd:
+            body.append('<li><p class="t">%s</p><p class="date">%s</p></li>'
+                        % (esc(k), esc(v)))
+        body.append("</ul>")
+
+        cond = ja_conditions(cvss.get("vector", ""))
+        if cond:
+            body.append("<h2>攻撃の条件</h2>")
+            body.append("<p>%s</p>" % esc(cond))
+            body.append('<p class="date">この説明は評価ベクトルから機械的に組み立てた'
+                        'ものです。実際の影響は、お使いの構成や版によって異なります。</p>')
+
+        if prod_names:
+            body.append("<h2>NVDに登録されている影響範囲</h2>")
+            body.append('<ul class="items">')
+            for n in prod_names:
+                body.append('<li><p class="t">%s</p></li>' % esc(n))
+            body.append("</ul>")
+            body.append('<p class="date">この一覧には、問題のある部品を組み込んでいる'
+                        '他社の製品も含まれます。そのため、脆弱性そのものの提供元と'
+                        '一致しないことがあります。対象となる版とあわせて、'
+                        '必ず原文でご確認ください。</p>')
+
+        body.append("<h2>この脆弱性に言及した公的機関の発表</h2>")
+        if jp:
+            body.append("<p>日本の機関による発表があります。"
+                        "対応を検討する際は、まずこちらが読みやすいはずです。</p>")
+        body.append(render_items(rows))
+
+        body.append("<h2>原文・一次情報</h2>")
+        body.append('<ul class="items">'
+                    '<li><p class="t"><a href="https://nvd.nist.gov/vuln/detail/%s" '
+                    'target="_blank" rel="noopener noreferrer nofollow">NVD の詳細ページ</a></p>'
+                    '<p class="date">深刻度・影響製品・参考リンクの一次情報</p></li>'
+                    '<li><p class="t"><a href="https://jvndb.jvn.jp/search/index.php'
+                    '?mode=_vulnerability_search_IA_VulnSearch&amp;lang=ja&amp;keyword=%s" '
+                    'target="_blank" rel="noopener noreferrer nofollow">JVN iPedia で検索</a></p>'
+                    '<p class="date">日本語の解説がある場合はこちら</p></li>'
+                    '</ul>' % (esc(cid), esc(cid)))
+
+        if rec.get("desc_en"):
+            body.append("<h2>NVDに登録されている説明（原文）</h2>")
+            body.append('<p class="orig">%s</p>' % esc(rec["desc_en"]))
+
+        body.append('<p class="date">%s</p>' % esc(NVD_NOTICE))
+        body.append('<p><a href="/cve/">CVE番号の一覧に戻る</a></p>')
+
+        canonical = "%s/%s" % (SITE_URL, cve_slug(cid))
+        # 言及が1件だけで深刻度も無いページは、検索結果に出さない
+        thin = (not cvss) and len(rows) < 2
+        with open(os.path.join(CVE_DIR, cid + ".html"), "w", encoding="utf-8") as f:
+            f.write(page(title, desc, canonical, "\n".join(body), noindex=thin))
+        built.append({"id": cid, "score": score, "sev": sev_ja, "kev": bool(kev),
+                      "subject": subject, "products": prod_names[:1],
+                      "n": len(rows), "thin": thin})
+
+    # 索引ページ
+    order = sorted(built, key=lambda x: (0 if x["kev"] else 1,
+                                         -(x["score"] or 0), x["id"]))
+    idx = ["<h1>CVE番号から探す</h1>",
+           '<p class="lead">掲載中の発表に出てくるCVE番号を、深刻度と'
+           '悪用の有無つきで一覧にしています。悪用が確認されているものを先に'
+           '並べています。</p>',
+           '<ul class="items">']
+    for b in order:
+        label = b["id"]
+        meta = []
+        if b["kev"]:
+            meta.append("悪用確認(KEV)")
+        if b["score"] is not None:
+            meta.append("CVSS %s（%s）" % (b["score"], b["sev"]))
+        if b["subject"]:
+            meta.append(b["subject"])
+        elif b["products"]:
+            meta.append("、".join(b["products"]))
+        meta.append("関連発表%d件" % b["n"])
+        idx.append('<li><p class="t"><a href="/%s">%s</a></p>'
+                   '<p class="date">%s</p></li>'
+                   % (cve_slug(b["id"]), esc(label), esc(" ・ ".join(meta))))
+    idx.append("</ul>")
+    idx.append('<p class="date">%s</p>' % esc(NVD_NOTICE))
+    with open(os.path.join(CVE_DIR, "index.html"), "w", encoding="utf-8") as f:
+        f.write(page("CVE番号から探す｜" + SITE_NAME,
+                     "掲載中の公的機関の発表に出てくるCVE番号を、深刻度・悪用の有無・"
+                     "影響を受ける製品とあわせて一覧にしています。",
+                     SITE_URL + "/cve/", "\n".join(idx)))
+    return built
 
 
 def build_digest(items):
@@ -575,10 +911,14 @@ def build_feed(items):
         f.write("\n".join(out) + "\n")
 
 
-def build_sitemap(built):
+def build_sitemap(built, cves=()):
     urls = [SITE_URL + "/", SITE_URL + "/archive.html",
             SITE_URL + "/about.html", SITE_URL + "/notify.html"]
     urls += ["%s/w/%s.html" % (SITE_URL, k) for k, _, _, _ in built[:WEEKS_ON_SITEMAP]]
+    if cves:
+        urls.append(SITE_URL + "/cve/")
+        urls += ["%s/%s" % (SITE_URL, cve_slug(c["id"]))
+                 for c in cves if not c["thin"]]
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -601,15 +941,16 @@ def main():
     built = build_week_pages(items)
     build_archive(built)
     build_notify()
+    cves = build_cve_pages(items)
     build_about()
     build_404()
     build_feed(items)
-    build_sitemap(built)
+    build_sitemap(built, cves)
     n = build_digest(items)
     xd, xw = build_x_draft(items, built)
     print("生成: 週ページ%d件 / archive.html / notify.html / feed.xml / sitemap.xml / "
-          "robots.txt / about.html / 404.html / digest-latest.md(%d件) / x-draft.md(本日%d件・今週%d件)"
-          % (len(built), n, xd, xw))
+          "robots.txt / about.html / 404.html / CVE%d件 / digest-latest.md(%d件) / x-draft.md(本日%d件・今週%d件)"
+          % (len(built), len(cves), n, xd, xw))
     return 0
 
 
