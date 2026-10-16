@@ -36,7 +36,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data w archive.html notify.html feed.xml sitemap.xml robots.txt
+          git add data w archive.html notify.html about.html 404.html \
+                  feed.xml sitemap.xml robots.txt
           if [ -n "$(git diff --cached --name-only)" ]; then
             git commit -m "data: 自動更新 $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
