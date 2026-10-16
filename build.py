@@ -397,9 +397,43 @@ CWE_JA = {
     "CWE-288": "代替経路による認証回避", "CWE-290": "なりすましによる認証回避",
     "CWE-330": "不十分な乱数の使用", "CWE-345": "データの真正性の検証不足",
     "CWE-404": "資源の不適切な解放", "CWE-444": "HTTPリクエストの解釈の相違",
-    "CWE-617": "到達可能なアサーション", "CWE-918 ": "SSRF",
-    "CWE-1188": "安全でない初期設定",
+    "CWE-617": "到達可能なアサーション", "CWE-1188": "安全でない初期設定",
+    "CWE-23": "相対パストラバーサル", "CWE-36": "絶対パストラバーサル",
+    "CWE-59": "リンク解釈の不備", "CWE-74": "特殊要素の不適切な無害化",
+    "CWE-88": "引数インジェクション", "CWE-91": "XMLインジェクション",
+    "CWE-93": "CRLFインジェクション", "CWE-116": "出力の無害化の不備",
+    "CWE-129": "配列インデックスの検証不備", "CWE-134": "書式文字列の問題",
+    "CWE-177": "URLエンコードの処理不備", "CWE-178": "大文字小文字の扱いの不備",
+    "CWE-191": "整数アンダーフロー", "CWE-193": "境界の計算誤り",
+    "CWE-203": "応答の差異による情報漏えい", "CWE-307": "認証試行回数の制限不備",
+    "CWE-321": "ハードコードされた暗号鍵", "CWE-326": "不十分な強度の暗号",
+    "CWE-347": "署名検証の不備", "CWE-358": "アルゴリズムの実装不備",
+    "CWE-367": "検査時と使用時の競合(TOCTOU)", "CWE-427": "検索パスの制御不備",
+    "CWE-428": "引用符で囲まれていない検索パス", "CWE-471": "重要な変数の改変",
+    "CWE-494": "完全性確認のないコードのダウンロード",
+    "CWE-497": "重要なシステム情報の露出", "CWE-552": "外部から参照できるファイル",
+    "CWE-565": "検証されていないCookieへの依存", "CWE-610": "外部資源への不適切な参照",
+    "CWE-668": "権限外の資源の公開", "CWE-669": "領域間の資源の誤った受け渡し",
+    "CWE-672": "有効期限切れ資源の操作", "CWE-754": "異常・例外条件の確認不足",
+    "CWE-755": "例外処理の不備", "CWE-776": "XMLエンティティ展開(XEE)",
+    "CWE-824": "初期化されていないポインタの参照",
+    "CWE-843": "型の取り違え", "CWE-908": "初期化されていない資源の使用",
+    "CWE-913": "動的に管理されるコード資源の制御不備",
+    "CWE-1236": "数式インジェクション",
 }
+
+
+def dedupe_words(s):
+    """「ProFTPD ProFTPD」「Zammad GmbH Zammad」のような重複を1つにまとめる。"""
+    out = []
+    seen = set()
+    for w in (s or "").split():
+        key = w.lower().strip(",")
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(w)
+    return " ".join(out)
 
 
 def group_products(products):
@@ -551,16 +585,20 @@ def build_cve_pages(items):
         score = cvss.get("score")
         sev_ja = ja_severity(score)
         prod_names = group_products(products)
-        cwe_ja = []
+        # 訳語があるものだけを文章に使う。訳語の無い番号は表に残すだけにして、
+        # 「CWE-347の脆弱性です」のような読めない文を出さない。
+        cwe_ja, cwe_raw = [], []
         for c in (rec.get("cwe") or []):
             if c in ("NVD-CWE-noinfo", "NVD-CWE-Other"):
                 continue
-            label = CWE_JA.get(c, c)
-            if label not in cwe_ja:      # 別のCWE番号が同じ訳語になることがある
+            if c not in cwe_raw:
+                cwe_raw.append(c)
+            label = CWE_JA.get(c)
+            if label and label not in cwe_ja:   # 別の番号が同じ訳語になることがある
                 cwe_ja.append(label)
 
         # 1行目の要約(検索結果の説明文にも使う)。主語は見出し由来を優先する
-        subject = subject_from_items(rows)
+        subject = dedupe_words(subject_from_items(rows))
         if not subject and products:
             vendors = {v for v, _ in products}
             if len(products) == 1:
@@ -601,8 +639,12 @@ def build_cve_pages(items):
                           % (cvss.get("version", ""), score, sev_ja)))
         if cvss.get("vector"):
             rowsd.append(("評価ベクトル", cvss["vector"]))
-        if cwe_ja:
-            rowsd.append(("脆弱性の種類", "・".join(cwe_ja)))
+        if cwe_ja or cwe_raw:
+            kind_cell = "・".join(cwe_ja) if cwe_ja else ""
+            if cwe_raw:
+                kind_cell = (kind_cell + "（%s）" % "、".join(cwe_raw)
+                             if kind_cell else "、".join(cwe_raw))
+            rowsd.append(("脆弱性の種類", kind_cell))
         if rec.get("published"):
             rowsd.append(("NVD公表日", rec["published"][:10]))
         if rec.get("last_modified"):
