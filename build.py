@@ -51,6 +51,15 @@ X_LIMIT = 280          # Xの1投稿の上限(日本語1文字=2、URL=23とし�
 X_MARGIN = 12
 X_FIT = X_LIMIT - X_MARGIN
 X_HASHTAGS = "#セキュリティ #脆弱性情報"
+# SNSカードに出す運営アカウント(空なら出さない)
+X_ACCOUNT = "@jouhousagasi"
+# タブのアイコン(ファイルを増やさないよう画像を直接埋め込む)
+FAVICON = ("data:image/svg+xml,"
+           "%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E"
+           "%3Crect width='32' height='32' rx='7' fill='%231f5fd0'/%3E"
+           "%3Cpath d='M16 6l8 3v7c0 5-3.4 8.6-8 10-4.6-1.4-8-5-8-10V9z' "
+           "fill='none' stroke='white' stroke-width='2.4' stroke-linejoin='round'/%3E"
+           "%3C/svg%3E")
 X_HIGHLIGHTS = 2       # 週まとめに載せる「注目」の件数
 X_DAILY_HIGHLIGHTS = 3  # 本日のまとめに載せる「注目」の件数
 X_ITEM_DRAFTS = 12     # 1件ずつ紹介する下書きを作る件数
@@ -116,7 +125,43 @@ def week_range(key):
     return monday, monday + timedelta(days=6)
 
 
-def page(title, description, canonical, body, extra_head=""):
+def social_head(title, description, canonical, noindex=False):
+    """X(旧Twitter)やSNSに貼ったときカードで表示されるようにするタグ。"""
+    out = []
+    if noindex:
+        out.append('<meta name="robots" content="noindex">')
+    out += ['<meta property="og:type" content="website">',
+            '<meta property="og:site_name" content="%s">' % esc(SITE_NAME),
+            '<meta property="og:title" content="%s">' % esc(title),
+            '<meta property="og:description" content="%s">' % esc(description),
+            '<meta property="og:url" content="%s">' % esc(canonical),
+            '<meta property="og:image" content="%s/og.png">' % SITE_URL,
+            '<meta property="og:locale" content="ja_JP">',
+            '<meta name="twitter:card" content="summary_large_image">',
+            '<meta name="twitter:title" content="%s">' % esc(title),
+            '<meta name="twitter:description" content="%s">' % esc(description),
+            '<meta name="twitter:image" content="%s/og.png">' % SITE_URL]
+    if X_ACCOUNT:
+        out.append('<meta name="twitter:site" content="%s">' % esc(X_ACCOUNT))
+    out.append('<link rel="icon" href="%s">' % FAVICON)
+    return "\n".join(out) + "\n"
+
+
+def jsonld(title, description, canonical):
+    data = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": title,
+        "description": description,
+        "url": canonical,
+        "inLanguage": "ja",
+        "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": SITE_URL + "/"},
+    }
+    return ('<script type="application/ld+json">%s</script>\n'
+            % json.dumps(data, ensure_ascii=False))
+
+
+def page(title, description, canonical, body, extra_head="", noindex=False):
     return """<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -127,10 +172,10 @@ def page(title, description, canonical, body, extra_head=""):
 <meta name="description" content="%s">
 <link rel="canonical" href="%s">
 <link rel="alternate" type="application/rss+xml" title="%s" href="%s/feed.xml">
-%s<style>%s</style>
+%s%s%s<style>%s</style>
 </head>
 <body><div class="wrap">
-<nav class="top"><a href="/">最新一覧</a><a href="/archive.html">週ごとのまとめ</a><a href="/feed.xml">RSS</a></nav>
+<nav class="top"><a href="/">最新一覧</a><a href="/archive.html">週ごとのまとめ</a><a href="/about.html">このサイトについて</a><a href="/feed.xml">RSS</a></nav>
 %s
 <footer>
 <p>本サイトは各国の公的機関が公表した情報の所在を案内するものです。公式機関とは関係がありません。内容は必ず原文をご確認ください。</p>
@@ -139,7 +184,10 @@ def page(title, description, canonical, body, extra_head=""):
 </div></body>
 </html>
 """ % (VERIFY_META, esc(title), esc(description), esc(canonical), esc(SITE_NAME),
-       SITE_URL, extra_head, CSS, body)
+       SITE_URL,
+       social_head(title, description, canonical, noindex),
+       jsonld(title, description, canonical),
+       extra_head, CSS, body)
 
 
 def render_items(items):
@@ -246,6 +294,71 @@ def build_notify():
                      "各国の公的機関が公表したサイバーセキュリティ注意喚起の更新を、"
                      "RSSまたは週1回のメールで受け取る方法の案内です。",
                      SITE_URL + "/notify.html", "\n".join(body)))
+
+
+def build_about():
+    """このサイトについて(運営方針・情報源・免責)。検索と読者の信用の両方に効く。"""
+    body = ["<h1>このサイトについて</h1>",
+            '<p class="lead">%s は、日本・米国・英国の公的機関が公表した'
+            'サイバーセキュリティの注意喚起と脆弱性情報を、日本語の見出しで'
+            '一か所にまとめている個人運営のサイトです。無料で、登録も不要です。</p>'
+            % esc(SITE_NAME),
+
+            "<h2>何を集めているか</h2>",
+            "<p>次の5つの公的機関が公表している公式フィードだけを情報源にしています。"
+            "まとめサイトやニュース記事、SNSの投稿は含めていません。</p>",
+            "<ul class=\"items\">"
+            "<li><p class=\"t\">JPCERT/CC（日本）</p><p class=\"date\">注意喚起・Weekly Report</p></li>"
+            "<li><p class=\"t\">JVN（日本）</p><p class=\"date\">脆弱性情報</p></li>"
+            "<li><p class=\"t\">IPA 情報処理推進機構（日本）</p><p class=\"date\">脆弱性対策情報・注意喚起</p></li>"
+            "<li><p class=\"t\">CISA（米国）</p><p class=\"date\">悪用が確認された脆弱性カタログ(KEV)</p></li>"
+            "<li><p class=\"t\">NCSC（英国）</p><p class=\"date\">注意喚起・ガイダンス</p></li>"
+            "</ul>",
+
+            "<h2>どう作っているか</h2>",
+            "<p>1日1回、各機関の公式フィードを自動で取得し、新しいものから並べ直しています。"
+            "英語の発表には日本語の見出しを添えています。見出しをクリックすると、"
+            "必ず発表元の公式ページが開きます。本文の転載はしていません。</p>",
+            "<p>本サイトはページを静的に生成しており、閲覧者を追跡する広告や解析タグは"
+            "入れていません。☆で保存した項目は、お使いのブラウザの中だけに残り、"
+            "本サイトには送信されません。</p>",
+
+            "<h2>運営者</h2>",
+            "<p>個人で運営しています。%s でも更新を流しています。"
+            "ご指摘・修正のご連絡はこのアカウント宛にお願いします。</p>"
+            % ('<a href="https://x.com/%s">X %s</a>'
+               % (X_ACCOUNT.lstrip("@"), esc(X_ACCOUNT)) if X_ACCOUNT else "X"),
+
+            "<h2>公的機関との関係について</h2>",
+            "<p>本サイトは、掲載している機関のいずれとも関係がありません。"
+            "各機関が運営・監修・後援しているものではなく、"
+            "各機関の見解を代表するものでもありません。"
+            "機関名・略称は、発表元を示す目的でのみ使用しています。</p>",
+
+            "<h2>免責</h2>",
+            "<p>掲載内容の正確性・完全性・最新性について保証はできません。"
+            "収集は1日1回のため、実際の公表から掲載まで時間差があります。"
+            "対応の判断は、必ず発表元の原文をご確認のうえで行ってください。"
+            "本サイトの利用により生じた損害について、運営者は責任を負いません。</p>"]
+
+    with open(os.path.join(ROOT, "about.html"), "w", encoding="utf-8") as f:
+        f.write(page("このサイトについて｜" + SITE_NAME,
+                     "%s の運営方針、情報源にしている公的機関、更新のしくみ、"
+                     "公的機関との関係、免責についての説明です。" % SITE_NAME,
+                     SITE_URL + "/about.html", "\n".join(body)))
+
+
+def build_404():
+    """存在しないURLで出すページ。これが無いとトップの中身が200で返ってしまう。"""
+    body = ["<h1>ページが見つかりません</h1>",
+            '<p class="lead">お探しのページは移動したか、URLが違っている可能性があります。</p>',
+            '<p><a href="/">最新の一覧を見る</a> ・ '
+            '<a href="/archive.html">週ごとのまとめを見る</a> ・ '
+            '<a href="/about.html">このサイトについて</a></p>']
+    with open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8") as f:
+        f.write(page("ページが見つかりません｜" + SITE_NAME,
+                     "お探しのページは見つかりませんでした。",
+                     SITE_URL + "/404.html", "\n".join(body), noindex=True))
 
 
 def build_digest(items):
@@ -463,7 +576,8 @@ def build_feed(items):
 
 
 def build_sitemap(built):
-    urls = [SITE_URL + "/", SITE_URL + "/archive.html", SITE_URL + "/notify.html"]
+    urls = [SITE_URL + "/", SITE_URL + "/archive.html",
+            SITE_URL + "/about.html", SITE_URL + "/notify.html"]
     urls += ["%s/w/%s.html" % (SITE_URL, k) for k, _, _, _ in built[:WEEKS_ON_SITEMAP]]
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -487,12 +601,14 @@ def main():
     built = build_week_pages(items)
     build_archive(built)
     build_notify()
+    build_about()
+    build_404()
     build_feed(items)
     build_sitemap(built)
     n = build_digest(items)
     xd, xw = build_x_draft(items, built)
     print("生成: 週ページ%d件 / archive.html / notify.html / feed.xml / sitemap.xml / "
-          "robots.txt / digest-latest.md(%d件) / x-draft.md(本日%d件・今週%d件)"
+          "robots.txt / about.html / 404.html / digest-latest.md(%d件) / x-draft.md(本日%d件・今週%d件)"
           % (len(built), n, xd, xw))
     return 0
 
