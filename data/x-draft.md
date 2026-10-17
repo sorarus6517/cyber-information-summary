@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年10月17日 自動生成）
+# Xの投稿下書き（2026年10月18日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -10,7 +10,7 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ---
 
-## 1. 本日のまとめ
+## 1. 本日のまとめ（注意: 2日前の分です。新しい発表がまだありません）
 
 **本文** [ 230 / 280 ]
 
@@ -253,4 +253,83 @@ https://jvn.jp/vu/JVNVU95474776/
 原文はこちら
 https://jvn.jp/vu/JVNVU94697946/
 ```
+
+---
+
+## 4. 照合ネタ（引用リポスト用）
+
+話題になっている脆弱性を見かけたとき、ここから事実だけを足せます。
+**深刻度の評価・対応方法・推測は書かないでください。**
+日付と機関名と番号だけなら、専門知識が無くても間違えようがありません。
+
+### CVE-2026-88771
+
+そのまま投稿できます [ 136 / 280 ]
+
+```
+CVE-2026-88771（Citrix NetScaler）に言及した公的機関の発表です。
+
+・CISA 9月27日（悪用確認として登録）
+・IPA 9月28日
+・JPCERT/CC 10月2日
+```
+
+### CVE-2026-88772
+
+そのまま投稿できます [ 136 / 280 ]
+
+```
+CVE-2026-88772（Citrix NetScaler）に言及した公的機関の発表です。
+
+・CISA 9月27日（悪用確認として登録）
+・IPA 9月28日
+・JPCERT/CC 10月2日
+```
+
+### CVE-2026-94127
+
+そのまま投稿できます [ 119 / 280 ]
+
+```
+CVE-2026-94127（F5 BIG-IP APM）に言及した公的機関の発表です。
+
+・CISA 9月22日（悪用確認として登録）
+・JPCERT/CC 9月24日
+```
+
+### CVE-2026-76461
+
+そのまま投稿できます [ 132 / 280 ]
+
+```
+CVE-2026-76461（Cisco Secure Email Gateway）に言及した公的機関の発表です。
+
+・CISA 9月14日（悪用確認として登録）
+・JPCERT/CC 9月15日
+```
+
+### 「NetScaler」に触れた発表（4機関・8件）
+
+同じ脆弱性とは限りません。見出しを見て、同じ話題だと確認できたものだけ使ってください。
+
+- CISA 9月27日 … 悪用確認(KEV): Citrix NetScaler — メモリ範囲外の操作(バッファ処理の不備) (CVE-2026-88772)
+- CISA 9月27日 … 悪用確認(KEV): Citrix NetScaler — 入力値検証の不備 (CVE-2026-88771)
+- IPA 9月28日 … NetScaler ADCおよびNetScaler Gatewayの脆弱性について(CVE-2026-88771、CVE-2026-88772等)
+- NCSC 9月28日 … Citrix NetScaler ADCおよびNetScaler Gatewayの脆弱性の悪用について
+- JPCERT/CC 10月2日 … 注意喚起: NetScaler ADCおよびNetScaler Gatewayにおける複数の脆弱性（CVE-2026-88771、CVE-2026-88772等）に関する注意喚起 (更新)
+- CISA 10月4日 … 悪用確認(KEV): Citrix NetScaler — メモリ範囲外の操作(バッファ処理の不備) (CVE-2026-88779)
+- JPCERT/CC 10月7日 … Weekly Report: NetScaler ADCおよびNetScaler Gatewayに複数の脆弱性
+- JPCERT/CC 10月15日 … Weekly Report: Citrix NetScaler ADCおよびNetScaler Gatewayに複数の脆弱性
+
+### 「Cisco」に触れた発表（2機関・7件）
+
+同じ脆弱性とは限りません。見出しを見て、同じ話題だと確認できたものだけ使ってください。
+
+- CISA 9月14日 … 悪用確認(KEV): Cisco Secure Email Gateway — SQLインジェクション (CVE-2026-76461)
+- JPCERT/CC 9月15日 … 注意喚起: Cisco Secure Email GatewayにおけるSQLインジェクションの脆弱性（CVE-2026-76461）に関する注意喚起 (公開)
+- CISA 9月16日 … 悪用確認(KEV): Cisco Identity Services Engine — 特権APIの不適切な利用 (CVE-2026-76460)
+- CISA 9月30日 … 悪用確認(KEV): Cisco Catalyst SD-WAN Manager — Hex Encoding (CVE-2026-76504)
+- JPCERT/CC 10月7日 … Weekly Report: Cisco Catalyst SD-WAN Managerに認証回避につながる脆弱性
+- CISA 10月14日 … 悪用確認(KEV): Cisco Secure Email Gateway — パストラバーサル (CVE-2026-76519)
+- JPCERT/CC 10月15日 … Weekly Report: 複数のCisco製品に脆弱性
 
