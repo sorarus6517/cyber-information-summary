@@ -815,35 +815,91 @@ def x_priority(pair):
     return (rank, -dt.timestamp())
 
 
-def x_summary(headline, rows, url, max_picks):
-    """まとめ投稿を1本作る。上限に収まるぶんだけ「注目」を足す。"""
-    by_src = OrderedDict()
-    for dt, it in rows:
-        by_src.setdefault(it["source_id"], []).append((dt, it))
-    counts = []
-    for sid in SOURCE_ORDER:
-        if sid in by_src:
-            name = by_src[sid][0][1]["source_name"].split("(")[0]
-            counts.append("%s %d" % (name, len(by_src[sid])))
+def load_cve_cache():
+    try:
+        with open(CVE_PATH, encoding="utf-8") as f:
+            return json.load(f).get("cves", {})
+    except Exception:
+        return {}
 
-    head = [headline, "・".join(counts) + "（計%d件）" % len(rows)]
-    tail = ["一覧はこちら", url, X_HASHTAGS]
 
-    def compose(picks):
-        middle = ["", "注目:"] + picks if picks else []
-        return "\n".join(head + middle + [""] + tail)
+def kev_line(it, cache):
+    """悪用確認の項目を「製品 種類（CVSS 8.6）」の一行にする。
 
-    # 見出しは途中で切らない。丸ごと入るものだけを採り、入らなければ次の候補へ送る。
-    # (CVE番号が「(CV…」のように切れた投稿を出さないため)
+    本文しか読まない人にも、何の製品のどんな問題でどれくらい重いかが伝わるようにする。
+    """
+    ja = " ".join((it.get("title_ja") or "").split())
+    m = KEV_SUBJ_RE.match(ja)
+    if not m:
+        return ""
+    subject = dedupe_words(m.group(1).strip())
+    kind = ja[m.end():].split("(CVE-")[0].strip(" —-")
+    line = "・%s %s" % (subject, kind) if kind else "・" + subject
+    cves = CVE_RE.findall(ja.upper())
+    if cves:
+        score = ((cache.get(cves[0]) or {}).get("cvss") or {}).get("score")
+        if score is not None:
+            line += "（CVSS %s）" % score
+    return " ".join(line.split())
+
+
+def x_summary(headline, rows, url, max_picks, cache=None):
+    """まとめ投稿を「本文」と「リプライ」に分けて作る。
+
+    Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
+    本文だけで役に立つ内容にする。リンクは直後のリプライに置く。
+    """
+    cache = cache or {}
+    kev = [(dt, it) for dt, it in rows if "悪用確認" in (it.get("title_ja") or "")]
+    jp = [(dt, it) for dt, it in rows
+          if it.get("source_id") in ("jpcert", "jvn", "ipa")]
+
+    close = ""
+    if jp:
+        names = [n for sid, n in (("jpcert", "JPCERT/CC"), ("jvn", "JVN"),
+                                  ("ipa", "IPA"))
+                 if any(it.get("source_id") == sid for _, it in jp)]
+        close = "日本の機関（%s）からは%d件。" % ("・".join(names), len(jp))
+
+    def compose(picks, lead, extra=""):
+        out = [headline, ""]
+        if picks:
+            out.append(lead)
+            out += picks
+            out.append("")
+        if close:
+            out.append(close)
+        if extra:
+            out.append(extra)
+        out.append("詳細はリプライのリンクから。")
+        return "\n".join(out)
+
+    if kev:
+        lead = "悪用が確認された脆弱性:"
+        cands = [c for c in (kev_line(it, cache)
+                             for _, it in sorted(kev, key=lambda p: -p[0].timestamp()))
+                 if c]
+    else:
+        lead = "主な発表:"
+        cands = ["・" + " ".join((it.get("title_ja") or it["title"]).split())
+                 for _, it in sorted(rows, key=x_priority)]
+
+    # 上限に収まるぶんだけ。見出しは途中で切らない
     picks = []
-    for dt, it in sorted(rows, key=x_priority):
+    for c in cands:
         if len(picks) >= max_picks:
             break
-        line = "・" + " ".join((it.get("title_ja") or it["title"]).split())
-        cand = picks + [line]
-        if x_len(compose(cand)) <= X_FIT:
-            picks = cand
-    return compose(picks)
+        if x_len(compose(picks + [c], lead)) <= X_FIT:
+            picks.append(c)
+
+    extra = ""
+    if kev and len(kev) > len(picks):
+        more = "ほか悪用確認が%d件。" % (len(kev) - len(picks))
+        if x_len(compose(picks, lead, more)) <= X_FIT:
+            extra = more
+
+    return {"body": compose(picks, lead, extra),
+            "reply": "\n".join(["一覧はこちら", url, X_HASHTAGS])}
 
 
 def build_x_draft(items, built):
@@ -860,13 +916,14 @@ def build_x_draft(items, built):
             rows.append((dt, it))
     rows.sort(key=lambda x: x[0], reverse=True)
 
+    cache = load_cve_cache()
     period = "%d月%d日〜%d月%d日" % (start.month, start.day, end.month, end.day)
     weekly = x_summary("【今週の公式セキュリティ情報】" + period,
-                       rows, week_url, X_HIGHLIGHTS) if rows else ""
+                       rows, week_url, X_HIGHLIGHTS, cache) if rows else None
 
     # 「本日分」= データの中でいちばん新しい日付の項目(収集は1日1回なので前日になることもある)
     all_dated = [(to_dt(it["published"]), it) for it in items if to_dt(it["published"])]
-    daily = ""
+    daily = None
     day_rows = []
     latest = None
     if all_dated:
@@ -875,33 +932,39 @@ def build_x_draft(items, built):
         day_rows.sort(key=lambda x: x[0], reverse=True)
         daily = x_summary("【本日の公式セキュリティ情報】%d月%d日"
                           % (latest.month, latest.day),
-                          day_rows, SITE_URL + "/", X_DAILY_HIGHLIGHTS)
+                          day_rows, SITE_URL + "/", X_DAILY_HIGHLIGHTS, cache)
 
     out = ["# Xの投稿下書き（%s 自動生成）" % jp_date(now),
            "",
-           "そのままコピーして投稿できます。[ ]内はXの数え方での文字数（上限%d）です。"
-           % X_LIMIT,
-           "日本語1文字=2、URL=23として数えています。",
+           "**本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**",
+           "Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、",
+           "本文だけで内容が伝わるようにしています。",
+           "",
+           "投稿する時間は、モスクワ時間の15〜17時がおすすめです（日本時間の21〜23時）。",
+           "",
+           "[ ]内はXの数え方での文字数（上限%d。日本語1文字=2、URL=23）。" % X_LIMIT,
            "",
            "---",
            ""]
 
-    if daily:
-        stale = (now.date() - latest).days
-        note = "" if stale <= 1 else "（注意: %d日前の分です。新しい発表がまだありません）" % stale
-        out += ["## 1. 本日のまとめ（1投稿） [ %d / %d ]%s"
-                % (x_len(daily), X_LIMIT, note),
-                "", "```", daily, "```", ""]
-    else:
-        out += ["## 1. 本日のまとめ（1投稿）", "", "（本日分の新着はありません）", ""]
+    def post_block(num, title, pair, note=""):
+        if not pair:
+            return ["## %d. %s" % (num, title), "", "（対象の新着がありません）", ""]
+        return ["## %d. %s%s" % (num, title, note), "",
+                "**本文** [ %d / %d ]" % (x_len(pair["body"]), X_LIMIT), "",
+                "```", pair["body"], "```", "",
+                "**リプライ（本文の投稿後に、その投稿へ返信）** [ %d / %d ]"
+                % (x_len(pair["reply"]), X_LIMIT), "",
+                "```", pair["reply"], "```", ""]
 
-    out += ["---", "",
-            "## 2. 今週のまとめ（1投稿） [ %d / %d ]" % (x_len(weekly), X_LIMIT),
-            ""]
-    if weekly:
-        out += ["```", weekly, "```", ""]
-    else:
-        out += ["（この週はまだ新着がありません）", ""]
+    note = ""
+    if daily and latest:
+        stale = (now.date() - latest).days
+        if stale > 1:
+            note = "（注意: %d日前の分です。新しい発表がまだありません）" % stale
+    out += post_block(1, "本日のまとめ", daily, note)
+    out += ["---", ""]
+    out += post_block(2, "今週のまとめ", weekly)
 
     if rows:
         out += ["---", "",
@@ -909,13 +972,15 @@ def build_x_draft(items, built):
                 ""]
         for dt, it in rows[:X_ITEM_DRAFTS]:
             name = it["source_name"].split("(")[0]
-            fixed = "【%s】\n%s\n#セキュリティ" % (name, it["url"])
-            room2 = X_FIT - x_len(fixed)
+            room2 = X_FIT - x_len("【%s】\n#セキュリティ" % name)
             title = x_trim(it.get("title_ja") or it["title"], room2)
-            body = "【%s】%s\n%s\n#セキュリティ" % (name, title, it["url"])
-            out += ["### %s（%s） [ %d / %d ]"
-                    % (name, jp_date(dt), x_len(body), X_LIMIT),
-                    "", "```", body, "```", ""]
+            body = "【%s】%s\n#セキュリティ" % (name, title)
+            reply = "原文はこちら\n" + it["url"]
+            out += ["### %s（%s）" % (name, jp_date(dt)), "",
+                    "本文 [ %d / %d ]" % (x_len(body), X_LIMIT), "",
+                    "```", body, "```", "",
+                    "リプライ [ %d / %d ]" % (x_len(reply), X_LIMIT), "",
+                    "```", reply, "```", ""]
 
     with open(os.path.join(DATA_DIR, "x-draft.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(out) + "\n")
