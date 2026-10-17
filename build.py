@@ -65,6 +65,23 @@ FAVICON = ("data:image/svg+xml,"
 X_HIGHLIGHTS = 2       # 週まとめに載せる「注目」の件数
 X_DAILY_HIGHLIGHTS = 3  # 本日のまとめに載せる「注目」の件数
 X_ITEM_DRAFTS = 12     # 1件ずつ紹介する下書きを作る件数
+X_CROSSREF_MAX = 6     # 照合ネタをいくつまで出すか
+X_CROSSREF_DAYS = 45   # 照合の対象にする期間(日)
+
+# 製品の特定に使えない一般語。これで照合すると無関係な発表が繋がってしまう。
+GENERIC_TOKENS = {
+    "gateway", "secure", "server", "servers", "manager", "management",
+    "services", "service", "engine", "support", "remote", "connect",
+    "multiple", "products", "product", "system", "systems", "software",
+    "center", "centre", "cloud", "client", "agent", "portal", "studio",
+    "office", "tools", "suite", "platform", "enterprise", "access",
+    "security", "network", "mobile", "desktop", "linux", "windows",
+    "online", "docs", "core", "data", "file", "files", "mail", "web",
+    "email", "networks", "point", "check", "series", "switches", "kernel",
+    "backup", "identity", "orchestrator", "commerce", "reader", "alto",
+    "gmbh", "inc.", "corp", "corporation", "technologies", "group",
+    "solutions", "appliance", "firmware", "edition", "controller",
+}
 
 CSS = """
 :root{--bg:#f7f8fa;--panel:#fff;--text:#15181d;--muted:#5c6572;--line:#e2e5ea;--accent:#1f5fd0}
@@ -113,18 +130,29 @@ def to_dt(iso):
     return dt.astimezone(timezone.utc)
 
 
+# 読者は日本の人なので、表示する日付はすべて日本時間に直す。
+# UTCのまま出すと、日本の機関が「9月28日公開」としている発表が
+# 「9月27日」と表示されてしまう(IPAは15:00 UTC = 翌日0時 JST に出すことが多い)。
+JST = timezone(timedelta(hours=9))
+
+
+def to_jst(dt):
+    return dt.astimezone(JST) if dt else dt
+
+
 def jp_date(dt):
-    return "%d年%d月%d日" % (dt.year, dt.month, dt.day)
+    d = to_jst(dt)
+    return "%d年%d月%d日" % (d.year, d.month, d.day)
 
 
 def week_key(dt):
-    y, w, _ = dt.isocalendar()
+    y, w, _ = to_jst(dt).isocalendar()
     return "%04d-W%02d" % (y, w)
 
 
 def week_range(key):
     y, w = int(key[:4]), int(key[6:])
-    monday = datetime.fromisocalendar(y, w, 1).replace(tzinfo=timezone.utc)
+    monday = datetime.fromisocalendar(y, w, 1).replace(tzinfo=JST)
     return monday, monday + timedelta(days=6)
 
 
@@ -902,6 +930,105 @@ def x_summary(headline, rows, url, max_picks, cache=None):
             "reply": "\n".join(["一覧はこちら", url, X_HASHTAGS])}
 
 
+JVN_ID_RE = re.compile(r"/(JVNVU\d+|JVN\d+)/?$")
+
+
+def jvn_number(url):
+    """JVNのURLから公開番号を取り出す。JVNVU#91137775 のような形にする。"""
+    m = JVN_ID_RE.search(url or "")
+    if not m:
+        return ""
+    v = m.group(1)
+    return ("JVNVU#" + v[5:]) if v.startswith("JVNVU") else ("JVN#" + v[3:])
+
+
+def agency(it):
+    return (it.get("source_name") or "").split("(")[0]
+
+
+def md(dt):
+    d = to_jst(dt)
+    return "%d月%d日" % (d.month, d.day)
+
+
+def build_x_crossref(items, cache):
+    """引用リポスト用の「照合ネタ」を作る。
+
+    判断を一切含まず、どの機関がいつ発表したかという事実だけを並べる。
+    専門知識が無くても間違えようがない材料にするのが目的。
+    """
+    now = datetime.now(timezone.utc)
+    rows = []
+    for it in items:
+        dt = to_dt(it.get("published"))
+        if dt and (now - dt).days <= X_CROSSREF_DAYS:
+            rows.append((dt, it))
+    if not rows:
+        return []
+
+    def blob(it):
+        return " ".join([it.get("title_ja") or "", it.get("title") or "",
+                         it.get("url") or ""])
+
+    out = []
+
+    # --- A: 同じCVE番号に2機関以上が言及している（いちばん確実なネタ） ---
+    by_cve = OrderedDict()
+    for dt, it in rows:
+        for c in sorted(set(CVE_RE.findall(blob(it).upper()))):
+            by_cve.setdefault(c, []).append((dt, it))
+    for cid, group in by_cve.items():
+        if len({it["source_id"] for _, it in group} ) < 2:
+            continue
+        group = sorted(group, key=lambda p: p[0])
+        subject = dedupe_words(subject_from_items([it for _, it in group]))
+        head = "%s%sに言及した公的機関の発表です。" % (
+            cid, "（%s）" % subject if subject else "")
+        lines = []
+        for dt, it in group:
+            tag = "（悪用確認として登録）" if it["source_id"] == "cisa" else ""
+            num = jvn_number(it.get("url", "")) if it["source_id"] == "jvn" else ""
+            lines.append("・%s %s%s%s" % (agency(it), md(dt),
+                                         " " + num if num else "", tag))
+        post = head + "\n\n" + "\n".join(lines)
+        while x_len(post) > X_FIT and len(lines) > 2:
+            lines.pop()
+            post = head + "\n\n" + "\n".join(lines) + "\nほか"
+        if x_len(post) <= X_FIT:
+            out.append({"kind": "cve", "key": cid, "post": post,
+                        "rows": group, "note": ""})
+
+    # --- B: 同じ製品名に複数機関が触れている（同じ脆弱性とは限らない） ---
+    tokens = OrderedDict()
+    for dt, it in rows:
+        m = KEV_SUBJ_RE.match(it.get("title_ja") or "")
+        if not m:
+            continue
+        for t in m.group(1).split():
+            if (len(t) >= 4 and t.lower() not in GENERIC_TOKENS
+                    and re.fullmatch(r"[A-Za-z0-9.+-]+", t)):
+                tokens.setdefault(t, True)
+
+    used = {o["key"] for o in out}
+    for t in tokens:
+        hits = [(dt, it) for dt, it in rows
+                if t.lower() in ((it.get("title_ja") or "") + " "
+                                 + (it.get("title") or "")).lower()]
+        if len({it["source_id"] for _, it in hits}) < 2:
+            continue
+        if t in used:
+            continue
+        used.add(t)
+        out.append({"kind": "token", "key": t, "post": "",
+                    "rows": sorted(hits, key=lambda p: p[0]),
+                    "note": "同じ脆弱性とは限りません。見出しを見て、"
+                            "同じ話題だと確認できたものだけ使ってください。"})
+
+    # CVE由来のものを先に、言及の多い順
+    out.sort(key=lambda o: (0 if o["kind"] == "cve" else 1, -len(o["rows"])))
+    return out[:X_CROSSREF_MAX]
+
+
 def build_x_draft(items, built):
     """Xにそのまま貼れる投稿文の下書きを data/x-draft.md に作る。"""
     now = datetime.now(timezone.utc)
@@ -927,8 +1054,9 @@ def build_x_draft(items, built):
     day_rows = []
     latest = None
     if all_dated:
-        latest = max(dt for dt, _ in all_dated).date()
-        day_rows = [(dt, it) for dt, it in all_dated if dt.date() == latest]
+        latest = max(to_jst(dt) for dt, _ in all_dated).date()
+        day_rows = [(dt, it) for dt, it in all_dated
+                    if to_jst(dt).date() == latest]
         day_rows.sort(key=lambda x: x[0], reverse=True)
         daily = x_summary("【本日の公式セキュリティ情報】%d月%d日"
                           % (latest.month, latest.day),
@@ -959,7 +1087,7 @@ def build_x_draft(items, built):
 
     note = ""
     if daily and latest:
-        stale = (now.date() - latest).days
+        stale = (to_jst(now).date() - latest).days
         if stale > 1:
             note = "（注意: %d日前の分です。新しい発表がまだありません）" % stale
     out += post_block(1, "本日のまとめ", daily, note)
@@ -981,6 +1109,31 @@ def build_x_draft(items, built):
                     "```", body, "```", "",
                     "リプライ [ %d / %d ]" % (x_len(reply), X_LIMIT), "",
                     "```", reply, "```", ""]
+
+    # ---- 引用リポスト用の照合ネタ ----
+    xrefs = build_x_crossref(items, cache)
+    out += ["---", "", "## 4. 照合ネタ（引用リポスト用）", "",
+            "話題になっている脆弱性を見かけたとき、ここから事実だけを足せます。",
+            "**深刻度の評価・対応方法・推測は書かないでください。**",
+            "日付と機関名と番号だけなら、専門知識が無くても間違えようがありません。", ""]
+    if not xrefs:
+        out += ["（今回は複数の機関にまたがる話題がありませんでした）", ""]
+    for x in xrefs:
+        if x["kind"] == "cve":
+            out += ["### %s" % x["key"], "",
+                    "そのまま投稿できます [ %d / %d ]" % (x_len(x["post"]), X_LIMIT),
+                    "", "```", x["post"], "```", ""]
+        else:
+            out += ["### 「%s」に触れた発表（%d機関・%d件）"
+                    % (x["key"], len({it["source_id"] for _, it in x["rows"]}),
+                       len(x["rows"])), "",
+                    x["note"], ""]
+            for dt, it in x["rows"]:
+                num = jvn_number(it.get("url", "")) if it["source_id"] == "jvn" else ""
+                out.append("- %s %s%s … %s"
+                           % (agency(it), md(dt), " " + num if num else "",
+                              " ".join((it.get("title_ja") or it["title"]).split())))
+            out.append("")
 
     with open(os.path.join(DATA_DIR, "x-draft.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(out) + "\n")
