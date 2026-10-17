@@ -1,20 +1,33 @@
 # Xの投稿下書き（2026年10月17日 自動生成）
 
-そのままコピーして投稿できます。[ ]内はXの数え方での文字数（上限280）です。
-日本語1文字=2、URL=23として数えています。
+**本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
+Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
+本文だけで内容が伝わるようにしています。
+
+投稿する時間は、モスクワ時間の15〜17時がおすすめです（日本時間の21〜23時）。
+
+[ ]内はXの数え方での文字数（上限280。日本語1文字=2、URL=23）。
 
 ---
 
-## 1. 本日のまとめ（1投稿） [ 266 / 280 ]
+## 1. 本日のまとめ
+
+**本文** [ 230 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】10月16日
-JVN 2・CISA 2（計4件）
 
-注目:
-・悪用確認(KEV): BeyondTrust Remote Support — 認証回避 (CVE-2026-102764)
-・CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）
+悪用が確認された脆弱性:
+・BeyondTrust Remote Support 認証回避（CVSS 9.8）
+・Fortinet Multiple Products パストラバーサル（CVSS 6.0）
 
+日本の機関（JVN）からは2件。
+詳細はリプライのリンクから。
+```
+
+**リプライ（本文の投稿後に、その投稿へ返信）** [ 62 / 280 ]
+
+```
 一覧はこちら
 https://cyber-information-summary.pages.dev/
 #セキュリティ #脆弱性情報
@@ -22,15 +35,24 @@ https://cyber-information-summary.pages.dev/
 
 ---
 
-## 2. 今週のまとめ（1投稿） [ 246 / 280 ]
+## 2. 今週のまとめ
+
+**本文** [ 257 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】10月12日〜10月18日
-JPCERT/CC 20・JVN 18・IPA 1・CISA 9・NCSC 3（計51件）
 
-注目:
-・悪用確認(KEV): BeyondTrust Remote Support — 認証回避 (CVE-2026-102764)
+悪用が確認された脆弱性:
+・BeyondTrust Remote Support 認証回避（CVSS 9.8）
+・Fortinet Multiple Products パストラバーサル（CVSS 6.0）
 
+日本の機関（JPCERT/CC・JVN・IPA）からは39件。
+詳細はリプライのリンクから。
+```
+
+**リプライ（本文の投稿後に、その投稿へ返信）** [ 62 / 280 ]
+
+```
 一覧はこちら
 https://cyber-information-summary.pages.dev/w/2026-W42.html
 #セキュリティ #脆弱性情報
@@ -40,99 +62,195 @@ https://cyber-information-summary.pages.dev/w/2026-W42.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
-### JVN（2026年10月16日） [ 103 / 280 ]
+### JVN（2026年10月16日）
+
+本文 [ 79 / 280 ]
 
 ```
 【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）
-https://jvn.jp/vu/JVNVU96928590/
 #セキュリティ
 ```
 
-### JVN（2026年10月16日） [ 90 / 280 ]
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU96928590/
+```
+
+### JVN（2026年10月16日）
+
+本文 [ 66 / 280 ]
 
 ```
 【JVN】Siemens製品に対するアップデート（2026年10月）
-https://jvn.jp/vu/JVNVU90141693/
 #セキュリティ
 ```
 
-### CISA（2026年10月16日） [ 116 / 280 ]
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU90141693/
+```
+
+### CISA（2026年10月16日）
+
+本文 [ 92 / 280 ]
 
 ```
 【CISA】悪用確認(KEV): BeyondTrust Remote Support — 認証回避 (CVE-2026-102764)
-https://nvd.nist.gov/vuln/detail/CVE-2026-102764
 #セキュリティ
 ```
 
-### CISA（2026年10月16日） [ 123 / 280 ]
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://nvd.nist.gov/vuln/detail/CVE-2026-102764
+```
+
+### CISA（2026年10月16日）
+
+本文 [ 99 / 280 ]
 
 ```
 【CISA】悪用確認(KEV): Fortinet Multiple Products — パストラバーサル (CVE-2025-61624)
-https://nvd.nist.gov/vuln/detail/CVE-2025-61624
 #セキュリティ
 ```
 
-### NCSC（2026年10月15日） [ 96 / 280 ]
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://nvd.nist.gov/vuln/detail/CVE-2025-61624
+```
+
+### NCSC（2026年10月15日）
+
+本文 [ 72 / 280 ]
 
 ```
 【NCSC】TLSガイダンスを耐量子計算機暗号(PQC)に対応して更新
-https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance
 #セキュリティ
 ```
 
-### NCSC（2026年10月15日） [ 79 / 280 ]
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance
+```
+
+### NCSC（2026年10月15日）
+
+本文 [ 55 / 280 ]
 
 ```
 【NCSC】データを保護するためのTLSの使い方
-https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data
 #セキュリティ
 ```
 
-### JVN（2026年10月15日） [ 111 / 280 ]
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data
+```
+
+### JVN（2026年10月15日）
+
+本文 [ 87 / 280 ]
 
 ```
 【JVN】「車検証閲覧アプリ」における送信データへの機微な情報の挿入の脆弱性
-https://jvn.jp/jp/JVN94004488/
 #セキュリティ
 ```
 
-### JVN（2026年10月15日） [ 154 / 280 ]
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN94004488/
+```
+
+### JVN（2026年10月15日）
+
+本文 [ 130 / 280 ]
 
 ```
 【JVN】スマートフォンアプリ「ハンドメイドマーケットアプリ - Creema（クリーマ）」におけるオープンリダイレクトの脆弱性
-https://jvn.jp/jp/JVN48627289/
 #セキュリティ
 ```
 
-### JVN（2026年10月15日） [ 99 / 280 ]
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN48627289/
+```
+
+### JVN（2026年10月15日）
+
+本文 [ 75 / 280 ]
 
 ```
 【JVN】スマートフォンアプリ「ゲオアプリ」における複数の脆弱性
-https://jvn.jp/jp/JVN40460777/
 #セキュリティ
 ```
 
-### JVN（2026年10月15日） [ 105 / 280 ]
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN40460777/
+```
+
+### JVN（2026年10月15日）
+
+本文 [ 81 / 280 ]
 
 ```
 【JVN】Google BoringSSL証明書検証における複数の名前制約回避の脆弱性
-https://jvn.jp/vu/JVNVU95613365/
 #セキュリティ
 ```
 
-### JVN（2026年10月15日） [ 90 / 280 ]
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU95613365/
+```
+
+### JVN（2026年10月15日）
+
+本文 [ 66 / 280 ]
 
 ```
 【JVN】複数のTLSライブラリにおける名前制約回避の問題
-https://jvn.jp/vu/JVNVU95474776/
 #セキュリティ
 ```
 
-### JVN（2026年10月15日） [ 82 / 280 ]
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU95474776/
+```
+
+### JVN（2026年10月15日）
+
+本文 [ 58 / 280 ]
 
 ```
 【JVN】Bishengにおける複数の認証回避の脆弱性
-https://jvn.jp/vu/JVNVU94697946/
 #セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU94697946/
 ```
 
