@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年10月16日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年10月17日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -85,9 +85,9 @@
   https://nvd.nist.gov/vuln/detail/CVE-2026-21589
 
 ■ NCSC(英国)
-・Post-quantum updates to our TLS guidance（2026年10月15日）
+・TLSガイダンスを耐量子計算機暗号(PQC)に対応して更新（2026年10月15日）
   https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance
-・Using TLS to protect data（2026年10月15日）
+・データを保護するためのTLSの使い方（2026年10月15日）
   https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data
 
 すべての項目: https://cyber-information-summary.pages.dev/

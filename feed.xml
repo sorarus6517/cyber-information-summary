@@ -4,7 +4,7 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Fri, 16 Oct 2026 22:07:34 +0000</lastBuildDate>
+<lastBuildDate>Sat, 17 Oct 2026 21:32:50 +0000</lastBuildDate>
 <item>
 <title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）</title>
 <link>https://jvn.jp/vu/JVNVU96928590/</link>
@@ -34,14 +34,14 @@
 <description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2025-61624</description>
 </item>
 <item>
-<title>[NCSC(英国)] Post-quantum updates to our TLS guidance</title>
+<title>[NCSC(英国)] TLSガイダンスを耐量子計算機暗号(PQC)に対応して更新</title>
 <link>https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance</link>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance</guid>
 <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
 <description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance</description>
 </item>
 <item>
-<title>[NCSC(英国)] Using TLS to protect data</title>
+<title>[NCSC(英国)] データを保護するためのTLSの使い方</title>
 <link>https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data</link>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data</guid>
 <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>

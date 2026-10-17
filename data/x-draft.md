@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年10月16日 自動生成）
+# Xの投稿下書き（2026年10月17日 自動生成）
 
 そのままコピーして投稿できます。[ ]内はXの数え方での文字数（上限280）です。
 日本語1文字=2、URL=23として数えています。
@@ -72,18 +72,18 @@ https://nvd.nist.gov/vuln/detail/CVE-2025-61624
 #セキュリティ
 ```
 
-### NCSC（2026年10月15日） [ 86 / 280 ]
+### NCSC（2026年10月15日） [ 96 / 280 ]
 
 ```
-【NCSC】Post-quantum updates to our TLS guidance
+【NCSC】TLSガイダンスを耐量子計算機暗号(PQC)に対応して更新
 https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance
 #セキュリティ
 ```
 
-### NCSC（2026年10月15日） [ 71 / 280 ]
+### NCSC（2026年10月15日） [ 79 / 280 ]
 
 ```
-【NCSC】Using TLS to protect data
+【NCSC】データを保護するためのTLSの使い方
 https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data
 #セキュリティ
 ```
