@@ -4,7 +4,14 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Sun, 18 Oct 2026 21:33:13 +0000</lastBuildDate>
+<lastBuildDate>Mon, 19 Oct 2026 21:36:43 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] ヤマハ製VOCALOID6 Editorにおける外部エンティティ参照の不適切な制限の脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU93520490/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU93520490/</guid>
+<pubDate>Mon, 19 Oct 2026 01:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU93520490/</description>
+</item>
 <item>
 <title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）</title>
 <link>https://jvn.jp/vu/JVNVU96928590/</link>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-96951</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
 <description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-96951</description>
-</item>
-<item>
-<title>[JVN(日本)] Theliaにおける複数の脆弱性</title>
-<link>https://jvn.jp/vu/JVNVU99982995/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU99982995/</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99982995/</description>
 </item>
 </channel></rss>

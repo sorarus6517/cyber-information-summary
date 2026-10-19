@@ -1,7 +1,19 @@
 {
- "generated_at": "2026-10-18T21:33:08.007815+00:00",
- "count": 170,
+ "generated_at": "2026-10-19T21:36:40.149442+00:00",
+ "count": 171,
  "items": [
+  {
+   "title": "ヤマハ製VOCALOID6 Editorにおける外部エンティティ参照の不適切な制限の脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU93520490/",
+   "published": "2026-10-19T01:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-19T21:36:40.149442+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）",
    "url": "https://jvn.jp/vu/JVNVU96928590/",

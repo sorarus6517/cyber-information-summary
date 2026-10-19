@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年10月19日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年10月20日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -43,6 +43,8 @@
   https://www.jpcert.or.jp/at/2026/at260032.html
 
 ■ JVN(日本)
+・ヤマハ製VOCALOID6 Editorにおける外部エンティティ参照の不適切な制限の脆弱性（2026年10月19日）
+  https://jvn.jp/vu/JVNVU93520490/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）（2026年10月16日）
   https://jvn.jp/vu/JVNVU96928590/
 ・Siemens製品に対するアップデート（2026年10月）（2026年10月16日）
@@ -73,8 +75,6 @@
   https://jvn.jp/vu/JVNVU91265939/
 ・Shopwareにおけるクロスサイトスクリプティングの脆弱性（2026年10月14日）
   https://jvn.jp/vu/JVNVU94083107/
-・楽天モバイルの複数のスマートフォンのAndroid Verified Boot機能において既知のテスト用鍵がそのまま使用されている問題（2026年10月14日）
-  https://jvn.jp/jp/JVN47427200/
 
 ■ CISA(米国)
 ・悪用確認(KEV): BeyondTrust Remote Support — 認証回避 (CVE-2026-102764)（2026年10月16日）
