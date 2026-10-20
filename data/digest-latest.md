@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年10月20日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年10月21日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -37,12 +37,14 @@
   https://www.jpcert.or.jp/wr/2026/wr261015.html#16
 ・Weekly Report: Citrix NetScaler ADCおよびNetScaler Gatewayに複数の脆弱性（2026年10月15日）
   https://www.jpcert.or.jp/wr/2026/wr261015.html#17
-・Weekly Report: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#18
-・注意喚起: SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起 (公開)（2026年10月14日）
-  https://www.jpcert.or.jp/at/2026/at260032.html
 
 ■ JVN(日本)
+・アツミ電氣製DVRに利用可能な非公開機能を悪用される問題（2026年10月20日）
+  https://jvn.jp/jp/JVN88864366/
+・複数のLenovo製タブレットのAndroid Verified Boot機能において既知のテスト用鍵がそのまま使用されている問題（2026年10月20日）
+  https://jvn.jp/jp/JVN33436631/
+・UnRTFにおける境界外書き込みの脆弱性（2026年10月20日）
+  https://jvn.jp/jp/JVN29783594/
 ・ヤマハ製VOCALOID6 Editorにおける外部エンティティ参照の不適切な制限の脆弱性（2026年10月19日）
   https://jvn.jp/vu/JVNVU93520490/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）（2026年10月16日）
@@ -61,30 +63,28 @@
   https://jvn.jp/vu/JVNVU95474776/
 ・Bishengにおける複数の認証回避の脆弱性（2026年10月15日）
   https://jvn.jp/vu/JVNVU94697946/
-・EC-CUBE4系用プラグイン「AmazonPayプラグイン」における不変と想定しているWebパラメータの外部制御の脆弱性（2026年10月14日）
-  https://jvn.jp/jp/JVN43511918/
-・SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（2026年10月14日）
-  https://jvn.jp/jp/JVN88474777/
-・CISA ICS Advisory / ICS Medical Advisory（2026年10月13日）（2026年10月14日）
-  https://jvn.jp/vu/JVNVU92045336/
-・KomodoサーバーのエージェントPeripheryにおけるOSコマンドインジェクションの脆弱性（2026年10月14日）
-  https://jvn.jp/vu/JVNVU96061614/
-・Lowcoder Query Library APIにおける認可回避の脆弱性（2026年10月14日）
-  https://jvn.jp/vu/JVNVU91984971/
-・Go、OpenSSL、Apple、LibreSSL、pyca、wolfSSLのRFC 5280実装における名前制約が不整合である脆弱性（2026年10月14日）
-  https://jvn.jp/vu/JVNVU91265939/
-・Shopwareにおけるクロスサイトスクリプティングの脆弱性（2026年10月14日）
-  https://jvn.jp/vu/JVNVU94083107/
 
 ■ CISA(米国)
+・悪用確認(KEV): EG Secure Solutions SiteGuard Server Edition — OSコマンドインジェクション (CVE-2026-106931)（2026年10月20日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-106931
+・悪用確認(KEV): Plex Media Server — External Control of File Name or Path (CVE-2026-96656)（2026年10月20日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-96656
+・悪用確認(KEV): Plex Media Server — サーバーサイドリクエストフォージェリ(SSRF) (CVE-2026-96655)（2026年10月20日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-96655
+・悪用確認(KEV): Plex Media Server — Improper Neutralization of Encoded URI Schemes in a Web Page (CVE-2026-96654)（2026年10月20日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-96654
+・悪用確認(KEV): Plex Media Server — サーバーサイドリクエストフォージェリ(SSRF) (CVE-2026-96652)（2026年10月20日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-96652
+・悪用確認(KEV): Siemens Software Center — Uncontrolled Search Path Element (CVE-2026-110936)（2026年10月20日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-110936
 ・悪用確認(KEV): BeyondTrust Remote Support — 認証回避 (CVE-2026-102764)（2026年10月16日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-102764
 ・悪用確認(KEV): Fortinet Multiple Products — パストラバーサル (CVE-2025-61624)（2026年10月16日）
   https://nvd.nist.gov/vuln/detail/CVE-2025-61624
-・悪用確認(KEV): Atlassian Multiple Products — Files or Directories Accessible to External Parties (CVE-2026-21589)（2026年10月15日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-21589
 
 ■ NCSC(英国)
+・Introducing a new AI chapter in the NCSC research problem book（2026年10月20日）
+  https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book
 ・TLSガイダンスを耐量子計算機暗号(PQC)に対応して更新（2026年10月15日）
   https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance
 ・データを保護するためのTLSの使い方（2026年10月15日）

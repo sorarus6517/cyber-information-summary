@@ -785,6 +785,25 @@
    "published": "2026-10-14T05:16:42.633",
    "status": "Deferred"
   },
+  "CVE-2026-110936": {
+   "cvss": {
+    "score": 6.7,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-427"
+   ],
+   "desc_en": "A vulnerability has been identified in Siemens Software Center (All versions < V4.0.9.8). The affected application loads dynamic-link libraries (DLLs) from an uncontrolled search path. This could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application.",
+   "fetched_at": "2026-10-20T21:37:58.316224+00:00",
+   "found": true,
+   "id": "CVE-2026-110936",
+   "last_modified": "2026-10-20T20:17:16.260",
+   "products": [],
+   "published": "2026-10-15T15:17:30.383",
+   "status": "Undergoing Analysis"
+  },
   "CVE-2026-21589": {
    "cwe": [],
    "desc_en": "Rejected reason: This CVE's publication may have been a false positive or a mistake. As a result, we have rejected this record.",
@@ -1802,6 +1821,102 @@
    "published": "2026-09-22T15:17:24.313",
    "status": "Analyzed"
   },
+  "CVE-2026-96652": {
+   "cvss": {
+    "score": 4.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-918"
+   ],
+   "desc_en": "Plex Media Server before 1.43.3.10861 allows SSRF via '/player/timeline'. An attacker using any X-Plex-Token value can include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination.",
+   "fetched_at": "2026-10-20T21:37:51.117377+00:00",
+   "found": true,
+   "id": "CVE-2026-96652",
+   "last_modified": "2026-10-20T20:17:25.897",
+   "products": [
+    [
+     "plex",
+     "media_server"
+    ]
+   ],
+   "published": "2026-09-23T17:17:23.363",
+   "status": "Modified"
+  },
+  "CVE-2026-96654": {
+   "cvss": {
+    "score": 6.5,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-84"
+   ],
+   "desc_en": "Plex Media Server before 1.43.3.10861 does not correctly neutralize URL values included in 'searchOne,' allowing an attacker to call other plugins' functions and supply their own parameters.",
+   "fetched_at": "2026-10-20T21:37:43.984507+00:00",
+   "found": true,
+   "id": "CVE-2026-96654",
+   "last_modified": "2026-10-20T20:17:26.070",
+   "products": [
+    [
+     "plex",
+     "media_server"
+    ]
+   ],
+   "published": "2026-09-23T17:17:23.517",
+   "status": "Modified"
+  },
+  "CVE-2026-96655": {
+   "cvss": {
+    "score": 4.3,
+    "severity": "MEDIUM",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-918"
+   ],
+   "desc_en": "Plex Media Server before 1.43.3.10861 allows an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter.",
+   "fetched_at": "2026-10-20T21:37:36.546640+00:00",
+   "found": true,
+   "id": "CVE-2026-96655",
+   "last_modified": "2026-10-20T20:17:26.237",
+   "products": [
+    [
+     "plex",
+     "media_server"
+    ]
+   ],
+   "published": "2026-09-23T17:17:23.677",
+   "status": "Modified"
+  },
+  "CVE-2026-96656": {
+   "cvss": {
+    "score": 7.2,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-73"
+   ],
+   "desc_en": "Plex Media Server before 1.43.3.10861 allows an admin user to write arbitrary files that may be executed on load. The preference TranscoderH264Options is appended verbatim to x264's option string on every transcode. At startup, all .so files are run without signature, execute bit, or symbol checks.",
+   "fetched_at": "2026-10-20T21:37:29.368579+00:00",
+   "found": true,
+   "id": "CVE-2026-96656",
+   "last_modified": "2026-10-20T20:17:26.390",
+   "products": [
+    [
+     "plex",
+     "media_server"
+    ]
+   ],
+   "published": "2026-09-23T17:17:23.840",
+   "status": "Modified"
+  },
   "CVE-2026-96951": {
    "cvss": {
     "score": 8.8,
@@ -1883,5 +1998,5 @@
    "status": "Analyzed"
   }
  },
- "generated_at": "2026-10-19T21:36:43.639009+00:00"
+ "generated_at": "2026-10-20T21:37:28.936350+00:00"
 }
