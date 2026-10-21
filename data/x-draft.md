@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年10月21日 自動生成）
+# Xの投稿下書き（2026年10月22日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -12,16 +12,17 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 228 / 280 ]
+**本文** [ 262 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】10月20日
+【本日の公式セキュリティ情報】10月21日
 
-悪用が確認された脆弱性:
-・EG Secure Solutions SiteGuard Server Edition OSコマンドインジェクション（CVSS 7.8）
+主な発表:
+・Critical security issue affecting PHP
+・Apache Tomcatにおける複数の脆弱性（2026年10月20日）
+・Xerj Console APIにおける認証回避の脆弱性
 
-日本の機関（JVN）からは3件。
-ほか悪用確認が5件。
+日本の機関（JPCERT/CC・JVN・IPA）からは29件。
 詳細はリプライのリンクから。
 ```
 
@@ -37,7 +38,7 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 238 / 280 ]
+**本文** [ 255 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】10月19日〜10月25日
@@ -45,7 +46,7 @@ https://cyber-information-summary.pages.dev/
 悪用が確認された脆弱性:
 ・EG Secure Solutions SiteGuard Server Edition OSコマンドインジェクション（CVSS 7.8）
 
-日本の機関（JVN）からは4件。
+日本の機関（JPCERT/CC・JVN・IPA）からは33件。
 ほか悪用確認が5件。
 詳細はリプライのリンクから。
 ```
@@ -62,12 +63,12 @@ https://cyber-information-summary.pages.dev/w/2026-W43.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
-### NCSC（2026年10月20日）
+### NCSC（2026年10月21日）
 
-本文 [ 84 / 280 ]
+本文 [ 59 / 280 ]
 
 ```
-【NCSC】Introducing a new AI chapter in the NCSC research problem book
+【NCSC】Critical security issue affecting PHP
 #セキュリティ
 ```
 
@@ -75,15 +76,15 @@ https://cyber-information-summary.pages.dev/w/2026-W43.html
 
 ```
 原文はこちら
-https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book
+https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
 ```
 
-### JVN（2026年10月20日）
+### JVN（2026年10月21日）
 
-本文 [ 74 / 280 ]
+本文 [ 72 / 280 ]
 
 ```
-【JVN】アツミ電氣製DVRに利用可能な非公開機能を悪用される問題
+【JVN】Apache Tomcatにおける複数の脆弱性（2026年10月20日）
 #セキュリティ
 ```
 
@@ -91,15 +92,15 @@ https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-b
 
 ```
 原文はこちら
-https://jvn.jp/jp/JVN88864366/
+https://jvn.jp/vu/JVNVU93110597/
 ```
 
-### JVN（2026年10月20日）
+### JVN（2026年10月21日）
 
-本文 [ 124 / 280 ]
+本文 [ 79 / 280 ]
 
 ```
-【JVN】複数のLenovo製タブレットのAndroid Verified Boot機能において既知のテスト用鍵がそのまま使用されている問題
+【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年10月20日）
 #セキュリティ
 ```
 
@@ -107,15 +108,15 @@ https://jvn.jp/jp/JVN88864366/
 
 ```
 原文はこちら
-https://jvn.jp/jp/JVN33436631/
+https://jvn.jp/vu/JVNVU90998702/
 ```
 
-### JVN（2026年10月20日）
+### JVN（2026年10月21日）
 
-本文 [ 56 / 280 ]
+本文 [ 61 / 280 ]
 
 ```
-【JVN】UnRTFにおける境界外書き込みの脆弱性
+【JVN】Xerj Console APIにおける認証回避の脆弱性
 #セキュリティ
 ```
 
@@ -123,15 +124,15 @@ https://jvn.jp/jp/JVN33436631/
 
 ```
 原文はこちら
-https://jvn.jp/jp/JVN29783594/
+https://jvn.jp/vu/JVNVU92078426/
 ```
 
-### CISA（2026年10月20日）
+### JPCERT/CC（2026年10月21日）
 
-本文 [ 128 / 280 ]
+本文 [ 70 / 280 ]
 
 ```
-【CISA】悪用確認(KEV): EG Secure Solutions SiteGuard Server Edition — OSコマンドインジェクション (CVE-2026-106931)
+【JPCERT/CC】Weekly Report: Microsoft Edgeに複数の脆弱性
 #セキュリティ
 ```
 
@@ -139,15 +140,15 @@ https://jvn.jp/jp/JVN29783594/
 
 ```
 原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-106931
+https://www.jpcert.or.jp/wr/2026/wr261021.html#1
 ```
 
-### CISA（2026年10月20日）
+### JPCERT/CC（2026年10月21日）
 
-本文 [ 111 / 280 ]
+本文 [ 76 / 280 ]
 
 ```
-【CISA】悪用確認(KEV): Plex Media Server — External Control of File Name or Path (CVE-2026-96656)
+【JPCERT/CC】Weekly Report: 複数のJuniper Networks製品に脆弱性
 #セキュリティ
 ```
 
@@ -155,15 +156,15 @@ https://nvd.nist.gov/vuln/detail/CVE-2026-106931
 
 ```
 原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-96656
+https://www.jpcert.or.jp/wr/2026/wr261021.html#2
 ```
 
-### CISA（2026年10月20日）
+### JPCERT/CC（2026年10月21日）
 
-本文 [ 116 / 280 ]
+本文 [ 102 / 280 ]
 
 ```
-【CISA】悪用確認(KEV): Plex Media Server — サーバーサイドリクエストフォージェリ(SSRF) (CVE-2026-96655)
+【JPCERT/CC】Weekly Report: BeyondTrust Remote Supportになりすましによる認証回避の脆弱性
 #セキュリティ
 ```
 
@@ -171,15 +172,15 @@ https://nvd.nist.gov/vuln/detail/CVE-2026-96656
 
 ```
 原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-96655
+https://www.jpcert.or.jp/wr/2026/wr261021.html#3
 ```
 
-### CISA（2026年10月20日）
+### JPCERT/CC（2026年10月21日）
 
-本文 [ 134 / 280 ]
+本文 [ 65 / 280 ]
 
 ```
-【CISA】悪用確認(KEV): Plex Media Server — Improper Neutralization of Encoded URI Schemes in a Web Page (CVE-2026-96654)
+【JPCERT/CC】Weekly Report: 複数のNGINX製品に脆弱性
 #セキュリティ
 ```
 
@@ -187,15 +188,15 @@ https://nvd.nist.gov/vuln/detail/CVE-2026-96655
 
 ```
 原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-96654
+https://www.jpcert.or.jp/wr/2026/wr261021.html#4
 ```
 
-### CISA（2026年10月20日）
+### JPCERT/CC（2026年10月21日）
 
-本文 [ 116 / 280 ]
+本文 [ 83 / 280 ]
 
 ```
-【CISA】悪用確認(KEV): Plex Media Server — サーバーサイドリクエストフォージェリ(SSRF) (CVE-2026-96652)
+【JPCERT/CC】Weekly Report: Drupal coreおよび複数のモジュールに脆弱性
 #セキュリティ
 ```
 
@@ -203,15 +204,15 @@ https://nvd.nist.gov/vuln/detail/CVE-2026-96654
 
 ```
 原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-96652
+https://www.jpcert.or.jp/wr/2026/wr261021.html#5
 ```
 
-### CISA（2026年10月20日）
+### JPCERT/CC（2026年10月21日）
 
-本文 [ 113 / 280 ]
+本文 [ 65 / 280 ]
 
 ```
-【CISA】悪用確認(KEV): Siemens Software Center — Uncontrolled Search Path Element (CVE-2026-110936)
+【JPCERT/CC】Weekly Report: 複数のAdobe製品に脆弱性
 #セキュリティ
 ```
 
@@ -219,15 +220,15 @@ https://nvd.nist.gov/vuln/detail/CVE-2026-96652
 
 ```
 原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-110936
+https://www.jpcert.or.jp/wr/2026/wr261021.html#6
 ```
 
-### JVN（2026年10月19日）
+### JPCERT/CC（2026年10月21日）
 
-本文 [ 95 / 280 ]
+本文 [ 69 / 280 ]
 
 ```
-【JVN】ヤマハ製VOCALOID6 Editorにおける外部エンティティ参照の不適切な制限の脆弱性
+【JPCERT/CC】Weekly Report: Google Chromeに複数の脆弱性
 #セキュリティ
 ```
 
@@ -235,7 +236,23 @@ https://nvd.nist.gov/vuln/detail/CVE-2026-110936
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU93520490/
+https://www.jpcert.or.jp/wr/2026/wr261021.html#7
+```
+
+### JPCERT/CC（2026年10月21日）
+
+本文 [ 63 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: Next.jsに複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261021.html#8
 ```
 
 ---
@@ -303,16 +320,16 @@ CVE-2026-76461（Cisco Secure Email Gateway）に言及した公的機関の発�
 ・JPCERT/CC 9月15日
 ```
 
-### 「NetScaler」に触れた発表（4機関・8件）
+### 「Cisco」に触れた発表（2機関・8件）
 
 同じ脆弱性とは限りません。見出しを見て、同じ話題だと確認できたものだけ使ってください。
 
-- CISA 9月27日 … 悪用確認(KEV): Citrix NetScaler — メモリ範囲外の操作(バッファ処理の不備) (CVE-2026-88772)
-- CISA 9月27日 … 悪用確認(KEV): Citrix NetScaler — 入力値検証の不備 (CVE-2026-88771)
-- IPA 9月28日 … NetScaler ADCおよびNetScaler Gatewayの脆弱性について(CVE-2026-88771、CVE-2026-88772等)
-- NCSC 9月28日 … Citrix NetScaler ADCおよびNetScaler Gatewayの脆弱性の悪用について
-- JPCERT/CC 10月2日 … 注意喚起: NetScaler ADCおよびNetScaler Gatewayにおける複数の脆弱性（CVE-2026-88771、CVE-2026-88772等）に関する注意喚起 (更新)
-- CISA 10月4日 … 悪用確認(KEV): Citrix NetScaler — メモリ範囲外の操作(バッファ処理の不備) (CVE-2026-88779)
-- JPCERT/CC 10月7日 … Weekly Report: NetScaler ADCおよびNetScaler Gatewayに複数の脆弱性
-- JPCERT/CC 10月15日 … Weekly Report: Citrix NetScaler ADCおよびNetScaler Gatewayに複数の脆弱性
+- CISA 9月14日 … 悪用確認(KEV): Cisco Secure Email Gateway — SQLインジェクション (CVE-2026-76461)
+- JPCERT/CC 9月15日 … 注意喚起: Cisco Secure Email GatewayにおけるSQLインジェクションの脆弱性（CVE-2026-76461）に関する注意喚起 (公開)
+- CISA 9月16日 … 悪用確認(KEV): Cisco Identity Services Engine — 特権APIの不適切な利用 (CVE-2026-76460)
+- CISA 9月30日 … 悪用確認(KEV): Cisco Catalyst SD-WAN Manager — Hex Encoding (CVE-2026-76504)
+- JPCERT/CC 10月7日 … Weekly Report: Cisco Catalyst SD-WAN Managerに認証回避につながる脆弱性
+- CISA 10月14日 … 悪用確認(KEV): Cisco Secure Email Gateway — パストラバーサル (CVE-2026-76519)
+- JPCERT/CC 10月15日 … Weekly Report: 複数のCisco製品に脆弱性
+- JPCERT/CC 10月21日 … Weekly Report: Cisco Secure Email Gatewayに任意のファイル書き込みの脆弱性
 

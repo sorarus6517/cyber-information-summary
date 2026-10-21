@@ -1,68 +1,76 @@
-件名: 今週のサイバー注意喚起まとめ(2026年10月21日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年10月22日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
 ■ JPCERT/CC(日本)
-・Weekly Report: Drupalの複数のモジュールに脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#1
-・Weekly Report: 複数のSplunk製品に脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#2
-・Weekly Report: 複数のCisco製品に脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#3
-・Weekly Report: Movable Typeに複数の脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#4
-・Weekly Report: 複数のElastic製品に脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#5
-・Weekly Report: Veeam Backup & Replicationに複数の脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#6
-・Weekly Report: WordPressに複数の脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#7
-・Weekly Report: Google Chromeに複数の脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#8
-・Weekly Report: 複数のSonicWall製品に脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#9
-・Weekly Report: 複数のAtlassian製品に脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#10
-・Weekly Report: 複数のMicrosoft製品に脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#11
-・Weekly Report: Horizon3がRejetto HFSの脆弱性に関する技術分析を公開（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#12
-・Weekly Report: MikroTik RouterOSに未認証のリモートコード実行につながる脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#13
-・Weekly Report: pgvectorに境界外書き込みの脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#14
-・Weekly Report: Loom for AWSに複数の脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#15
-・Weekly Report: GitLab AI Gatewayに任意のコマンド実行の脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#16
-・Weekly Report: Citrix NetScaler ADCおよびNetScaler Gatewayに複数の脆弱性（2026年10月15日）
-  https://www.jpcert.or.jp/wr/2026/wr261015.html#17
+・Weekly Report: Microsoft Edgeに複数の脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#1
+・Weekly Report: 複数のJuniper Networks製品に脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#2
+・Weekly Report: BeyondTrust Remote Supportになりすましによる認証回避の脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#3
+・Weekly Report: 複数のNGINX製品に脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#4
+・Weekly Report: Drupal coreおよび複数のモジュールに脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#5
+・Weekly Report: 複数のAdobe製品に脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#6
+・Weekly Report: Google Chromeに複数の脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#7
+・Weekly Report: Next.jsに複数の脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#8
+・Weekly Report: EC-CUBE4系用プラグイン「AmazonPayプラグイン」に不変と想定しているWebパラメータの外部制御の脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#9
+・Weekly Report: NextcloudのCollabora Online - Built-in CODE Serverに脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#10
+・Weekly Report: 複数のPalo Alto Networks製品に脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#11
+・Weekly Report: Cisco Secure Email Gatewayに任意のファイル書き込みの脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#12
+・Weekly Report: 複数のZoom製品に脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#13
+・Weekly Report: 複数のMozilla製品に脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#14
+・Weekly Report: 複数のSAP製品に脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#15
+・Weekly Report: 複数のFortinet製品に脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#16
+・Weekly Report: Ivanti Connect Secureに認証回避の脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#17
+・Weekly Report: AssetViewに重要なリソースに対する不適切なアクセス権の割り当ての脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#18
+・Weekly Report: ((OTRS)) Community Editionに認証回避の脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#19
+・Weekly Report: ProgressのMarkLogic Serverに複数の脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#20
+・Weekly Report: GitLabに複数の脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#21
+・Weekly Report: JPCERT/CCが「連続不正アクセス事案の攻撃手法に関する調査」を公開（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#22
+・Weekly Report: SiteGuard Server EditionにOSコマンドインジェクションの脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#23
+・Weekly Report: 複数のマイクロソフト製品に脆弱性（2026年10月21日）
+  https://www.jpcert.or.jp/wr/2026/wr261021.html#24
 
 ■ JVN(日本)
+・Apache Tomcatにおける複数の脆弱性（2026年10月20日）（2026年10月21日）
+  https://jvn.jp/vu/JVNVU93110597/
+・CISA ICS Advisory / ICS Medical Advisory（2026年10月20日）（2026年10月21日）
+  https://jvn.jp/vu/JVNVU90998702/
+・Xerj Console APIにおける認証回避の脆弱性（2026年10月21日）
+  https://jvn.jp/vu/JVNVU92078426/
 ・アツミ電氣製DVRに利用可能な非公開機能を悪用される問題（2026年10月20日）
   https://jvn.jp/jp/JVN88864366/
 ・複数のLenovo製タブレットのAndroid Verified Boot機能において既知のテスト用鍵がそのまま使用されている問題（2026年10月20日）
   https://jvn.jp/jp/JVN33436631/
 ・UnRTFにおける境界外書き込みの脆弱性（2026年10月20日）
   https://jvn.jp/jp/JVN29783594/
-・ヤマハ製VOCALOID6 Editorにおける外部エンティティ参照の不適切な制限の脆弱性（2026年10月19日）
-  https://jvn.jp/vu/JVNVU93520490/
-・CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）（2026年10月16日）
-  https://jvn.jp/vu/JVNVU96928590/
-・Siemens製品に対するアップデート（2026年10月）（2026年10月16日）
-  https://jvn.jp/vu/JVNVU90141693/
-・「車検証閲覧アプリ」における送信データへの機微な情報の挿入の脆弱性（2026年10月15日）
-  https://jvn.jp/jp/JVN94004488/
-・スマートフォンアプリ「ハンドメイドマーケットアプリ - Creema（クリーマ）」におけるオープンリダイレクトの脆弱性（2026年10月15日）
-  https://jvn.jp/jp/JVN48627289/
-・スマートフォンアプリ「ゲオアプリ」における複数の脆弱性（2026年10月15日）
-  https://jvn.jp/jp/JVN40460777/
-・Google BoringSSL証明書検証における複数の名前制約回避の脆弱性（2026年10月15日）
-  https://jvn.jp/vu/JVNVU95613365/
-・複数のTLSライブラリにおける名前制約回避の問題（2026年10月15日）
-  https://jvn.jp/vu/JVNVU95474776/
-・Bishengにおける複数の認証回避の脆弱性（2026年10月15日）
-  https://jvn.jp/vu/JVNVU94697946/
+
+■ IPA(日本)
+・【事前準備のお願い】PHPのセキュリティリリース公開予定について（2026年10月21日）
+  https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html
+・Oracle Java の脆弱性対策について(2026年10月)（2026年10月21日）
+  https://www.ipa.go.jp/security/security-alert/2026/1021-jre.html
 
 ■ CISA(米国)
 ・悪用確認(KEV): EG Secure Solutions SiteGuard Server Edition — OSコマンドインジェクション (CVE-2026-106931)（2026年10月20日）
@@ -77,18 +85,12 @@
   https://nvd.nist.gov/vuln/detail/CVE-2026-96652
 ・悪用確認(KEV): Siemens Software Center — Uncontrolled Search Path Element (CVE-2026-110936)（2026年10月20日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-110936
-・悪用確認(KEV): BeyondTrust Remote Support — 認証回避 (CVE-2026-102764)（2026年10月16日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-102764
-・悪用確認(KEV): Fortinet Multiple Products — パストラバーサル (CVE-2025-61624)（2026年10月16日）
-  https://nvd.nist.gov/vuln/detail/CVE-2025-61624
 
 ■ NCSC(英国)
+・Critical security issue affecting PHP（2026年10月21日）
+  https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
 ・Introducing a new AI chapter in the NCSC research problem book（2026年10月20日）
   https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book
-・TLSガイダンスを耐量子計算機暗号(PQC)に対応して更新（2026年10月15日）
-  https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance
-・データを保護するためのTLSの使い方（2026年10月15日）
-  https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data
 
 すべての項目: https://cyber-information-summary.pages.dev/
 週ごとのまとめ: https://cyber-information-summary.pages.dev/archive.html
