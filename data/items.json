@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T21:54:37.925433+00:00",
+ "generated_at": "2026-10-21T22:11:48.897035+00:00",
  "count": 211,
  "items": [
   {
@@ -12,7 +12,9 @@
    "source_name": "NCSC(英国)",
    "country": "GB",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "PHPに影響する重大なセキュリティ問題",
+   "title_ja_source": "manual"
   },
   {
    "title": "Apache Tomcatにおける複数の脆弱性（2026年10月20日）",
@@ -372,7 +374,9 @@
    "source_name": "NCSC(英国)",
    "country": "GB",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "NCSCの研究課題集にAIの新章を追加",
+   "title_ja_source": "manual"
   },
   {
    "title": "アツミ電氣製DVRに利用可能な非公開機能を悪用される問題",

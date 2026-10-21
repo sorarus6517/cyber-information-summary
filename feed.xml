@@ -4,9 +4,9 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Wed, 21 Oct 2026 21:54:42 +0000</lastBuildDate>
+<lastBuildDate>Wed, 21 Oct 2026 22:11:52 +0000</lastBuildDate>
 <item>
-<title>[NCSC(英国)] Critical security issue affecting PHP</title>
+<title>[NCSC(英国)] PHPに影響する重大なセキュリティ問題</title>
 <link>https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php</link>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php</guid>
 <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
@@ -216,7 +216,7 @@
 <description>IPA(日本) が公表。原文: https://www.ipa.go.jp/security/security-alert/2026/1021-jre.html</description>
 </item>
 <item>
-<title>[NCSC(英国)] Introducing a new AI chapter in the NCSC research problem book</title>
+<title>[NCSC(英国)] NCSCの研究課題集にAIの新章を追加</title>
 <link>https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book</link>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book</guid>
 <pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>

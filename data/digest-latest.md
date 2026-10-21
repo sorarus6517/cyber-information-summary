@@ -87,9 +87,9 @@
   https://nvd.nist.gov/vuln/detail/CVE-2026-110936
 
 ■ NCSC(英国)
-・Critical security issue affecting PHP（2026年10月21日）
+・PHPに影響する重大なセキュリティ問題（2026年10月21日）
   https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
-・Introducing a new AI chapter in the NCSC research problem book（2026年10月20日）
+・NCSCの研究課題集にAIの新章を追加（2026年10月20日）
   https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book
 
 すべての項目: https://cyber-information-summary.pages.dev/

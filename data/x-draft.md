@@ -12,13 +12,13 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 262 / 280 ]
+**本文** [ 260 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】10月21日
 
 主な発表:
-・Critical security issue affecting PHP
+・PHPに影響する重大なセキュリティ問題
 ・Apache Tomcatにおける複数の脆弱性（2026年10月20日）
 ・Xerj Console APIにおける認証回避の脆弱性
 
@@ -65,10 +65,10 @@ https://cyber-information-summary.pages.dev/w/2026-W43.html
 
 ### NCSC（2026年10月21日）
 
-本文 [ 59 / 280 ]
+本文 [ 57 / 280 ]
 
 ```
-【NCSC】Critical security issue affecting PHP
+【NCSC】PHPに影響する重大なセキュリティ問題
 #セキュリティ
 ```
 
