@@ -3,8 +3,8 @@ name: collect
 # 1日1回、各機関の公式フィードを取得して data/ とページを更新する。
 # 手動でも実行できる(Actions タブの「Run workflow」)。
 on:
-  schedule:
-    - cron: "15 21 * * *"   # UTC 21:15 = 日本時間 翌朝6:15
+    schedule:
+    - cron: '20 0,3,6,9,12,14,18,21 * * *'
   workflow_dispatch:
 
 permissions:
