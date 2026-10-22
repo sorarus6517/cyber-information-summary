@@ -4,7 +4,42 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Wed, 21 Oct 2026 22:11:52 +0000</lastBuildDate>
+<lastBuildDate>Thu, 22 Oct 2026 04:58:14 +0000</lastBuildDate>
+<item>
+<title>[JPCERT/CC(日本)] 注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (公開)</title>
+<link>https://www.jpcert.or.jp/at/2026/at260033.html</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/at/2026/at260033.html</guid>
+<pubDate>Thu, 22 Oct 2026 04:11:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/at/2026/at260033.html</description>
+</item>
+<item>
+<title>[JVN(日本)] PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）</title>
+<link>https://jvn.jp/vu/JVNVU99905564/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU99905564/</guid>
+<pubDate>Thu, 22 Oct 2026 01:30:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99905564/</description>
+</item>
+<item>
+<title>[JVN(日本)] LIFF SDKにおけるクロスサイトスクリプティングの脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU91023667/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU91023667/</guid>
+<pubDate>Thu, 22 Oct 2026 01:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU91023667/</description>
+</item>
+<item>
+<title>[JVN(日本)] ISC BINDにおける複数の脆弱性（2026年10月）</title>
+<link>https://jvn.jp/vu/JVNVU91196958/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU91196958/</guid>
+<pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU91196958/</description>
+</item>
+<item>
+<title>[IPA(日本)] PHPの脆弱性対策について(CVE-2026-109618、CVE-2026-109619：PHP2shell)</title>
+<link>https://www.ipa.go.jp/security/security-alert/2026/alert20261022.html</link>
+<guid isPermaLink="true">https://www.ipa.go.jp/security/security-alert/2026/alert20261022.html</guid>
+<pubDate>Wed, 21 Oct 2026 15:00:00 +0000</pubDate>
+<description>IPA(日本) が公表。原文: https://www.ipa.go.jp/security/security-alert/2026/alert20261022.html</description>
+</item>
 <item>
 <title>[NCSC(英国)] PHPに影響する重大なセキュリティ問題</title>
 <link>https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php</link>
@@ -319,40 +354,5 @@
 <guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2025-61624</guid>
 <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
 <description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2025-61624</description>
-</item>
-<item>
-<title>[NCSC(英国)] TLSガイダンスを耐量子計算機暗号(PQC)に対応して更新</title>
-<link>https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance</link>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance</guid>
-<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
-<description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance</description>
-</item>
-<item>
-<title>[NCSC(英国)] データを保護するためのTLSの使い方</title>
-<link>https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data</link>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data</guid>
-<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
-<description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data</description>
-</item>
-<item>
-<title>[JVN(日本)] 「車検証閲覧アプリ」における送信データへの機微な情報の挿入の脆弱性</title>
-<link>https://jvn.jp/jp/JVN94004488/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN94004488/</guid>
-<pubDate>Thu, 15 Oct 2026 05:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN94004488/</description>
-</item>
-<item>
-<title>[JVN(日本)] スマートフォンアプリ「ハンドメイドマーケットアプリ - Creema（クリーマ）」におけるオープンリダイレクトの脆弱性</title>
-<link>https://jvn.jp/jp/JVN48627289/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN48627289/</guid>
-<pubDate>Thu, 15 Oct 2026 03:00:30 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN48627289/</description>
-</item>
-<item>
-<title>[JVN(日本)] スマートフォンアプリ「ゲオアプリ」における複数の脆弱性</title>
-<link>https://jvn.jp/jp/JVN40460777/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN40460777/</guid>
-<pubDate>Thu, 15 Oct 2026 03:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN40460777/</description>
 </item>
 </channel></rss>

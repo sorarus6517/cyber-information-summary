@@ -12,17 +12,16 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 260 / 280 ]
+**本文** [ 264 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】10月21日
+【本日の公式セキュリティ情報】10月22日
 
 主な発表:
-・PHPに影響する重大なセキュリティ問題
-・Apache Tomcatにおける複数の脆弱性（2026年10月20日）
-・Xerj Console APIにおける認証回避の脆弱性
+・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (公開)
+・ISC BINDにおける複数の脆弱性（2026年10月）
 
-日本の機関（JPCERT/CC・JVN・IPA）からは29件。
+日本の機関（JPCERT/CC・JVN・IPA）からは5件。
 詳細はリプライのリンクから。
 ```
 
@@ -46,7 +45,7 @@ https://cyber-information-summary.pages.dev/
 悪用が確認された脆弱性:
 ・EG Secure Solutions SiteGuard Server Edition OSコマンドインジェクション（CVSS 7.8）
 
-日本の機関（JPCERT/CC・JVN・IPA）からは33件。
+日本の機関（JPCERT/CC・JVN・IPA）からは38件。
 ほか悪用確認が5件。
 詳細はリプライのリンクから。
 ```
@@ -62,6 +61,86 @@ https://cyber-information-summary.pages.dev/w/2026-W43.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### JPCERT/CC（2026年10月22日）
+
+本文 [ 119 / 280 ]
+
+```
+【JPCERT/CC】注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (公開)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/at/2026/at260033.html
+```
+
+### JVN（2026年10月22日）
+
+本文 [ 104 / 280 ]
+
+```
+【JVN】PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU99905564/
+```
+
+### JVN（2026年10月22日）
+
+本文 [ 73 / 280 ]
+
+```
+【JVN】LIFF SDKにおけるクロスサイトスクリプティングの脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU91023667/
+```
+
+### JVN（2026年10月22日）
+
+本文 [ 63 / 280 ]
+
+```
+【JVN】ISC BINDにおける複数の脆弱性（2026年10月）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU91196958/
+```
+
+### IPA（2026年10月22日）
+
+本文 [ 89 / 280 ]
+
+```
+【IPA】PHPの脆弱性対策について(CVE-2026-109618、CVE-2026-109619：PHP2shell)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.ipa.go.jp/security/security-alert/2026/alert20261022.html
+```
 
 ### NCSC（2026年10月21日）
 
@@ -175,86 +254,6 @@ https://www.jpcert.or.jp/wr/2026/wr261021.html#2
 https://www.jpcert.or.jp/wr/2026/wr261021.html#3
 ```
 
-### JPCERT/CC（2026年10月21日）
-
-本文 [ 65 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のNGINX製品に脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261021.html#4
-```
-
-### JPCERT/CC（2026年10月21日）
-
-本文 [ 83 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Drupal coreおよび複数のモジュールに脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261021.html#5
-```
-
-### JPCERT/CC（2026年10月21日）
-
-本文 [ 65 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のAdobe製品に脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261021.html#6
-```
-
-### JPCERT/CC（2026年10月21日）
-
-本文 [ 69 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Google Chromeに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261021.html#7
-```
-
-### JPCERT/CC（2026年10月21日）
-
-本文 [ 63 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Next.jsに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261021.html#8
-```
-
 ---
 
 ## 4. 照合ネタ（引用リポスト用）
@@ -262,6 +261,30 @@ https://www.jpcert.or.jp/wr/2026/wr261021.html#8
 話題になっている脆弱性を見かけたとき、ここから事実だけを足せます。
 **深刻度の評価・対応方法・推測は書かないでください。**
 日付と機関名と番号だけなら、専門知識が無くても間違えようがありません。
+
+### CVE-2026-109618
+
+そのまま投稿できます [ 112 / 280 ]
+
+```
+CVE-2026-109618に言及した公的機関の発表です。
+
+・IPA 10月22日
+・JVN 10月22日 JVNVU#99905564
+・JPCERT/CC 10月22日
+```
+
+### CVE-2026-109619
+
+そのまま投稿できます [ 112 / 280 ]
+
+```
+CVE-2026-109619に言及した公的機関の発表です。
+
+・IPA 10月22日
+・JVN 10月22日 JVNVU#99905564
+・JPCERT/CC 10月22日
+```
 
 ### CVE-2026-88771
 
@@ -308,28 +331,4 @@ CVE-2026-94127（F5 BIG-IP APM）に言及した公的機関の発表です。
 ・CISA 9月22日（悪用確認として登録）
 ・JPCERT/CC 9月24日
 ```
-
-### CVE-2026-76461
-
-そのまま投稿できます [ 132 / 280 ]
-
-```
-CVE-2026-76461（Cisco Secure Email Gateway）に言及した公的機関の発表です。
-
-・CISA 9月14日（悪用確認として登録）
-・JPCERT/CC 9月15日
-```
-
-### 「Cisco」に触れた発表（2機関・8件）
-
-同じ脆弱性とは限りません。見出しを見て、同じ話題だと確認できたものだけ使ってください。
-
-- CISA 9月14日 … 悪用確認(KEV): Cisco Secure Email Gateway — SQLインジェクション (CVE-2026-76461)
-- JPCERT/CC 9月15日 … 注意喚起: Cisco Secure Email GatewayにおけるSQLインジェクションの脆弱性（CVE-2026-76461）に関する注意喚起 (公開)
-- CISA 9月16日 … 悪用確認(KEV): Cisco Identity Services Engine — 特権APIの不適切な利用 (CVE-2026-76460)
-- CISA 9月30日 … 悪用確認(KEV): Cisco Catalyst SD-WAN Manager — Hex Encoding (CVE-2026-76504)
-- JPCERT/CC 10月7日 … Weekly Report: Cisco Catalyst SD-WAN Managerに認証回避につながる脆弱性
-- CISA 10月14日 … 悪用確認(KEV): Cisco Secure Email Gateway — パストラバーサル (CVE-2026-76519)
-- JPCERT/CC 10月15日 … Weekly Report: 複数のCisco製品に脆弱性
-- JPCERT/CC 10月21日 … Weekly Report: Cisco Secure Email Gatewayに任意のファイル書き込みの脆弱性
 

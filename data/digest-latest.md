@@ -3,6 +3,8 @@
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
 ■ JPCERT/CC(日本)
+・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (公開)（2026年10月22日）
+  https://www.jpcert.or.jp/at/2026/at260033.html
 ・Weekly Report: Microsoft Edgeに複数の脆弱性（2026年10月21日）
   https://www.jpcert.or.jp/wr/2026/wr261021.html#1
 ・Weekly Report: 複数のJuniper Networks製品に脆弱性（2026年10月21日）
@@ -53,6 +55,12 @@
   https://www.jpcert.or.jp/wr/2026/wr261021.html#24
 
 ■ JVN(日本)
+・PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）（2026年10月22日）
+  https://jvn.jp/vu/JVNVU99905564/
+・LIFF SDKにおけるクロスサイトスクリプティングの脆弱性（2026年10月22日）
+  https://jvn.jp/vu/JVNVU91023667/
+・ISC BINDにおける複数の脆弱性（2026年10月）（2026年10月22日）
+  https://jvn.jp/vu/JVNVU91196958/
 ・Apache Tomcatにおける複数の脆弱性（2026年10月20日）（2026年10月21日）
   https://jvn.jp/vu/JVNVU93110597/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年10月20日）（2026年10月21日）
@@ -67,6 +75,8 @@
   https://jvn.jp/jp/JVN29783594/
 
 ■ IPA(日本)
+・PHPの脆弱性対策について(CVE-2026-109618、CVE-2026-109619：PHP2shell)（2026年10月22日）
+  https://www.ipa.go.jp/security/security-alert/2026/alert20261022.html
 ・【事前準備のお願い】PHPのセキュリティリリース公開予定について（2026年10月21日）
   https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html
 ・Oracle Java の脆弱性対策について(2026年10月)（2026年10月21日）
@@ -75,16 +85,6 @@
 ■ CISA(米国)
 ・悪用確認(KEV): EG Secure Solutions SiteGuard Server Edition — OSコマンドインジェクション (CVE-2026-106931)（2026年10月20日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-106931
-・悪用確認(KEV): Plex Media Server — External Control of File Name or Path (CVE-2026-96656)（2026年10月20日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-96656
-・悪用確認(KEV): Plex Media Server — サーバーサイドリクエストフォージェリ(SSRF) (CVE-2026-96655)（2026年10月20日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-96655
-・悪用確認(KEV): Plex Media Server — Improper Neutralization of Encoded URI Schemes in a Web Page (CVE-2026-96654)（2026年10月20日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-96654
-・悪用確認(KEV): Plex Media Server — サーバーサイドリクエストフォージェリ(SSRF) (CVE-2026-96652)（2026年10月20日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-96652
-・悪用確認(KEV): Siemens Software Center — Uncontrolled Search Path Element (CVE-2026-110936)（2026年10月20日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-110936
 
 ■ NCSC(英国)
 ・PHPに影響する重大なセキュリティ問題（2026年10月21日）
