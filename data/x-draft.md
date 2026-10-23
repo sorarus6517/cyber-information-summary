@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年10月23日 自動生成）
+# Xの投稿下書き（2026年10月24日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -12,14 +12,13 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 250 / 280 ]
+**本文** [ 197 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】10月23日
 
-主な発表:
-・注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)
-・プリザンターのLDAP認証における認証不備の脆弱性
+悪用が確認された脆弱性:
+・Arista VeloCloud Orchestrator SQLインジェクション（CVSS 9.9）
 
 日本の機関（JPCERT/CC・JVN）からは5件。
 詳細はリプライのリンクから。
@@ -37,16 +36,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 255 / 280 ]
+**本文** [ 233 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】10月19日〜10月25日
 
 悪用が確認された脆弱性:
-・EG Secure Solutions SiteGuard Server Edition OSコマンドインジェクション（CVSS 7.8）
+・Arista VeloCloud Orchestrator SQLインジェクション（CVSS 9.9）
 
 日本の機関（JPCERT/CC・JVN・IPA）からは42件。
-ほか悪用確認が5件。
+ほか悪用確認が6件。
 詳細はリプライのリンクから。
 ```
 
@@ -140,6 +139,22 @@ https://jvn.jp/vu/JVNVU93251594/
 ```
 原文はこちら
 https://jvn.jp/vu/JVNVU98747108/
+```
+
+### CISA（2026年10月23日）
+
+本文 [ 106 / 280 ]
+
+```
+【CISA】悪用確認(KEV): Arista VeloCloud Orchestrator — SQLインジェクション (CVE-2026-114625)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://nvd.nist.gov/vuln/detail/CVE-2026-114625
 ```
 
 ### JPCERT/CC（2026年10月22日）
@@ -236,22 +251,6 @@ https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
 ```
 原文はこちら
 https://jvn.jp/vu/JVNVU93110597/
-```
-
-### JVN（2026年10月21日）
-
-本文 [ 79 / 280 ]
-
-```
-【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年10月20日）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU90998702/
 ```
 
 ---

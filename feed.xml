@@ -4,7 +4,7 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Fri, 23 Oct 2026 11:46:51 +0000</lastBuildDate>
+<lastBuildDate>Fri, 23 Oct 2026 17:14:23 +0000</lastBuildDate>
 <item>
 <title>[JVN(日本)] PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）</title>
 <link>https://jvn.jp/vu/JVNVU99905564/</link>
@@ -39,6 +39,13 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU98747108/</guid>
 <pubDate>Fri, 23 Oct 2026 02:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98747108/</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Arista VeloCloud Orchestrator — SQLインジェクション (CVE-2026-114625)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2026-114625</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-114625</guid>
+<pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-114625</description>
 </item>
 <item>
 <title>[JPCERT/CC(日本)] 注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (公開)</title>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-110936</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
 <description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-110936</description>
-</item>
-<item>
-<title>[JVN(日本)] ヤマハ製VOCALOID6 Editorにおける外部エンティティ参照の不適切な制限の脆弱性</title>
-<link>https://jvn.jp/vu/JVNVU93520490/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU93520490/</guid>
-<pubDate>Mon, 19 Oct 2026 01:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU93520490/</description>
 </item>
 </channel></rss>

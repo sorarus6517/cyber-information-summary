@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年10月23日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年10月24日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -84,11 +84,13 @@
 ・Oracle Java の脆弱性対策について(2026年10月)（2026年10月21日）
   https://www.ipa.go.jp/security/security-alert/2026/1021-jre.html
 
+■ CISA(米国)
+・悪用確認(KEV): Arista VeloCloud Orchestrator — SQLインジェクション (CVE-2026-114625)（2026年10月23日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-114625
+
 ■ NCSC(英国)
 ・PHPに影響する重大なセキュリティ問題（2026年10月21日）
   https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
-・NCSCの研究課題集にAIの新章を追加（2026年10月20日）
-  https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book
 
 すべての項目: https://cyber-information-summary.pages.dev/
 週ごとのまとめ: https://cyber-information-summary.pages.dev/archive.html

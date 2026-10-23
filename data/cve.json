@@ -856,6 +856,25 @@
    "published": "2026-10-15T15:17:30.383",
    "status": "Undergoing Analysis"
   },
+  "CVE-2026-114625": {
+   "cvss": {
+    "score": 9.9,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-89"
+   ],
+   "desc_en": "VeloCloud Orchestrator (VCO) on-prem has a security issue where this issue may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.\n\nOn an affected system, any authenticated user can gain operator privileges and masquerade as a local \"superuser operator\" user. This includes access to functionality that is intended for internal use only and which is not intended to be remotely accessible.\n\nHosted, including Dedicated, versions of VCO were impacted and have already been patched.",
+   "fetched_at": "2026-10-23T17:14:23.460273+00:00",
+   "found": true,
+   "id": "CVE-2026-114625",
+   "last_modified": "2026-10-23T04:18:13.833",
+   "products": [],
+   "published": "2026-10-22T21:17:16.870",
+   "status": "Received"
+  },
   "CVE-2026-21589": {
    "cwe": [],
    "desc_en": "Rejected reason: This CVE's publication may have been a false positive or a mistake. As a result, we have rejected this record.",
@@ -2050,5 +2069,5 @@
    "status": "Analyzed"
   }
  },
- "generated_at": "2026-10-23T11:46:50.976027+00:00"
+ "generated_at": "2026-10-23T17:14:23.173648+00:00"
 }
