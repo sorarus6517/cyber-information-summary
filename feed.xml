@@ -4,20 +4,27 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Fri, 23 Oct 2026 04:59:43 +0000</lastBuildDate>
+<lastBuildDate>Fri, 23 Oct 2026 11:46:51 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）</title>
+<link>https://jvn.jp/vu/JVNVU99905564/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU99905564/</guid>
+<pubDate>Fri, 23 Oct 2026 08:10:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99905564/</description>
+</item>
+<item>
+<title>[JVN(日本)] プリザンターのLDAP認証における認証不備の脆弱性</title>
+<link>https://jvn.jp/jp/JVN82312317/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN82312317/</guid>
+<pubDate>Fri, 23 Oct 2026 06:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN82312317/</description>
+</item>
 <item>
 <title>[JPCERT/CC(日本)] 注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)</title>
 <link>https://www.jpcert.or.jp/at/2026/at260030.html</link>
 <guid isPermaLink="true">https://www.jpcert.or.jp/at/2026/at260030.html</guid>
 <pubDate>Fri, 23 Oct 2026 02:37:00 +0000</pubDate>
 <description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/at/2026/at260030.html</description>
-</item>
-<item>
-<title>[JVN(日本)] PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）</title>
-<link>https://jvn.jp/vu/JVNVU99905564/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU99905564/</guid>
-<pubDate>Fri, 23 Oct 2026 02:30:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99905564/</description>
 </item>
 <item>
 <title>[JVN(日本)] 三菱電機製の複数製品における複数の脆弱性（2026-006）</title>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU93520490/</guid>
 <pubDate>Mon, 19 Oct 2026 01:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU93520490/</description>
-</item>
-<item>
-<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）</title>
-<link>https://jvn.jp/vu/JVNVU96928590/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU96928590/</guid>
-<pubDate>Fri, 16 Oct 2026 00:15:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU96928590/</description>
 </item>
 </channel></rss>

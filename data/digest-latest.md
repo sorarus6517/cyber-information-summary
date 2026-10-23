@@ -59,6 +59,8 @@
 ■ JVN(日本)
 ・PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）（2026年10月23日）
   https://jvn.jp/vu/JVNVU99905564/
+・プリザンターのLDAP認証における認証不備の脆弱性（2026年10月23日）
+  https://jvn.jp/jp/JVN82312317/
 ・三菱電機製の複数製品における複数の脆弱性（2026-006）（2026年10月23日）
   https://jvn.jp/vu/JVNVU93251594/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年10月22日）（2026年10月23日）
@@ -73,8 +75,6 @@
   https://jvn.jp/vu/JVNVU90998702/
 ・Xerj Console APIにおける認証回避の脆弱性（2026年10月21日）
   https://jvn.jp/vu/JVNVU92078426/
-・アツミ電氣製DVRに利用可能な非公開機能を悪用される問題（2026年10月20日）
-  https://jvn.jp/jp/JVN88864366/
 
 ■ IPA(日本)
 ・PHPの脆弱性対策について(CVE-2026-109618、CVE-2026-109619：PHP2shell)（2026年10月22日）
