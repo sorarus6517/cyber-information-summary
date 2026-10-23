@@ -3,6 +3,8 @@
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
 ■ JPCERT/CC(日本)
+・注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)（2026年10月23日）
+  https://www.jpcert.or.jp/at/2026/at260030.html
 ・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (公開)（2026年10月22日）
   https://www.jpcert.or.jp/at/2026/at260033.html
 ・Weekly Report: Microsoft Edgeに複数の脆弱性（2026年10月21日）
@@ -55,8 +57,12 @@
   https://www.jpcert.or.jp/wr/2026/wr261021.html#24
 
 ■ JVN(日本)
-・PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）（2026年10月22日）
+・PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）（2026年10月23日）
   https://jvn.jp/vu/JVNVU99905564/
+・三菱電機製の複数製品における複数の脆弱性（2026-006）（2026年10月23日）
+  https://jvn.jp/vu/JVNVU93251594/
+・CISA ICS Advisory / ICS Medical Advisory（2026年10月22日）（2026年10月23日）
+  https://jvn.jp/vu/JVNVU98747108/
 ・LIFF SDKにおけるクロスサイトスクリプティングの脆弱性（2026年10月22日）
   https://jvn.jp/vu/JVNVU91023667/
 ・ISC BINDにおける複数の脆弱性（2026年10月）（2026年10月22日）
@@ -69,10 +75,6 @@
   https://jvn.jp/vu/JVNVU92078426/
 ・アツミ電氣製DVRに利用可能な非公開機能を悪用される問題（2026年10月20日）
   https://jvn.jp/jp/JVN88864366/
-・複数のLenovo製タブレットのAndroid Verified Boot機能において既知のテスト用鍵がそのまま使用されている問題（2026年10月20日）
-  https://jvn.jp/jp/JVN33436631/
-・UnRTFにおける境界外書き込みの脆弱性（2026年10月20日）
-  https://jvn.jp/jp/JVN29783594/
 
 ■ IPA(日本)
 ・PHPの脆弱性対策について(CVE-2026-109618、CVE-2026-109619：PHP2shell)（2026年10月22日）
@@ -81,10 +83,6 @@
   https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html
 ・Oracle Java の脆弱性対策について(2026年10月)（2026年10月21日）
   https://www.ipa.go.jp/security/security-alert/2026/1021-jre.html
-
-■ CISA(米国)
-・悪用確認(KEV): EG Secure Solutions SiteGuard Server Edition — OSコマンドインジェクション (CVE-2026-106931)（2026年10月20日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-106931
 
 ■ NCSC(英国)
 ・PHPに影響する重大なセキュリティ問題（2026年10月21日）

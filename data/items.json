@@ -1,13 +1,49 @@
 {
- "generated_at": "2026-10-22T21:42:18.885500+00:00",
- "count": 216,
+ "generated_at": "2026-10-23T04:59:38.593278+00:00",
+ "count": 218,
  "items": [
+  {
+   "title": "注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)",
+   "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+   "published": "2026-10-23T02:37:00+00:00",
+   "first_seen": "2026-10-08T20:34:54.499986+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja",
+   "date_estimated": false
+  },
   {
    "title": "PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）",
    "url": "https://jvn.jp/vu/JVNVU99905564/",
-   "published": "2026-10-22T09:00:00+00:00",
+   "published": "2026-10-23T02:30:00+00:00",
    "date_estimated": false,
    "first_seen": "2026-10-22T04:58:01.783445+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "三菱電機製の複数製品における複数の脆弱性（2026-006）",
+   "url": "https://jvn.jp/vu/JVNVU93251594/",
+   "published": "2026-10-23T02:00:15+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-23T04:59:38.593278+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月22日）",
+   "url": "https://jvn.jp/vu/JVNVU98747108/",
+   "published": "2026-10-23T02:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-23T04:59:38.593278+00:00",
    "source_id": "jvn",
    "source_name": "JVN(日本)",
    "country": "JP",
@@ -1205,18 +1241,6 @@
    "lang": "en",
    "title_ja": "組織の外部アタックサーフェスのリスク対応に関する調査への協力依頼",
    "title_ja_source": "manual"
-  },
-  {
-   "title": "注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)",
-   "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
-   "published": "2026-10-09T01:12:00+00:00",
-   "first_seen": "2026-10-08T20:34:54.499986+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja",
-   "date_estimated": false
   },
   {
    "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月08日）",
