@@ -81,12 +81,12 @@
   https://www.ipa.go.jp/security/security-alert/2026/alert20261022.html
 ・【事前準備のお願い】PHPのセキュリティリリース公開予定について（2026年10月21日）
   https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html
-・Oracle Java の脆弱性対策について(2026年10月)（2026年10月21日）
-  https://www.ipa.go.jp/security/security-alert/2026/1021-jre.html
 
 ■ CISA(米国)
 ・悪用確認(KEV): Arista VeloCloud Orchestrator — SQLインジェクション (CVE-2026-114625)（2026年10月23日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-114625
+・悪用確認(KEV): Collabora Collabora Online – Built-in CODE Server — OSコマンドインジェクション (CVE-2026-110447)（2026年10月23日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-110447
 
 ■ NCSC(英国)
 ・PHPに影響する重大なセキュリティ問題（2026年10月21日）

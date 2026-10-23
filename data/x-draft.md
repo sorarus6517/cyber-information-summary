@@ -12,7 +12,7 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 197 / 280 ]
+**本文** [ 217 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】10月23日
@@ -21,6 +21,7 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 ・Arista VeloCloud Orchestrator SQLインジェクション（CVSS 9.9）
 
 日本の機関（JPCERT/CC・JVN）からは5件。
+ほか悪用確認が1件。
 詳細はリプライのリンクから。
 ```
 
@@ -45,7 +46,7 @@ https://cyber-information-summary.pages.dev/
 ・Arista VeloCloud Orchestrator SQLインジェクション（CVSS 9.9）
 
 日本の機関（JPCERT/CC・JVN・IPA）からは42件。
-ほか悪用確認が6件。
+ほか悪用確認が7件。
 詳細はリプライのリンクから。
 ```
 
@@ -157,6 +158,22 @@ https://jvn.jp/vu/JVNVU98747108/
 https://nvd.nist.gov/vuln/detail/CVE-2026-114625
 ```
 
+### CISA（2026年10月23日）
+
+本文 [ 133 / 280 ]
+
+```
+【CISA】悪用確認(KEV): Collabora Collabora Online – Built-in CODE Server — OSコマンドインジェクション (CVE-2026-110447)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://nvd.nist.gov/vuln/detail/CVE-2026-110447
+```
+
 ### JPCERT/CC（2026年10月22日）
 
 本文 [ 119 / 280 ]
@@ -235,22 +252,6 @@ https://www.ipa.go.jp/security/security-alert/2026/alert20261022.html
 ```
 原文はこちら
 https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
-```
-
-### JVN（2026年10月21日）
-
-本文 [ 72 / 280 ]
-
-```
-【JVN】Apache Tomcatにおける複数の脆弱性（2026年10月20日）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU93110597/
 ```
 
 ---

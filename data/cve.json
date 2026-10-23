@@ -837,6 +837,25 @@
    "published": "2026-10-21T14:17:09.823",
    "status": "Modified"
   },
+  "CVE-2026-110447": {
+   "cvss": {
+    "score": 9.2,
+    "severity": "CRITICAL",
+    "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "version": "4.0"
+   },
+   "cwe": [
+    "CWE-78"
+   ],
+   "desc_en": "Collabora Online Built-in CODE Server before 26.4.303 (richdocumentscode), a Nextcloud app, allows remote code execution, as exploited in the wild in September and October 2026, a different vulnerability than CVE-2025-66208. This is an OS command injection in proxy.php when the CODE server isn't running (e.g., the product was recently restarted). The vulnerability is not present in standalone Collabora Online servers; only this deployment with CODE Server is affected.",
+   "fetched_at": "2026-10-23T21:29:08.889422+00:00",
+   "found": true,
+   "id": "CVE-2026-110447",
+   "last_modified": "2026-10-23T21:17:21.117",
+   "products": [],
+   "published": "2026-10-14T03:17:20.683",
+   "status": "Deferred"
+  },
   "CVE-2026-110936": {
    "cvss": {
     "score": 6.7,
@@ -2069,5 +2088,5 @@
    "status": "Analyzed"
   }
  },
- "generated_at": "2026-10-23T17:14:23.173648+00:00"
+ "generated_at": "2026-10-23T21:29:08.615369+00:00"
 }
