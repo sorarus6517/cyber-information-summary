@@ -4,7 +4,7 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Fri, 23 Oct 2026 21:29:08 +0000</lastBuildDate>
+<lastBuildDate>Sat, 24 Oct 2026 04:44:41 +0000</lastBuildDate>
 <item>
 <title>[JVN(日本)] PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）</title>
 <link>https://jvn.jp/vu/JVNVU99905564/</link>
