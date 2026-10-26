@@ -4,7 +4,28 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Sun, 25 Oct 2026 23:19:30 +0000</lastBuildDate>
+<lastBuildDate>Mon, 26 Oct 2026 04:55:50 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] 富士電機製V-SFTにおける複数の脆弱性（2026年10月）</title>
+<link>https://jvn.jp/vu/JVNVU96549652/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU96549652/</guid>
+<pubDate>Mon, 26 Oct 2026 04:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU96549652/</description>
+</item>
+<item>
+<title>[JVN(日本)] 電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性</title>
+<link>https://jvn.jp/jp/JVN75668103/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN75668103/</guid>
+<pubDate>Mon, 26 Oct 2026 03:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN75668103/</description>
+</item>
+<item>
+<title>[JVN(日本)] Siemens製品に対するアップデート（2026年10月）</title>
+<link>https://jvn.jp/vu/JVNVU90141693/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90141693/</guid>
+<pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90141693/</description>
+</item>
 <item>
 <title>[JVN(日本)] PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）</title>
 <link>https://jvn.jp/vu/JVNVU99905564/</link>
@@ -333,26 +354,5 @@
 <guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-96656</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
 <description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-96656</description>
-</item>
-<item>
-<title>[CISA(米国)] 悪用確認(KEV): Plex Media Server — サーバーサイドリクエストフォージェリ(SSRF) (CVE-2026-96655)</title>
-<link>https://nvd.nist.gov/vuln/detail/CVE-2026-96655</link>
-<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-96655</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-96655</description>
-</item>
-<item>
-<title>[CISA(米国)] 悪用確認(KEV): Plex Media Server — Improper Neutralization of Encoded URI Schemes in a Web Page (CVE-2026-96654)</title>
-<link>https://nvd.nist.gov/vuln/detail/CVE-2026-96654</link>
-<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-96654</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-96654</description>
-</item>
-<item>
-<title>[CISA(米国)] 悪用確認(KEV): Plex Media Server — サーバーサイドリクエストフォージェリ(SSRF) (CVE-2026-96652)</title>
-<link>https://nvd.nist.gov/vuln/detail/CVE-2026-96652</link>
-<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-96652</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-96652</description>
 </item>
 </channel></rss>

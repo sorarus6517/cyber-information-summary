@@ -51,12 +51,14 @@
   https://www.jpcert.or.jp/wr/2026/wr261021.html#21
 ・Weekly Report: JPCERT/CCが「連続不正アクセス事案の攻撃手法に関する調査」を公開（2026年10月21日）
   https://www.jpcert.or.jp/wr/2026/wr261021.html#22
-・Weekly Report: SiteGuard Server EditionにOSコマンドインジェクションの脆弱性（2026年10月21日）
-  https://www.jpcert.or.jp/wr/2026/wr261021.html#23
-・Weekly Report: 複数のマイクロソフト製品に脆弱性（2026年10月21日）
-  https://www.jpcert.or.jp/wr/2026/wr261021.html#24
 
 ■ JVN(日本)
+・富士電機製V-SFTにおける複数の脆弱性（2026年10月）（2026年10月26日）
+  https://jvn.jp/vu/JVNVU96549652/
+・電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性（2026年10月26日）
+  https://jvn.jp/jp/JVN75668103/
+・Siemens製品に対するアップデート（2026年10月）（2026年10月26日）
+  https://jvn.jp/vu/JVNVU90141693/
 ・PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）（2026年10月23日）
   https://jvn.jp/vu/JVNVU99905564/
 ・プリザンターのLDAP認証における認証不備の脆弱性（2026年10月23日）
@@ -79,8 +81,6 @@
 ■ IPA(日本)
 ・PHPの脆弱性対策について(CVE-2026-109618、CVE-2026-109619：PHP2shell)（2026年10月22日）
   https://www.ipa.go.jp/security/security-alert/2026/alert20261022.html
-・【事前準備のお願い】PHPのセキュリティリリース公開予定について（2026年10月21日）
-  https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html
 
 ■ CISA(米国)
 ・悪用確認(KEV): Arista VeloCloud Orchestrator — SQLインジェクション (CVE-2026-114625)（2026年10月23日）

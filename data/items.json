@@ -1,7 +1,43 @@
 {
- "generated_at": "2026-10-25T23:19:25.204298+00:00",
- "count": 221,
+ "generated_at": "2026-10-26T04:55:46.470502+00:00",
+ "count": 223,
  "items": [
+  {
+   "title": "富士電機製V-SFTにおける複数の脆弱性（2026年10月）",
+   "url": "https://jvn.jp/vu/JVNVU96549652/",
+   "published": "2026-10-26T04:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-26T04:55:46.470502+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性",
+   "url": "https://jvn.jp/jp/JVN75668103/",
+   "published": "2026-10-26T03:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-26T04:55:46.470502+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Siemens製品に対するアップデート（2026年10月）",
+   "url": "https://jvn.jp/vu/JVNVU90141693/",
+   "published": "2026-10-26T00:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-14T21:36:48.379972+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）",
    "url": "https://jvn.jp/vu/JVNVU99905564/",
@@ -652,18 +688,6 @@
    "published": "2026-10-16T00:15:00+00:00",
    "date_estimated": false,
    "first_seen": "2026-10-16T21:25:49.136097+00:00",
-   "source_id": "jvn",
-   "source_name": "JVN(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja"
-  },
-  {
-   "title": "Siemens製品に対するアップデート（2026年10月）",
-   "url": "https://jvn.jp/vu/JVNVU90141693/",
-   "published": "2026-10-16T00:00:00+00:00",
-   "date_estimated": false,
-   "first_seen": "2026-10-14T21:36:48.379972+00:00",
    "source_id": "jvn",
    "source_name": "JVN(日本)",
    "country": "JP",
