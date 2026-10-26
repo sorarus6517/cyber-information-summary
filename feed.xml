@@ -4,7 +4,7 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Mon, 26 Oct 2026 13:13:25 +0000</lastBuildDate>
+<lastBuildDate>Mon, 26 Oct 2026 19:58:50 +0000</lastBuildDate>
 <item>
 <title>[JVN(日本)] BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）</title>
 <link>https://jvn.jp/vu/JVNVU97400824/</link>
