@@ -4,7 +4,28 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Mon, 26 Oct 2026 04:55:50 +0000</lastBuildDate>
+<lastBuildDate>Mon, 26 Oct 2026 13:13:25 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）</title>
+<link>https://jvn.jp/vu/JVNVU97400824/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU97400824/</guid>
+<pubDate>Mon, 26 Oct 2026 09:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU97400824/</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] 注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)</title>
+<link>https://www.jpcert.or.jp/at/2026/at260033.html</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/at/2026/at260033.html</guid>
+<pubDate>Mon, 26 Oct 2026 07:25:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/at/2026/at260033.html</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] 注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起 (公開)</title>
+<link>https://www.jpcert.or.jp/at/2026/at260034.html</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/at/2026/at260034.html</guid>
+<pubDate>Mon, 26 Oct 2026 07:25:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/at/2026/at260034.html</description>
+</item>
 <item>
 <title>[JVN(日本)] 富士電機製V-SFTにおける複数の脆弱性（2026年10月）</title>
 <link>https://jvn.jp/vu/JVNVU96549652/</link>
@@ -74,13 +95,6 @@
 <guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-110447</guid>
 <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
 <description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-110447</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] 注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (公開)</title>
-<link>https://www.jpcert.or.jp/at/2026/at260033.html</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/at/2026/at260033.html</guid>
-<pubDate>Thu, 22 Oct 2026 04:11:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/at/2026/at260033.html</description>
 </item>
 <item>
 <title>[JVN(日本)] LIFF SDKにおけるクロスサイトスクリプティングの脆弱性</title>
@@ -340,19 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/jp/JVN29783594/</guid>
 <pubDate>Tue, 20 Oct 2026 03:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN29783594/</description>
-</item>
-<item>
-<title>[CISA(米国)] 悪用確認(KEV): EG Secure Solutions SiteGuard Server Edition — OSコマンドインジェクション (CVE-2026-106931)</title>
-<link>https://nvd.nist.gov/vuln/detail/CVE-2026-106931</link>
-<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-106931</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-106931</description>
-</item>
-<item>
-<title>[CISA(米国)] 悪用確認(KEV): Plex Media Server — External Control of File Name or Path (CVE-2026-96656)</title>
-<link>https://nvd.nist.gov/vuln/detail/CVE-2026-96656</link>
-<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-96656</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-96656</description>
 </item>
 </channel></rss>

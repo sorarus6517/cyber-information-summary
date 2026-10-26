@@ -875,6 +875,26 @@
    "published": "2026-10-15T15:17:30.383",
    "status": "Undergoing Analysis"
   },
+  "CVE-2026-111497": {
+   "cvss": {
+    "score": 9.2,
+    "severity": "CRITICAL",
+    "vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+    "version": "4.0"
+   },
+   "cwe": [
+    "CWE-252",
+    "CWE-787"
+   ],
+   "desc_en": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.\n\n\n\n\n\nUsers need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1.",
+   "fetched_at": "2026-10-26T13:13:25.002017+00:00",
+   "found": true,
+   "id": "CVE-2026-111497",
+   "last_modified": "2026-10-26T05:17:53.007",
+   "products": [],
+   "published": "2026-10-22T14:17:37.190",
+   "status": "Awaiting Analysis"
+  },
   "CVE-2026-114625": {
    "cvss": {
     "score": 9.9,
@@ -2088,5 +2108,5 @@
    "status": "Analyzed"
   }
  },
- "generated_at": "2026-10-26T04:55:50.367309+00:00"
+ "generated_at": "2026-10-26T13:13:24.809129+00:00"
 }

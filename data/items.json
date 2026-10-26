@@ -1,7 +1,43 @@
 {
- "generated_at": "2026-10-26T04:55:46.470502+00:00",
- "count": 223,
+ "generated_at": "2026-10-26T13:13:21.525268+00:00",
+ "count": 225,
  "items": [
+  {
+   "title": "BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
+   "url": "https://jvn.jp/vu/JVNVU97400824/",
+   "published": "2026-10-26T09:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-26T13:13:21.525268+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)",
+   "url": "https://www.jpcert.or.jp/at/2026/at260033.html",
+   "published": "2026-10-26T07:25:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-22T04:58:01.783445+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起 (公開)",
+   "url": "https://www.jpcert.or.jp/at/2026/at260034.html",
+   "published": "2026-10-26T07:25:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-26T13:13:21.525268+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "富士電機製V-SFTにおける複数の脆弱性（2026年10月）",
    "url": "https://jvn.jp/vu/JVNVU96549652/",
@@ -125,18 +161,6 @@
    "lang": "en",
    "title_ja": "悪用確認(KEV): Collabora Collabora Online – Built-in CODE Server — OSコマンドインジェクション (CVE-2026-110447)",
    "title_ja_source": "auto"
-  },
-  {
-   "title": "注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (公開)",
-   "url": "https://www.jpcert.or.jp/at/2026/at260033.html",
-   "published": "2026-10-22T04:11:00+00:00",
-   "date_estimated": false,
-   "first_seen": "2026-10-22T04:58:01.783445+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja"
   },
   {
    "title": "LIFF SDKにおけるクロスサイトスクリプティングの脆弱性",

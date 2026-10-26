@@ -3,10 +3,12 @@
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
 ■ JPCERT/CC(日本)
+・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)（2026年10月26日）
+  https://www.jpcert.or.jp/at/2026/at260033.html
+・注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起 (公開)（2026年10月26日）
+  https://www.jpcert.or.jp/at/2026/at260034.html
 ・注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)（2026年10月23日）
   https://www.jpcert.or.jp/at/2026/at260030.html
-・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (公開)（2026年10月22日）
-  https://www.jpcert.or.jp/at/2026/at260033.html
 ・Weekly Report: Microsoft Edgeに複数の脆弱性（2026年10月21日）
   https://www.jpcert.or.jp/wr/2026/wr261021.html#1
 ・Weekly Report: 複数のJuniper Networks製品に脆弱性（2026年10月21日）
@@ -47,12 +49,10 @@
   https://www.jpcert.or.jp/wr/2026/wr261021.html#19
 ・Weekly Report: ProgressのMarkLogic Serverに複数の脆弱性（2026年10月21日）
   https://www.jpcert.or.jp/wr/2026/wr261021.html#20
-・Weekly Report: GitLabに複数の脆弱性（2026年10月21日）
-  https://www.jpcert.or.jp/wr/2026/wr261021.html#21
-・Weekly Report: JPCERT/CCが「連続不正アクセス事案の攻撃手法に関する調査」を公開（2026年10月21日）
-  https://www.jpcert.or.jp/wr/2026/wr261021.html#22
 
 ■ JVN(日本)
+・BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）（2026年10月26日）
+  https://jvn.jp/vu/JVNVU97400824/
 ・富士電機製V-SFTにおける複数の脆弱性（2026年10月）（2026年10月26日）
   https://jvn.jp/vu/JVNVU96549652/
 ・電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性（2026年10月26日）
