@@ -45,10 +45,6 @@
   https://www.jpcert.or.jp/wr/2026/wr261021.html#17
 ・Weekly Report: AssetViewに重要なリソースに対する不適切なアクセス権の割り当ての脆弱性（2026年10月21日）
   https://www.jpcert.or.jp/wr/2026/wr261021.html#18
-・Weekly Report: ((OTRS)) Community Editionに認証回避の脆弱性（2026年10月21日）
-  https://www.jpcert.or.jp/wr/2026/wr261021.html#19
-・Weekly Report: ProgressのMarkLogic Serverに複数の脆弱性（2026年10月21日）
-  https://www.jpcert.or.jp/wr/2026/wr261021.html#20
 
 ■ JVN(日本)
 ・BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）（2026年10月26日）
@@ -83,6 +79,10 @@
   https://www.ipa.go.jp/security/security-alert/2026/alert20261022.html
 
 ■ CISA(米国)
+・悪用確認(KEV): PHP Group PHP — Memory Corruption (CVE-2026-109618)（2026年10月26日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-109618
+・悪用確認(KEV): PHP Group PHP — Stale Internal Request-State (CVE-2026-109619)（2026年10月26日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-109619
 ・悪用確認(KEV): Arista VeloCloud Orchestrator — SQLインジェクション (CVE-2026-114625)（2026年10月23日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-114625
 ・悪用確認(KEV): Collabora Collabora Online – Built-in CODE Server — OSコマンドインジェクション (CVE-2026-110447)（2026年10月23日）
