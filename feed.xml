@@ -4,7 +4,7 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Tue, 27 Oct 2026 15:24:46 +0000</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 22:20:59 +0000</lastBuildDate>
 <item>
 <title>[NCSC(英国)] From industry concern to practical action: the value of working with regulators</title>
 <link>https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators</link>
@@ -46,6 +46,20 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU90141693/</guid>
 <pubDate>Tue, 27 Oct 2026 01:15:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90141693/</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Adobe Commerce and Magento — 危険な種類のファイルのアップロード制限不備 (CVE-2026-48356)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2026-48356</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-48356</guid>
+<pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-48356</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Google Brotli — Unchecked Return Value (CVE-2026-111497)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2026-111497</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-111497</guid>
+<pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-111497</description>
 </item>
 <item>
 <title>[JVN(日本)] BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）</title>
@@ -340,19 +354,5 @@
 <guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261021.html#21</guid>
 <pubDate>Wed, 21 Oct 2026 00:12:00 +0000</pubDate>
 <description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261021.html#21</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: JPCERT/CCが「連続不正アクセス事案の攻撃手法に関する調査」を公開</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261021.html#22</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261021.html#22</guid>
-<pubDate>Wed, 21 Oct 2026 00:12:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261021.html#22</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: SiteGuard Server EditionにOSコマンドインジェクションの脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261021.html#23</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261021.html#23</guid>
-<pubDate>Wed, 21 Oct 2026 00:12:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261021.html#23</description>
 </item>
 </channel></rss>

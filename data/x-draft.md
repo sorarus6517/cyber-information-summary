@@ -12,15 +12,14 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 266 / 280 ]
+**本文** [ 257 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】10月27日
 
-主な発表:
-・From industry concern to practical action: the value of working with regulators
-・GROWIにおける複数の脆弱性
-・Siemens製品に対するアップデート（2026年10月）
+悪用が確認された脆弱性:
+・Adobe Commerce and Magento 危険な種類のファイルのアップロード制限不備（CVSS 9.3）
+・Google Brotli Unchecked Return Value（CVSS 9.2）
 
 日本の機関（JVN）からは5件。
 詳細はリプライのリンクから。
@@ -38,16 +37,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 238 / 280 ]
+**本文** [ 247 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】10月26日〜11月1日
 
 悪用が確認された脆弱性:
-・PHP Group Memory Corruption（CVSS 9.8）
-・PHP Group Stale Internal Request-State（CVSS 9.8）
+・Adobe Commerce and Magento 危険な種類のファイルのアップロード制限不備（CVSS 9.3）
 
 日本の機関（JPCERT/CC・JVN）からは10件。
+ほか悪用確認が3件。
 詳細はリプライのリンクから。
 ```
 
@@ -159,6 +158,38 @@ https://jvn.jp/vu/JVNVU90363302/
 https://jvn.jp/vu/JVNVU90141693/
 ```
 
+### CISA（2026年10月27日）
+
+本文 [ 125 / 280 ]
+
+```
+【CISA】悪用確認(KEV): Adobe Commerce and Magento — 危険な種類のファイルのアップロード制限不備 (CVE-2026-48356)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://nvd.nist.gov/vuln/detail/CVE-2026-48356
+```
+
+### CISA（2026年10月27日）
+
+本文 [ 93 / 280 ]
+
+```
+【CISA】悪用確認(KEV): Google Brotli — Unchecked Return Value (CVE-2026-111497)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://nvd.nist.gov/vuln/detail/CVE-2026-111497
+```
+
 ### JVN（2026年10月26日）
 
 本文 [ 87 / 280 ]
@@ -223,38 +254,6 @@ https://www.jpcert.or.jp/at/2026/at260034.html
 https://jvn.jp/vu/JVNVU96549652/
 ```
 
-### JVN（2026年10月26日）
-
-本文 [ 109 / 280 ]
-
-```
-【JVN】電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/jp/JVN75668103/
-```
-
-### CISA（2026年10月26日）
-
-本文 [ 88 / 280 ]
-
-```
-【CISA】悪用確認(KEV): PHP Group PHP — Memory Corruption (CVE-2026-109618)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-109618
-```
-
 ---
 
 ## 4. 照合ネタ（引用リポスト用）
@@ -289,6 +288,18 @@ CVE-2026-109619（PHP Group）に言及した公的機関の発表です。
 ・JPCERT/CC 10月26日
 ```
 
+### CVE-2026-111497
+
+そのまま投稿できます [ 152 / 280 ]
+
+```
+CVE-2026-111497（Google Brotli）に言及した公的機関の発表です。
+
+・JPCERT/CC 10月26日
+・JVN 10月26日 JVNVU#97400824
+・CISA 10月27日（悪用確認として登録）
+```
+
 ### CVE-2026-88771
 
 そのまま投稿できます [ 136 / 280 ]
@@ -311,17 +322,6 @@ CVE-2026-88772（Citrix NetScaler）に言及した公的機関の発表です�
 ・CISA 9月27日（悪用確認として登録）
 ・IPA 9月28日
 ・JPCERT/CC 10月2日
-```
-
-### CVE-2026-111497
-
-そのまま投稿できます [ 97 / 280 ]
-
-```
-CVE-2026-111497に言及した公的機関の発表です。
-
-・JPCERT/CC 10月26日
-・JVN 10月26日 JVNVU#97400824
 ```
 
 ### CVE-2026-106931

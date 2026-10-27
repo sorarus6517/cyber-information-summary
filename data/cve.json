@@ -1026,6 +1026,42 @@
    "published": "2026-04-22T09:16:21.270",
    "status": "Analyzed"
   },
+  "CVE-2026-48356": {
+   "cvss": {
+    "score": 9.3,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-434"
+   ],
+   "desc_en": "Adobe Commerce is affected by an Unrestricted Upload of File with Dangerous Type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Exploitation of this issue requires user interaction in that a victim must visit a maliciously crafted URL or interact with a compromised web page. Scope is changed.",
+   "fetched_at": "2026-10-27T22:20:59.827318+00:00",
+   "found": true,
+   "id": "CVE-2026-48356",
+   "last_modified": "2026-10-27T20:17:14.683",
+   "products": [
+    [
+     "adobe",
+     "commerce"
+    ],
+    [
+     "adobe",
+     "commerce_b2b"
+    ],
+    [
+     "adobe",
+     "magento"
+    ],
+    [
+     "adobe",
+     "i\\/o_events"
+    ]
+   ],
+   "published": "2026-07-14T20:17:08.437",
+   "status": "Modified"
+  },
   "CVE-2026-50751": {
    "cvss": {
     "score": 9.3,
@@ -2108,5 +2144,5 @@
    "status": "Analyzed"
   }
  },
- "generated_at": "2026-10-27T15:24:46.322997+00:00"
+ "generated_at": "2026-10-27T22:20:59.150425+00:00"
 }

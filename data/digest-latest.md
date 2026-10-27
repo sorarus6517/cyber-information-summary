@@ -31,10 +31,6 @@
   https://www.jpcert.or.jp/wr/2026/wr261021.html#10
 ・Weekly Report: 複数のPalo Alto Networks製品に脆弱性（2026年10月21日）
   https://www.jpcert.or.jp/wr/2026/wr261021.html#11
-・Weekly Report: Cisco Secure Email Gatewayに任意のファイル書き込みの脆弱性（2026年10月21日）
-  https://www.jpcert.or.jp/wr/2026/wr261021.html#12
-・Weekly Report: 複数のZoom製品に脆弱性（2026年10月21日）
-  https://www.jpcert.or.jp/wr/2026/wr261021.html#13
 
 ■ JVN(日本)
 ・GROWIにおける複数の脆弱性（2026年10月27日）
@@ -77,6 +73,10 @@
   https://www.ipa.go.jp/security/security-alert/2026/alert20261022.html
 
 ■ CISA(米国)
+・悪用確認(KEV): Adobe Commerce and Magento — 危険な種類のファイルのアップロード制限不備 (CVE-2026-48356)（2026年10月27日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-48356
+・悪用確認(KEV): Google Brotli — Unchecked Return Value (CVE-2026-111497)（2026年10月27日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-111497
 ・悪用確認(KEV): PHP Group PHP — Memory Corruption (CVE-2026-109618)（2026年10月26日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-109618
 ・悪用確認(KEV): PHP Group PHP — Stale Internal Request-State (CVE-2026-109619)（2026年10月26日）
