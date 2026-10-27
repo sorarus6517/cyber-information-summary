@@ -4,7 +4,14 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Tue, 27 Oct 2026 09:06:54 +0000</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 15:24:46 +0000</lastBuildDate>
+<item>
+<title>[NCSC(英国)] From industry concern to practical action: the value of working with regulators</title>
+<link>https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators</link>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators</guid>
+<pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
+<description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators</description>
+</item>
 <item>
 <title>[JVN(日本)] GROWIにおける複数の脆弱性</title>
 <link>https://jvn.jp/jp/JVN51223238/</link>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261021.html#23</guid>
 <pubDate>Wed, 21 Oct 2026 00:12:00 +0000</pubDate>
 <description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261021.html#23</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: 複数のマイクロソフト製品に脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261021.html#24</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261021.html#24</guid>
-<pubDate>Wed, 21 Oct 2026 00:12:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261021.html#24</description>
 </item>
 </channel></rss>

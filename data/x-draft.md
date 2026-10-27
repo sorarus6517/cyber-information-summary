@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年10月27日 自動生成）
+# Xの投稿下書き（2026年10月28日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -12,14 +12,15 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 238 / 280 ]
+**本文** [ 266 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】10月27日
 
 主な発表:
+・From industry concern to practical action: the value of working with regulators
 ・GROWIにおける複数の脆弱性
-・Sleipnir Mobile for Androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性
+・Siemens製品に対するアップデート（2026年10月）
 
 日本の機関（JVN）からは5件。
 詳細はリプライのリンクから。
@@ -61,6 +62,22 @@ https://cyber-information-summary.pages.dev/w/2026-W44.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### NCSC（2026年10月27日）
+
+本文 [ 101 / 280 ]
+
+```
+【NCSC】From industry concern to practical action: the value of working with regulators
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators
+```
 
 ### JVN（2026年10月27日）
 
@@ -236,22 +253,6 @@ https://jvn.jp/jp/JVN75668103/
 ```
 原文はこちら
 https://nvd.nist.gov/vuln/detail/CVE-2026-109618
-```
-
-### CISA（2026年10月26日）
-
-本文 [ 99 / 280 ]
-
-```
-【CISA】悪用確認(KEV): PHP Group PHP — Stale Internal Request-State (CVE-2026-109619)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-109619
 ```
 
 ---

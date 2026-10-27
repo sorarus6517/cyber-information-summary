@@ -1,7 +1,19 @@
 {
- "generated_at": "2026-10-27T09:06:49.751526+00:00",
- "count": 231,
+ "generated_at": "2026-10-27T15:24:41.696687+00:00",
+ "count": 232,
  "items": [
+  {
+   "title": "From industry concern to practical action: the value of working with regulators",
+   "url": "https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators",
+   "published": "2026-10-27T12:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-27T15:24:41.696687+00:00",
+   "source_id": "ncsc",
+   "source_name": "NCSC(英国)",
+   "country": "GB",
+   "theme": "cyber",
+   "lang": "en"
+  },
   {
    "title": "GROWIにおける複数の脆弱性",
    "url": "https://jvn.jp/jp/JVN51223238/",

@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年10月27日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年10月28日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -35,8 +35,6 @@
   https://www.jpcert.or.jp/wr/2026/wr261021.html#12
 ・Weekly Report: 複数のZoom製品に脆弱性（2026年10月21日）
   https://www.jpcert.or.jp/wr/2026/wr261021.html#13
-・Weekly Report: 複数のMozilla製品に脆弱性（2026年10月21日）
-  https://www.jpcert.or.jp/wr/2026/wr261021.html#14
 
 ■ JVN(日本)
 ・GROWIにおける複数の脆弱性（2026年10月27日）
@@ -89,6 +87,8 @@
   https://nvd.nist.gov/vuln/detail/CVE-2026-110447
 
 ■ NCSC(英国)
+・From industry concern to practical action: the value of working with regulators（2026年10月27日）
+  https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators
 ・PHPに影響する重大なセキュリティ問題（2026年10月21日）
   https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php
 
