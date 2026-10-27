@@ -12,16 +12,16 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 228 / 280 ]
+**本文** [ 238 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】10月26日
+【本日の公式セキュリティ情報】10月27日
 
-悪用が確認された脆弱性:
-・PHP Group Memory Corruption（CVSS 9.8）
-・PHP Group Stale Internal Request-State（CVSS 9.8）
+主な発表:
+・GROWIにおける複数の脆弱性
+・Sleipnir Mobile for Androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性
 
-日本の機関（JPCERT/CC・JVN）からは6件。
+日本の機関（JVN）からは5件。
 詳細はリプライのリンクから。
 ```
 
@@ -37,7 +37,7 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 237 / 280 ]
+**本文** [ 238 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】10月26日〜11月1日
@@ -46,7 +46,7 @@ https://cyber-information-summary.pages.dev/
 ・PHP Group Memory Corruption（CVSS 9.8）
 ・PHP Group Stale Internal Request-State（CVSS 9.8）
 
-日本の機関（JPCERT/CC・JVN）からは6件。
+日本の機関（JPCERT/CC・JVN）からは10件。
 詳細はリプライのリンクから。
 ```
 
@@ -61,6 +61,86 @@ https://cyber-information-summary.pages.dev/w/2026-W44.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### JVN（2026年10月27日）
+
+本文 [ 46 / 280 ]
+
+```
+【JVN】GROWIにおける複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN51223238/
+```
+
+### JVN（2026年10月27日）
+
+本文 [ 120 / 280 ]
+
+```
+【JVN】Sleipnir Mobile for Androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN90463048/
+```
+
+### JVN（2026年10月27日）
+
+本文 [ 91 / 280 ]
+
+```
+【JVN】Fireblocks製mpc-libの強化導出（Hardened Derivation）処理における脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU90547696/
+```
+
+### JVN（2026年10月27日）
+
+本文 [ 71 / 280 ]
+
+```
+【JVN】COVESA vsomeipにおける過剰なメモリ割り当ての脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU90363302/
+```
+
+### JVN（2026年10月27日）
+
+本文 [ 66 / 280 ]
+
+```
+【JVN】Siemens製品に対するアップデート（2026年10月）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU90141693/
+```
 
 ### JVN（2026年10月26日）
 
@@ -140,22 +220,6 @@ https://jvn.jp/vu/JVNVU96549652/
 ```
 原文はこちら
 https://jvn.jp/jp/JVN75668103/
-```
-
-### JVN（2026年10月26日）
-
-本文 [ 66 / 280 ]
-
-```
-【JVN】Siemens製品に対するアップデート（2026年10月）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU90141693/
 ```
 
 ### CISA（2026年10月26日）

@@ -1,7 +1,67 @@
 {
- "generated_at": "2026-10-27T00:31:41.874258+00:00",
- "count": 227,
+ "generated_at": "2026-10-27T09:06:49.751526+00:00",
+ "count": 231,
  "items": [
+  {
+   "title": "GROWIにおける複数の脆弱性",
+   "url": "https://jvn.jp/jp/JVN51223238/",
+   "published": "2026-10-27T06:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-27T09:06:49.751526+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Sleipnir Mobile for Androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性",
+   "url": "https://jvn.jp/jp/JVN90463048/",
+   "published": "2026-10-27T03:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-27T09:06:49.751526+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Fireblocks製mpc-libの強化導出（Hardened Derivation）処理における脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU90547696/",
+   "published": "2026-10-27T01:30:15+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-27T09:06:49.751526+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "COVESA vsomeipにおける過剰なメモリ割り当ての脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU90363302/",
+   "published": "2026-10-27T01:30:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-27T09:06:49.751526+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Siemens製品に対するアップデート（2026年10月）",
+   "url": "https://jvn.jp/vu/JVNVU90141693/",
+   "published": "2026-10-27T01:15:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-14T21:36:48.379972+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）",
    "url": "https://jvn.jp/vu/JVNVU97400824/",
@@ -56,18 +116,6 @@
    "published": "2026-10-26T03:00:00+00:00",
    "date_estimated": false,
    "first_seen": "2026-10-26T04:55:46.470502+00:00",
-   "source_id": "jvn",
-   "source_name": "JVN(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja"
-  },
-  {
-   "title": "Siemens製品に対するアップデート（2026年10月）",
-   "url": "https://jvn.jp/vu/JVNVU90141693/",
-   "published": "2026-10-26T00:00:00+00:00",
-   "date_estimated": false,
-   "first_seen": "2026-10-14T21:36:48.379972+00:00",
    "source_id": "jvn",
    "source_name": "JVN(日本)",
    "country": "JP",

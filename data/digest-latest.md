@@ -37,24 +37,24 @@
   https://www.jpcert.or.jp/wr/2026/wr261021.html#13
 ・Weekly Report: 複数のMozilla製品に脆弱性（2026年10月21日）
   https://www.jpcert.or.jp/wr/2026/wr261021.html#14
-・Weekly Report: 複数のSAP製品に脆弱性（2026年10月21日）
-  https://www.jpcert.or.jp/wr/2026/wr261021.html#15
-・Weekly Report: 複数のFortinet製品に脆弱性（2026年10月21日）
-  https://www.jpcert.or.jp/wr/2026/wr261021.html#16
-・Weekly Report: Ivanti Connect Secureに認証回避の脆弱性（2026年10月21日）
-  https://www.jpcert.or.jp/wr/2026/wr261021.html#17
-・Weekly Report: AssetViewに重要なリソースに対する不適切なアクセス権の割り当ての脆弱性（2026年10月21日）
-  https://www.jpcert.or.jp/wr/2026/wr261021.html#18
 
 ■ JVN(日本)
+・GROWIにおける複数の脆弱性（2026年10月27日）
+  https://jvn.jp/jp/JVN51223238/
+・Sleipnir Mobile for Androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性（2026年10月27日）
+  https://jvn.jp/jp/JVN90463048/
+・Fireblocks製mpc-libの強化導出（Hardened Derivation）処理における脆弱性（2026年10月27日）
+  https://jvn.jp/vu/JVNVU90547696/
+・COVESA vsomeipにおける過剰なメモリ割り当ての脆弱性（2026年10月27日）
+  https://jvn.jp/vu/JVNVU90363302/
+・Siemens製品に対するアップデート（2026年10月）（2026年10月27日）
+  https://jvn.jp/vu/JVNVU90141693/
 ・BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）（2026年10月26日）
   https://jvn.jp/vu/JVNVU97400824/
 ・富士電機製V-SFTにおける複数の脆弱性（2026年10月）（2026年10月26日）
   https://jvn.jp/vu/JVNVU96549652/
 ・電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性（2026年10月26日）
   https://jvn.jp/jp/JVN75668103/
-・Siemens製品に対するアップデート（2026年10月）（2026年10月26日）
-  https://jvn.jp/vu/JVNVU90141693/
 ・PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）（2026年10月23日）
   https://jvn.jp/vu/JVNVU99905564/
 ・プリザンターのLDAP認証における認証不備の脆弱性（2026年10月23日）

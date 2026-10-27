@@ -4,7 +4,42 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Tue, 27 Oct 2026 00:31:45 +0000</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 09:06:54 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] GROWIにおける複数の脆弱性</title>
+<link>https://jvn.jp/jp/JVN51223238/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN51223238/</guid>
+<pubDate>Tue, 27 Oct 2026 06:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN51223238/</description>
+</item>
+<item>
+<title>[JVN(日本)] Sleipnir Mobile for Androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性</title>
+<link>https://jvn.jp/jp/JVN90463048/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN90463048/</guid>
+<pubDate>Tue, 27 Oct 2026 03:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN90463048/</description>
+</item>
+<item>
+<title>[JVN(日本)] Fireblocks製mpc-libの強化導出（Hardened Derivation）処理における脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU90547696/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90547696/</guid>
+<pubDate>Tue, 27 Oct 2026 01:30:15 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90547696/</description>
+</item>
+<item>
+<title>[JVN(日本)] COVESA vsomeipにおける過剰なメモリ割り当ての脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU90363302/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90363302/</guid>
+<pubDate>Tue, 27 Oct 2026 01:30:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90363302/</description>
+</item>
+<item>
+<title>[JVN(日本)] Siemens製品に対するアップデート（2026年10月）</title>
+<link>https://jvn.jp/vu/JVNVU90141693/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90141693/</guid>
+<pubDate>Tue, 27 Oct 2026 01:15:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90141693/</description>
+</item>
 <item>
 <title>[JVN(日本)] BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）</title>
 <link>https://jvn.jp/vu/JVNVU97400824/</link>
@@ -39,13 +74,6 @@
 <guid isPermaLink="true">https://jvn.jp/jp/JVN75668103/</guid>
 <pubDate>Mon, 26 Oct 2026 03:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN75668103/</description>
-</item>
-<item>
-<title>[JVN(日本)] Siemens製品に対するアップデート（2026年10月）</title>
-<link>https://jvn.jp/vu/JVNVU90141693/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90141693/</guid>
-<pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90141693/</description>
 </item>
 <item>
 <title>[CISA(米国)] 悪用確認(KEV): PHP Group PHP — Memory Corruption (CVE-2026-109618)</title>
@@ -326,33 +354,5 @@
 <guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261021.html#24</guid>
 <pubDate>Wed, 21 Oct 2026 00:12:00 +0000</pubDate>
 <description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261021.html#24</description>
-</item>
-<item>
-<title>[IPA(日本)] 【事前準備のお願い】PHPのセキュリティリリース公開予定について</title>
-<link>https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html</link>
-<guid isPermaLink="true">https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html</guid>
-<pubDate>Tue, 20 Oct 2026 15:00:00 +0000</pubDate>
-<description>IPA(日本) が公表。原文: https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html</description>
-</item>
-<item>
-<title>[IPA(日本)] Oracle Java の脆弱性対策について(2026年10月)</title>
-<link>https://www.ipa.go.jp/security/security-alert/2026/1021-jre.html</link>
-<guid isPermaLink="true">https://www.ipa.go.jp/security/security-alert/2026/1021-jre.html</guid>
-<pubDate>Tue, 20 Oct 2026 15:00:00 +0000</pubDate>
-<description>IPA(日本) が公表。原文: https://www.ipa.go.jp/security/security-alert/2026/1021-jre.html</description>
-</item>
-<item>
-<title>[NCSC(英国)] NCSCの研究課題集にAIの新章を追加</title>
-<link>https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book</link>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book</guid>
-<pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
-<description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book</description>
-</item>
-<item>
-<title>[JVN(日本)] アツミ電氣製DVRに利用可能な非公開機能を悪用される問題</title>
-<link>https://jvn.jp/jp/JVN88864366/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN88864366/</guid>
-<pubDate>Tue, 20 Oct 2026 05:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN88864366/</description>
 </item>
 </channel></rss>
