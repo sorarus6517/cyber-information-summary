@@ -12,16 +12,16 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 257 / 280 ]
+**本文** [ 250 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】10月27日
+【本日の公式セキュリティ情報】10月28日
 
-悪用が確認された脆弱性:
-・Adobe Commerce and Magento 危険な種類のファイルのアップロード制限不備（CVSS 9.3）
-・Google Brotli Unchecked Return Value（CVSS 9.2）
+主な発表:
+・Weekly Report: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起
+・ヤマハ製NWR100における複数の脆弱性
 
-日本の機関（JVN）からは5件。
+日本の機関（JPCERT/CC・JVN）からは19件。
 詳細はリプライのリンクから。
 ```
 
@@ -45,7 +45,7 @@ https://cyber-information-summary.pages.dev/
 悪用が確認された脆弱性:
 ・Adobe Commerce and Magento 危険な種類のファイルのアップロード制限不備（CVSS 9.3）
 
-日本の機関（JPCERT/CC・JVN）からは10件。
+日本の機関（JPCERT/CC・JVN）からは29件。
 ほか悪用確認が3件。
 詳細はリプライのリンクから。
 ```
@@ -62,12 +62,12 @@ https://cyber-information-summary.pages.dev/w/2026-W44.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
-### NCSC（2026年10月27日）
+### JVN（2026年10月28日）
 
-本文 [ 101 / 280 ]
+本文 [ 55 / 280 ]
 
 ```
-【NCSC】From industry concern to practical action: the value of working with regulators
+【JVN】ヤマハ製NWR100における複数の脆弱性
 #セキュリティ
 ```
 
@@ -75,15 +75,15 @@ https://cyber-information-summary.pages.dev/w/2026-W44.html
 
 ```
 原文はこちら
-https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators
+https://jvn.jp/vu/JVNVU91027179/
 ```
 
-### JVN（2026年10月27日）
+### JVN（2026年10月28日）
 
-本文 [ 46 / 280 ]
+本文 [ 98 / 280 ]
 
 ```
-【JVN】GROWIにおける複数の脆弱性
+【JVN】Yamaha LAN Monitor for WindowsのインストーラにおけるDLL読み込みに関する脆弱性
 #セキュリティ
 ```
 
@@ -91,15 +91,15 @@ https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-re
 
 ```
 原文はこちら
-https://jvn.jp/jp/JVN51223238/
+https://jvn.jp/jp/JVN23695234/
 ```
 
-### JVN（2026年10月27日）
+### JVN（2026年10月28日）
 
-本文 [ 120 / 280 ]
+本文 [ 104 / 280 ]
 
 ```
-【JVN】Sleipnir Mobile for Androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性
+【JVN】ヤマハ製YMS-VPN8およびYMS-VPN8-CPにおける引用符で囲まれていないファイルパスの脆弱性
 #セキュリティ
 ```
 
@@ -107,79 +107,15 @@ https://jvn.jp/jp/JVN51223238/
 
 ```
 原文はこちら
-https://jvn.jp/jp/JVN90463048/
+https://jvn.jp/jp/JVN30675482/
 ```
 
-### JVN（2026年10月27日）
-
-本文 [ 91 / 280 ]
-
-```
-【JVN】Fireblocks製mpc-libの強化導出（Hardened Derivation）処理における脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU90547696/
-```
-
-### JVN（2026年10月27日）
-
-本文 [ 71 / 280 ]
-
-```
-【JVN】COVESA vsomeipにおける過剰なメモリ割り当ての脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU90363302/
-```
-
-### JVN（2026年10月27日）
-
-本文 [ 66 / 280 ]
-
-```
-【JVN】Siemens製品に対するアップデート（2026年10月）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU90141693/
-```
-
-### CISA（2026年10月27日）
-
-本文 [ 125 / 280 ]
-
-```
-【CISA】悪用確認(KEV): Adobe Commerce and Magento — 危険な種類のファイルのアップロード制限不備 (CVE-2026-48356)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-48356
-```
-
-### CISA（2026年10月27日）
+### JPCERT/CC（2026年10月28日）
 
 本文 [ 93 / 280 ]
 
 ```
-【CISA】悪用確認(KEV): Google Brotli — Unchecked Return Value (CVE-2026-111497)
+【JPCERT/CC】Weekly Report: VeloCloud OrchestratorにSQLインジェクションの脆弱性
 #セキュリティ
 ```
 
@@ -187,15 +123,127 @@ https://nvd.nist.gov/vuln/detail/CVE-2026-48356
 
 ```
 原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-111497
+https://www.jpcert.or.jp/wr/2026/wr261028.html#1
 ```
 
-### JVN（2026年10月26日）
+### JPCERT/CC（2026年10月28日）
+
+本文 [ 64 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: ISC BINDに複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261028.html#2
+```
+
+### JPCERT/CC（2026年10月28日）
+
+本文 [ 65 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: 複数のCisco製品に脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261028.html#3
+```
+
+### JPCERT/CC（2026年10月28日）
+
+本文 [ 62 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: GitLabに複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261028.html#4
+```
+
+### JPCERT/CC（2026年10月28日）
+
+本文 [ 69 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: Apache Tomcatに複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261028.html#5
+```
+
+### JPCERT/CC（2026年10月28日）
+
+本文 [ 69 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: Google Chromeに複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261028.html#6
+```
+
+### JPCERT/CC（2026年10月28日）
+
+本文 [ 69 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: 複数のAtlassian製品に脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261028.html#7
+```
+
+### JPCERT/CC（2026年10月28日）
+
+本文 [ 67 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: 複数のMozilla製品に脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261028.html#8
+```
+
+### JPCERT/CC（2026年10月28日）
 
 本文 [ 87 / 280 ]
 
 ```
-【JVN】BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）
+【JPCERT/CC】Weekly Report: LaravelのTokenGuardに認証回避につながる脆弱性
 #セキュリティ
 ```
 
@@ -203,55 +251,7 @@ https://nvd.nist.gov/vuln/detail/CVE-2026-111497
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU97400824/
-```
-
-### JPCERT/CC（2026年10月26日）
-
-本文 [ 119 / 280 ]
-
-```
-【JPCERT/CC】注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/at/2026/at260033.html
-```
-
-### JPCERT/CC（2026年10月26日）
-
-本文 [ 126 / 280 ]
-
-```
-【JPCERT/CC】注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起 (公開)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/at/2026/at260034.html
-```
-
-### JVN（2026年10月26日）
-
-本文 [ 70 / 280 ]
-
-```
-【JVN】富士電機製V-SFTにおける複数の脆弱性（2026年10月）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU96549652/
+https://www.jpcert.or.jp/wr/2026/wr261028.html#9
 ```
 
 ---
@@ -264,7 +264,7 @@ https://jvn.jp/vu/JVNVU96549652/
 
 ### CVE-2026-109618
 
-そのまま投稿できます [ 163 / 280 ]
+そのまま投稿できます [ 184 / 280 ]
 
 ```
 CVE-2026-109618（PHP Group）に言及した公的機関の発表です。
@@ -273,11 +273,12 @@ CVE-2026-109618（PHP Group）に言及した公的機関の発表です。
 ・JVN 10月23日 JVNVU#99905564
 ・CISA 10月26日（悪用確認として登録）
 ・JPCERT/CC 10月26日
+・JPCERT/CC 10月28日
 ```
 
 ### CVE-2026-109619
 
-そのまま投稿できます [ 163 / 280 ]
+そのまま投稿できます [ 184 / 280 ]
 
 ```
 CVE-2026-109619（PHP Group）に言及した公的機関の発表です。
@@ -286,6 +287,7 @@ CVE-2026-109619（PHP Group）に言及した公的機関の発表です。
 ・JVN 10月23日 JVNVU#99905564
 ・CISA 10月26日（悪用確認として登録）
 ・JPCERT/CC 10月26日
+・JPCERT/CC 10月28日
 ```
 
 ### CVE-2026-111497
