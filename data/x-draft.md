@@ -21,7 +21,7 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 ・Weekly Report: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起
 ・ヤマハ製NWR100における複数の脆弱性
 
-日本の機関（JPCERT/CC・JVN）からは19件。
+日本の機関（JPCERT/CC・JVN）からは20件。
 詳細はリプライのリンクから。
 ```
 
@@ -45,7 +45,7 @@ https://cyber-information-summary.pages.dev/
 悪用が確認された脆弱性:
 ・Adobe Commerce and Magento 危険な種類のファイルのアップロード制限不備（CVSS 9.3）
 
-日本の機関（JPCERT/CC・JVN）からは29件。
+日本の機関（JPCERT/CC・JVN）からは30件。
 ほか悪用確認が3件。
 詳細はリプライのリンクから。
 ```
@@ -61,6 +61,22 @@ https://cyber-information-summary.pages.dev/w/2026-W44.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### JVN（2026年10月28日）
+
+本文 [ 104 / 280 ]
+
+```
+【JVN】PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU99905564/
+```
 
 ### JVN（2026年10月28日）
 
@@ -238,22 +254,6 @@ https://www.jpcert.or.jp/wr/2026/wr261028.html#7
 https://www.jpcert.or.jp/wr/2026/wr261028.html#8
 ```
 
-### JPCERT/CC（2026年10月28日）
-
-本文 [ 87 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: LaravelのTokenGuardに認証回避につながる脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261028.html#9
-```
-
 ---
 
 ## 4. 照合ネタ（引用リポスト用）
@@ -270,10 +270,10 @@ https://www.jpcert.or.jp/wr/2026/wr261028.html#9
 CVE-2026-109618（PHP Group）に言及した公的機関の発表です。
 
 ・IPA 10月22日
-・JVN 10月23日 JVNVU#99905564
 ・CISA 10月26日（悪用確認として登録）
 ・JPCERT/CC 10月26日
 ・JPCERT/CC 10月28日
+・JVN 10月28日 JVNVU#99905564
 ```
 
 ### CVE-2026-109619
@@ -284,10 +284,10 @@ CVE-2026-109618（PHP Group）に言及した公的機関の発表です。
 CVE-2026-109619（PHP Group）に言及した公的機関の発表です。
 
 ・IPA 10月22日
-・JVN 10月23日 JVNVU#99905564
 ・CISA 10月26日（悪用確認として登録）
 ・JPCERT/CC 10月26日
 ・JPCERT/CC 10月28日
+・JVN 10月28日 JVNVU#99905564
 ```
 
 ### CVE-2026-111497

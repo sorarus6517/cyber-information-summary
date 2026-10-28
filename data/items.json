@@ -1,7 +1,19 @@
 {
- "generated_at": "2026-10-28T05:51:10.858870+00:00",
+ "generated_at": "2026-10-28T13:05:56.032036+00:00",
  "count": 253,
  "items": [
+  {
+   "title": "PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）",
+   "url": "https://jvn.jp/vu/JVNVU99905564/",
+   "published": "2026-10-28T07:30:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-22T04:58:01.783445+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "ヤマハ製NWR100における複数の脆弱性",
    "url": "https://jvn.jp/vu/JVNVU91027179/",
@@ -417,18 +429,6 @@
    "lang": "en",
    "title_ja": "悪用確認(KEV): PHP Group PHP — Stale Internal Request-State (CVE-2026-109619)",
    "title_ja_source": "auto"
-  },
-  {
-   "title": "PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）",
-   "url": "https://jvn.jp/vu/JVNVU99905564/",
-   "published": "2026-10-23T08:10:00+00:00",
-   "date_estimated": false,
-   "first_seen": "2026-10-22T04:58:01.783445+00:00",
-   "source_id": "jvn",
-   "source_name": "JVN(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja"
   },
   {
    "title": "プリザンターのLDAP認証における認証不備の脆弱性",
