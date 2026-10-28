@@ -4,7 +4,7 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Wed, 28 Oct 2026 14:34:31 +0000</lastBuildDate>
+<lastBuildDate>Wed, 28 Oct 2026 19:38:15 +0000</lastBuildDate>
 <item>
 <title>[JVN(日本)] PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）</title>
 <link>https://jvn.jp/vu/JVNVU99905564/</link>
@@ -144,6 +144,20 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU96093239/</guid>
 <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU96093239/</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Broadcom VMware ESX — Insufficient Logging (CVE-2026-41709)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2026-41709</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-41709</guid>
+<pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-41709</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Linux Kernel — Missing Initialization of a Variable (CVE-2026-46300)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2026-46300</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-46300</guid>
+<pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-46300</description>
 </item>
 <item>
 <title>[NCSC(英国)] 業界の懸念から実務的な取り組みへ:規制当局と協働することの意義</title>
@@ -340,19 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU92078426/</guid>
 <pubDate>Wed, 21 Oct 2026 00:30:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU92078426/</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: Microsoft Edgeに複数の脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261021.html#1</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261021.html#1</guid>
-<pubDate>Wed, 21 Oct 2026 00:12:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261021.html#1</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: 複数のJuniper Networks製品に脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261021.html#2</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261021.html#2</guid>
-<pubDate>Wed, 21 Oct 2026 00:12:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261021.html#2</description>
 </item>
 </channel></rss>

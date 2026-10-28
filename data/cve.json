@@ -1026,6 +1026,51 @@
    "published": "2026-04-22T09:16:21.270",
    "status": "Analyzed"
   },
+  "CVE-2026-41709": {
+   "cvss": {
+    "score": 2.7,
+    "severity": "LOW",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-778"
+   ],
+   "desc_en": "VMware ESX contains an insufficient logging vulnerability. A malicious administrator could exploit this issue to perform certain operations without them being logged.",
+   "fetched_at": "2026-10-28T19:38:08.113043+00:00",
+   "found": true,
+   "id": "CVE-2026-41709",
+   "last_modified": "2026-07-30T19:07:59.843",
+   "products": [],
+   "published": "2026-07-30T14:16:57.420",
+   "status": "Awaiting Analysis"
+  },
+  "CVE-2026-46300": {
+   "cvss": {
+    "score": 7.8,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-787",
+    "CWE-456",
+    "CWE-123"
+   ],
+   "desc_en": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: skbuff: preserve shared-frag marker during coalescing\n\nskb_try_coalesce() can attach paged frags from @from to @to.  If @from\nhas SKBFL_SHARED_FRAG set, the resulting @to skb can contain the same\nexternally-owned or page-cache-backed frags, but the shared-frag marker\nis currently lost.\n\nThat breaks the invariant relied on by later in-place writers.  In\nparticular, ESP input checks skb_has_shared_frag() before deciding\nwhether an uncloned nonlinear skb can skip skb_cow_data().  If TCP\nreceive coalescing has moved shared frags into an unmarked skb, ESP can\nsee skb_has_shared_frag() as false and decrypt in place over page-cache\nbacked frags.\n\nPropagate SKBFL_SHARED_FRAG when skb_try_coalesce() transfers paged\nfrags.  The tailroom copy path does not need the marker because it copies\nbytes into @to's linear data rather than transferring frag descriptors.",
+   "fetched_at": "2026-10-28T19:38:15.220217+00:00",
+   "found": true,
+   "id": "CVE-2026-46300",
+   "last_modified": "2026-10-19T20:18:40.960",
+   "products": [
+    [
+     "linux",
+     "linux_kernel"
+    ]
+   ],
+   "published": "2026-05-23T12:17:02.660",
+   "status": "Modified"
+  },
   "CVE-2026-48356": {
    "cvss": {
     "score": 9.3,
@@ -2144,5 +2189,5 @@
    "status": "Analyzed"
   }
  },
- "generated_at": "2026-10-28T14:34:31.893044+00:00"
+ "generated_at": "2026-10-28T19:38:08.018950+00:00"
 }

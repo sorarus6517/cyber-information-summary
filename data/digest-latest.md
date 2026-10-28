@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年10月28日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年10月29日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -71,10 +71,12 @@
   https://jvn.jp/jp/JVN82312317/
 ・三菱電機製の複数製品における複数の脆弱性（2026-006）（2026年10月23日）
   https://jvn.jp/vu/JVNVU93251594/
-・CISA ICS Advisory / ICS Medical Advisory（2026年10月22日）（2026年10月23日）
-  https://jvn.jp/vu/JVNVU98747108/
 
 ■ CISA(米国)
+・悪用確認(KEV): Broadcom VMware ESX — Insufficient Logging (CVE-2026-41709)（2026年10月28日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-41709
+・悪用確認(KEV): Linux Kernel — Missing Initialization of a Variable (CVE-2026-46300)（2026年10月28日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-46300
 ・悪用確認(KEV): Adobe Commerce and Magento — 危険な種類のファイルのアップロード制限不備 (CVE-2026-48356)（2026年10月27日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-48356
 ・悪用確認(KEV): Google Brotli — Unchecked Return Value (CVE-2026-111497)（2026年10月27日）
@@ -83,8 +85,6 @@
   https://nvd.nist.gov/vuln/detail/CVE-2026-109618
 ・悪用確認(KEV): PHP Group PHP — Stale Internal Request-State (CVE-2026-109619)（2026年10月26日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-109619
-・悪用確認(KEV): Arista VeloCloud Orchestrator — SQLインジェクション (CVE-2026-114625)（2026年10月23日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-114625
 
 ■ NCSC(英国)
 ・業界の懸念から実務的な取り組みへ:規制当局と協働することの意義（2026年10月27日）

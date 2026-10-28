@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年10月28日 自動生成）
+# Xの投稿下書き（2026年10月29日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -12,14 +12,14 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 250 / 280 ]
+**本文** [ 253 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】10月28日
 
-主な発表:
-・Weekly Report: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起
-・ヤマハ製NWR100における複数の脆弱性
+悪用が確認された脆弱性:
+・Broadcom VMware ESX Insufficient Logging（CVSS 2.7）
+・Linux Kernel Missing Initialization of a Variable（CVSS 7.8）
 
 日本の機関（JPCERT/CC・JVN）からは20件。
 詳細はリプライのリンクから。
@@ -37,16 +37,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 247 / 280 ]
+**本文** [ 262 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】10月26日〜11月1日
 
 悪用が確認された脆弱性:
-・Adobe Commerce and Magento 危険な種類のファイルのアップロード制限不備（CVSS 9.3）
+・Broadcom VMware ESX Insufficient Logging（CVSS 2.7）
+・Linux Kernel Missing Initialization of a Variable（CVSS 7.8）
 
 日本の機関（JPCERT/CC・JVN）からは30件。
-ほか悪用確認が3件。
 詳細はリプライのリンクから。
 ```
 
