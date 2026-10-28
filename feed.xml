@@ -4,7 +4,7 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Wed, 28 Oct 2026 13:06:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 28 Oct 2026 14:34:31 +0000</lastBuildDate>
 <item>
 <title>[JVN(日本)] PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）</title>
 <link>https://jvn.jp/vu/JVNVU99905564/</link>
@@ -146,7 +146,7 @@
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU96093239/</description>
 </item>
 <item>
-<title>[NCSC(英国)] From industry concern to practical action: the value of working with regulators</title>
+<title>[NCSC(英国)] 業界の懸念から実務的な取り組みへ:規制当局と協働することの意義</title>
 <link>https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators</link>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators</guid>
 <pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>

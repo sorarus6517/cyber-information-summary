@@ -87,7 +87,7 @@
   https://nvd.nist.gov/vuln/detail/CVE-2026-114625
 
 ■ NCSC(英国)
-・From industry concern to practical action: the value of working with regulators（2026年10月27日）
+・業界の懸念から実務的な取り組みへ:規制当局と協働することの意義（2026年10月27日）
   https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators
 
 すべての項目: https://cyber-information-summary.pages.dev/

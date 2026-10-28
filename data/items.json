@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T13:05:56.032036+00:00",
+ "generated_at": "2026-10-28T14:34:27.963181+00:00",
  "count": 253,
  "items": [
   {
@@ -252,7 +252,9 @@
    "source_name": "NCSC(英国)",
    "country": "GB",
    "theme": "cyber",
-   "lang": "en"
+   "lang": "en",
+   "title_ja": "業界の懸念から実務的な取り組みへ:規制当局と協働することの意義",
+   "title_ja_source": "manual"
   },
   {
    "title": "GROWIにおける複数の脆弱性",
