@@ -3,6 +3,8 @@
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
 ■ JPCERT/CC(日本)
+・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)（2026年10月29日）
+  https://www.jpcert.or.jp/at/2026/at260033.html
 ・Weekly Report: VeloCloud OrchestratorにSQLインジェクションの脆弱性（2026年10月28日）
   https://www.jpcert.or.jp/wr/2026/wr261028.html#1
 ・Weekly Report: ISC BINDに複数の脆弱性（2026年10月28日）
@@ -33,14 +35,14 @@
   https://www.jpcert.or.jp/wr/2026/wr261028.html#14
 ・Weekly Report: JPCERT/CCが2026年7月から9月分の「JPCERT/CC 四半期レポート」を公開（2026年10月28日）
   https://www.jpcert.or.jp/wr/2026/wr261028.html#15
-・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)（2026年10月26日）
-  https://www.jpcert.or.jp/at/2026/at260033.html
 ・注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起 (公開)（2026年10月26日）
   https://www.jpcert.or.jp/at/2026/at260034.html
 ・注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)（2026年10月23日）
   https://www.jpcert.or.jp/at/2026/at260030.html
 
 ■ JVN(日本)
+・Apache Struts 2 RESTプラグインにおける、@StrutsParameterの制限が@JsonAnySetterに適用されない問題（2026年10月29日）
+  https://jvn.jp/jp/JVN82782759/
 ・PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）（2026年10月28日）
   https://jvn.jp/vu/JVNVU99905564/
 ・ヤマハ製NWR100における複数の脆弱性（2026年10月28日）
@@ -69,8 +71,6 @@
   https://jvn.jp/jp/JVN75668103/
 ・プリザンターのLDAP認証における認証不備の脆弱性（2026年10月23日）
   https://jvn.jp/jp/JVN82312317/
-・三菱電機製の複数製品における複数の脆弱性（2026-006）（2026年10月23日）
-  https://jvn.jp/vu/JVNVU93251594/
 
 ■ CISA(米国)
 ・悪用確認(KEV): Broadcom VMware ESX — Insufficient Logging (CVE-2026-41709)（2026年10月28日）

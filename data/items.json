@@ -1,7 +1,31 @@
 {
- "generated_at": "2026-10-29T01:01:41.478639+00:00",
- "count": 255,
+ "generated_at": "2026-10-29T10:07:06.038536+00:00",
+ "count": 256,
  "items": [
+  {
+   "title": "注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)",
+   "url": "https://www.jpcert.or.jp/at/2026/at260033.html",
+   "published": "2026-10-29T06:43:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-22T04:58:01.783445+00:00",
+   "source_id": "jpcert",
+   "source_name": "JPCERT/CC(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Apache Struts 2 RESTプラグインにおける、@StrutsParameterの制限が@JsonAnySetterに適用されない問題",
+   "url": "https://jvn.jp/jp/JVN82782759/",
+   "published": "2026-10-29T03:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-10-29T10:07:06.038536+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）",
    "url": "https://jvn.jp/vu/JVNVU99905564/",
@@ -380,18 +404,6 @@
    "first_seen": "2026-10-26T13:13:21.525268+00:00",
    "source_id": "jvn",
    "source_name": "JVN(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja"
-  },
-  {
-   "title": "注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)",
-   "url": "https://www.jpcert.or.jp/at/2026/at260033.html",
-   "published": "2026-10-26T07:25:00+00:00",
-   "date_estimated": false,
-   "first_seen": "2026-10-22T04:58:01.783445+00:00",
-   "source_id": "jpcert",
-   "source_name": "JPCERT/CC(日本)",
    "country": "JP",
    "theme": "cyber",
    "lang": "ja"

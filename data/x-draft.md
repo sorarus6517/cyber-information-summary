@@ -12,16 +12,15 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 253 / 280 ]
+**本文** [ 214 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】10月28日
+【本日の公式セキュリティ情報】10月29日
 
-悪用が確認された脆弱性:
-・Broadcom VMware ESX Insufficient Logging（CVSS 2.7）
-・Linux Kernel Missing Initialization of a Variable（CVSS 7.8）
+主な発表:
+・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)
 
-日本の機関（JPCERT/CC・JVN）からは20件。
+日本の機関（JPCERT/CC・JVN）からは2件。
 詳細はリプライのリンクから。
 ```
 
@@ -46,7 +45,7 @@ https://cyber-information-summary.pages.dev/
 ・Broadcom VMware ESX Insufficient Logging（CVSS 2.7）
 ・Linux Kernel Missing Initialization of a Variable（CVSS 7.8）
 
-日本の機関（JPCERT/CC・JVN）からは30件。
+日本の機関（JPCERT/CC・JVN）からは31件。
 詳細はリプライのリンクから。
 ```
 
@@ -61,6 +60,38 @@ https://cyber-information-summary.pages.dev/w/2026-W44.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### JPCERT/CC（2026年10月29日）
+
+本文 [ 119 / 280 ]
+
+```
+【JPCERT/CC】注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/at/2026/at260033.html
+```
+
+### JVN（2026年10月29日）
+
+本文 [ 117 / 280 ]
+
+```
+【JVN】Apache Struts 2 RESTプラグインにおける、@StrutsParameterの制限が@JsonAnySetterに適用されない問題
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN82782759/
+```
 
 ### JVN（2026年10月28日）
 
@@ -222,38 +253,6 @@ https://www.jpcert.or.jp/wr/2026/wr261028.html#5
 https://www.jpcert.or.jp/wr/2026/wr261028.html#6
 ```
 
-### JPCERT/CC（2026年10月28日）
-
-本文 [ 69 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のAtlassian製品に脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261028.html#7
-```
-
-### JPCERT/CC（2026年10月28日）
-
-本文 [ 67 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のMozilla製品に脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261028.html#8
-```
-
 ---
 
 ## 4. 照合ネタ（引用リポスト用）
@@ -271,9 +270,9 @@ CVE-2026-109618（PHP Group）に言及した公的機関の発表です。
 
 ・IPA 10月22日
 ・CISA 10月26日（悪用確認として登録）
-・JPCERT/CC 10月26日
 ・JPCERT/CC 10月28日
 ・JVN 10月28日 JVNVU#99905564
+・JPCERT/CC 10月29日
 ```
 
 ### CVE-2026-109619
@@ -285,9 +284,9 @@ CVE-2026-109619（PHP Group）に言及した公的機関の発表です。
 
 ・IPA 10月22日
 ・CISA 10月26日（悪用確認として登録）
-・JPCERT/CC 10月26日
 ・JPCERT/CC 10月28日
 ・JVN 10月28日 JVNVU#99905564
+・JPCERT/CC 10月29日
 ```
 
 ### CVE-2026-111497
