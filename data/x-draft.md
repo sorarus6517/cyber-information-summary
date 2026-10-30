@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年10月30日 自動生成）
+# Xの投稿下書き（2026年10月31日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -12,14 +12,14 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 224 / 280 ]
+**本文** [ 258 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】10月30日
 
-主な発表:
-・三菱電機製の複数製品における複数の脆弱性（2026-006）
-・CISA ICS Advisory / ICS Medical Advisory（2026年10月29日）
+悪用が確認された脆弱性:
+・Ivanti Connect Secure Generation of Predictable Numbers or Identifiers
+・Ivanti Connect Secure 重要機能における認証の欠如（CVSS 7.0）
 
 日本の機関（JVN）からは2件。
 詳細はリプライのリンクから。
@@ -37,16 +37,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 249 / 280 ]
+**本文** [ 267 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】10月26日〜11月1日
 
 悪用が確認された脆弱性:
-・GitLab Community Edition and Enterprise Integer Overflow or Wraparound（CVSS 10.0）
+・Ivanti Connect Secure Generation of Predictable Numbers or Identifiers
+・Google Brotli Unchecked Return Value（CVSS 9.2）
 
 日本の機関（JPCERT/CC・JVN）からは33件。
-ほか悪用確認が7件。
 詳細はリプライのリンクから。
 ```
 
@@ -92,6 +92,38 @@ https://jvn.jp/vu/JVNVU93251594/
 ```
 原文はこちら
 https://jvn.jp/vu/JVNVU95856220/
+```
+
+### CISA（2026年10月30日）
+
+本文 [ 127 / 280 ]
+
+```
+【CISA】悪用確認(KEV): Ivanti Connect Secure — Generation of Predictable Numbers or Identifiers (CVE-2026-118527)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://nvd.nist.gov/vuln/detail/CVE-2026-118527
+```
+
+### CISA（2026年10月30日）
+
+本文 [ 105 / 280 ]
+
+```
+【CISA】悪用確認(KEV): Ivanti Connect Secure — 重要機能における認証の欠如 (CVE-2026-111357)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://nvd.nist.gov/vuln/detail/CVE-2026-111357
 ```
 
 ### JPCERT/CC（2026年10月29日）
@@ -220,38 +252,6 @@ https://jvn.jp/jp/JVN23695234/
 ```
 原文はこちら
 https://jvn.jp/jp/JVN30675482/
-```
-
-### JPCERT/CC（2026年10月28日）
-
-本文 [ 93 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: VeloCloud OrchestratorにSQLインジェクションの脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261028.html#1
-```
-
-### JPCERT/CC（2026年10月28日）
-
-本文 [ 64 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: ISC BINDに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261028.html#2
 ```
 
 ---

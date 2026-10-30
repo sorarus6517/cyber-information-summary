@@ -875,6 +875,25 @@
    "published": "2026-10-15T15:17:30.383",
    "status": "Undergoing Analysis"
   },
+  "CVE-2026-111357": {
+   "cvss": {
+    "score": 7.0,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-829"
+   ],
+   "desc_en": "Ivanti Connect Secure 22.8R2.4 mishandles the manner in which the dsinvoked broker trusts DSCache configuration data, leading to privilege escalation to root, as exploited in the wild in October 2026.",
+   "fetched_at": "2026-10-30T18:04:32.291769+00:00",
+   "found": true,
+   "id": "CVE-2026-111357",
+   "last_modified": "2026-10-30T04:18:10.020",
+   "products": [],
+   "published": "2026-10-15T21:17:13.190",
+   "status": "Awaiting Analysis"
+  },
   "CVE-2026-111497": {
    "cvss": {
     "score": 9.2,
@@ -913,6 +932,10 @@
    "products": [],
    "published": "2026-10-22T21:17:16.870",
    "status": "Received"
+  },
+  "CVE-2026-118527": {
+   "fetched_at": "2026-10-30T18:04:25.226755+00:00",
+   "found": false
   },
   "CVE-2026-21589": {
    "cwe": [],
@@ -2232,5 +2255,5 @@
    "status": "Undergoing Analysis"
   }
  },
- "generated_at": "2026-10-30T10:09:34.284866+00:00"
+ "generated_at": "2026-10-30T18:04:25.135374+00:00"
 }

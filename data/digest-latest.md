@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年10月30日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年10月31日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -67,12 +67,12 @@
   https://jvn.jp/vu/JVNVU90141693/
 ・BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）（2026年10月26日）
   https://jvn.jp/vu/JVNVU97400824/
-・富士電機製V-SFTにおける複数の脆弱性（2026年10月）（2026年10月26日）
-  https://jvn.jp/vu/JVNVU96549652/
-・電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性（2026年10月26日）
-  https://jvn.jp/jp/JVN75668103/
 
 ■ CISA(米国)
+・悪用確認(KEV): Ivanti Connect Secure — Generation of Predictable Numbers or Identifiers (CVE-2026-118527)（2026年10月30日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-118527
+・悪用確認(KEV): Ivanti Connect Secure — 重要機能における認証の欠如 (CVE-2026-111357)（2026年10月30日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-111357
 ・悪用確認(KEV): GitLab Community Edition and Enterprise Edition — Integer Overflow or Wraparound (CVE-2026-97229)（2026年10月29日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-97229
 ・悪用確認(KEV): Cisco Secure Firewall ASA Software and Cisco Secure FTD Software — Unchecked Return Value to NULL Pointer Dereference (CVE-2026-76418)（2026年10月29日）
