@@ -39,6 +39,8 @@
   https://www.jpcert.or.jp/at/2026/at260034.html
 
 ■ JVN(日本)
+・三菱電機製の複数製品における複数の脆弱性（2026-006）（2026年10月30日）
+  https://jvn.jp/vu/JVNVU93251594/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年10月29日）（2026年10月30日）
   https://jvn.jp/vu/JVNVU95856220/
 ・Apache Struts 2 RESTプラグインにおける、@StrutsParameterの制限が@JsonAnySetterに適用されない問題（2026年10月29日）
@@ -83,8 +85,6 @@
   https://nvd.nist.gov/vuln/detail/CVE-2026-48356
 ・悪用確認(KEV): Google Brotli — Unchecked Return Value (CVE-2026-111497)（2026年10月27日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-111497
-・悪用確認(KEV): PHP Group PHP — Memory Corruption (CVE-2026-109618)（2026年10月26日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-109618
 
 ■ NCSC(英国)
 ・業界の懸念から実務的な取り組みへ:規制当局と協働することの意義（2026年10月27日）

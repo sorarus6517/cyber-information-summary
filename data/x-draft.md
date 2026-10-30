@@ -12,15 +12,16 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 169 / 280 ]
+**本文** [ 224 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】10月30日
 
 主な発表:
+・三菱電機製の複数製品における複数の脆弱性（2026-006）
 ・CISA ICS Advisory / ICS Medical Advisory（2026年10月29日）
 
-日本の機関（JVN）からは1件。
+日本の機関（JVN）からは2件。
 詳細はリプライのリンクから。
 ```
 
@@ -44,7 +45,7 @@ https://cyber-information-summary.pages.dev/
 悪用が確認された脆弱性:
 ・GitLab Community Edition and Enterprise Integer Overflow or Wraparound（CVSS 10.0）
 
-日本の機関（JPCERT/CC・JVN）からは32件。
+日本の機関（JPCERT/CC・JVN）からは33件。
 ほか悪用確認が7件。
 詳細はリプライのリンクから。
 ```
@@ -60,6 +61,22 @@ https://cyber-information-summary.pages.dev/w/2026-W44.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### JVN（2026年10月30日）
+
+本文 [ 73 / 280 ]
+
+```
+【JVN】三菱電機製の複数製品における複数の脆弱性（2026-006）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU93251594/
+```
 
 ### JVN（2026年10月30日）
 
@@ -235,22 +252,6 @@ https://www.jpcert.or.jp/wr/2026/wr261028.html#1
 ```
 原文はこちら
 https://www.jpcert.or.jp/wr/2026/wr261028.html#2
-```
-
-### JPCERT/CC（2026年10月28日）
-
-本文 [ 65 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のCisco製品に脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261028.html#3
 ```
 
 ---
