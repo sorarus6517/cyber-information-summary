@@ -12,15 +12,15 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 214 / 280 ]
+**本文** [ 169 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】10月29日
+【本日の公式セキュリティ情報】10月30日
 
 主な発表:
-・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)
+・CISA ICS Advisory / ICS Medical Advisory（2026年10月29日）
 
-日本の機関（JPCERT/CC・JVN）からは2件。
+日本の機関（JVN）からは1件。
 詳細はリプライのリンクから。
 ```
 
@@ -36,16 +36,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 262 / 280 ]
+**本文** [ 249 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】10月26日〜11月1日
 
 悪用が確認された脆弱性:
-・Broadcom VMware ESX Insufficient Logging（CVSS 2.7）
-・Linux Kernel Missing Initialization of a Variable（CVSS 7.8）
+・GitLab Community Edition and Enterprise Integer Overflow or Wraparound（CVSS 10.0）
 
-日本の機関（JPCERT/CC・JVN）からは31件。
+日本の機関（JPCERT/CC・JVN）からは32件。
+ほか悪用確認が7件。
 詳細はリプライのリンクから。
 ```
 
@@ -60,6 +60,22 @@ https://cyber-information-summary.pages.dev/w/2026-W44.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### JVN（2026年10月30日）
+
+本文 [ 79 / 280 ]
+
+```
+【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年10月29日）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU95856220/
+```
 
 ### JPCERT/CC（2026年10月29日）
 
@@ -91,6 +107,38 @@ https://www.jpcert.or.jp/at/2026/at260033.html
 ```
 原文はこちら
 https://jvn.jp/jp/JVN82782759/
+```
+
+### CISA（2026年10月29日）
+
+本文 [ 134 / 280 ]
+
+```
+【CISA】悪用確認(KEV): GitLab Community Edition and Enterprise Edition — Integer Overflow or Wraparound (CVE-2026-97229)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://nvd.nist.gov/vuln/detail/CVE-2026-97229
+```
+
+### CISA（2026年10月29日）
+
+本文 [ 171 / 280 ]
+
+```
+【CISA】悪用確認(KEV): Cisco Secure Firewall ASA Software and Cisco Secure FTD Software — Unchecked Return Value to NULL Pointer Dereference (CVE-2026-76418)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://nvd.nist.gov/vuln/detail/CVE-2026-76418
 ```
 
 ### JVN（2026年10月28日）
@@ -203,54 +251,6 @@ https://www.jpcert.or.jp/wr/2026/wr261028.html#2
 ```
 原文はこちら
 https://www.jpcert.or.jp/wr/2026/wr261028.html#3
-```
-
-### JPCERT/CC（2026年10月28日）
-
-本文 [ 62 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: GitLabに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261028.html#4
-```
-
-### JPCERT/CC（2026年10月28日）
-
-本文 [ 69 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Apache Tomcatに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261028.html#5
-```
-
-### JPCERT/CC（2026年10月28日）
-
-本文 [ 69 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Google Chromeに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261028.html#6
 ```
 
 ---

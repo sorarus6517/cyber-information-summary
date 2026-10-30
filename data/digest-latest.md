@@ -37,10 +37,10 @@
   https://www.jpcert.or.jp/wr/2026/wr261028.html#15
 ・注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起 (公開)（2026年10月26日）
   https://www.jpcert.or.jp/at/2026/at260034.html
-・注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)（2026年10月23日）
-  https://www.jpcert.or.jp/at/2026/at260030.html
 
 ■ JVN(日本)
+・CISA ICS Advisory / ICS Medical Advisory（2026年10月29日）（2026年10月30日）
+  https://jvn.jp/vu/JVNVU95856220/
 ・Apache Struts 2 RESTプラグインにおける、@StrutsParameterの制限が@JsonAnySetterに適用されない問題（2026年10月29日）
   https://jvn.jp/jp/JVN82782759/
 ・PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）（2026年10月28日）
@@ -69,10 +69,12 @@
   https://jvn.jp/vu/JVNVU96549652/
 ・電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性（2026年10月26日）
   https://jvn.jp/jp/JVN75668103/
-・プリザンターのLDAP認証における認証不備の脆弱性（2026年10月23日）
-  https://jvn.jp/jp/JVN82312317/
 
 ■ CISA(米国)
+・悪用確認(KEV): GitLab Community Edition and Enterprise Edition — Integer Overflow or Wraparound (CVE-2026-97229)（2026年10月29日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-97229
+・悪用確認(KEV): Cisco Secure Firewall ASA Software and Cisco Secure FTD Software — Unchecked Return Value to NULL Pointer Dereference (CVE-2026-76418)（2026年10月29日）
+  https://nvd.nist.gov/vuln/detail/CVE-2026-76418
 ・悪用確認(KEV): Broadcom VMware ESX — Insufficient Logging (CVE-2026-41709)（2026年10月28日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-41709
 ・悪用確認(KEV): Linux Kernel — Missing Initialization of a Variable (CVE-2026-46300)（2026年10月28日）
@@ -83,8 +85,6 @@
   https://nvd.nist.gov/vuln/detail/CVE-2026-111497
 ・悪用確認(KEV): PHP Group PHP — Memory Corruption (CVE-2026-109618)（2026年10月26日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-109618
-・悪用確認(KEV): PHP Group PHP — Stale Internal Request-State (CVE-2026-109619)（2026年10月26日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-109619
 
 ■ NCSC(英国)
 ・業界の懸念から実務的な取り組みへ:規制当局と協働することの意義（2026年10月27日）

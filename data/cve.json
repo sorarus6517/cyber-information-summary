@@ -1520,6 +1520,25 @@
    "published": "2026-06-16T03:16:13.557",
    "status": "Analyzed"
   },
+  "CVE-2026-76418": {
+   "cvss": {
+    "score": 8.6,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-690"
+   ],
+   "desc_en": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. This vulnerability is due to logic errors when secondary authentication is configured on a tunnel group. An attacker could exploit this vulnerability by sending a crafted request when connecting to the SSL remote access VPN. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition.",
+   "fetched_at": "2026-10-30T01:07:09.473085+00:00",
+   "found": true,
+   "id": "CVE-2026-76418",
+   "last_modified": "2026-10-29T20:17:35.480",
+   "products": [],
+   "published": "2026-10-28T20:18:47.063",
+   "status": "Undergoing Analysis"
+  },
   "CVE-2026-76460": {
    "cvss": {
     "score": 10.0,
@@ -2187,7 +2206,31 @@
    ],
    "published": "2026-10-13T19:22:07.760",
    "status": "Analyzed"
+  },
+  "CVE-2026-97229": {
+   "cvss": {
+    "score": 10.0,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-190"
+   ],
+   "desc_en": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
+   "fetched_at": "2026-10-30T01:07:02.141227+00:00",
+   "found": true,
+   "id": "CVE-2026-97229",
+   "last_modified": "2026-10-29T20:17:37.330",
+   "products": [
+    [
+     "gitlab",
+     "gitlab"
+    ]
+   ],
+   "published": "2026-10-13T02:17:00.840",
+   "status": "Undergoing Analysis"
   }
  },
- "generated_at": "2026-10-29T18:31:45.652202+00:00"
+ "generated_at": "2026-10-30T01:07:01.565832+00:00"
 }
