@@ -10,18 +10,17 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ---
 
-## 1. 本日のまとめ（注意: 3日前の分です。新しい発表がまだありません）
+## 1. 本日のまとめ
 
-**本文** [ 258 / 280 ]
+**本文** [ 155 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】10月30日
+【本日の公式セキュリティ情報】11月2日
 
-悪用が確認された脆弱性:
-・Ivanti Connect Secure Generation of Predictable Numbers or Identifiers
-・Ivanti Connect Secure 重要機能における認証の欠如（CVSS 7.0）
+主な発表:
+・Siemens製品に対するアップデート（2026年10月）
 
-日本の機関（JVN）からは2件。
+日本の機関（JVN）からは1件。
 詳細はリプライのリンクから。
 ```
 
@@ -37,16 +36,15 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 267 / 280 ]
+**本文** [ 164 / 280 ]
 
 ```
-【今週の公式セキュリティ情報】10月26日〜11月1日
+【今週の公式セキュリティ情報】11月2日〜11月8日
 
-悪用が確認された脆弱性:
-・Ivanti Connect Secure Generation of Predictable Numbers or Identifiers
-・Google Brotli Unchecked Return Value（CVSS 9.2）
+主な発表:
+・Siemens製品に対するアップデート（2026年10月）
 
-日本の機関（JPCERT/CC・JVN）からは33件。
+日本の機関（JVN）からは1件。
 詳細はリプライのリンクから。
 ```
 
@@ -54,7 +52,7 @@ https://cyber-information-summary.pages.dev/
 
 ```
 一覧はこちら
-https://cyber-information-summary.pages.dev/w/2026-W44.html
+https://cyber-information-summary.pages.dev/w/2026-W45.html
 #セキュリティ #脆弱性情報
 ```
 
@@ -62,12 +60,12 @@ https://cyber-information-summary.pages.dev/w/2026-W44.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
-### JVN（2026年10月30日）
+### JVN（2026年11月2日）
 
-本文 [ 73 / 280 ]
+本文 [ 66 / 280 ]
 
 ```
-【JVN】三菱電機製の複数製品における複数の脆弱性（2026-006）
+【JVN】Siemens製品に対するアップデート（2026年10月）
 #セキュリティ
 ```
 
@@ -75,183 +73,7 @@ https://cyber-information-summary.pages.dev/w/2026-W44.html
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU93251594/
-```
-
-### JVN（2026年10月30日）
-
-本文 [ 79 / 280 ]
-
-```
-【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年10月29日）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU95856220/
-```
-
-### CISA（2026年10月30日）
-
-本文 [ 127 / 280 ]
-
-```
-【CISA】悪用確認(KEV): Ivanti Connect Secure — Generation of Predictable Numbers or Identifiers (CVE-2026-118527)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-118527
-```
-
-### CISA（2026年10月30日）
-
-本文 [ 105 / 280 ]
-
-```
-【CISA】悪用確認(KEV): Ivanti Connect Secure — 重要機能における認証の欠如 (CVE-2026-111357)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-111357
-```
-
-### JPCERT/CC（2026年10月29日）
-
-本文 [ 119 / 280 ]
-
-```
-【JPCERT/CC】注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/at/2026/at260033.html
-```
-
-### JVN（2026年10月29日）
-
-本文 [ 117 / 280 ]
-
-```
-【JVN】Apache Struts 2 RESTプラグインにおける、@StrutsParameterの制限が@JsonAnySetterに適用されない問題
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/jp/JVN82782759/
-```
-
-### CISA（2026年10月29日）
-
-本文 [ 134 / 280 ]
-
-```
-【CISA】悪用確認(KEV): GitLab Community Edition and Enterprise Edition — Integer Overflow or Wraparound (CVE-2026-97229)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-97229
-```
-
-### CISA（2026年10月29日）
-
-本文 [ 171 / 280 ]
-
-```
-【CISA】悪用確認(KEV): Cisco Secure Firewall ASA Software and Cisco Secure FTD Software — Unchecked Return Value to NULL Pointer Dereference (CVE-2026-76418)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-76418
-```
-
-### JVN（2026年10月28日）
-
-本文 [ 104 / 280 ]
-
-```
-【JVN】PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU99905564/
-```
-
-### JVN（2026年10月28日）
-
-本文 [ 55 / 280 ]
-
-```
-【JVN】ヤマハ製NWR100における複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU91027179/
-```
-
-### JVN（2026年10月28日）
-
-本文 [ 98 / 280 ]
-
-```
-【JVN】Yamaha LAN Monitor for WindowsのインストーラにおけるDLL読み込みに関する脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/jp/JVN23695234/
-```
-
-### JVN（2026年10月28日）
-
-本文 [ 104 / 280 ]
-
-```
-【JVN】ヤマハ製YMS-VPN8およびYMS-VPN8-CPにおける引用符で囲まれていないファイルパスの脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/jp/JVN30675482/
+https://jvn.jp/vu/JVNVU90141693/
 ```
 
 ---

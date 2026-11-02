@@ -39,6 +39,8 @@
   https://www.jpcert.or.jp/at/2026/at260034.html
 
 ■ JVN(日本)
+・Siemens製品に対するアップデート（2026年10月）（2026年11月2日）
+  https://jvn.jp/vu/JVNVU90141693/
 ・三菱電機製の複数製品における複数の脆弱性（2026-006）（2026年10月30日）
   https://jvn.jp/vu/JVNVU93251594/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年10月29日）（2026年10月30日）
@@ -63,8 +65,6 @@
   https://jvn.jp/vu/JVNVU90547696/
 ・COVESA vsomeipにおける過剰なメモリ割り当ての脆弱性（2026年10月27日）
   https://jvn.jp/vu/JVNVU90363302/
-・Siemens製品に対するアップデート（2026年10月）（2026年10月27日）
-  https://jvn.jp/vu/JVNVU90141693/
 ・BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）（2026年10月26日）
   https://jvn.jp/vu/JVNVU97400824/
 

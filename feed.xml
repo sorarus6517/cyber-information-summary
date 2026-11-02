@@ -4,7 +4,14 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Sun, 01 Nov 2026 18:58:27 +0000</lastBuildDate>
+<lastBuildDate>Mon, 02 Nov 2026 00:49:37 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] Siemens製品に対するアップデート（2026年10月）</title>
+<link>https://jvn.jp/vu/JVNVU90141693/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90141693/</guid>
+<pubDate>Mon, 02 Nov 2026 00:15:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90141693/</description>
+</item>
 <item>
 <title>[JVN(日本)] 三菱電機製の複数製品における複数の脆弱性（2026-006）</title>
 <link>https://jvn.jp/vu/JVNVU93251594/</link>
@@ -249,13 +256,6 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU90363302/</guid>
 <pubDate>Tue, 27 Oct 2026 01:30:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90363302/</description>
-</item>
-<item>
-<title>[JVN(日本)] Siemens製品に対するアップデート（2026年10月）</title>
-<link>https://jvn.jp/vu/JVNVU90141693/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90141693/</guid>
-<pubDate>Tue, 27 Oct 2026 01:15:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90141693/</description>
 </item>
 <item>
 <title>[CISA(米国)] 悪用確認(KEV): Adobe Commerce and Magento — 危険な種類のファイルのアップロード制限不備 (CVE-2026-48356)</title>
