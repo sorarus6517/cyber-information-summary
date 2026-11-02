@@ -1,7 +1,19 @@
 {
- "generated_at": "2026-11-02T00:49:32.578695+00:00",
- "count": 261,
+ "generated_at": "2026-11-02T11:21:26.809305+00:00",
+ "count": 262,
  "items": [
+  {
+   "title": "Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性",
+   "url": "https://jvn.jp/jp/JVN23328936/",
+   "published": "2026-11-02T03:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-02T11:21:26.809305+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "Siemens製品に対するアップデート（2026年10月）",
    "url": "https://jvn.jp/vu/JVNVU90141693/",

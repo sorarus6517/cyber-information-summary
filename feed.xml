@@ -4,7 +4,14 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Mon, 02 Nov 2026 00:49:37 +0000</lastBuildDate>
+<lastBuildDate>Mon, 02 Nov 2026 11:21:34 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性</title>
+<link>https://jvn.jp/jp/JVN23328936/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN23328936/</guid>
+<pubDate>Mon, 02 Nov 2026 03:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN23328936/</description>
+</item>
 <item>
 <title>[JVN(日本)] Siemens製品に対するアップデート（2026年10月）</title>
 <link>https://jvn.jp/vu/JVNVU90141693/</link>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-110447</guid>
 <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
 <description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-110447</description>
-</item>
-<item>
-<title>[JVN(日本)] LIFF SDKにおけるクロスサイトスクリプティングの脆弱性</title>
-<link>https://jvn.jp/vu/JVNVU91023667/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU91023667/</guid>
-<pubDate>Thu, 22 Oct 2026 01:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU91023667/</description>
 </item>
 </channel></rss>

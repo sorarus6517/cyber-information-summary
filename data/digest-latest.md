@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月2日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月2日時点 / 39件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -35,10 +35,10 @@
   https://www.jpcert.or.jp/wr/2026/wr261028.html#14
 ・Weekly Report: JPCERT/CCが2026年7月から9月分の「JPCERT/CC 四半期レポート」を公開（2026年10月28日）
   https://www.jpcert.or.jp/wr/2026/wr261028.html#15
-・注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起 (公開)（2026年10月26日）
-  https://www.jpcert.or.jp/at/2026/at260034.html
 
 ■ JVN(日本)
+・Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性（2026年11月2日）
+  https://jvn.jp/jp/JVN23328936/
 ・Siemens製品に対するアップデート（2026年10月）（2026年11月2日）
   https://jvn.jp/vu/JVNVU90141693/
 ・三菱電機製の複数製品における複数の脆弱性（2026-006）（2026年10月30日）
@@ -65,8 +65,6 @@
   https://jvn.jp/vu/JVNVU90547696/
 ・COVESA vsomeipにおける過剰なメモリ割り当ての脆弱性（2026年10月27日）
   https://jvn.jp/vu/JVNVU90363302/
-・BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）（2026年10月26日）
-  https://jvn.jp/vu/JVNVU97400824/
 
 ■ CISA(米国)
 ・悪用確認(KEV): Ivanti Connect Secure — Generation of Predictable Numbers or Identifiers (CVE-2026-118527)（2026年10月30日）
