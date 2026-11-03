@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月3日時点 / 35件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月4日時点 / 34件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -77,8 +77,6 @@
   https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years
 ・Artificial intelligence and cyber intrusion（2026年11月3日）
   https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion
-・業界の懸念から実務的な取り組みへ:規制当局と協働することの意義（2026年10月27日）
-  https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators
 
 すべての項目: https://cyber-information-summary.pages.dev/
 週ごとのまとめ: https://cyber-information-summary.pages.dev/archive.html
