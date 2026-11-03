@@ -1,7 +1,31 @@
 {
- "generated_at": "2026-11-02T21:45:01.763352+00:00",
- "count": 262,
+ "generated_at": "2026-11-03T06:55:32.232928+00:00",
+ "count": 264,
  "items": [
+  {
+   "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
+   "url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+   "published": "2026-11-03T12:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-03T06:55:32.232928+00:00",
+   "source_id": "ncsc",
+   "source_name": "NCSC(英国)",
+   "country": "GB",
+   "theme": "cyber",
+   "lang": "en"
+  },
+  {
+   "title": "Artificial intelligence and cyber intrusion",
+   "url": "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion",
+   "published": "2026-11-03T12:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-03T06:55:32.232928+00:00",
+   "source_id": "ncsc",
+   "source_name": "NCSC(英国)",
+   "country": "GB",
+   "theme": "cyber",
+   "lang": "en"
+  },
   {
    "title": "Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性",
    "url": "https://jvn.jp/jp/JVN23328936/",

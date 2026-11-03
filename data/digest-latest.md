@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月3日時点 / 39件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月3日時点 / 35件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -57,14 +57,6 @@
   https://jvn.jp/jp/JVN30675482/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年10月27日）（2026年10月28日）
   https://jvn.jp/vu/JVNVU96093239/
-・GROWIにおける複数の脆弱性（2026年10月27日）
-  https://jvn.jp/jp/JVN51223238/
-・Sleipnir Mobile for Androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性（2026年10月27日）
-  https://jvn.jp/jp/JVN90463048/
-・Fireblocks製mpc-libの強化導出（Hardened Derivation）処理における脆弱性（2026年10月27日）
-  https://jvn.jp/vu/JVNVU90547696/
-・COVESA vsomeipにおける過剰なメモリ割り当ての脆弱性（2026年10月27日）
-  https://jvn.jp/vu/JVNVU90363302/
 
 ■ CISA(米国)
 ・悪用確認(KEV): Ivanti Connect Secure — Generation of Predictable Numbers or Identifiers (CVE-2026-118527)（2026年10月30日）
@@ -79,12 +71,12 @@
   https://nvd.nist.gov/vuln/detail/CVE-2026-41709
 ・悪用確認(KEV): Linux Kernel — Missing Initialization of a Variable (CVE-2026-46300)（2026年10月28日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-46300
-・悪用確認(KEV): Adobe Commerce and Magento — 危険な種類のファイルのアップロード制限不備 (CVE-2026-48356)（2026年10月27日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-48356
-・悪用確認(KEV): Google Brotli — Unchecked Return Value (CVE-2026-111497)（2026年10月27日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-111497
 
 ■ NCSC(英国)
+・Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years（2026年11月3日）
+  https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years
+・Artificial intelligence and cyber intrusion（2026年11月3日）
+  https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion
 ・業界の懸念から実務的な取り組みへ:規制当局と協働することの意義（2026年10月27日）
   https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators
 

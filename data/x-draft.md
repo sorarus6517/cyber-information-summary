@@ -12,16 +12,15 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 248 / 280 ]
+**本文** [ 212 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】11月2日
+【本日の公式セキュリティ情報】11月3日
 
 主な発表:
-・Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性
-・Siemens製品に対するアップデート（2026年10月）
+・Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years
+・Artificial intelligence and cyber intrusion
 
-日本の機関（JVN）からは2件。
 詳細はリプライのリンクから。
 ```
 
@@ -37,14 +36,14 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 257 / 280 ]
+**本文** [ 250 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月2日〜11月8日
 
 主な発表:
-・Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性
-・Siemens製品に対するアップデート（2026年10月）
+・Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years
+・Artificial intelligence and cyber intrusion
 
 日本の機関（JVN）からは2件。
 詳細はリプライのリンクから。
@@ -61,6 +60,38 @@ https://cyber-information-summary.pages.dev/w/2026-W45.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### NCSC（2026年11月3日）
+
+本文 [ 107 / 280 ]
+
+```
+【NCSC】Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years
+```
+
+### NCSC（2026年11月3日）
+
+本文 [ 65 / 280 ]
+
+```
+【NCSC】Artificial intelligence and cyber intrusion
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion
+```
 
 ### JVN（2026年11月2日）
 
