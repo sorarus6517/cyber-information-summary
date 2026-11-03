@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-03T17:08:04.885166+00:00",
- "count": 264,
+ "generated_at": "2026-11-03T23:28:26.549239+00:00",
+ "count": 265,
  "items": [
   {
    "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
@@ -25,6 +25,20 @@
    "country": "GB",
    "theme": "cyber",
    "lang": "en"
+  },
+  {
+   "title": "KEV追加: WordPress WordPress Core — WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability (CVE-2026-119977)",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
+   "published": "2026-11-03T00:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-03T23:28:26.549239+00:00",
+   "source_id": "cisa",
+   "source_name": "CISA(米国)",
+   "country": "US",
+   "theme": "cyber",
+   "lang": "en",
+   "title_ja": "悪用確認(KEV): WordPress WordPress Core — 競合状態 (CVE-2026-119977)",
+   "title_ja_source": "auto"
   },
   {
    "title": "Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性",
