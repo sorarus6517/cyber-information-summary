@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月5日時点 / 19件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月5日時点 / 20件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -31,6 +31,8 @@
   https://jvn.jp/jp/JVN82782759/
 
 ■ CISA(米国)
+・悪用確認(KEV): Apple Multiple Products — 認証の不備 (CVE-2024-27834)（2026年11月4日）
+  https://nvd.nist.gov/vuln/detail/CVE-2024-27834
 ・悪用確認(KEV): WordPress WordPress Core — 競合状態 (CVE-2026-119977)（2026年11月3日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-119977
 ・悪用確認(KEV): Ivanti Connect Secure — Generation of Predictable Numbers or Identifiers (CVE-2026-118527)（2026年10月30日）

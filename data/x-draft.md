@@ -12,15 +12,13 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 264 / 280 ]
+**本文** [ 170 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】11月4日
 
-主な発表:
-・Hinemosにおける不適切な権限の割り当ての脆弱性
-・Airbyteにおける任意のコードが実行可能な脆弱性
-・CISA ICS Advisory / ICS Medical Advisory（2026年11月03日）
+悪用が確認された脆弱性:
+・Apple Multiple Products 認証の不備（CVSS 5.5）
 
 日本の機関（JVN）からは6件。
 詳細はリプライのリンクから。
@@ -38,12 +36,13 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 168 / 280 ]
+**本文** [ 217 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月2日〜11月8日
 
 悪用が確認された脆弱性:
+・Apple Multiple Products 認証の不備（CVSS 5.5）
 ・WordPress Core 競合状態（CVSS 8.1）
 
 日本の機関（JVN）からは8件。
@@ -156,6 +155,22 @@ https://jvn.jp/vu/JVNVU92281274/
 ```
 原文はこちら
 https://jvn.jp/vu/JVNVU91151184/
+```
+
+### CISA（2026年11月4日）
+
+本文 [ 90 / 280 ]
+
+```
+【CISA】悪用確認(KEV): Apple Multiple Products — 認証の不備 (CVE-2024-27834)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://nvd.nist.gov/vuln/detail/CVE-2024-27834
 ```
 
 ### NCSC（2026年11月3日）

@@ -4,7 +4,7 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Wed, 04 Nov 2026 17:20:10 +0000</lastBuildDate>
+<lastBuildDate>Wed, 04 Nov 2026 23:44:26 +0000</lastBuildDate>
 <item>
 <title>[JVN(日本)] Hinemosにおける不適切な権限の割り当ての脆弱性</title>
 <link>https://jvn.jp/jp/JVN46901199/</link>
@@ -46,6 +46,13 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU91151184/</guid>
 <pubDate>Wed, 04 Nov 2026 01:15:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU91151184/</description>
+</item>
+<item>
+<title>[CISA(米国)] 悪用確認(KEV): Apple Multiple Products — 認証の不備 (CVE-2024-27834)</title>
+<link>https://nvd.nist.gov/vuln/detail/CVE-2024-27834</link>
+<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2024-27834</guid>
+<pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2024-27834</description>
 </item>
 <item>
 <title>[NCSC(英国)] Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years</title>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU97400824/</guid>
 <pubDate>Mon, 26 Oct 2026 09:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU97400824/</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] 注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起 (公開)</title>
-<link>https://www.jpcert.or.jp/at/2026/at260034.html</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/at/2026/at260034.html</guid>
-<pubDate>Mon, 26 Oct 2026 07:25:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/at/2026/at260034.html</description>
 </item>
 </channel></rss>
