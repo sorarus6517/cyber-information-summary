@@ -1,42 +1,22 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月4日時点 / 35件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月4日時点 / 19件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
 ■ JPCERT/CC(日本)
 ・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)（2026年10月29日）
   https://www.jpcert.or.jp/at/2026/at260033.html
-・Weekly Report: VeloCloud OrchestratorにSQLインジェクションの脆弱性（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#1
-・Weekly Report: ISC BINDに複数の脆弱性（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#2
-・Weekly Report: 複数のCisco製品に脆弱性（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#3
-・Weekly Report: GitLabに複数の脆弱性（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#4
-・Weekly Report: Apache Tomcatに複数の脆弱性（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#5
-・Weekly Report: Google Chromeに複数の脆弱性（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#6
-・Weekly Report: 複数のAtlassian製品に脆弱性（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#7
-・Weekly Report: 複数のMozilla製品に脆弱性（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#8
-・Weekly Report: LaravelのTokenGuardに認証回避につながる脆弱性（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#9
-・Weekly Report: Roundcube Webmailに複数の脆弱性（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#10
-・Weekly Report: MOVEit Transferに複数の脆弱性（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#11
-・Weekly Report: 複数のOracle製品に脆弱性（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#12
-・Weekly Report: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#13
-・Weekly Report: JPCERT/CCが2026年7月から2026年9月分の「ソフトウェア等の脆弱性関連情報に関する届出状況」を公開（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#14
-・Weekly Report: JPCERT/CCが2026年7月から9月分の「JPCERT/CC 四半期レポート」を公開（2026年10月28日）
-  https://www.jpcert.or.jp/wr/2026/wr261028.html#15
 
 ■ JVN(日本)
+・Airbyteにおける任意のコードが実行可能な脆弱性（2026年11月4日）
+  https://jvn.jp/jp/JVN12040144/
+・複数のAkeeba製品におけるクロスサイトリクエストフォージェリの脆弱性（2026年11月4日）
+  https://jvn.jp/jp/JVN44272550/
+・INFINITT Healthcare製INFINITT PACS System Managerにおける複数の任意コード実行の脆弱性（2026年11月4日）
+  https://jvn.jp/vu/JVNVU99859918/
+・Androidアプリ「BaseChat - Audio Dating App」における複数の脆弱性（2026年11月4日）
+  https://jvn.jp/vu/JVNVU92281274/
+・CISA ICS Advisory / ICS Medical Advisory（2026年11月03日）（2026年11月4日）
+  https://jvn.jp/vu/JVNVU91151184/
 ・Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性（2026年11月2日）
   https://jvn.jp/jp/JVN23328936/
 ・Siemens製品に対するアップデート（2026年10月）（2026年11月2日）
@@ -49,14 +29,6 @@
   https://jvn.jp/jp/JVN82782759/
 ・PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）（2026年10月28日）
   https://jvn.jp/vu/JVNVU99905564/
-・ヤマハ製NWR100における複数の脆弱性（2026年10月28日）
-  https://jvn.jp/vu/JVNVU91027179/
-・Yamaha LAN Monitor for WindowsのインストーラにおけるDLL読み込みに関する脆弱性（2026年10月28日）
-  https://jvn.jp/jp/JVN23695234/
-・ヤマハ製YMS-VPN8およびYMS-VPN8-CPにおける引用符で囲まれていないファイルパスの脆弱性（2026年10月28日）
-  https://jvn.jp/jp/JVN30675482/
-・CISA ICS Advisory / ICS Medical Advisory（2026年10月27日）（2026年10月28日）
-  https://jvn.jp/vu/JVNVU96093239/
 
 ■ CISA(米国)
 ・悪用確認(KEV): WordPress WordPress Core — 競合状態 (CVE-2026-119977)（2026年11月3日）
@@ -69,10 +41,6 @@
   https://nvd.nist.gov/vuln/detail/CVE-2026-97229
 ・悪用確認(KEV): Cisco Secure Firewall ASA Software and Cisco Secure FTD Software — Unchecked Return Value to NULL Pointer Dereference (CVE-2026-76418)（2026年10月29日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-76418
-・悪用確認(KEV): Broadcom VMware ESX — Insufficient Logging (CVE-2026-41709)（2026年10月28日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-41709
-・悪用確認(KEV): Linux Kernel — Missing Initialization of a Variable (CVE-2026-46300)（2026年10月28日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-46300
 
 ■ NCSC(英国)
 ・Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years（2026年11月3日）

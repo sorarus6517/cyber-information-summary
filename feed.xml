@@ -4,7 +4,42 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Tue, 03 Nov 2026 23:28:30 +0000</lastBuildDate>
+<lastBuildDate>Wed, 04 Nov 2026 06:36:27 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] Airbyteにおける任意のコードが実行可能な脆弱性</title>
+<link>https://jvn.jp/jp/JVN12040144/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN12040144/</guid>
+<pubDate>Wed, 04 Nov 2026 03:00:15 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN12040144/</description>
+</item>
+<item>
+<title>[JVN(日本)] 複数のAkeeba製品におけるクロスサイトリクエストフォージェリの脆弱性</title>
+<link>https://jvn.jp/jp/JVN44272550/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN44272550/</guid>
+<pubDate>Wed, 04 Nov 2026 03:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN44272550/</description>
+</item>
+<item>
+<title>[JVN(日本)] INFINITT Healthcare製INFINITT PACS System Managerにおける複数の任意コード実行の脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU99859918/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU99859918/</guid>
+<pubDate>Wed, 04 Nov 2026 01:15:30 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99859918/</description>
+</item>
+<item>
+<title>[JVN(日本)] Androidアプリ「BaseChat - Audio Dating App」における複数の脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU92281274/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU92281274/</guid>
+<pubDate>Wed, 04 Nov 2026 01:15:15 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU92281274/</description>
+</item>
+<item>
+<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年11月03日）</title>
+<link>https://jvn.jp/vu/JVNVU91151184/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU91151184/</guid>
+<pubDate>Wed, 04 Nov 2026 01:15:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU91151184/</description>
+</item>
 <item>
 <title>[NCSC(英国)] Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years</title>
 <link>https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years</link>
@@ -319,40 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU96549652/</guid>
 <pubDate>Mon, 26 Oct 2026 04:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU96549652/</description>
-</item>
-<item>
-<title>[JVN(日本)] 電子納品物検査支援システムにおけるインストール時の不適切なファイルアクセス権設定の脆弱性</title>
-<link>https://jvn.jp/jp/JVN75668103/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN75668103/</guid>
-<pubDate>Mon, 26 Oct 2026 03:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN75668103/</description>
-</item>
-<item>
-<title>[CISA(米国)] 悪用確認(KEV): PHP Group PHP — Memory Corruption (CVE-2026-109618)</title>
-<link>https://nvd.nist.gov/vuln/detail/CVE-2026-109618</link>
-<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-109618</guid>
-<pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-109618</description>
-</item>
-<item>
-<title>[CISA(米国)] 悪用確認(KEV): PHP Group PHP — Stale Internal Request-State (CVE-2026-109619)</title>
-<link>https://nvd.nist.gov/vuln/detail/CVE-2026-109619</link>
-<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-109619</guid>
-<pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-109619</description>
-</item>
-<item>
-<title>[JVN(日本)] プリザンターのLDAP認証における認証不備の脆弱性</title>
-<link>https://jvn.jp/jp/JVN82312317/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN82312317/</guid>
-<pubDate>Fri, 23 Oct 2026 06:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN82312317/</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] 注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)</title>
-<link>https://www.jpcert.or.jp/at/2026/at260030.html</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/at/2026/at260030.html</guid>
-<pubDate>Fri, 23 Oct 2026 02:37:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/at/2026/at260030.html</description>
 </item>
 </channel></rss>

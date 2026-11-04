@@ -1,7 +1,67 @@
 {
- "generated_at": "2026-11-03T23:28:26.549239+00:00",
- "count": 265,
+ "generated_at": "2026-11-04T06:36:22.812668+00:00",
+ "count": 270,
  "items": [
+  {
+   "title": "Airbyteにおける任意のコードが実行可能な脆弱性",
+   "url": "https://jvn.jp/jp/JVN12040144/",
+   "published": "2026-11-04T03:00:15+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-04T06:36:22.812668+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "複数のAkeeba製品におけるクロスサイトリクエストフォージェリの脆弱性",
+   "url": "https://jvn.jp/jp/JVN44272550/",
+   "published": "2026-11-04T03:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-04T06:36:22.812668+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "INFINITT Healthcare製INFINITT PACS System Managerにおける複数の任意コード実行の脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU99859918/",
+   "published": "2026-11-04T01:15:30+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-04T06:36:22.812668+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Androidアプリ「BaseChat - Audio Dating App」における複数の脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU92281274/",
+   "published": "2026-11-04T01:15:15+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-04T06:36:22.812668+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "CISA ICS Advisory / ICS Medical Advisory（2026年11月03日）",
+   "url": "https://jvn.jp/vu/JVNVU91151184/",
+   "published": "2026-11-04T01:15:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-04T06:36:22.812668+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
    "url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
