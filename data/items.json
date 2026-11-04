@@ -1,7 +1,19 @@
 {
- "generated_at": "2026-11-04T06:36:22.812668+00:00",
- "count": 270,
+ "generated_at": "2026-11-04T17:20:04.623771+00:00",
+ "count": 271,
  "items": [
+  {
+   "title": "Hinemosにおける不適切な権限の割り当ての脆弱性",
+   "url": "https://jvn.jp/jp/JVN46901199/",
+   "published": "2026-11-04T07:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-04T17:20:04.623771+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "Airbyteにおける任意のコードが実行可能な脆弱性",
    "url": "https://jvn.jp/jp/JVN12040144/",
