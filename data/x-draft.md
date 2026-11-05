@@ -12,15 +12,16 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 170 / 280 ]
+**本文** [ 251 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】11月4日
+【本日の公式セキュリティ情報】11月5日
 
-悪用が確認された脆弱性:
-・Apple Multiple Products 認証の不備（CVSS 5.5）
+主な発表:
+・Weekly Report: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起
+・SHIRASAGIにおける複数の脆弱性
 
-日本の機関（JVN）からは6件。
+日本の機関（JPCERT/CC・JVN）からは17件。
 詳細はリプライのリンクから。
 ```
 
@@ -36,7 +37,7 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 217 / 280 ]
+**本文** [ 229 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月2日〜11月8日
@@ -45,7 +46,7 @@ https://cyber-information-summary.pages.dev/
 ・Apple Multiple Products 認証の不備（CVSS 5.5）
 ・WordPress Core 競合状態（CVSS 8.1）
 
-日本の機関（JVN）からは8件。
+日本の機関（JPCERT/CC・JVN）からは25件。
 詳細はリプライのリンクから。
 ```
 
@@ -61,12 +62,12 @@ https://cyber-information-summary.pages.dev/w/2026-W45.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
-### JVN（2026年11月4日）
+### JVN（2026年11月5日）
 
-本文 [ 66 / 280 ]
+本文 [ 50 / 280 ]
 
 ```
-【JVN】Hinemosにおける不適切な権限の割り当ての脆弱性
+【JVN】SHIRASAGIにおける複数の脆弱性
 #セキュリティ
 ```
 
@@ -74,15 +75,15 @@ https://cyber-information-summary.pages.dev/w/2026-W45.html
 
 ```
 原文はこちら
-https://jvn.jp/jp/JVN46901199/
+https://jvn.jp/jp/JVN55454512/
 ```
 
-### JVN（2026年11月4日）
+### JPCERT/CC（2026年11月5日）
 
-本文 [ 66 / 280 ]
+本文 [ 70 / 280 ]
 
 ```
-【JVN】Airbyteにおける任意のコードが実行可能な脆弱性
+【JPCERT/CC】Weekly Report: Microsoft Edgeに複数の脆弱性
 #セキュリティ
 ```
 
@@ -90,15 +91,15 @@ https://jvn.jp/jp/JVN46901199/
 
 ```
 原文はこちら
-https://jvn.jp/jp/JVN12040144/
+https://www.jpcert.or.jp/wr/2026/wr261105.html#1
 ```
 
-### JVN（2026年11月4日）
+### JPCERT/CC（2026年11月5日）
 
-本文 [ 87 / 280 ]
+本文 [ 86 / 280 ]
 
 ```
-【JVN】複数のAkeeba製品におけるクロスサイトリクエストフォージェリの脆弱性
+【JPCERT/CC】Weekly Report: Sophos UTMに任意のコード実行につながる脆弱性
 #セキュリティ
 ```
 
@@ -106,15 +107,15 @@ https://jvn.jp/jp/JVN12040144/
 
 ```
 原文はこちら
-https://jvn.jp/jp/JVN44272550/
+https://www.jpcert.or.jp/wr/2026/wr261105.html#2
 ```
 
-### JVN（2026年11月4日）
+### JPCERT/CC（2026年11月5日）
 
-本文 [ 106 / 280 ]
+本文 [ 118 / 280 ]
 
 ```
-【JVN】INFINITT Healthcare製INFINITT PACS System Managerにおける複数の任意コード実行の脆弱性
+【JPCERT/CC】Weekly Report: Cisco Secure Firewall ASAおよびFTD Softwareにサービス運用妨害（DoS）の脆弱性
 #セキュリティ
 ```
 
@@ -122,15 +123,15 @@ https://jvn.jp/jp/JVN44272550/
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU99859918/
+https://www.jpcert.or.jp/wr/2026/wr261105.html#3
 ```
 
-### JVN（2026年11月4日）
+### JPCERT/CC（2026年11月5日）
 
-本文 [ 85 / 280 ]
+本文 [ 63 / 280 ]
 
 ```
-【JVN】Androidアプリ「BaseChat - Audio Dating App」における複数の脆弱性
+【JPCERT/CC】Weekly Report: Jenkinsに複数の脆弱性
 #セキュリティ
 ```
 
@@ -138,63 +139,15 @@ https://jvn.jp/vu/JVNVU99859918/
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU92281274/
+https://www.jpcert.or.jp/wr/2026/wr261105.html#4
 ```
 
-### JVN（2026年11月4日）
-
-本文 [ 79 / 280 ]
-
-```
-【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年11月03日）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU91151184/
-```
-
-### CISA（2026年11月4日）
-
-本文 [ 90 / 280 ]
-
-```
-【CISA】悪用確認(KEV): Apple Multiple Products — 認証の不備 (CVE-2024-27834)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2024-27834
-```
-
-### NCSC（2026年11月3日）
-
-本文 [ 107 / 280 ]
-
-```
-【NCSC】Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years
-```
-
-### NCSC（2026年11月3日）
+### JPCERT/CC（2026年11月5日）
 
 本文 [ 65 / 280 ]
 
 ```
-【NCSC】Artificial intelligence and cyber intrusion
+【JPCERT/CC】Weekly Report: WordPressに複数の脆弱性
 #セキュリティ
 ```
 
@@ -202,15 +155,15 @@ https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critica
 
 ```
 原文はこちら
-https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion
+https://www.jpcert.or.jp/wr/2026/wr261105.html#5
 ```
 
-### CISA（2026年11月3日）
+### JPCERT/CC（2026年11月5日）
 
-本文 [ 90 / 280 ]
+本文 [ 65 / 280 ]
 
 ```
-【CISA】悪用確認(KEV): WordPress WordPress Core — 競合状態 (CVE-2026-119977)
+【JPCERT/CC】Weekly Report: 複数のAdobe製品に脆弱性
 #セキュリティ
 ```
 
@@ -218,15 +171,15 @@ https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion
 
 ```
 原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-119977
+https://www.jpcert.or.jp/wr/2026/wr261105.html#6
 ```
 
-### JVN（2026年11月2日）
+### JPCERT/CC（2026年11月5日）
 
-本文 [ 111 / 280 ]
+本文 [ 70 / 280 ]
 
 ```
-【JVN】Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性
+【JPCERT/CC】Weekly Report: ヤマハ製NWR100に複数の脆弱性
 #セキュリティ
 ```
 
@@ -234,15 +187,15 @@ https://nvd.nist.gov/vuln/detail/CVE-2026-119977
 
 ```
 原文はこちら
-https://jvn.jp/jp/JVN23328936/
+https://www.jpcert.or.jp/wr/2026/wr261105.html#7
 ```
 
-### JVN（2026年11月2日）
+### JPCERT/CC（2026年11月5日）
 
-本文 [ 66 / 280 ]
+本文 [ 70 / 280 ]
 
 ```
-【JVN】Siemens製品に対するアップデート（2026年10月）
+【JPCERT/CC】Weekly Report: 複数のWatchGuard製品に脆弱性
 #セキュリティ
 ```
 
@@ -250,7 +203,55 @@ https://jvn.jp/jp/JVN23328936/
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU90141693/
+https://www.jpcert.or.jp/wr/2026/wr261105.html#8
+```
+
+### JPCERT/CC（2026年11月5日）
+
+本文 [ 65 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: 複数のVeeam製品に脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261105.html#9
+```
+
+### JPCERT/CC（2026年11月5日）
+
+本文 [ 67 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: 複数のMozilla製品に脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261105.html#10
+```
+
+### JPCERT/CC（2026年11月5日）
+
+本文 [ 69 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: Google Chromeに複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261105.html#11
 ```
 
 ---
@@ -291,7 +292,7 @@ CVE-2026-109619（PHP Group）に言及した公的機関の発表です。
 
 ### CVE-2026-111497
 
-そのまま投稿できます [ 152 / 280 ]
+そのまま投稿できます [ 172 / 280 ]
 
 ```
 CVE-2026-111497（Google Brotli）に言及した公的機関の発表です。
@@ -299,6 +300,7 @@ CVE-2026-111497（Google Brotli）に言及した公的機関の発表です。
 ・JPCERT/CC 10月26日
 ・JVN 10月26日 JVNVU#97400824
 ・CISA 10月27日（悪用確認として登録）
+・JPCERT/CC 11月5日
 ```
 
 ### CVE-2026-88771

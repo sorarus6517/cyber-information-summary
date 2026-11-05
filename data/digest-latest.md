@@ -1,12 +1,44 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月5日時点 / 20件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月5日時点 / 33件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
 ■ JPCERT/CC(日本)
-・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)（2026年10月29日）
-  https://www.jpcert.or.jp/at/2026/at260033.html
+・Weekly Report: Microsoft Edgeに複数の脆弱性（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#1
+・Weekly Report: Sophos UTMに任意のコード実行につながる脆弱性（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#2
+・Weekly Report: Cisco Secure Firewall ASAおよびFTD Softwareにサービス運用妨害（DoS）の脆弱性（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#3
+・Weekly Report: Jenkinsに複数の脆弱性（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#4
+・Weekly Report: WordPressに複数の脆弱性（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#5
+・Weekly Report: 複数のAdobe製品に脆弱性（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#6
+・Weekly Report: ヤマハ製NWR100に複数の脆弱性（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#7
+・Weekly Report: 複数のWatchGuard製品に脆弱性（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#8
+・Weekly Report: 複数のVeeam製品に脆弱性（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#9
+・Weekly Report: 複数のMozilla製品に脆弱性（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#10
+・Weekly Report: Google Chromeに複数の脆弱性（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#11
+・Weekly Report: Joomla!およびWordPress向けの拡張機能YOOtheme Proにリモートコード実行につながる脆弱性（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#12
+・Weekly Report: 複数のApple製品に脆弱性（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#13
+・Weekly Report: Rubyに複数の脆弱性（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#14
+・Weekly Report: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起（2026年11月5日）
+  https://www.jpcert.or.jp/wr/2026/wr261105.html#15
 
 ■ JVN(日本)
+・SHIRASAGIにおける複数の脆弱性（2026年11月5日）
+  https://jvn.jp/jp/JVN55454512/
+・Siemens製品に対するアップデート（2026年11月）（2026年11月5日）
+  https://jvn.jp/vu/JVNVU98354779/
 ・Hinemosにおける不適切な権限の割り当ての脆弱性（2026年11月4日）
   https://jvn.jp/jp/JVN46901199/
 ・Airbyteにおける任意のコードが実行可能な脆弱性（2026年11月4日）
@@ -27,8 +59,6 @@
   https://jvn.jp/vu/JVNVU93251594/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年10月29日）（2026年10月30日）
   https://jvn.jp/vu/JVNVU95856220/
-・Apache Struts 2 RESTプラグインにおける、@StrutsParameterの制限が@JsonAnySetterに適用されない問題（2026年10月29日）
-  https://jvn.jp/jp/JVN82782759/
 
 ■ CISA(米国)
 ・悪用確認(KEV): Apple Multiple Products — 認証の不備 (CVE-2024-27834)（2026年11月4日）
@@ -39,10 +69,6 @@
   https://nvd.nist.gov/vuln/detail/CVE-2026-118527
 ・悪用確認(KEV): Ivanti Connect Secure — 重要機能における認証の欠如 (CVE-2026-111357)（2026年10月30日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-111357
-・悪用確認(KEV): GitLab Community Edition and Enterprise Edition — Integer Overflow or Wraparound (CVE-2026-97229)（2026年10月29日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-97229
-・悪用確認(KEV): Cisco Secure Firewall ASA Software and Cisco Secure FTD Software — Unchecked Return Value to NULL Pointer Dereference (CVE-2026-76418)（2026年10月29日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-76418
 
 ■ NCSC(英国)
 ・Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years（2026年11月3日）
