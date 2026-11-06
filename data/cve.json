@@ -1012,6 +1012,25 @@
    "published": "2026-10-31T06:16:34.550",
    "status": "Undergoing Analysis"
   },
+  "CVE-2026-19868": {
+   "cvss": {
+    "score": 7.5,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:L/A:N",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-308"
+   ],
+   "desc_en": "An authentication enforcement vulnerability in SonicOS SSLVPN service may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
+   "fetched_at": "2026-11-06T23:14:27.275135+00:00",
+   "found": true,
+   "id": "CVE-2026-19868",
+   "last_modified": "2026-11-06T21:17:08.737",
+   "products": [],
+   "published": "2026-11-06T19:17:48.437",
+   "status": "Undergoing Analysis"
+  },
   "CVE-2026-21589": {
    "cwe": [],
    "desc_en": "Rejected reason: This CVE's publication may have been a false positive or a mistake. As a result, we have rejected this record.",
@@ -2330,5 +2349,5 @@
    "status": "Undergoing Analysis"
   }
  },
- "generated_at": "2026-11-06T16:48:41.640138+00:00"
+ "generated_at": "2026-11-06T23:14:27.109998+00:00"
 }

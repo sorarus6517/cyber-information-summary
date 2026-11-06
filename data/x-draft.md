@@ -12,14 +12,13 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 216 / 280 ]
+**本文** [ 196 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】11月6日
 
-主な発表:
-・CISA ICS Advisory / ICS Medical Advisory（2026年11月05日）
-・Siemens製品に対するアップデート（2026年11月）
+悪用が確認された脆弱性:
+・SonicWall SonicOS SSLVPN Use of Single-factor Authentication（CVSS 7.5）
 
 日本の機関（JVN）からは2件。
 詳細はリプライのリンクから。
@@ -37,14 +36,14 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 229 / 280 ]
+**本文** [ 266 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月2日〜11月8日
 
 悪用が確認された脆弱性:
+・SonicWall SonicOS SSLVPN Use of Single-factor Authentication（CVSS 7.5）
 ・Apple Multiple Products 認証の不備（CVSS 5.5）
-・WordPress Core 競合状態（CVSS 8.1）
 
 日本の機関（JPCERT/CC・JVN）からは26件。
 詳細はリプライのリンクから。
@@ -92,6 +91,22 @@ https://jvn.jp/vu/JVNVU90841469/
 ```
 原文はこちら
 https://jvn.jp/vu/JVNVU98354779/
+```
+
+### CISA（2026年11月6日）
+
+本文 [ 116 / 280 ]
+
+```
+【CISA】悪用確認(KEV): SonicWall SonicOS SSLVPN — Use of Single-factor Authentication (CVE-2026-19868)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://nvd.nist.gov/vuln/detail/CVE-2026-19868
 ```
 
 ### JVN（2026年11月5日）
@@ -236,22 +251,6 @@ https://www.jpcert.or.jp/wr/2026/wr261105.html#7
 ```
 原文はこちら
 https://www.jpcert.or.jp/wr/2026/wr261105.html#8
-```
-
-### JPCERT/CC（2026年11月5日）
-
-本文 [ 65 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のVeeam製品に脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261105.html#9
 ```
 
 ---
