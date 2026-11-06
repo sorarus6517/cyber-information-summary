@@ -1,7 +1,31 @@
 {
- "generated_at": "2026-11-05T23:41:17.779536+00:00",
- "count": 289,
+ "generated_at": "2026-11-06T06:56:56.717915+00:00",
+ "count": 290,
  "items": [
+  {
+   "title": "CISA ICS Advisory / ICS Medical Advisory（2026年11月05日）",
+   "url": "https://jvn.jp/vu/JVNVU90841469/",
+   "published": "2026-11-06T00:30:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-06T06:56:56.717915+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Siemens製品に対するアップデート（2026年11月）",
+   "url": "https://jvn.jp/vu/JVNVU98354779/",
+   "published": "2026-11-06T00:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-05T06:56:25.797139+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "SHIRASAGIにおける複数の脆弱性",
    "url": "https://jvn.jp/jp/JVN55454512/",
@@ -190,18 +214,6 @@
    "first_seen": "2026-11-05T06:56:25.797139+00:00",
    "source_id": "jpcert",
    "source_name": "JPCERT/CC(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja"
-  },
-  {
-   "title": "Siemens製品に対するアップデート（2026年11月）",
-   "url": "https://jvn.jp/vu/JVNVU98354779/",
-   "published": "2026-11-05T00:00:00+00:00",
-   "date_estimated": false,
-   "first_seen": "2026-11-05T06:56:25.797139+00:00",
-   "source_id": "jvn",
-   "source_name": "JVN(日本)",
    "country": "JP",
    "theme": "cyber",
    "lang": "ja"

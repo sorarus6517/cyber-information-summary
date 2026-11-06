@@ -4,7 +4,21 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Thu, 05 Nov 2026 23:41:22 +0000</lastBuildDate>
+<lastBuildDate>Fri, 06 Nov 2026 06:57:00 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年11月05日）</title>
+<link>https://jvn.jp/vu/JVNVU90841469/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90841469/</guid>
+<pubDate>Fri, 06 Nov 2026 00:30:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90841469/</description>
+</item>
+<item>
+<title>[JVN(日本)] Siemens製品に対するアップデート（2026年11月）</title>
+<link>https://jvn.jp/vu/JVNVU98354779/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU98354779/</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98354779/</description>
+</item>
 <item>
 <title>[JVN(日本)] SHIRASAGIにおける複数の脆弱性</title>
 <link>https://jvn.jp/jp/JVN55454512/</link>
@@ -116,13 +130,6 @@
 <guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261105.html#15</guid>
 <pubDate>Thu, 05 Nov 2026 00:52:00 +0000</pubDate>
 <description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261105.html#15</description>
-</item>
-<item>
-<title>[JVN(日本)] Siemens製品に対するアップデート（2026年11月）</title>
-<link>https://jvn.jp/vu/JVNVU98354779/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU98354779/</guid>
-<pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98354779/</description>
 </item>
 <item>
 <title>[JVN(日本)] Hinemosにおける不適切な権限の割り当ての脆弱性</title>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261028.html#8</guid>
 <pubDate>Wed, 28 Oct 2026 00:07:00 +0000</pubDate>
 <description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261028.html#8</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: LaravelのTokenGuardに認証回避につながる脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261028.html#9</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261028.html#9</guid>
-<pubDate>Wed, 28 Oct 2026 00:07:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261028.html#9</description>
 </item>
 </channel></rss>

@@ -12,16 +12,16 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 251 / 280 ]
+**本文** [ 216 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】11月5日
+【本日の公式セキュリティ情報】11月6日
 
 主な発表:
-・Weekly Report: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起
-・SHIRASAGIにおける複数の脆弱性
+・CISA ICS Advisory / ICS Medical Advisory（2026年11月05日）
+・Siemens製品に対するアップデート（2026年11月）
 
-日本の機関（JPCERT/CC・JVN）からは17件。
+日本の機関（JVN）からは2件。
 詳細はリプライのリンクから。
 ```
 
@@ -46,7 +46,7 @@ https://cyber-information-summary.pages.dev/
 ・Apple Multiple Products 認証の不備（CVSS 5.5）
 ・WordPress Core 競合状態（CVSS 8.1）
 
-日本の機関（JPCERT/CC・JVN）からは25件。
+日本の機関（JPCERT/CC・JVN）からは26件。
 詳細はリプライのリンクから。
 ```
 
@@ -61,6 +61,38 @@ https://cyber-information-summary.pages.dev/w/2026-W45.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### JVN（2026年11月6日）
+
+本文 [ 79 / 280 ]
+
+```
+【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年11月05日）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU90841469/
+```
+
+### JVN（2026年11月6日）
+
+本文 [ 66 / 280 ]
+
+```
+【JVN】Siemens製品に対するアップデート（2026年11月）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU98354779/
+```
 
 ### JVN（2026年11月5日）
 
@@ -220,38 +252,6 @@ https://www.jpcert.or.jp/wr/2026/wr261105.html#8
 ```
 原文はこちら
 https://www.jpcert.or.jp/wr/2026/wr261105.html#9
-```
-
-### JPCERT/CC（2026年11月5日）
-
-本文 [ 67 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のMozilla製品に脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261105.html#10
-```
-
-### JPCERT/CC（2026年11月5日）
-
-本文 [ 69 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Google Chromeに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261105.html#11
 ```
 
 ---
