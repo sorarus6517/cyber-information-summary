@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月8日時点 / 31件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月9日時点 / 37件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -59,10 +59,22 @@
   https://jvn.jp/vu/JVNVU90141693/
 
 ■ CISA(米国)
+・CISA Adds One Known Exploited Vulnerability to Catalog（2026年11月6日）
+  https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog
 ・悪用確認(KEV): SonicWall SonicOS SSLVPN — Use of Single-factor Authentication (CVE-2026-19868)（2026年11月6日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-19868
+・US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems（2026年11月5日）
+  https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems
+・Post-Quantum Questions to Ask Your Vendors（2026年11月5日）
+  https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors
+・CISA Adds One Known Exploited Vulnerability to Catalog（2026年11月4日）
+  https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog
 ・悪用確認(KEV): Apple Multiple Products — 認証の不備 (CVE-2024-27834)（2026年11月4日）
   https://nvd.nist.gov/vuln/detail/CVE-2024-27834
+・CISA Adds One Known Exploited Vulnerability to Catalog（2026年11月3日）
+  https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog
+・Subnet Solutions PowerSYSTEM Center（2026年11月3日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01
 ・悪用確認(KEV): WordPress WordPress Core — 競合状態 (CVE-2026-119977)（2026年11月3日）
   https://nvd.nist.gov/vuln/detail/CVE-2026-119977
 

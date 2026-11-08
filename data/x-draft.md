@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年11月8日 自動生成）
+# Xの投稿下書き（2026年11月9日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -10,7 +10,7 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ---
 
-## 1. 本日のまとめ（注意: 2日前の分です。新しい発表がまだありません）
+## 1. 本日のまとめ（注意: 3日前の分です。新しい発表がまだありません）
 
 **本文** [ 196 / 280 ]
 
@@ -61,6 +61,22 @@ https://cyber-information-summary.pages.dev/w/2026-W45.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
+### CISA（2026年11月6日）
+
+本文 [ 76 / 280 ]
+
+```
+【CISA】CISA Adds One Known Exploited Vulnerability to Catalog
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog
+```
+
 ### JVN（2026年11月6日）
 
 本文 [ 79 / 280 ]
@@ -107,6 +123,38 @@ https://jvn.jp/vu/JVNVU98354779/
 ```
 原文はこちら
 https://nvd.nist.gov/vuln/detail/CVE-2026-19868
+```
+
+### CISA（2026年11月5日）
+
+本文 [ 118 / 280 ]
+
+```
+【CISA】US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems
+```
+
+### CISA（2026年11月5日）
+
+本文 [ 64 / 280 ]
+
+```
+【CISA】Post-Quantum Questions to Ask Your Vendors
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors
 ```
 
 ### JVN（2026年11月5日）
@@ -203,54 +251,6 @@ https://www.jpcert.or.jp/wr/2026/wr261105.html#4
 ```
 原文はこちら
 https://www.jpcert.or.jp/wr/2026/wr261105.html#5
-```
-
-### JPCERT/CC（2026年11月5日）
-
-本文 [ 65 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のAdobe製品に脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261105.html#6
-```
-
-### JPCERT/CC（2026年11月5日）
-
-本文 [ 70 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: ヤマハ製NWR100に複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261105.html#7
-```
-
-### JPCERT/CC（2026年11月5日）
-
-本文 [ 70 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のWatchGuard製品に脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261105.html#8
 ```
 
 ---
