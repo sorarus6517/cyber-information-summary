@@ -10,17 +10,19 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ---
 
-## 1. 本日のまとめ（注意: 3日前の分です。新しい発表がまだありません）
+## 1. 本日のまとめ
 
-**本文** [ 196 / 280 ]
+**本文** [ 255 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】11月6日
+【本日の公式セキュリティ情報】11月9日
 
-悪用が確認された脆弱性:
-・SonicWall SonicOS SSLVPN Use of Single-factor Authentication（CVSS 7.5）
+主な発表:
+・SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性
+・WebSAM WinShareにおける複数の脆弱性
+・Effekseerにおける入力データ検証不備の脆弱性
 
-日本の機関（JVN）からは2件。
+日本の機関（JVN）からは7件。
 詳細はリプライのリンクから。
 ```
 
@@ -36,16 +38,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 266 / 280 ]
+**本文** [ 219 / 280 ]
 
 ```
-【今週の公式セキュリティ情報】11月2日〜11月8日
+【今週の公式セキュリティ情報】11月9日〜11月15日
 
-悪用が確認された脆弱性:
-・SonicWall SonicOS SSLVPN Use of Single-factor Authentication（CVSS 7.5）
-・Apple Multiple Products 認証の不備（CVSS 5.5）
+主な発表:
+・SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性
+・WebSAM WinShareにおける複数の脆弱性
 
-日本の機関（JPCERT/CC・JVN）からは26件。
+日本の機関（JVN）からは7件。
 詳細はリプライのリンクから。
 ```
 
@@ -53,7 +55,7 @@ https://cyber-information-summary.pages.dev/
 
 ```
 一覧はこちら
-https://cyber-information-summary.pages.dev/w/2026-W45.html
+https://cyber-information-summary.pages.dev/w/2026-W46.html
 #セキュリティ #脆弱性情報
 ```
 
@@ -61,12 +63,12 @@ https://cyber-information-summary.pages.dev/w/2026-W45.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
-### CISA（2026年11月6日）
+### JVN（2026年11月9日）
 
-本文 [ 76 / 280 ]
+本文 [ 82 / 280 ]
 
 ```
-【CISA】CISA Adds One Known Exploited Vulnerability to Catalog
+【JVN】SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性
 #セキュリティ
 ```
 
@@ -74,15 +76,15 @@ https://cyber-information-summary.pages.dev/w/2026-W45.html
 
 ```
 原文はこちら
-https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog
+https://jvn.jp/jp/JVN76179675/
 ```
 
-### JVN（2026年11月6日）
+### JVN（2026年11月9日）
 
-本文 [ 79 / 280 ]
+本文 [ 56 / 280 ]
 
 ```
-【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年11月05日）
+【JVN】WebSAM WinShareにおける複数の脆弱性
 #セキュリティ
 ```
 
@@ -90,10 +92,74 @@ https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU90841469/
+https://jvn.jp/jp/JVN89009783/
 ```
 
-### JVN（2026年11月6日）
+### JVN（2026年11月9日）
+
+本文 [ 64 / 280 ]
+
+```
+【JVN】Effekseerにおける入力データ検証不備の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN56286875/
+```
+
+### JVN（2026年11月9日）
+
+本文 [ 73 / 280 ]
+
+```
+【JVN】KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU92635551/
+```
+
+### JVN（2026年11月9日）
+
+本文 [ 98 / 280 ]
+
+```
+【JVN】Webtop Media Transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU93403064/
+```
+
+### JVN（2026年11月9日）
+
+本文 [ 66 / 280 ]
+
+```
+【JVN】Zabbix agentにおけるDLL読み込みに関する脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN42011956/
+```
+
+### JVN（2026年11月9日）
 
 本文 [ 66 / 280 ]
 
@@ -107,150 +173,6 @@ https://jvn.jp/vu/JVNVU90841469/
 ```
 原文はこちら
 https://jvn.jp/vu/JVNVU98354779/
-```
-
-### CISA（2026年11月6日）
-
-本文 [ 116 / 280 ]
-
-```
-【CISA】悪用確認(KEV): SonicWall SonicOS SSLVPN — Use of Single-factor Authentication (CVE-2026-19868)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://nvd.nist.gov/vuln/detail/CVE-2026-19868
-```
-
-### CISA（2026年11月5日）
-
-本文 [ 118 / 280 ]
-
-```
-【CISA】US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems
-```
-
-### CISA（2026年11月5日）
-
-本文 [ 64 / 280 ]
-
-```
-【CISA】Post-Quantum Questions to Ask Your Vendors
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors
-```
-
-### JVN（2026年11月5日）
-
-本文 [ 50 / 280 ]
-
-```
-【JVN】SHIRASAGIにおける複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/jp/JVN55454512/
-```
-
-### JPCERT/CC（2026年11月5日）
-
-本文 [ 70 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Microsoft Edgeに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261105.html#1
-```
-
-### JPCERT/CC（2026年11月5日）
-
-本文 [ 86 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Sophos UTMに任意のコード実行につながる脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261105.html#2
-```
-
-### JPCERT/CC（2026年11月5日）
-
-本文 [ 118 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Cisco Secure Firewall ASAおよびFTD Softwareにサービス運用妨害（DoS）の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261105.html#3
-```
-
-### JPCERT/CC（2026年11月5日）
-
-本文 [ 63 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Jenkinsに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261105.html#4
-```
-
-### JPCERT/CC（2026年11月5日）
-
-本文 [ 65 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: WordPressに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261105.html#5
 ```
 
 ---

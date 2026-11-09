@@ -4,7 +4,56 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Sun, 08 Nov 2026 22:13:35 +0000</lastBuildDate>
+<lastBuildDate>Mon, 09 Nov 2026 06:46:16 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性</title>
+<link>https://jvn.jp/jp/JVN76179675/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN76179675/</guid>
+<pubDate>Mon, 09 Nov 2026 06:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN76179675/</description>
+</item>
+<item>
+<title>[JVN(日本)] WebSAM WinShareにおける複数の脆弱性</title>
+<link>https://jvn.jp/jp/JVN89009783/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN89009783/</guid>
+<pubDate>Mon, 09 Nov 2026 05:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN89009783/</description>
+</item>
+<item>
+<title>[JVN(日本)] Effekseerにおける入力データ検証不備の脆弱性</title>
+<link>https://jvn.jp/jp/JVN56286875/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN56286875/</guid>
+<pubDate>Mon, 09 Nov 2026 03:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN56286875/</description>
+</item>
+<item>
+<title>[JVN(日本)] KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU92635551/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU92635551/</guid>
+<pubDate>Mon, 09 Nov 2026 02:30:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU92635551/</description>
+</item>
+<item>
+<title>[JVN(日本)] Webtop Media Transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU93403064/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU93403064/</guid>
+<pubDate>Mon, 09 Nov 2026 02:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU93403064/</description>
+</item>
+<item>
+<title>[JVN(日本)] Zabbix agentにおけるDLL読み込みに関する脆弱性</title>
+<link>https://jvn.jp/jp/JVN42011956/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN42011956/</guid>
+<pubDate>Mon, 09 Nov 2026 01:15:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN42011956/</description>
+</item>
+<item>
+<title>[JVN(日本)] Siemens製品に対するアップデート（2026年11月）</title>
+<link>https://jvn.jp/vu/JVNVU98354779/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU98354779/</guid>
+<pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98354779/</description>
+</item>
 <item>
 <title>[CISA(米国)] CISA Adds One Known Exploited Vulnerability to Catalog</title>
 <link>https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog</link>
@@ -18,13 +67,6 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU90841469/</guid>
 <pubDate>Fri, 06 Nov 2026 00:30:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90841469/</description>
-</item>
-<item>
-<title>[JVN(日本)] Siemens製品に対するアップデート（2026年11月）</title>
-<link>https://jvn.jp/vu/JVNVU98354779/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU98354779/</guid>
-<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98354779/</description>
 </item>
 <item>
 <title>[CISA(米国)] 悪用確認(KEV): SonicWall SonicOS SSLVPN — Use of Single-factor Authentication (CVE-2026-19868)</title>
@@ -312,47 +354,5 @@
 <guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog</guid>
 <pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
 <description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens Mendix SAML Module</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01</guid>
-<pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01</description>
-</item>
-<item>
-<title>[CISA(米国)] Hitachi Energy TRO600 series products</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02</guid>
-<pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] 注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)</title>
-<link>https://www.jpcert.or.jp/at/2026/at260033.html</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/at/2026/at260033.html</guid>
-<pubDate>Thu, 29 Oct 2026 06:43:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/at/2026/at260033.html</description>
-</item>
-<item>
-<title>[JVN(日本)] Apache Struts 2 RESTプラグインにおける、@StrutsParameterの制限が@JsonAnySetterに適用されない問題</title>
-<link>https://jvn.jp/jp/JVN82782759/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN82782759/</guid>
-<pubDate>Thu, 29 Oct 2026 03:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN82782759/</description>
-</item>
-<item>
-<title>[CISA(米国)] 悪用確認(KEV): GitLab Community Edition and Enterprise Edition — Integer Overflow or Wraparound (CVE-2026-97229)</title>
-<link>https://nvd.nist.gov/vuln/detail/CVE-2026-97229</link>
-<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-97229</guid>
-<pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-97229</description>
-</item>
-<item>
-<title>[CISA(米国)] 悪用確認(KEV): Cisco Secure Firewall ASA Software and Cisco Secure FTD Software — Unchecked Return Value to NULL Pointer Dereference (CVE-2026-76418)</title>
-<link>https://nvd.nist.gov/vuln/detail/CVE-2026-76418</link>
-<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-76418</guid>
-<pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-76418</description>
 </item>
 </channel></rss>

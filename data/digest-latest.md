@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月9日時点 / 37件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月9日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -35,10 +35,22 @@
   https://www.jpcert.or.jp/wr/2026/wr261105.html#15
 
 ■ JVN(日本)
+・SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性（2026年11月9日）
+  https://jvn.jp/jp/JVN76179675/
+・WebSAM WinShareにおける複数の脆弱性（2026年11月9日）
+  https://jvn.jp/jp/JVN89009783/
+・Effekseerにおける入力データ検証不備の脆弱性（2026年11月9日）
+  https://jvn.jp/jp/JVN56286875/
+・KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性（2026年11月9日）
+  https://jvn.jp/vu/JVNVU92635551/
+・Webtop Media Transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性（2026年11月9日）
+  https://jvn.jp/vu/JVNVU93403064/
+・Zabbix agentにおけるDLL読み込みに関する脆弱性（2026年11月9日）
+  https://jvn.jp/jp/JVN42011956/
+・Siemens製品に対するアップデート（2026年11月）（2026年11月9日）
+  https://jvn.jp/vu/JVNVU98354779/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年11月05日）（2026年11月6日）
   https://jvn.jp/vu/JVNVU90841469/
-・Siemens製品に対するアップデート（2026年11月）（2026年11月6日）
-  https://jvn.jp/vu/JVNVU98354779/
 ・SHIRASAGIにおける複数の脆弱性（2026年11月5日）
   https://jvn.jp/jp/JVN55454512/
 ・Hinemosにおける不適切な権限の割り当ての脆弱性（2026年11月4日）
@@ -53,10 +65,6 @@
   https://jvn.jp/vu/JVNVU92281274/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年11月03日）（2026年11月4日）
   https://jvn.jp/vu/JVNVU91151184/
-・Core TempのカーネルドライバにおけるIOCTLインタフェースに対するアクセス制御が不十分な脆弱性（2026年11月2日）
-  https://jvn.jp/jp/JVN23328936/
-・Siemens製品に対するアップデート（2026年10月）（2026年11月2日）
-  https://jvn.jp/vu/JVNVU90141693/
 
 ■ CISA(米国)
 ・CISA Adds One Known Exploited Vulnerability to Catalog（2026年11月6日）
@@ -75,8 +83,6 @@
   https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog
 ・Subnet Solutions PowerSYSTEM Center（2026年11月3日）
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01
-・悪用確認(KEV): WordPress WordPress Core — 競合状態 (CVE-2026-119977)（2026年11月3日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-119977
 
 ■ NCSC(英国)
 ・Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years（2026年11月3日）
