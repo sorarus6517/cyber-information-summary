@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月10日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月10日時点 / 39件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -85,10 +85,6 @@
   https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog
 ・悪用確認(KEV): Apple Multiple Products — 認証の不備 (CVE-2024-27834)（2026年11月4日）
   https://nvd.nist.gov/vuln/detail/CVE-2024-27834
-
-■ NCSC(英国)
-・Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years（2026年11月3日）
-  https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years
 
 すべての項目: https://cyber-information-summary.pages.dev/
 週ごとのまとめ: https://cyber-information-summary.pages.dev/archive.html
