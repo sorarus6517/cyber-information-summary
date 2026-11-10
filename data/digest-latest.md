@@ -35,6 +35,12 @@
   https://www.jpcert.or.jp/wr/2026/wr261105.html#15
 
 ■ JVN(日本)
+・FrodoBots EarthRover Mini+における複数の脆弱性（2026年11月10日）
+  https://jvn.jp/vu/JVNVU96830794/
+・PrestaShopのPerformance DebugモードにおけるPHPコードインジェクションの脆弱性（2026年11月10日）
+  https://jvn.jp/vu/JVNVU98836795/
+・Airbyteにおける任意のコードが実行可能な脆弱性（2026年11月10日）
+  https://jvn.jp/jp/JVN12040144/
 ・SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性（2026年11月9日）
   https://jvn.jp/jp/JVN76179675/
 ・WebSAM WinShareにおける複数の脆弱性（2026年11月9日）
@@ -55,8 +61,6 @@
   https://jvn.jp/jp/JVN55454512/
 ・Hinemosにおける不適切な権限の割り当ての脆弱性（2026年11月4日）
   https://jvn.jp/jp/JVN46901199/
-・Airbyteにおける任意のコードが実行可能な脆弱性（2026年11月4日）
-  https://jvn.jp/jp/JVN12040144/
 ・複数のAkeeba製品におけるクロスサイトリクエストフォージェリの脆弱性（2026年11月4日）
   https://jvn.jp/jp/JVN44272550/
 ・INFINITT Healthcare製INFINITT PACS System Managerにおける複数の任意コード実行の脆弱性（2026年11月4日）
@@ -67,6 +71,8 @@
   https://jvn.jp/vu/JVNVU91151184/
 
 ■ CISA(米国)
+・CISA Adds Four Known Exploited Vulnerabilities to Catalog（2026年11月9日）
+  https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog
 ・CISA Adds One Known Exploited Vulnerability to Catalog（2026年11月6日）
   https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog
 ・悪用確認(KEV): SonicWall SonicOS SSLVPN — Use of Single-factor Authentication (CVE-2026-19868)（2026年11月6日）
@@ -79,16 +85,10 @@
   https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog
 ・悪用確認(KEV): Apple Multiple Products — 認証の不備 (CVE-2024-27834)（2026年11月4日）
   https://nvd.nist.gov/vuln/detail/CVE-2024-27834
-・CISA Adds One Known Exploited Vulnerability to Catalog（2026年11月3日）
-  https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog
-・Subnet Solutions PowerSYSTEM Center（2026年11月3日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01
 
 ■ NCSC(英国)
 ・Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years（2026年11月3日）
   https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years
-・Artificial intelligence and cyber intrusion（2026年11月3日）
-  https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion
 
 すべての項目: https://cyber-information-summary.pages.dev/
 週ごとのまとめ: https://cyber-information-summary.pages.dev/archive.html

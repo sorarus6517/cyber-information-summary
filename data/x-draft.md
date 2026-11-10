@@ -12,17 +12,16 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 255 / 280 ]
+**本文** [ 236 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】11月9日
+【本日の公式セキュリティ情報】11月10日
 
 主な発表:
-・SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性
-・WebSAM WinShareにおける複数の脆弱性
-・Effekseerにおける入力データ検証不備の脆弱性
+・FrodoBots EarthRover Mini+における複数の脆弱性
+・PrestaShopのPerformance DebugモードにおけるPHPコードインジェクションの脆弱性
 
-日本の機関（JVN）からは7件。
+日本の機関（JVN）からは3件。
 詳細はリプライのリンクから。
 ```
 
@@ -38,16 +37,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 219 / 280 ]
+**本文** [ 246 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月9日〜11月15日
 
 主な発表:
-・SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性
-・WebSAM WinShareにおける複数の脆弱性
+・FrodoBots EarthRover Mini+における複数の脆弱性
+・PrestaShopのPerformance DebugモードにおけるPHPコードインジェクションの脆弱性
 
-日本の機関（JVN）からは7件。
+日本の機関（JVN）からは10件。
 詳細はリプライのリンクから。
 ```
 
@@ -62,6 +61,70 @@ https://cyber-information-summary.pages.dev/w/2026-W46.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### JVN（2026年11月10日）
+
+本文 [ 67 / 280 ]
+
+```
+【JVN】FrodoBots EarthRover Mini+における複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU96830794/
+```
+
+### JVN（2026年11月10日）
+
+本文 [ 97 / 280 ]
+
+```
+【JVN】PrestaShopのPerformance DebugモードにおけるPHPコードインジェクションの脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU98836795/
+```
+
+### JVN（2026年11月10日）
+
+本文 [ 66 / 280 ]
+
+```
+【JVN】Airbyteにおける任意のコードが実行可能な脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN12040144/
+```
+
+### CISA（2026年11月9日）
+
+本文 [ 79 / 280 ]
+
+```
+【CISA】CISA Adds Four Known Exploited Vulnerabilities to Catalog
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog
+```
 
 ### JVN（2026年11月9日）
 

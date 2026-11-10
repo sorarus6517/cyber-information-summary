@@ -1,4 +1,5 @@
 {
+ "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog": "",
  "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog": "",
  "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems": "",
  "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors": "",
@@ -30,5 +31,6 @@
  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-04": "",
  "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-295-01": "",
  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-07": "",
- "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-03": ""
+ "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-03": "",
+ "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15": ""
 }
