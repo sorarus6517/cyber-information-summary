@@ -4,7 +4,14 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Tue, 10 Nov 2026 14:58:53 +0000</lastBuildDate>
+<lastBuildDate>Tue, 10 Nov 2026 23:27:52 +0000</lastBuildDate>
+<item>
+<title>[CISA(米国)] CISA Adds Six Known Exploited Vulnerabilities to Catalog</title>
+<link>https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog</description>
+</item>
 <item>
 <title>[JVN(日本)] FrodoBots EarthRover Mini+における複数の脆弱性</title>
 <link>https://jvn.jp/vu/JVNVU96830794/</link>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU95856220/</guid>
 <pubDate>Fri, 30 Oct 2026 00:15:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU95856220/</description>
-</item>
-<item>
-<title>[CISA(米国)] 悪用確認(KEV): Ivanti Connect Secure — Generation of Predictable Numbers or Identifiers (CVE-2026-118527)</title>
-<link>https://nvd.nist.gov/vuln/detail/CVE-2026-118527</link>
-<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-118527</guid>
-<pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-118527</description>
 </item>
 </channel></rss>

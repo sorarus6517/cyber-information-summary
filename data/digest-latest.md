@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月10日時点 / 39件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月11日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -71,6 +71,8 @@
   https://jvn.jp/vu/JVNVU91151184/
 
 ■ CISA(米国)
+・CISA Adds Six Known Exploited Vulnerabilities to Catalog（2026年11月10日）
+  https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog
 ・CISA Adds Four Known Exploited Vulnerabilities to Catalog（2026年11月9日）
   https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog
 ・CISA Adds One Known Exploited Vulnerability to Catalog（2026年11月6日）

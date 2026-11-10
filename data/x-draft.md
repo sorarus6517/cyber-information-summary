@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年11月10日 自動生成）
+# Xの投稿下書き（2026年11月11日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -12,14 +12,15 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 236 / 280 ]
+**本文** [ 264 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】11月10日
 
 主な発表:
+・CISA Adds Six Known Exploited Vulnerabilities to Catalog
 ・FrodoBots EarthRover Mini+における複数の脆弱性
-・PrestaShopのPerformance DebugモードにおけるPHPコードインジェクションの脆弱性
+・Airbyteにおける任意のコードが実行可能な脆弱性
 
 日本の機関（JVN）からは3件。
 詳細はリプライのリンクから。
@@ -37,14 +38,14 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 246 / 280 ]
+**本文** [ 226 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月9日〜11月15日
 
 主な発表:
+・CISA Adds Six Known Exploited Vulnerabilities to Catalog
 ・FrodoBots EarthRover Mini+における複数の脆弱性
-・PrestaShopのPerformance DebugモードにおけるPHPコードインジェクションの脆弱性
 
 日本の機関（JVN）からは10件。
 詳細はリプライのリンクから。
@@ -61,6 +62,22 @@ https://cyber-information-summary.pages.dev/w/2026-W46.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### CISA（2026年11月10日）
+
+本文 [ 78 / 280 ]
+
+```
+【CISA】CISA Adds Six Known Exploited Vulnerabilities to Catalog
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog
+```
 
 ### JVN（2026年11月10日）
 

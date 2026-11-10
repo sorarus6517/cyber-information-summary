@@ -1,7 +1,19 @@
 {
- "generated_at": "2026-11-10T14:58:51.126485+00:00",
- "count": 331,
+ "generated_at": "2026-11-10T23:27:50.461243+00:00",
+ "count": 332,
  "items": [
+  {
+   "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+   "published": "2026-11-10T12:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-10T23:27:50.461243+00:00",
+   "source_id": "cisa",
+   "source_name": "CISA(米国)",
+   "country": "US",
+   "theme": "cyber",
+   "lang": "en"
+  },
   {
    "title": "FrodoBots EarthRover Mini+における複数の脆弱性",
    "url": "https://jvn.jp/vu/JVNVU96830794/",
