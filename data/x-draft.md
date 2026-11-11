@@ -12,17 +12,16 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 264 / 280 ]
+**本文** [ 257 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】11月10日
+【本日の公式セキュリティ情報】11月11日
 
 主な発表:
-・CISA Adds Six Known Exploited Vulnerabilities to Catalog
-・FrodoBots EarthRover Mini+における複数の脆弱性
-・Airbyteにおける任意のコードが実行可能な脆弱性
+・注意喚起: 2026年11月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)
+・Intel製品に対するアップデート（2026年11月）
 
-日本の機関（JVN）からは3件。
+日本の機関（JPCERT/CC・JVN・IPA）からは22件。
 詳細はリプライのリンクから。
 ```
 
@@ -38,16 +37,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 226 / 280 ]
+**本文** [ 266 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月9日〜11月15日
 
 主な発表:
-・CISA Adds Six Known Exploited Vulnerabilities to Catalog
-・FrodoBots EarthRover Mini+における複数の脆弱性
+・注意喚起: 2026年11月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)
+・Intel製品に対するアップデート（2026年11月）
 
-日本の機関（JVN）からは10件。
+日本の機関（JPCERT/CC・JVN・IPA）からは31件。
 詳細はリプライのリンクから。
 ```
 
@@ -63,124 +62,12 @@ https://cyber-information-summary.pages.dev/w/2026-W46.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
-### CISA（2026年11月10日）
-
-本文 [ 78 / 280 ]
-
-```
-【CISA】CISA Adds Six Known Exploited Vulnerabilities to Catalog
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog
-```
-
-### JVN（2026年11月10日）
-
-本文 [ 67 / 280 ]
-
-```
-【JVN】FrodoBots EarthRover Mini+における複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU96830794/
-```
-
-### JVN（2026年11月10日）
-
-本文 [ 97 / 280 ]
-
-```
-【JVN】PrestaShopのPerformance DebugモードにおけるPHPコードインジェクションの脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU98836795/
-```
-
-### JVN（2026年11月10日）
-
-本文 [ 66 / 280 ]
-
-```
-【JVN】Airbyteにおける任意のコードが実行可能な脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/jp/JVN12040144/
-```
-
-### CISA（2026年11月9日）
-
-本文 [ 79 / 280 ]
-
-```
-【CISA】CISA Adds Four Known Exploited Vulnerabilities to Catalog
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog
-```
-
-### JVN（2026年11月9日）
-
-本文 [ 82 / 280 ]
-
-```
-【JVN】SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/jp/JVN76179675/
-```
-
-### JVN（2026年11月9日）
-
-本文 [ 56 / 280 ]
-
-```
-【JVN】WebSAM WinShareにおける複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/jp/JVN89009783/
-```
-
-### JVN（2026年11月9日）
+### JVN（2026年11月11日）
 
 本文 [ 64 / 280 ]
 
 ```
-【JVN】Effekseerにおける入力データ検証不備の脆弱性
+【JVN】Intel製品に対するアップデート（2026年11月）
 #セキュリティ
 ```
 
@@ -188,15 +75,15 @@ https://jvn.jp/jp/JVN89009783/
 
 ```
 原文はこちら
-https://jvn.jp/jp/JVN56286875/
+https://jvn.jp/vu/JVNVU93337738/
 ```
 
-### JVN（2026年11月9日）
+### JVN（2026年11月11日）
 
-本文 [ 73 / 280 ]
+本文 [ 88 / 280 ]
 
 ```
-【JVN】KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性
+【JVN】Sleipnir Mobile for iPhone / iPadにおける不適切な証明書検証の脆弱性
 #セキュリティ
 ```
 
@@ -204,15 +91,15 @@ https://jvn.jp/jp/JVN56286875/
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU92635551/
+https://jvn.jp/vu/JVNVU93068550/
 ```
 
-### JVN（2026年11月9日）
+### JVN（2026年11月11日）
 
-本文 [ 98 / 280 ]
+本文 [ 104 / 280 ]
 
 ```
-【JVN】Webtop Media Transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性
+【JVN】PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）
 #セキュリティ
 ```
 
@@ -220,15 +107,15 @@ https://jvn.jp/vu/JVNVU92635551/
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU93403064/
+https://jvn.jp/vu/JVNVU99905564/
 ```
 
-### JVN（2026年11月9日）
+### JVN（2026年11月11日）
 
-本文 [ 66 / 280 ]
+本文 [ 71 / 280 ]
 
 ```
-【JVN】Zabbix agentにおけるDLL読み込みに関する脆弱性
+【JVN】Movable Typeにおけるコードインジェクションの脆弱性
 #セキュリティ
 ```
 
@@ -236,10 +123,42 @@ https://jvn.jp/vu/JVNVU93403064/
 
 ```
 原文はこちら
-https://jvn.jp/jp/JVN42011956/
+https://jvn.jp/jp/JVN11786640/
 ```
 
-### JVN（2026年11月9日）
+### JPCERT/CC（2026年11月11日）
+
+本文 [ 110 / 280 ]
+
+```
+【JPCERT/CC】注意喚起: 2026年11月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/at/2026/at260035.html
+```
+
+### JVN（2026年11月11日）
+
+本文 [ 80 / 280 ]
+
+```
+【JVN】OpenSSLにおける脆弱性に対するアップデート（2026年11月10日）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU92618679/
+```
+
+### JVN（2026年11月11日）
 
 本文 [ 66 / 280 ]
 
@@ -253,6 +172,86 @@ https://jvn.jp/jp/JVN42011956/
 ```
 原文はこちら
 https://jvn.jp/vu/JVNVU98354779/
+```
+
+### JPCERT/CC（2026年11月11日）
+
+本文 [ 87 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: Cloud Software GroupのXenServerに複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261111.html#1
+```
+
+### JPCERT/CC（2026年11月11日）
+
+本文 [ 82 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: Puppet ServerおよびOpenVoxに複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261111.html#2
+```
+
+### JPCERT/CC（2026年11月11日）
+
+本文 [ 83 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: Airbyteに任意のコード実行につながる脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261111.html#3
+```
+
+### JPCERT/CC（2026年11月11日）
+
+本文 [ 73 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: Firefoxにバッファエラーの脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261111.html#4
+```
+
+### JPCERT/CC（2026年11月11日）
+
+本文 [ 72 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: 複数のManageEngine製品に脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261111.html#5
 ```
 
 ---
@@ -273,8 +272,8 @@ CVE-2026-109618（PHP Group）に言及した公的機関の発表です。
 ・IPA 10月22日
 ・CISA 10月26日（悪用確認として登録）
 ・JPCERT/CC 10月28日
-・JVN 10月28日 JVNVU#99905564
 ・JPCERT/CC 10月29日
+・JVN 11月11日 JVNVU#99905564
 ```
 
 ### CVE-2026-109619
@@ -287,8 +286,8 @@ CVE-2026-109619（PHP Group）に言及した公的機関の発表です。
 ・IPA 10月22日
 ・CISA 10月26日（悪用確認として登録）
 ・JPCERT/CC 10月28日
-・JVN 10月28日 JVNVU#99905564
 ・JPCERT/CC 10月29日
+・JVN 11月11日 JVNVU#99905564
 ```
 
 ### CVE-2026-111497
