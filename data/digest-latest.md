@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月11日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月12日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -33,8 +33,6 @@
   https://www.jpcert.or.jp/wr/2026/wr261111.html#13
 ・Weekly Report: NCOが「個人情報の漏えい等につながる不正アクセスへの対策について - ウェブサイトやモバイルアプリに関する基本的な対策の徹底 -」を公開（2026年11月11日）
   https://www.jpcert.or.jp/wr/2026/wr261111.html#14
-・Weekly Report: Microsoft Edgeに複数の脆弱性（2026年11月5日）
-  https://www.jpcert.or.jp/wr/2026/wr261105.html#1
 
 ■ JVN(日本)
 ・Intel製品に対するアップデート（2026年11月）（2026年11月11日）
@@ -89,6 +87,10 @@
   https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems
 ・Post-Quantum Questions to Ask Your Vendors（2026年11月5日）
   https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors
+
+■ NCSC(英国)
+・NCSC scheme will help critical organisations test their cyber defences（2026年11月11日）
+  https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences
 
 すべての項目: https://cyber-information-summary.pages.dev/
 週ごとのまとめ: https://cyber-information-summary.pages.dev/archive.html

@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年11月11日 自動生成）
+# Xの投稿下書き（2026年11月12日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -61,6 +61,22 @@ https://cyber-information-summary.pages.dev/w/2026-W46.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### NCSC（2026年11月11日）
+
+本文 [ 92 / 280 ]
+
+```
+【NCSC】NCSC scheme will help critical organisations test their cyber defences
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences
+```
 
 ### JVN（2026年11月11日）
 
@@ -236,22 +252,6 @@ https://www.jpcert.or.jp/wr/2026/wr261111.html#3
 ```
 原文はこちら
 https://www.jpcert.or.jp/wr/2026/wr261111.html#4
-```
-
-### JPCERT/CC（2026年11月11日）
-
-本文 [ 72 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のManageEngine製品に脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261111.html#5
 ```
 
 ---

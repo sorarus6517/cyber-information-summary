@@ -1,7 +1,19 @@
 {
- "generated_at": "2026-11-11T06:37:12.135835+00:00",
- "count": 352,
+ "generated_at": "2026-11-11T17:14:12.566364+00:00",
+ "count": 353,
  "items": [
+  {
+   "title": "NCSC scheme will help critical organisations test their cyber defences",
+   "url": "https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences",
+   "published": "2026-11-11T12:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-11T17:14:12.566364+00:00",
+   "source_id": "ncsc",
+   "source_name": "NCSC(英国)",
+   "country": "GB",
+   "theme": "cyber",
+   "lang": "en"
+  },
   {
    "title": "Intel製品に対するアップデート（2026年11月）",
    "url": "https://jvn.jp/vu/JVNVU93337738/",
