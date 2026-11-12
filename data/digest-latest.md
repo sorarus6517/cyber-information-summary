@@ -35,6 +35,14 @@
   https://www.jpcert.or.jp/wr/2026/wr261111.html#14
 
 ■ JVN(日本)
+・KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性（2026年11月12日）
+  https://jvn.jp/vu/JVNVU92635551/
+・BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）（2026年11月12日）
+  https://jvn.jp/vu/JVNVU97400824/
+・三菱電機数値制御装置におけるサービス運用妨害（DoS）の脆弱性（2026年11月12日）
+  https://jvn.jp/vu/JVNVU95523788/
+・SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性（2026年11月12日）
+  https://jvn.jp/jp/JVN64740097/
 ・Apache HTTP Server 2.4における複数の脆弱性に対するアップデート（2026年11月11日）（2026年11月12日）
   https://jvn.jp/vu/JVNVU90805396/
 ・Intel製品に対するアップデート（2026年11月）（2026年11月11日）
@@ -61,8 +69,6 @@
   https://jvn.jp/jp/JVN89009783/
 ・Effekseerにおける入力データ検証不備の脆弱性（2026年11月9日）
   https://jvn.jp/jp/JVN56286875/
-・KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性（2026年11月9日）
-  https://jvn.jp/vu/JVNVU92635551/
 ・Webtop Media Transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性（2026年11月9日）
   https://jvn.jp/vu/JVNVU93403064/
 ・Zabbix agentにおけるDLL読み込みに関する脆弱性（2026年11月9日）
@@ -81,12 +87,6 @@
   https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog
 ・CISA Adds One Known Exploited Vulnerability to Catalog（2026年11月6日）
   https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog
-・悪用確認(KEV): SonicWall SonicOS SSLVPN — Use of Single-factor Authentication (CVE-2026-19868)（2026年11月6日）
-  https://nvd.nist.gov/vuln/detail/CVE-2026-19868
-・US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems（2026年11月5日）
-  https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems
-・Post-Quantum Questions to Ask Your Vendors（2026年11月5日）
-  https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors
 
 ■ NCSC(英国)
 ・NCSC scheme will help critical organisations test their cyber defences（2026年11月11日）
