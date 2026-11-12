@@ -1,7 +1,19 @@
 {
- "generated_at": "2026-11-11T17:14:12.566364+00:00",
- "count": 353,
+ "generated_at": "2026-11-12T00:48:22.981593+00:00",
+ "count": 354,
  "items": [
+  {
+   "title": "Apache HTTP Server 2.4における複数の脆弱性に対するアップデート（2026年11月11日）",
+   "url": "https://jvn.jp/vu/JVNVU90805396/",
+   "published": "2026-11-12T00:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-12T00:48:22.981593+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "NCSC scheme will help critical organisations test their cyber defences",
    "url": "https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences",

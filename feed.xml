@@ -4,7 +4,14 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Wed, 11 Nov 2026 17:14:14 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 00:48:24 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] Apache HTTP Server 2.4における複数の脆弱性に対するアップデート（2026年11月11日）</title>
+<link>https://jvn.jp/vu/JVNVU90805396/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90805396/</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90805396/</description>
+</item>
 <item>
 <title>[NCSC(英国)] NCSC scheme will help critical organisations test their cyber defences</title>
 <link>https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences</link>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261105.html#9</guid>
 <pubDate>Thu, 05 Nov 2026 00:52:00 +0000</pubDate>
 <description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261105.html#9</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: 複数のMozilla製品に脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261105.html#10</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261105.html#10</guid>
-<pubDate>Thu, 05 Nov 2026 00:52:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261105.html#10</description>
 </item>
 </channel></rss>

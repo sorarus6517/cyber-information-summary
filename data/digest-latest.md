@@ -35,6 +35,8 @@
   https://www.jpcert.or.jp/wr/2026/wr261111.html#14
 
 ■ JVN(日本)
+・Apache HTTP Server 2.4における複数の脆弱性に対するアップデート（2026年11月11日）（2026年11月12日）
+  https://jvn.jp/vu/JVNVU90805396/
 ・Intel製品に対するアップデート（2026年11月）（2026年11月11日）
   https://jvn.jp/vu/JVNVU93337738/
 ・Sleipnir Mobile for iPhone / iPadにおける不適切な証明書検証の脆弱性（2026年11月11日）
@@ -67,8 +69,6 @@
   https://jvn.jp/jp/JVN42011956/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年11月05日）（2026年11月6日）
   https://jvn.jp/vu/JVNVU90841469/
-・SHIRASAGIにおける複数の脆弱性（2026年11月5日）
-  https://jvn.jp/jp/JVN55454512/
 
 ■ IPA(日本)
 ・Microsoft 製品の脆弱性対策について(2026年11月)（2026年11月11日）
