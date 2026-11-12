@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月12日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月13日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -67,26 +67,26 @@
   https://jvn.jp/jp/JVN76179675/
 ・WebSAM WinShareにおける複数の脆弱性（2026年11月9日）
   https://jvn.jp/jp/JVN89009783/
-・Effekseerにおける入力データ検証不備の脆弱性（2026年11月9日）
-  https://jvn.jp/jp/JVN56286875/
-・Webtop Media Transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性（2026年11月9日）
-  https://jvn.jp/vu/JVNVU93403064/
-・Zabbix agentにおけるDLL読み込みに関する脆弱性（2026年11月9日）
-  https://jvn.jp/jp/JVN42011956/
-・CISA ICS Advisory / ICS Medical Advisory（2026年11月05日）（2026年11月6日）
-  https://jvn.jp/vu/JVNVU90841469/
 
 ■ IPA(日本)
 ・Microsoft 製品の脆弱性対策について(2026年11月)（2026年11月11日）
   https://www.ipa.go.jp/security/security-alert/2026/1111-ms.html
 
 ■ CISA(米国)
+・Siemens Desigo, Gridscale（2026年11月12日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02
+・Siemens RUGGEDCOM APE1808（2026年11月12日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05
+・Siemens RUGGEDCOM APE1808（2026年11月12日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04
+・Siemens Building Automation and Energy Products（2026年11月12日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01
+・Siemens Industrial Edge Management（2026年11月12日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03
 ・CISA Adds Six Known Exploited Vulnerabilities to Catalog（2026年11月10日）
   https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog
 ・CISA Adds Four Known Exploited Vulnerabilities to Catalog（2026年11月9日）
   https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog
-・CISA Adds One Known Exploited Vulnerability to Catalog（2026年11月6日）
-  https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog
 
 ■ NCSC(英国)
 ・NCSC scheme will help critical organisations test their cyber defences（2026年11月11日）

@@ -4,7 +4,42 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Thu, 12 Nov 2026 11:26:07 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 20:01:50 +0000</lastBuildDate>
+<item>
+<title>[CISA(米国)] Siemens Desigo, Gridscale</title>
+<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02</description>
+</item>
+<item>
+<title>[CISA(米国)] Siemens RUGGEDCOM APE1808</title>
+<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05</description>
+</item>
+<item>
+<title>[CISA(米国)] Siemens RUGGEDCOM APE1808</title>
+<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04</description>
+</item>
+<item>
+<title>[CISA(米国)] Siemens Building Automation and Energy Products</title>
+<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01</description>
+</item>
+<item>
+<title>[CISA(米国)] Siemens Industrial Edge Management</title>
+<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03</description>
+</item>
 <item>
 <title>[JVN(日本)] KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性</title>
 <link>https://jvn.jp/vu/JVNVU92635551/</link>
@@ -319,40 +354,5 @@
 <guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261105.html#1</guid>
 <pubDate>Thu, 05 Nov 2026 00:52:00 +0000</pubDate>
 <description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261105.html#1</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: Sophos UTMに任意のコード実行につながる脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261105.html#2</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261105.html#2</guid>
-<pubDate>Thu, 05 Nov 2026 00:52:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261105.html#2</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: Cisco Secure Firewall ASAおよびFTD Softwareにサービス運用妨害（DoS）の脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261105.html#3</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261105.html#3</guid>
-<pubDate>Thu, 05 Nov 2026 00:52:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261105.html#3</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: Jenkinsに複数の脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261105.html#4</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261105.html#4</guid>
-<pubDate>Thu, 05 Nov 2026 00:52:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261105.html#4</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: WordPressに複数の脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261105.html#5</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261105.html#5</guid>
-<pubDate>Thu, 05 Nov 2026 00:52:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261105.html#5</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: 複数のAdobe製品に脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261105.html#6</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261105.html#6</guid>
-<pubDate>Thu, 05 Nov 2026 00:52:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261105.html#6</description>
 </item>
 </channel></rss>

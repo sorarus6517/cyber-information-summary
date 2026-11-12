@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年11月12日 自動生成）
+# Xの投稿下書き（2026年11月13日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -12,14 +12,15 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 232 / 280 ]
+**本文** [ 192 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】11月12日
 
 主な発表:
-・KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性
-・BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）
+・Siemens Desigo, Gridscale
+・Siemens RUGGEDCOM APE1808
+・Siemens RUGGEDCOM APE1808
 
 日本の機関（JVN）からは5件。
 詳細はリプライのリンクから。
@@ -37,14 +38,14 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 266 / 280 ]
+**本文** [ 248 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月9日〜11月15日
 
 主な発表:
 ・注意喚起: 2026年11月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)
-・Intel製品に対するアップデート（2026年11月）
+・Siemens Desigo, Gridscale
 
 日本の機関（JPCERT/CC・JVN・IPA）からは35件。
 詳細はリプライのリンクから。
@@ -61,6 +62,86 @@ https://cyber-information-summary.pages.dev/w/2026-W46.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### CISA（2026年11月12日）
+
+本文 [ 47 / 280 ]
+
+```
+【CISA】Siemens Desigo, Gridscale
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02
+```
+
+### CISA（2026年11月12日）
+
+本文 [ 47 / 280 ]
+
+```
+【CISA】Siemens RUGGEDCOM APE1808
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05
+```
+
+### CISA（2026年11月12日）
+
+本文 [ 47 / 280 ]
+
+```
+【CISA】Siemens RUGGEDCOM APE1808
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04
+```
+
+### CISA（2026年11月12日）
+
+本文 [ 69 / 280 ]
+
+```
+【CISA】Siemens Building Automation and Energy Products
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01
+```
+
+### CISA（2026年11月12日）
+
+本文 [ 56 / 280 ]
+
+```
+【CISA】Siemens Industrial Edge Management
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03
+```
 
 ### JVN（2026年11月12日）
 
@@ -174,86 +255,6 @@ https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-
 https://jvn.jp/vu/JVNVU93337738/
 ```
 
-### JVN（2026年11月11日）
-
-本文 [ 88 / 280 ]
-
-```
-【JVN】Sleipnir Mobile for iPhone / iPadにおける不適切な証明書検証の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU93068550/
-```
-
-### JVN（2026年11月11日）
-
-本文 [ 104 / 280 ]
-
-```
-【JVN】PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU99905564/
-```
-
-### JVN（2026年11月11日）
-
-本文 [ 71 / 280 ]
-
-```
-【JVN】Movable Typeにおけるコードインジェクションの脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/jp/JVN11786640/
-```
-
-### JPCERT/CC（2026年11月11日）
-
-本文 [ 110 / 280 ]
-
-```
-【JPCERT/CC】注意喚起: 2026年11月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/at/2026/at260035.html
-```
-
-### JVN（2026年11月11日）
-
-本文 [ 80 / 280 ]
-
-```
-【JVN】OpenSSLにおける脆弱性に対するアップデート（2026年11月10日）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU92618679/
-```
-
 ---
 
 ## 4. 照合ネタ（引用リポスト用）
@@ -314,25 +315,43 @@ CVE-2026-106931（EG Secure Solutions SiteGuard Server Edition）に言及した
 ・CISA 10月20日（悪用確認として登録）
 ```
 
-### CVE-2026-88771
+### 「Siemens」に触れた発表（2機関・22件）
 
-そのまま投稿できます [ 79 / 280 ]
+同じ脆弱性とは限りません。見出しを見て、同じ話題だと確認できたものだけ使ってください。
 
-```
-CVE-2026-88771に言及した公的機関の発表です。
+- JVN 9月29日 JVNVU#97027767 … Siemens製品に対するアップデート（2026年9月）
+- CISA 10月20日 … 悪用確認(KEV): Siemens Software Center — Uncontrolled Search Path Element (CVE-2026-110936)
+- CISA 10月22日 … Siemens WinCC
+- CISA 10月22日 … Siemens SENTRON 3NA COM Fuse
+- CISA 10月22日 … Siemens RUGGEDCOM CROSSBOW
+- CISA 10月22日 … Siemens SIMATIC S7 PLCs Web Server
+- CISA 10月22日 … Siemens RUGGEDCOM APE1808 Devices
+- CISA 10月22日 … Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP
+- CISA 10月22日 … Siemens Industrial Edge Device Kit
+- CISA 10月22日 … Siemens SIMATIC S7-1500 TM MFP
+- CISA 10月22日 … Siemens Capital Embedded AR Classic
+- CISA 10月22日 … Siemens SIMATIC IPCs
+- CISA 10月22日 … Siemens Software Center
+- CISA 10月22日 … Siemens RUGGEDCOM CROSSBOW Station Access Controller
+- CISA 10月29日 … Siemens Mendix SAML Module
+- JVN 11月2日 JVNVU#90141693 … Siemens製品に対するアップデート（2026年10月）
+- JVN 11月11日 JVNVU#98354779 … Siemens製品に対するアップデート（2026年11月）
+- CISA 11月12日 … Siemens Desigo, Gridscale
+- CISA 11月12日 … Siemens RUGGEDCOM APE1808
+- CISA 11月12日 … Siemens RUGGEDCOM APE1808
+- CISA 11月12日 … Siemens Building Automation and Energy Products
+- CISA 11月12日 … Siemens Industrial Edge Management
 
-・IPA 9月28日
-・JPCERT/CC 10月2日
-```
+### 「Cisco」に触れた発表（2機関・8件）
 
-### CVE-2026-88772
+同じ脆弱性とは限りません。見出しを見て、同じ話題だと確認できたものだけ使ってください。
 
-そのまま投稿できます [ 79 / 280 ]
-
-```
-CVE-2026-88772に言及した公的機関の発表です。
-
-・IPA 9月28日
-・JPCERT/CC 10月2日
-```
+- CISA 9月30日 … 悪用確認(KEV): Cisco Catalyst SD-WAN Manager — Hex Encoding (CVE-2026-76504)
+- JPCERT/CC 10月7日 … Weekly Report: Cisco Catalyst SD-WAN Managerに認証回避につながる脆弱性
+- CISA 10月14日 … 悪用確認(KEV): Cisco Secure Email Gateway — パストラバーサル (CVE-2026-76519)
+- JPCERT/CC 10月15日 … Weekly Report: 複数のCisco製品に脆弱性
+- JPCERT/CC 10月21日 … Weekly Report: Cisco Secure Email Gatewayに任意のファイル書き込みの脆弱性
+- JPCERT/CC 10月28日 … Weekly Report: 複数のCisco製品に脆弱性
+- CISA 10月29日 … 悪用確認(KEV): Cisco Secure Firewall ASA Software and Cisco Secure FTD Software — Unchecked Return Value to NULL Pointer Dereference (CVE-2026-76418)
+- JPCERT/CC 11月5日 … Weekly Report: Cisco Secure Firewall ASAおよびFTD Softwareにサービス運用妨害（DoS）の脆弱性
 
