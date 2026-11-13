@@ -35,6 +35,18 @@
   https://www.jpcert.or.jp/wr/2026/wr261111.html#14
 
 ■ JVN(日本)
+・JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性（2026年11月13日）
+  https://jvn.jp/jp/JVN76799957/
+・CISA ICS Advisory / ICS Medical Advisory（2026年11月12日）（2026年11月13日）
+  https://jvn.jp/vu/JVNVU90821966/
+・TightVNCおよびUltraVNCのWindows Viewerにおけるヒープベースのバッファオーバーフローの脆弱性（2026年11月13日）
+  https://jvn.jp/vu/JVNVU92656681/
+・ImageMagickを利用したアプリケーションにおける任意ファイル読み書きの脆弱性（2026年11月13日）
+  https://jvn.jp/vu/JVNVU95718857/
+・PromZardにおけるリモートコード実行の脆弱性（2026年11月13日）
+  https://jvn.jp/vu/JVNVU98641453/
+・ComfyUIのComfyUI-Easy-Use拡張機能における認証不要のパストラバーサルの脆弱性（2026年11月13日）
+  https://jvn.jp/vu/JVNVU99429639/
 ・KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性（2026年11月12日）
   https://jvn.jp/vu/JVNVU92635551/
 ・BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）（2026年11月12日）
@@ -57,16 +69,6 @@
   https://jvn.jp/vu/JVNVU92618679/
 ・Siemens製品に対するアップデート（2026年11月）（2026年11月11日）
   https://jvn.jp/vu/JVNVU98354779/
-・FrodoBots EarthRover Mini+における複数の脆弱性（2026年11月10日）
-  https://jvn.jp/vu/JVNVU96830794/
-・PrestaShopのPerformance DebugモードにおけるPHPコードインジェクションの脆弱性（2026年11月10日）
-  https://jvn.jp/vu/JVNVU98836795/
-・Airbyteにおける任意のコードが実行可能な脆弱性（2026年11月10日）
-  https://jvn.jp/jp/JVN12040144/
-・SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性（2026年11月9日）
-  https://jvn.jp/jp/JVN76179675/
-・WebSAM WinShareにおける複数の脆弱性（2026年11月9日）
-  https://jvn.jp/jp/JVN89009783/
 
 ■ IPA(日本)
 ・Microsoft 製品の脆弱性対策について(2026年11月)（2026年11月11日）
@@ -85,8 +87,6 @@
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03
 ・CISA Adds Six Known Exploited Vulnerabilities to Catalog（2026年11月10日）
   https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog
-・CISA Adds Four Known Exploited Vulnerabilities to Catalog（2026年11月9日）
-  https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog
 
 ■ NCSC(英国)
 ・NCSC scheme will help critical organisations test their cyber defences（2026年11月11日）

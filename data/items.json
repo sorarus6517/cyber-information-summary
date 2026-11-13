@@ -1,7 +1,79 @@
 {
- "generated_at": "2026-11-13T01:53:44.830942+00:00",
- "count": 361,
+ "generated_at": "2026-11-13T11:09:24.203265+00:00",
+ "count": 367,
  "items": [
+  {
+   "title": "JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性",
+   "url": "https://jvn.jp/jp/JVN76799957/",
+   "published": "2026-11-13T03:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-13T11:09:24.203265+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "CISA ICS Advisory / ICS Medical Advisory（2026年11月12日）",
+   "url": "https://jvn.jp/vu/JVNVU90821966/",
+   "published": "2026-11-13T02:00:40+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-13T11:09:24.203265+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "TightVNCおよびUltraVNCのWindows Viewerにおけるヒープベースのバッファオーバーフローの脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU92656681/",
+   "published": "2026-11-13T02:00:30+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-13T11:09:24.203265+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "ImageMagickを利用したアプリケーションにおける任意ファイル読み書きの脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU95718857/",
+   "published": "2026-11-13T02:00:20+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-13T11:09:24.203265+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "PromZardにおけるリモートコード実行の脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU98641453/",
+   "published": "2026-11-13T02:00:10+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-13T11:09:24.203265+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "ComfyUIのComfyUI-Easy-Use拡張機能における認証不要のパストラバーサルの脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU99429639/",
+   "published": "2026-11-13T02:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-13T11:09:24.203265+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "Siemens Desigo, Gridscale",
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",

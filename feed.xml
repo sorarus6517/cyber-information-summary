@@ -4,7 +4,49 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Fri, 13 Nov 2026 01:53:48 +0000</lastBuildDate>
+<lastBuildDate>Fri, 13 Nov 2026 11:09:25 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性</title>
+<link>https://jvn.jp/jp/JVN76799957/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN76799957/</guid>
+<pubDate>Fri, 13 Nov 2026 03:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN76799957/</description>
+</item>
+<item>
+<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年11月12日）</title>
+<link>https://jvn.jp/vu/JVNVU90821966/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90821966/</guid>
+<pubDate>Fri, 13 Nov 2026 02:00:40 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90821966/</description>
+</item>
+<item>
+<title>[JVN(日本)] TightVNCおよびUltraVNCのWindows Viewerにおけるヒープベースのバッファオーバーフローの脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU92656681/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU92656681/</guid>
+<pubDate>Fri, 13 Nov 2026 02:00:30 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU92656681/</description>
+</item>
+<item>
+<title>[JVN(日本)] ImageMagickを利用したアプリケーションにおける任意ファイル読み書きの脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU95718857/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU95718857/</guid>
+<pubDate>Fri, 13 Nov 2026 02:00:20 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU95718857/</description>
+</item>
+<item>
+<title>[JVN(日本)] PromZardにおけるリモートコード実行の脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU98641453/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU98641453/</guid>
+<pubDate>Fri, 13 Nov 2026 02:00:10 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98641453/</description>
+</item>
+<item>
+<title>[JVN(日本)] ComfyUIのComfyUI-Easy-Use拡張機能における認証不要のパストラバーサルの脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU99429639/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU99429639/</guid>
+<pubDate>Fri, 13 Nov 2026 02:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99429639/</description>
+</item>
 <item>
 <title>[CISA(米国)] Siemens Desigo, Gridscale</title>
 <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02</link>
@@ -312,47 +354,5 @@
 <guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
 <pubDate>Fri, 06 Nov 2026 12:00:00 +0000</pubDate>
 <description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog</description>
-</item>
-<item>
-<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年11月05日）</title>
-<link>https://jvn.jp/vu/JVNVU90841469/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90841469/</guid>
-<pubDate>Fri, 06 Nov 2026 00:30:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90841469/</description>
-</item>
-<item>
-<title>[CISA(米国)] 悪用確認(KEV): SonicWall SonicOS SSLVPN — Use of Single-factor Authentication (CVE-2026-19868)</title>
-<link>https://nvd.nist.gov/vuln/detail/CVE-2026-19868</link>
-<guid isPermaLink="true">https://nvd.nist.gov/vuln/detail/CVE-2026-19868</guid>
-<pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://nvd.nist.gov/vuln/detail/CVE-2026-19868</description>
-</item>
-<item>
-<title>[CISA(米国)] US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems</title>
-<link>https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems</link>
-<guid isPermaLink="true">https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems</guid>
-<pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems</description>
-</item>
-<item>
-<title>[CISA(米国)] Post-Quantum Questions to Ask Your Vendors</title>
-<link>https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors</link>
-<guid isPermaLink="true">https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors</guid>
-<pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors</description>
-</item>
-<item>
-<title>[JVN(日本)] SHIRASAGIにおける複数の脆弱性</title>
-<link>https://jvn.jp/jp/JVN55454512/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN55454512/</guid>
-<pubDate>Thu, 05 Nov 2026 05:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN55454512/</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: Microsoft Edgeに複数の脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261105.html#1</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261105.html#1</guid>
-<pubDate>Thu, 05 Nov 2026 00:52:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261105.html#1</description>
 </item>
 </channel></rss>
