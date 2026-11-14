@@ -75,6 +75,8 @@
   https://www.ipa.go.jp/security/security-alert/2026/1111-ms.html
 
 ■ CISA(米国)
+・CISA Adds Two Known Exploited Vulnerabilities to Catalog（2026年11月13日）
+  https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog
 ・Siemens Desigo, Gridscale（2026年11月12日）
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02
 ・Siemens RUGGEDCOM APE1808（2026年11月12日）
@@ -85,8 +87,6 @@
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01
 ・Siemens Industrial Edge Management（2026年11月12日）
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03
-・CISA Adds Six Known Exploited Vulnerabilities to Catalog（2026年11月10日）
-  https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog
 
 ■ NCSC(英国)
 ・NCSC scheme will help critical organisations test their cyber defences（2026年11月11日）

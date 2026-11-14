@@ -4,7 +4,14 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Fri, 13 Nov 2026 19:48:43 +0000</lastBuildDate>
+<lastBuildDate>Sat, 14 Nov 2026 01:28:39 +0000</lastBuildDate>
+<item>
+<title>[CISA(米国)] CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
+<link>https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog</guid>
+<pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog</description>
+</item>
 <item>
 <title>[JVN(日本)] JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性</title>
 <link>https://jvn.jp/jp/JVN76799957/</link>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/jp/JVN42011956/</guid>
 <pubDate>Mon, 09 Nov 2026 01:15:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN42011956/</description>
-</item>
-<item>
-<title>[CISA(米国)] CISA Adds One Known Exploited Vulnerability to Catalog</title>
-<link>https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
-<pubDate>Fri, 06 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog</description>
 </item>
 </channel></rss>

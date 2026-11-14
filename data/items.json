@@ -1,7 +1,19 @@
 {
- "generated_at": "2026-11-13T19:48:41.914621+00:00",
- "count": 367,
+ "generated_at": "2026-11-14T01:28:37.356622+00:00",
+ "count": 368,
  "items": [
+  {
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "published": "2026-11-13T12:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-14T01:28:37.356622+00:00",
+   "source_id": "cisa",
+   "source_name": "CISA(米国)",
+   "country": "US",
+   "theme": "cyber",
+   "lang": "en"
+  },
   {
    "title": "JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性",
    "url": "https://jvn.jp/jp/JVN76799957/",

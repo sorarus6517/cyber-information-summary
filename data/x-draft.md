@@ -12,14 +12,14 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 235 / 280 ]
+**本文** [ 233 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】11月13日
 
 主な発表:
+・CISA Adds Two Known Exploited Vulnerabilities to Catalog
 ・JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性
-・CISA ICS Advisory / ICS Medical Advisory（2026年11月12日）
 
 日本の機関（JVN）からは6件。
 詳細はリプライのリンクから。
@@ -61,6 +61,22 @@ https://cyber-information-summary.pages.dev/w/2026-W46.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### CISA（2026年11月13日）
+
+本文 [ 78 / 280 ]
+
+```
+【CISA】CISA Adds Two Known Exploited Vulnerabilities to Catalog
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog
+```
 
 ### JVN（2026年11月13日）
 
@@ -238,22 +254,6 @@ https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01
 https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03
 ```
 
-### JVN（2026年11月12日）
-
-本文 [ 73 / 280 ]
-
-```
-【JVN】KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU92635551/
-```
-
 ---
 
 ## 4. 照合ネタ（引用リポスト用）
@@ -314,11 +314,10 @@ CVE-2026-106931（EG Secure Solutions SiteGuard Server Edition）に言及した
 ・CISA 10月20日（悪用確認として登録）
 ```
 
-### 「Siemens」に触れた発表（2機関・22件）
+### 「Siemens」に触れた発表（2機関・21件）
 
 同じ脆弱性とは限りません。見出しを見て、同じ話題だと確認できたものだけ使ってください。
 
-- JVN 9月29日 JVNVU#97027767 … Siemens製品に対するアップデート（2026年9月）
 - CISA 10月20日 … 悪用確認(KEV): Siemens Software Center — Uncontrolled Search Path Element (CVE-2026-110936)
 - CISA 10月22日 … Siemens WinCC
 - CISA 10月22日 … Siemens SENTRON 3NA COM Fuse
