@@ -340,16 +340,16 @@ CVE-2026-106931（EG Secure Solutions SiteGuard Server Edition）に言及した
 - CISA 11月12日 … Siemens Building Automation and Energy Products
 - CISA 11月12日 … Siemens Industrial Edge Management
 
-### 「Cisco」に触れた発表（2機関・8件）
+### 「Google」に触れた発表（3機関・8件）
 
 同じ脆弱性とは限りません。見出しを見て、同じ話題だと確認できたものだけ使ってください。
 
-- CISA 9月30日 … 悪用確認(KEV): Cisco Catalyst SD-WAN Manager — Hex Encoding (CVE-2026-76504)
-- JPCERT/CC 10月7日 … Weekly Report: Cisco Catalyst SD-WAN Managerに認証回避につながる脆弱性
-- CISA 10月14日 … 悪用確認(KEV): Cisco Secure Email Gateway — パストラバーサル (CVE-2026-76519)
-- JPCERT/CC 10月15日 … Weekly Report: 複数のCisco製品に脆弱性
-- JPCERT/CC 10月21日 … Weekly Report: Cisco Secure Email Gatewayに任意のファイル書き込みの脆弱性
-- JPCERT/CC 10月28日 … Weekly Report: 複数のCisco製品に脆弱性
-- CISA 10月29日 … 悪用確認(KEV): Cisco Secure Firewall ASA Software and Cisco Secure FTD Software — Unchecked Return Value to NULL Pointer Dereference (CVE-2026-76418)
-- JPCERT/CC 11月5日 … Weekly Report: Cisco Secure Firewall ASAおよびFTD Softwareにサービス運用妨害（DoS）の脆弱性
+- JPCERT/CC 10月7日 … Weekly Report: Google Chromeに複数の脆弱性
+- JPCERT/CC 10月15日 … Weekly Report: Google Chromeに複数の脆弱性
+- JVN 10月15日 JVNVU#95613365 … Google BoringSSL証明書検証における複数の名前制約回避の脆弱性
+- JPCERT/CC 10月21日 … Weekly Report: Google Chromeに複数の脆弱性
+- CISA 10月27日 … 悪用確認(KEV): Google Brotli — Unchecked Return Value (CVE-2026-111497)
+- JPCERT/CC 10月28日 … Weekly Report: Google Chromeに複数の脆弱性
+- JPCERT/CC 11月5日 … Weekly Report: Google Chromeに複数の脆弱性
+- JPCERT/CC 11月11日 … Weekly Report: Google Chromeに複数の脆弱性
 
