@@ -624,14 +624,22 @@
     "CWE-94"
    ],
    "desc_en": "A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS® software enables an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.\n\n\n\nThe security risk posed by this issue is minimized by restricting access to the management interface to only trusted internal IP addresses according to our recommended  best practice deployment guidelines https://live.paloaltonetworks.com/t5/community-blogs/tips-amp-tricks-how-to-secure-the-management-access-of-your-palo/ba-p/464431 .\n\n\n\nThis issue is applicable to PAN-OS software on PA-Series and VM-Series firewalls and on Panorama (virtual and M-Series).\n\n\n\nCloud NGFW and Prisma® Access are not impacted by this vulnerability.",
-   "fetched_at": "2026-10-16T21:49:06.774941+00:00",
+   "fetched_at": "2026-11-16T06:43:01.822916+00:00",
    "found": true,
    "id": "CVE-2026-0322",
-   "last_modified": "2026-10-15T13:47:26.713",
+   "last_modified": "2026-11-10T18:53:05.820",
    "products": [
     [
      "paloaltonetworks",
      "pan-os"
+    ],
+    [
+     "siemens",
+     "ruggedcom_ape1808_firmware"
+    ],
+    [
+     "siemens",
+     "ruggedcom_ape1808"
     ]
    ],
    "published": "2026-10-14T18:17:07.743",
@@ -783,11 +791,11 @@
    "cwe": [
     "CWE-287"
    ],
-   "desc_en": "A vulnerability was detected in Ahsay AhsayCBS up to 10.3.2. This affects the function checkSysPwd of the file com/ahsay/obs/api/ApiStructsAction.java of the component API. Performing a manipulation of the argument random results in improper authentication. It is possible to initiate the attack remotely. The exploit is now public and may be used. Upgrading to version 10.3.4 is able to mitigate this issue. It is recommended to upgrade the affected component.",
-   "fetched_at": "2026-10-16T21:48:59.599463+00:00",
+   "desc_en": "A vulnerability was detected in Ahsay AhsayCBS up to 9.15.2.69/10.3.4.44. This affects the function checkSysPwd of the file com/ahsay/obs/api/ApiStructsAction.java of the component API. Performing a manipulation of the argument random results in improper authentication. It is possible to initiate the attack remotely. The exploit is now public and may be used. Upgrading to version 9.15.2.70 and 10.3.4.45 is able to mitigate this issue. It is recommended to upgrade the affected component. The initial patch did not fix the security vulnerability properly. An update of the CVE entry to reflect this became necessary.",
+   "fetched_at": "2026-11-16T06:42:39.683123+00:00",
    "found": true,
    "id": "CVE-2026-105133",
-   "last_modified": "2026-10-15T13:47:06.283",
+   "last_modified": "2026-10-26T18:07:09.000",
    "products": [
     [
      "ahsay",
@@ -2113,7 +2121,7 @@
     "CWE-119"
    ],
    "desc_en": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.41, before 13.1-64.28, before 14.1-73.41 FIPS, and before 13.1-37.282; Gateway: before 14.1-73.41 and before 13.1-64.28.",
-   "fetched_at": "2026-10-16T21:50:04.393068+00:00",
+   "fetched_at": "2026-11-16T06:43:43.367122+00:00",
    "found": true,
    "id": "CVE-2026-88779",
    "last_modified": "2026-10-05T13:35:24.663",
@@ -2313,10 +2321,10 @@
     "CWE-77"
    ],
    "desc_en": "Improper neutralization of special elements used in a command ('command injection') in Windows Shell allows an unauthorized attacker to bypass a security feature over a network.",
-   "fetched_at": "2026-10-16T21:49:21.313831+00:00",
+   "fetched_at": "2026-11-16T06:43:23.779311+00:00",
    "found": true,
    "id": "CVE-2026-96951",
-   "last_modified": "2026-10-16T17:18:00.760",
+   "last_modified": "2026-10-29T16:20:22.137",
    "products": [
     [
      "microsoft",
@@ -2407,5 +2415,5 @@
    "status": "Undergoing Analysis"
   }
  },
- "generated_at": "2026-11-15T22:54:55.401254+00:00"
+ "generated_at": "2026-11-16T06:42:29.571206+00:00"
 }
