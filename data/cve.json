@@ -1425,7 +1425,7 @@
     "CWE-347"
    ],
    "desc_en": "The JWT authentication mechanism accepts tokens signed with algorithms other than those explicitly configured or supported. This allows an attacker to craft a JWT with an unsupported algorithm, which is then incorrectly validated, leading to unauthorized access.\n\nSuccessful exploitation of this vulnerability may result in unauthorized access to the system, including the potential compromise of administrative accounts and full account takeover. The CVSS score is adjusted to 9.8 (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H) in single-tenant deployments, reflecting that the impact is contained within a single security authority boundary.",
-   "fetched_at": "2026-10-16T21:51:30.477262+00:00",
+   "fetched_at": "2026-11-17T16:10:07.942311+00:00",
    "found": true,
    "id": "CVE-2026-5430",
    "last_modified": "2026-09-25T12:53:05.517",
@@ -1582,10 +1582,10 @@
     "CWE-863"
    ],
    "desc_en": "Adobe Commerce is affected by an Incorrect Authorization vulnerability that could result in privilege escalation. An attacker could leverage this vulnerability to gain elevated access to sensitive resources. Exploitation of this issue does not require user interaction.",
-   "fetched_at": "2026-10-16T21:51:37.674014+00:00",
+   "fetched_at": "2026-11-17T16:10:15.000501+00:00",
    "found": true,
    "id": "CVE-2026-71362",
-   "last_modified": "2026-09-25T12:53:15.757",
+   "last_modified": "2026-10-26T13:10:00.140",
    "products": [
     [
      "adobe",
@@ -2041,7 +2041,7 @@
     "CWE-98"
    ],
    "desc_en": "An unauthenticated attacker can make `get_page_template()` page-template resolution include a chosen readable local `.php` file outside the active theme directories. If relevant pre-conditions for both the server and the active theme are met, this can lead to RCE.",
-   "fetched_at": "2026-10-16T21:51:16.187128+00:00",
+   "fetched_at": "2026-11-17T16:09:53.549404+00:00",
    "found": true,
    "id": "CVE-2026-87902",
    "last_modified": "2026-09-28T12:20:54.040",
@@ -2177,7 +2177,7 @@
     "CWE-20"
    ],
    "desc_en": "VeloCloud Orchestrator (VCO) on-prem has a security issue where this issue may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.\n\nHosted, including Dedicated, versions of VCO were impacted and have already been patched.",
-   "fetched_at": "2026-10-16T21:51:45.183087+00:00",
+   "fetched_at": "2026-11-17T16:10:22.169257+00:00",
    "found": true,
    "id": "CVE-2026-93952",
    "last_modified": "2026-09-23T14:32:12.417",
@@ -2201,7 +2201,7 @@
     "CWE-122"
    ],
    "desc_en": "When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious traffic can lead to remote code execution (RCE). This vulnerability is only present when BIG-IP APM is configured as an OAuth Authorization Server. Deployments using APM strictly as an OAuth Client / Resource Server (without OAuth authorization server profiles configured) are not affected by this vulnerability.\n\nImpact:\nThis vulnerability allows an unauthenticated attacker to perform remote code execution. The BIG-IP system in Appliance mode is also vulnerable. This is a data plane issue; there is no control plane exposure.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
-   "fetched_at": "2026-10-16T21:51:23.319437+00:00",
+   "fetched_at": "2026-11-17T16:10:00.738355+00:00",
    "found": true,
    "id": "CVE-2026-94127",
    "last_modified": "2026-09-23T14:32:07.910",
@@ -2415,5 +2415,5 @@
    "status": "Undergoing Analysis"
   }
  },
- "generated_at": "2026-11-17T03:57:41.860322+00:00"
+ "generated_at": "2026-11-17T16:09:53.469810+00:00"
 }

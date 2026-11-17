@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年11月17日 自動生成）
+# Xの投稿下書き（2026年11月18日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -12,16 +12,17 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 254 / 280 ]
+**本文** [ 218 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】11月17日
 
 主な発表:
-・複数製品におけるmacOS（APFS）とのUnicode正規化不整合によるファイルアクセス制限回避の脆弱性
-・富士電機製TELLUSにおける複数の脆弱性（2026年11月）
+・Siemens Mendix Studio Pro
+・Siemens .NET Client Library for SIMATIC S7 Webserver API
+・Siemens meta-iot2050
 
-日本の機関（JVN）からは2件。
+日本の機関（JVN）からは5件。
 詳細はリプライのリンクから。
 ```
 
@@ -37,16 +38,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 264 / 280 ]
+**本文** [ 205 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月16日〜11月22日
 
 主な発表:
-・複数製品におけるmacOS（APFS）とのUnicode正規化不整合によるファイルアクセス制限回避の脆弱性
-・富士電機製TELLUSにおける複数の脆弱性（2026年11月）
+・Siemens Mendix Studio Pro
+・Siemens .NET Client Library for SIMATIC S7 Webserver API
 
-日本の機関（JVN）からは2件。
+日本の機関（JVN）からは5件。
 詳細はリプライのリンクから。
 ```
 
@@ -62,12 +63,12 @@ https://cyber-information-summary.pages.dev/w/2026-W47.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
-### JVN（2026年11月17日）
+### CISA（2026年11月17日）
 
-本文 [ 111 / 280 ]
+本文 [ 47 / 280 ]
 
 ```
-【JVN】複数製品におけるmacOS（APFS）とのUnicode正規化不整合によるファイルアクセス制限回避の脆弱性
+【CISA】Siemens Mendix Studio Pro
 #セキュリティ
 ```
 
@@ -75,15 +76,15 @@ https://cyber-information-summary.pages.dev/w/2026-W47.html
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU93605944/
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05
 ```
 
-### JVN（2026年11月17日）
+### CISA（2026年11月17日）
 
-本文 [ 71 / 280 ]
+本文 [ 78 / 280 ]
 
 ```
-【JVN】富士電機製TELLUSにおける複数の脆弱性（2026年11月）
+【CISA】Siemens .NET Client Library for SIMATIC S7 Webserver API
 #セキュリティ
 ```
 
@@ -91,7 +92,167 @@ https://jvn.jp/vu/JVNVU93605944/
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU97628215/
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02
+```
+
+### CISA（2026年11月17日）
+
+本文 [ 42 / 280 ]
+
+```
+【CISA】Siemens meta-iot2050
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11
+```
+
+### CISA（2026年11月17日）
+
+本文 [ 43 / 280 ]
+
+```
+【CISA】Siemens SIMATIC WinCC
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09
+```
+
+### CISA（2026年11月17日）
+
+本文 [ 47 / 280 ]
+
+```
+【CISA】Siemens RUGGEDCOM APE1808
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07
+```
+
+### CISA（2026年11月17日）
+
+本文 [ 47 / 280 ]
+
+```
+【CISA】Dorsett Controls InfoScan
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01
+```
+
+### CISA（2026年11月17日）
+
+本文 [ 58 / 280 ]
+
+```
+【CISA】Siemens Industrial Software Products
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04
+```
+
+### CISA（2026年11月17日）
+
+本文 [ 69 / 280 ]
+
+```
+【CISA】Siemens Industrial Automation Software Products
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03
+```
+
+### CISA（2026年11月17日）
+
+本文 [ 37 / 280 ]
+
+```
+【CISA】Siemens SIMATIC
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08
+```
+
+### CISA（2026年11月17日）
+
+本文 [ 34 / 280 ]
+
+```
+【CISA】Siemens ROS#
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06
+```
+
+### CISA（2026年11月17日）
+
+本文 [ 45 / 280 ]
+
+```
+【CISA】Siemens Simcenter Femap
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10
+```
+
+### NCSC（2026年11月17日）
+
+本文 [ 69 / 280 ]
+
+```
+【NCSC】Why threat hunting should matter to every board
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board
 ```
 
 ---
@@ -154,7 +315,7 @@ CVE-2026-106931（EG Secure Solutions SiteGuard Server Edition）に言及した
 ・CISA 10月20日（悪用確認として登録）
 ```
 
-### 「Siemens」に触れた発表（2機関・21件）
+### 「Siemens」に触れた発表（2機関・31件）
 
 同じ脆弱性とは限りません。見出しを見て、同じ話題だと確認できたものだけ使ってください。
 
@@ -179,6 +340,16 @@ CVE-2026-106931（EG Secure Solutions SiteGuard Server Edition）に言及した
 - CISA 11月12日 … Siemens RUGGEDCOM APE1808
 - CISA 11月12日 … Siemens Building Automation and Energy Products
 - CISA 11月12日 … Siemens Industrial Edge Management
+- CISA 11月17日 … Siemens Mendix Studio Pro
+- CISA 11月17日 … Siemens .NET Client Library for SIMATIC S7 Webserver API
+- CISA 11月17日 … Siemens meta-iot2050
+- CISA 11月17日 … Siemens SIMATIC WinCC
+- CISA 11月17日 … Siemens RUGGEDCOM APE1808
+- CISA 11月17日 … Siemens Industrial Software Products
+- CISA 11月17日 … Siemens Industrial Automation Software Products
+- CISA 11月17日 … Siemens SIMATIC
+- CISA 11月17日 … Siemens ROS#
+- CISA 11月17日 … Siemens Simcenter Femap
 
 ### 「Google」に触れた発表（3機関・8件）
 

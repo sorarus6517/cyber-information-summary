@@ -1,38 +1,18 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月17日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月18日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
 ■ JPCERT/CC(日本)
 ・注意喚起: 2026年11月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)（2026年11月11日）
   https://www.jpcert.or.jp/at/2026/at260035.html
-・Weekly Report: Cloud Software GroupのXenServerに複数の脆弱性（2026年11月11日）
-  https://www.jpcert.or.jp/wr/2026/wr261111.html#1
-・Weekly Report: Puppet ServerおよびOpenVoxに複数の脆弱性（2026年11月11日）
-  https://www.jpcert.or.jp/wr/2026/wr261111.html#2
-・Weekly Report: Airbyteに任意のコード実行につながる脆弱性（2026年11月11日）
-  https://www.jpcert.or.jp/wr/2026/wr261111.html#3
-・Weekly Report: Firefoxにバッファエラーの脆弱性（2026年11月11日）
-  https://www.jpcert.or.jp/wr/2026/wr261111.html#4
-・Weekly Report: 複数のManageEngine製品に脆弱性（2026年11月11日）
-  https://www.jpcert.or.jp/wr/2026/wr261111.html#5
-・Weekly Report: 複数のZyxel Networks製品に脆弱性（2026年11月11日）
-  https://www.jpcert.or.jp/wr/2026/wr261111.html#6
-・Weekly Report: Microsoft Edgeに複数の脆弱性（2026年11月11日）
-  https://www.jpcert.or.jp/wr/2026/wr261111.html#7
-・Weekly Report: 複数のAbsolute Security製品に脆弱性（2026年11月11日）
-  https://www.jpcert.or.jp/wr/2026/wr261111.html#8
-・Weekly Report: 複数のElastic製品に脆弱性（2026年11月11日）
-  https://www.jpcert.or.jp/wr/2026/wr261111.html#9
-・Weekly Report: Google Chromeに複数の脆弱性（2026年11月11日）
-  https://www.jpcert.or.jp/wr/2026/wr261111.html#10
-・Weekly Report: Androidに複数の脆弱性（2026年11月11日）
-  https://www.jpcert.or.jp/wr/2026/wr261111.html#11
-・Weekly Report: 複数のBarracuda Networks製品に脆弱性（2026年11月11日）
-  https://www.jpcert.or.jp/wr/2026/wr261111.html#12
-・Weekly Report: 複数のPostgreSQL向けツールに脆弱性（2026年11月11日）
-  https://www.jpcert.or.jp/wr/2026/wr261111.html#13
 
 ■ JVN(日本)
+・プリザンターにおける複数の脆弱性（2026年11月17日）
+  https://jvn.jp/jp/JVN02242982/
+・エレコム製無線LANルータにおける複数の脆弱性（2026年11月17日）
+  https://jvn.jp/vu/JVNVU91615135/
+・エレコム製無線LANルータにおけるOSコマンドインジェクションの脆弱性（2026年11月17日）
+  https://jvn.jp/vu/JVNVU92504317/
 ・複数製品におけるmacOS（APFS）とのUnicode正規化不整合によるファイルアクセス制限回避の脆弱性（2026年11月17日）
   https://jvn.jp/vu/JVNVU93605944/
 ・富士電機製TELLUSにおける複数の脆弱性（2026年11月）（2026年11月17日）
@@ -67,12 +47,30 @@
   https://jvn.jp/vu/JVNVU99905564/
 ・Movable Typeにおけるコードインジェクションの脆弱性（2026年11月11日）
   https://jvn.jp/jp/JVN11786640/
-・OpenSSLにおける脆弱性に対するアップデート（2026年11月10日）（2026年11月11日）
-  https://jvn.jp/vu/JVNVU92618679/
-・Siemens製品に対するアップデート（2026年11月）（2026年11月11日）
-  https://jvn.jp/vu/JVNVU98354779/
 
 ■ CISA(米国)
+・Siemens Mendix Studio Pro（2026年11月17日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05
+・Siemens .NET Client Library for SIMATIC S7 Webserver API（2026年11月17日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02
+・Siemens meta-iot2050（2026年11月17日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11
+・Siemens SIMATIC WinCC（2026年11月17日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09
+・Siemens RUGGEDCOM APE1808（2026年11月17日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07
+・Dorsett Controls InfoScan（2026年11月17日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01
+・Siemens Industrial Software Products（2026年11月17日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04
+・Siemens Industrial Automation Software Products（2026年11月17日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03
+・Siemens SIMATIC（2026年11月17日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08
+・Siemens ROS#（2026年11月17日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06
+・Siemens Simcenter Femap（2026年11月17日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10
 ・CISA Adds Two Known Exploited Vulnerabilities to Catalog（2026年11月13日）
   https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog
 ・Siemens Desigo, Gridscale（2026年11月12日）
@@ -87,6 +85,8 @@
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03
 
 ■ NCSC(英国)
+・Why threat hunting should matter to every board（2026年11月17日）
+  https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board
 ・NCSC scheme will help critical organisations test their cyber defences（2026年11月11日）
   https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences
 
