@@ -31,10 +31,12 @@
   https://www.jpcert.or.jp/wr/2026/wr261111.html#12
 ・Weekly Report: 複数のPostgreSQL向けツールに脆弱性（2026年11月11日）
   https://www.jpcert.or.jp/wr/2026/wr261111.html#13
-・Weekly Report: NCOが「個人情報の漏えい等につながる不正アクセスへの対策について - ウェブサイトやモバイルアプリに関する基本的な対策の徹底 -」を公開（2026年11月11日）
-  https://www.jpcert.or.jp/wr/2026/wr261111.html#14
 
 ■ JVN(日本)
+・複数製品におけるmacOS（APFS）とのUnicode正規化不整合によるファイルアクセス制限回避の脆弱性（2026年11月17日）
+  https://jvn.jp/vu/JVNVU93605944/
+・富士電機製TELLUSにおける複数の脆弱性（2026年11月）（2026年11月17日）
+  https://jvn.jp/vu/JVNVU97628215/
 ・JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性（2026年11月13日）
   https://jvn.jp/jp/JVN76799957/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年11月12日）（2026年11月13日）
@@ -69,10 +71,6 @@
   https://jvn.jp/vu/JVNVU92618679/
 ・Siemens製品に対するアップデート（2026年11月）（2026年11月11日）
   https://jvn.jp/vu/JVNVU98354779/
-
-■ IPA(日本)
-・Microsoft 製品の脆弱性対策について(2026年11月)（2026年11月11日）
-  https://www.ipa.go.jp/security/security-alert/2026/1111-ms.html
 
 ■ CISA(米国)
 ・CISA Adds Two Known Exploited Vulnerabilities to Catalog（2026年11月13日）

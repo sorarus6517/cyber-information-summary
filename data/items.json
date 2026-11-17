@@ -1,7 +1,31 @@
 {
- "generated_at": "2026-11-16T19:40:28.474235+00:00",
- "count": 368,
+ "generated_at": "2026-11-17T03:57:39.932395+00:00",
+ "count": 370,
  "items": [
+  {
+   "title": "複数製品におけるmacOS（APFS）とのUnicode正規化不整合によるファイルアクセス制限回避の脆弱性",
+   "url": "https://jvn.jp/vu/JVNVU93605944/",
+   "published": "2026-11-17T01:15:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-17T03:57:39.932395+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "富士電機製TELLUSにおける複数の脆弱性（2026年11月）",
+   "url": "https://jvn.jp/vu/JVNVU97628215/",
+   "published": "2026-11-17T00:50:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-17T03:57:39.932395+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
    "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",

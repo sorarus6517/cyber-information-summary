@@ -4,7 +4,21 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Mon, 16 Nov 2026 19:41:31 +0000</lastBuildDate>
+<lastBuildDate>Tue, 17 Nov 2026 03:58:10 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] 複数製品におけるmacOS（APFS）とのUnicode正規化不整合によるファイルアクセス制限回避の脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU93605944/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU93605944/</guid>
+<pubDate>Tue, 17 Nov 2026 01:15:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU93605944/</description>
+</item>
+<item>
+<title>[JVN(日本)] 富士電機製TELLUSにおける複数の脆弱性（2026年11月）</title>
+<link>https://jvn.jp/vu/JVNVU97628215/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU97628215/</guid>
+<pubDate>Tue, 17 Nov 2026 00:50:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU97628215/</description>
+</item>
 <item>
 <title>[CISA(米国)] CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
 <link>https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
@@ -340,19 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/jp/JVN56286875/</guid>
 <pubDate>Mon, 09 Nov 2026 03:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN56286875/</description>
-</item>
-<item>
-<title>[JVN(日本)] Webtop Media Transcoderにおける異なる領域間での不適切なリソースの移動の脆弱性</title>
-<link>https://jvn.jp/vu/JVNVU93403064/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU93403064/</guid>
-<pubDate>Mon, 09 Nov 2026 02:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU93403064/</description>
-</item>
-<item>
-<title>[JVN(日本)] Zabbix agentにおけるDLL読み込みに関する脆弱性</title>
-<link>https://jvn.jp/jp/JVN42011956/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN42011956/</guid>
-<pubDate>Mon, 09 Nov 2026 01:15:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN42011956/</description>
 </item>
 </channel></rss>

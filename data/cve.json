@@ -743,11 +743,11 @@
    "cwe": [
     "CWE-22"
    ],
-   "desc_en": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2.0 through 7.2.9 may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
-   "fetched_at": "2026-10-16T21:50:40.273241+00:00",
+   "desc_en": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2.0 through 7.2.9, FortiMail 7.0 all versions may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
+   "fetched_at": "2026-11-17T03:57:42.038618+00:00",
    "found": true,
    "id": "CVE-2026-104286",
-   "last_modified": "2026-10-07T18:17:15.240",
+   "last_modified": "2026-10-28T20:09:29.257",
    "products": [
     [
      "fortinet",
@@ -1534,10 +1534,10 @@
     "CWE-94"
    ],
    "desc_en": "Improper control of generation of code ('code injection') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
-   "fetched_at": "2026-10-16T21:51:09.044186+00:00",
+   "fetched_at": "2026-11-17T03:58:10.756833+00:00",
    "found": true,
    "id": "CVE-2026-65660",
-   "last_modified": "2026-09-26T04:17:45.630",
+   "last_modified": "2026-10-26T13:10:00.140",
    "products": [
     [
      "microsoft",
@@ -1558,7 +1558,7 @@
     "CWE-841"
    ],
    "desc_en": "RouterOS SSH enters the connection protocol after a client-requested rekey even though user authentication was never attempted, allowing an unauthenticated client to open a session channel and send an exec request. On affected builds the server dispatches the command, enabling unauthenticated creation, overwrite, and reconstruction of files in the RouterOS managed file namespace, including support files containing configuration and diagnostic data.This issue was fixed in versions: 6.49.21 (Long-term), 7.23.4 (Long-term) and 7.24.2 (Stable)",
-   "fetched_at": "2026-10-16T21:51:01.801342+00:00",
+   "fetched_at": "2026-11-17T03:58:03.545982+00:00",
    "found": true,
    "id": "CVE-2026-67279",
    "last_modified": "2026-09-26T04:17:47.273",
@@ -1809,7 +1809,7 @@
     "CWE-177"
    ],
    "desc_en": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user.\r\n\r\nThis vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of the affected system. A successful exploit could allow the attacker to bypass authentication and gain access to the API as the admin user.",
-   "fetched_at": "2026-10-16T21:50:47.468790+00:00",
+   "fetched_at": "2026-11-17T03:57:49.225231+00:00",
    "found": true,
    "id": "CVE-2026-76504",
    "last_modified": "2026-10-03T00:16:39.140",
@@ -1980,11 +1980,11 @@
    "cwe": [
     "CWE-787"
    ],
-   "desc_en": "An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 26.7.1 and iPadOS 26.7.1, macOS Sequoia 15.8.1, macOS Tahoe 26.7.1. Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27.",
-   "fetched_at": "2026-10-16T21:50:54.663523+00:00",
+   "desc_en": "An out-of-bounds write issue was addressed with improved bounds checking. This issue is fixed in iOS 18.7.11 and iPadOS 18.7.11, iOS 26.7.1 and iPadOS 26.7.1, macOS Sequoia 15.8.1, macOS Tahoe 26.7.1. Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27.",
+   "fetched_at": "2026-11-17T03:57:56.433985+00:00",
    "found": true,
    "id": "CVE-2026-86950",
-   "last_modified": "2026-10-01T18:17:28.430",
+   "last_modified": "2026-10-27T12:29:30.297",
    "products": [
     [
      "apple",
@@ -2415,5 +2415,5 @@
    "status": "Undergoing Analysis"
   }
  },
- "generated_at": "2026-11-16T19:40:31.319238+00:00"
+ "generated_at": "2026-11-17T03:57:41.860322+00:00"
 }

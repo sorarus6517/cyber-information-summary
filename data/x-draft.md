@@ -10,18 +10,18 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ---
 
-## 1. 本日のまとめ（注意: 4日前の分です。新しい発表がまだありません）
+## 1. 本日のまとめ
 
-**本文** [ 233 / 280 ]
+**本文** [ 254 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】11月13日
+【本日の公式セキュリティ情報】11月17日
 
 主な発表:
-・CISA Adds Two Known Exploited Vulnerabilities to Catalog
-・JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性
+・複数製品におけるmacOS（APFS）とのUnicode正規化不整合によるファイルアクセス制限回避の脆弱性
+・富士電機製TELLUSにおける複数の脆弱性（2026年11月）
 
-日本の機関（JVN）からは6件。
+日本の機関（JVN）からは2件。
 詳細はリプライのリンクから。
 ```
 
@@ -37,16 +37,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 265 / 280 ]
+**本文** [ 264 / 280 ]
 
 ```
-【今週の公式セキュリティ情報】11月9日〜11月15日
+【今週の公式セキュリティ情報】11月16日〜11月22日
 
 主な発表:
-・注意喚起: 2026年11月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)
-・PromZardにおけるリモートコード実行の脆弱性
+・複数製品におけるmacOS（APFS）とのUnicode正規化不整合によるファイルアクセス制限回避の脆弱性
+・富士電機製TELLUSにおける複数の脆弱性（2026年11月）
 
-日本の機関（JPCERT/CC・JVN・IPA）からは41件。
+日本の機関（JVN）からは2件。
 詳細はリプライのリンクから。
 ```
 
@@ -54,7 +54,7 @@ https://cyber-information-summary.pages.dev/
 
 ```
 一覧はこちら
-https://cyber-information-summary.pages.dev/w/2026-W46.html
+https://cyber-information-summary.pages.dev/w/2026-W47.html
 #セキュリティ #脆弱性情報
 ```
 
@@ -62,60 +62,12 @@ https://cyber-information-summary.pages.dev/w/2026-W46.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
-### CISA（2026年11月13日）
-
-本文 [ 78 / 280 ]
-
-```
-【CISA】CISA Adds Two Known Exploited Vulnerabilities to Catalog
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog
-```
-
-### JVN（2026年11月13日）
-
-本文 [ 84 / 280 ]
-
-```
-【JVN】JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/jp/JVN76799957/
-```
-
-### JVN（2026年11月13日）
-
-本文 [ 79 / 280 ]
-
-```
-【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年11月12日）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU90821966/
-```
-
-### JVN（2026年11月13日）
+### JVN（2026年11月17日）
 
 本文 [ 111 / 280 ]
 
 ```
-【JVN】TightVNCおよびUltraVNCのWindows Viewerにおけるヒープベースのバッファオーバーフローの脆弱性
+【JVN】複数製品におけるmacOS（APFS）とのUnicode正規化不整合によるファイルアクセス制限回避の脆弱性
 #セキュリティ
 ```
 
@@ -123,15 +75,15 @@ https://jvn.jp/vu/JVNVU90821966/
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU92656681/
+https://jvn.jp/vu/JVNVU93605944/
 ```
 
-### JVN（2026年11月13日）
+### JVN（2026年11月17日）
 
-本文 [ 94 / 280 ]
+本文 [ 71 / 280 ]
 
 ```
-【JVN】ImageMagickを利用したアプリケーションにおける任意ファイル読み書きの脆弱性
+【JVN】富士電機製TELLUSにおける複数の脆弱性（2026年11月）
 #セキュリティ
 ```
 
@@ -139,119 +91,7 @@ https://jvn.jp/vu/JVNVU92656681/
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU95718857/
-```
-
-### JVN（2026年11月13日）
-
-本文 [ 63 / 280 ]
-
-```
-【JVN】PromZardにおけるリモートコード実行の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU98641453/
-```
-
-### JVN（2026年11月13日）
-
-本文 [ 96 / 280 ]
-
-```
-【JVN】ComfyUIのComfyUI-Easy-Use拡張機能における認証不要のパストラバーサルの脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU99429639/
-```
-
-### CISA（2026年11月12日）
-
-本文 [ 47 / 280 ]
-
-```
-【CISA】Siemens Desigo, Gridscale
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02
-```
-
-### CISA（2026年11月12日）
-
-本文 [ 47 / 280 ]
-
-```
-【CISA】Siemens RUGGEDCOM APE1808
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05
-```
-
-### CISA（2026年11月12日）
-
-本文 [ 47 / 280 ]
-
-```
-【CISA】Siemens RUGGEDCOM APE1808
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04
-```
-
-### CISA（2026年11月12日）
-
-本文 [ 69 / 280 ]
-
-```
-【CISA】Siemens Building Automation and Energy Products
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01
-```
-
-### CISA（2026年11月12日）
-
-本文 [ 56 / 280 ]
-
-```
-【CISA】Siemens Industrial Edge Management
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03
+https://jvn.jp/vu/JVNVU97628215/
 ```
 
 ---
