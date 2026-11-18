@@ -18,11 +18,11 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 【本日の公式セキュリティ情報】11月18日
 
 主な発表:
-・Weekly Report: N-able N-centralに複数の脆弱性
-・Weekly Report: Synology DiskStation Managerに複数の脆弱性
-・Weekly Report: OpenSSLに複数の脆弱性
+・OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性
+・ISC BINDにおける複数の脆弱性（2026年10月）
+・Weekly Report: Gitに複数の脆弱性
 
-日本の機関（JPCERT/CC・JVN）からは27件。
+日本の機関（JPCERT/CC・JVN・IPA）からは31件。
 詳細はリプライのリンクから。
 ```
 
@@ -38,16 +38,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 238 / 280 ]
+**本文** [ 242 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月16日〜11月22日
 
 主な発表:
-・Weekly Report: N-able N-centralに複数の脆弱性
-・Weekly Report: Synology DiskStation Managerに複数の脆弱性
+・OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性
+・ISC BINDにおける複数の脆弱性（2026年10月）
 
-日本の機関（JPCERT/CC・JVN）からは32件。
+日本の機関（JPCERT/CC・JVN・IPA）からは36件。
 詳細はリプライのリンクから。
 ```
 
@@ -62,6 +62,54 @@ https://cyber-information-summary.pages.dev/w/2026-W47.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### JVN（2026年11月18日）
+
+本文 [ 80 / 280 ]
+
+```
+【JVN】OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU99608534/
+```
+
+### JVN（2026年11月18日）
+
+本文 [ 63 / 280 ]
+
+```
+【JVN】ISC BINDにおける複数の脆弱性（2026年10月）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU91196958/
+```
+
+### JVN（2026年11月18日）
+
+本文 [ 96 / 280 ]
+
+```
+【JVN】Androidアプリ「宮内庁参観音声ガイド- 宮内庁公式アプリ」における複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN19906678/
+```
 
 ### JPCERT/CC（2026年11月18日）
 
@@ -205,54 +253,6 @@ https://www.jpcert.or.jp/wr/2026/wr261118.html#8
 ```
 原文はこちら
 https://www.jpcert.or.jp/wr/2026/wr261118.html#9
-```
-
-### JPCERT/CC（2026年11月18日）
-
-本文 [ 99 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: React Server Componentsに任意のコード実行につながる脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261118.html#10
-```
-
-### JPCERT/CC（2026年11月18日）
-
-本文 [ 63 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Node.jsに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261118.html#11
-```
-
-### JPCERT/CC（2026年11月18日）
-
-本文 [ 63 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: MongoDBに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261118.html#12
 ```
 
 ---

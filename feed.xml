@@ -4,7 +4,28 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Wed, 18 Nov 2026 01:00:35 +0000</lastBuildDate>
+<lastBuildDate>Wed, 18 Nov 2026 11:52:40 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性</title>
+<link>https://jvn.jp/vu/JVNVU99608534/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU99608534/</guid>
+<pubDate>Wed, 18 Nov 2026 05:00:15 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99608534/</description>
+</item>
+<item>
+<title>[JVN(日本)] ISC BINDにおける複数の脆弱性（2026年10月）</title>
+<link>https://jvn.jp/vu/JVNVU91196958/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU91196958/</guid>
+<pubDate>Wed, 18 Nov 2026 05:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU91196958/</description>
+</item>
+<item>
+<title>[JVN(日本)] Androidアプリ「宮内庁参観音声ガイド- 宮内庁公式アプリ」における複数の脆弱性</title>
+<link>https://jvn.jp/jp/JVN19906678/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN19906678/</guid>
+<pubDate>Wed, 18 Nov 2026 03:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN19906678/</description>
+</item>
 <item>
 <title>[JPCERT/CC(日本)] Weekly Report: N-able N-centralに複数の脆弱性</title>
 <link>https://www.jpcert.or.jp/wr/2026/wr261118.html#1</link>
@@ -195,6 +216,13 @@
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99888632/</description>
 </item>
 <item>
+<title>[IPA(日本)] Oracle Java の脆弱性対策について(2026年11月)</title>
+<link>https://www.ipa.go.jp/security/security-alert/2026/1118-jre.html</link>
+<guid isPermaLink="true">https://www.ipa.go.jp/security/security-alert/2026/1118-jre.html</guid>
+<pubDate>Tue, 17 Nov 2026 15:00:00 +0000</pubDate>
+<description>IPA(日本) が公表。原文: https://www.ipa.go.jp/security/security-alert/2026/1118-jre.html</description>
+</item>
+<item>
 <title>[CISA(米国)] Siemens Mendix Studio Pro</title>
 <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05</link>
 <guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05</guid>
@@ -326,33 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU97628215/</guid>
 <pubDate>Tue, 17 Nov 2026 00:50:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU97628215/</description>
-</item>
-<item>
-<title>[CISA(米国)] CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
-<link>https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog</guid>
-<pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog</description>
-</item>
-<item>
-<title>[JVN(日本)] JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性</title>
-<link>https://jvn.jp/jp/JVN76799957/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN76799957/</guid>
-<pubDate>Fri, 13 Nov 2026 03:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN76799957/</description>
-</item>
-<item>
-<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年11月12日）</title>
-<link>https://jvn.jp/vu/JVNVU90821966/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90821966/</guid>
-<pubDate>Fri, 13 Nov 2026 02:00:40 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90821966/</description>
-</item>
-<item>
-<title>[JVN(日本)] TightVNCおよびUltraVNCのWindows Viewerにおけるヒープベースのバッファオーバーフローの脆弱性</title>
-<link>https://jvn.jp/vu/JVNVU92656681/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU92656681/</guid>
-<pubDate>Fri, 13 Nov 2026 02:00:30 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU92656681/</description>
 </item>
 </channel></rss>

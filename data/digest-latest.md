@@ -55,10 +55,20 @@
   https://www.jpcert.or.jp/wr/2026/wr261118.html#25
 
 ■ JVN(日本)
+・OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性（2026年11月18日）
+  https://jvn.jp/vu/JVNVU99608534/
+・ISC BINDにおける複数の脆弱性（2026年10月）（2026年11月18日）
+  https://jvn.jp/vu/JVNVU91196958/
+・Androidアプリ「宮内庁参観音声ガイド- 宮内庁公式アプリ」における複数の脆弱性（2026年11月18日）
+  https://jvn.jp/jp/JVN19906678/
 ・OpenSSLにおける脆弱性に対するアップデート（2026年11月17日）（2026年11月18日）
   https://jvn.jp/vu/JVNVU96847970/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年11月17日）（2026年11月18日）
   https://jvn.jp/vu/JVNVU99888632/
+
+■ IPA(日本)
+・Oracle Java の脆弱性対策について(2026年11月)（2026年11月18日）
+  https://www.ipa.go.jp/security/security-alert/2026/1118-jre.html
 
 ■ CISA(米国)
 ・Siemens Mendix Studio Pro（2026年11月17日）
@@ -79,16 +89,6 @@
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03
 ・Siemens SIMATIC（2026年11月17日）
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08
-・Siemens ROS#（2026年11月17日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06
-・Siemens Simcenter Femap（2026年11月17日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10
-・Critical Java Vulnerability Requires Immediate Patching（2026年11月17日）
-  https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching
-
-■ NCSC(英国)
-・Why threat hunting should matter to every board（2026年11月17日）
-  https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board
 
 すべての項目: https://cyber-information-summary.pages.dev/
 週ごとのまとめ: https://cyber-information-summary.pages.dev/archive.html
