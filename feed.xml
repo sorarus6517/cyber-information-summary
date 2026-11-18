@@ -4,7 +4,196 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Tue, 17 Nov 2026 16:10:22 +0000</lastBuildDate>
+<lastBuildDate>Wed, 18 Nov 2026 01:00:35 +0000</lastBuildDate>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: N-able N-centralに複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#1</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#1</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#1</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: ImageMagickを利用したアプリケーションに任意のファイルの読み書きなどにつながる脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#2</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#2</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#2</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: Synology DiskStation Managerに複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#3</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#3</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#3</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: 複数のApple製品に脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#4</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#4</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#4</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: PostgreSQLに複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#5</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#5</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#5</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: Apache HTTP Server 2.4に複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#6</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#6</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#6</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: 複数のIntel製品に脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#7</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#7</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#7</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: Movable Typeにコードインジェクションの脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#8</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#8</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#8</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: OpenSSLに複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#9</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#9</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#9</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: React Server Componentsに任意のコード実行につながる脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#10</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#10</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#10</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: Node.jsに複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#11</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#11</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#11</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: MongoDBに複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#12</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#12</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#12</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: 複数のPalo Alto Networks製品に脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#13</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#13</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#13</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: Atlassian Confluence Data Centerに任意のコード実行の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#14</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#14</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#14</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: Gitに複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#15</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#15</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#15</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: 複数のAdobe製品に脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#16</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#16</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#16</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: 複数のIvanti製品に脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#17</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#17</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#17</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: 複数のMozilla製品に脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#18</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#18</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#18</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: 複数のFortinet製品に脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#19</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#19</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#19</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: Google Chromeに複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#20</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#20</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#20</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#21</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#21</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#21</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: WebSAM WinShareにおける複数の脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#22</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#22</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#22</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#23</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#23</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#23</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: JPCERT/CCが「インシデント調査報告書チェックリスト」を公開</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#24</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#24</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#24</description>
+</item>
+<item>
+<title>[JPCERT/CC(日本)] Weekly Report: 複数のマイクロソフト製品に脆弱性</title>
+<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#25</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#25</guid>
+<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#25</description>
+</item>
+<item>
+<title>[JVN(日本)] OpenSSLにおける脆弱性に対するアップデート（2026年11月17日）</title>
+<link>https://jvn.jp/vu/JVNVU96847970/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU96847970/</guid>
+<pubDate>Wed, 18 Nov 2026 00:00:15 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU96847970/</description>
+</item>
+<item>
+<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年11月17日）</title>
+<link>https://jvn.jp/vu/JVNVU99888632/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU99888632/</guid>
+<pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99888632/</description>
+</item>
 <item>
 <title>[CISA(米国)] Siemens Mendix Studio Pro</title>
 <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05</link>
@@ -90,6 +279,20 @@
 <description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board</description>
 </item>
 <item>
+<title>[CISA(米国)] Critical Java Vulnerability Requires Immediate Patching</title>
+<link>https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching</description>
+</item>
+<item>
+<title>[CISA(米国)] CISA Adds One Known Exploited Vulnerability to Catalog</title>
+<link>https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog</description>
+</item>
+<item>
 <title>[JVN(日本)] プリザンターにおける複数の脆弱性</title>
 <link>https://jvn.jp/jp/JVN02242982/</link>
 <guid isPermaLink="true">https://jvn.jp/jp/JVN02242982/</guid>
@@ -151,208 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU92656681/</guid>
 <pubDate>Fri, 13 Nov 2026 02:00:30 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU92656681/</description>
-</item>
-<item>
-<title>[JVN(日本)] ImageMagickを利用したアプリケーションにおける任意ファイル読み書きの脆弱性</title>
-<link>https://jvn.jp/vu/JVNVU95718857/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU95718857/</guid>
-<pubDate>Fri, 13 Nov 2026 02:00:20 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU95718857/</description>
-</item>
-<item>
-<title>[JVN(日本)] PromZardにおけるリモートコード実行の脆弱性</title>
-<link>https://jvn.jp/vu/JVNVU98641453/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU98641453/</guid>
-<pubDate>Fri, 13 Nov 2026 02:00:10 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98641453/</description>
-</item>
-<item>
-<title>[JVN(日本)] ComfyUIのComfyUI-Easy-Use拡張機能における認証不要のパストラバーサルの脆弱性</title>
-<link>https://jvn.jp/vu/JVNVU99429639/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU99429639/</guid>
-<pubDate>Fri, 13 Nov 2026 02:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99429639/</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens Desigo, Gridscale</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02</guid>
-<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens RUGGEDCOM APE1808</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05</guid>
-<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens RUGGEDCOM APE1808</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04</guid>
-<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens Building Automation and Energy Products</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01</guid>
-<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens Industrial Edge Management</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03</guid>
-<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03</description>
-</item>
-<item>
-<title>[JVN(日本)] KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性</title>
-<link>https://jvn.jp/vu/JVNVU92635551/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU92635551/</guid>
-<pubDate>Thu, 12 Nov 2026 07:10:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU92635551/</description>
-</item>
-<item>
-<title>[JVN(日本)] BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）</title>
-<link>https://jvn.jp/vu/JVNVU97400824/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU97400824/</guid>
-<pubDate>Thu, 12 Nov 2026 04:40:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU97400824/</description>
-</item>
-<item>
-<title>[JVN(日本)] 三菱電機数値制御装置におけるサービス運用妨害（DoS）の脆弱性</title>
-<link>https://jvn.jp/vu/JVNVU95523788/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU95523788/</guid>
-<pubDate>Thu, 12 Nov 2026 03:15:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU95523788/</description>
-</item>
-<item>
-<title>[JVN(日本)] SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性</title>
-<link>https://jvn.jp/jp/JVN64740097/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN64740097/</guid>
-<pubDate>Thu, 12 Nov 2026 03:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN64740097/</description>
-</item>
-<item>
-<title>[JVN(日本)] Apache HTTP Server 2.4における複数の脆弱性に対するアップデート（2026年11月11日）</title>
-<link>https://jvn.jp/vu/JVNVU90805396/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU90805396/</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU90805396/</description>
-</item>
-<item>
-<title>[NCSC(英国)] NCSC scheme will help critical organisations test their cyber defences</title>
-<link>https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences</link>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences</guid>
-<pubDate>Wed, 11 Nov 2026 12:00:00 +0000</pubDate>
-<description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences</description>
-</item>
-<item>
-<title>[JVN(日本)] Intel製品に対するアップデート（2026年11月）</title>
-<link>https://jvn.jp/vu/JVNVU93337738/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU93337738/</guid>
-<pubDate>Wed, 11 Nov 2026 05:15:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU93337738/</description>
-</item>
-<item>
-<title>[JVN(日本)] Sleipnir Mobile for iPhone / iPadにおける不適切な証明書検証の脆弱性</title>
-<link>https://jvn.jp/vu/JVNVU93068550/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU93068550/</guid>
-<pubDate>Wed, 11 Nov 2026 04:30:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU93068550/</description>
-</item>
-<item>
-<title>[JVN(日本)] PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）</title>
-<link>https://jvn.jp/vu/JVNVU99905564/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU99905564/</guid>
-<pubDate>Wed, 11 Nov 2026 03:10:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU99905564/</description>
-</item>
-<item>
-<title>[JVN(日本)] Movable Typeにおけるコードインジェクションの脆弱性</title>
-<link>https://jvn.jp/jp/JVN11786640/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN11786640/</guid>
-<pubDate>Wed, 11 Nov 2026 03:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN11786640/</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] 注意喚起: 2026年11月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)</title>
-<link>https://www.jpcert.or.jp/at/2026/at260035.html</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/at/2026/at260035.html</guid>
-<pubDate>Wed, 11 Nov 2026 02:20:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/at/2026/at260035.html</description>
-</item>
-<item>
-<title>[JVN(日本)] OpenSSLにおける脆弱性に対するアップデート（2026年11月10日）</title>
-<link>https://jvn.jp/vu/JVNVU92618679/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU92618679/</guid>
-<pubDate>Wed, 11 Nov 2026 01:15:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU92618679/</description>
-</item>
-<item>
-<title>[JVN(日本)] Siemens製品に対するアップデート（2026年11月）</title>
-<link>https://jvn.jp/vu/JVNVU98354779/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU98354779/</guid>
-<pubDate>Wed, 11 Nov 2026 01:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98354779/</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: Cloud Software GroupのXenServerに複数の脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261111.html#1</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261111.html#1</guid>
-<pubDate>Wed, 11 Nov 2026 00:07:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261111.html#1</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: Puppet ServerおよびOpenVoxに複数の脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261111.html#2</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261111.html#2</guid>
-<pubDate>Wed, 11 Nov 2026 00:07:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261111.html#2</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: Airbyteに任意のコード実行につながる脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261111.html#3</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261111.html#3</guid>
-<pubDate>Wed, 11 Nov 2026 00:07:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261111.html#3</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: Firefoxにバッファエラーの脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261111.html#4</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261111.html#4</guid>
-<pubDate>Wed, 11 Nov 2026 00:07:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261111.html#4</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: 複数のManageEngine製品に脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261111.html#5</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261111.html#5</guid>
-<pubDate>Wed, 11 Nov 2026 00:07:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261111.html#5</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: 複数のZyxel Networks製品に脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261111.html#6</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261111.html#6</guid>
-<pubDate>Wed, 11 Nov 2026 00:07:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261111.html#6</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: Microsoft Edgeに複数の脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261111.html#7</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261111.html#7</guid>
-<pubDate>Wed, 11 Nov 2026 00:07:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261111.html#7</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: 複数のAbsolute Security製品に脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261111.html#8</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261111.html#8</guid>
-<pubDate>Wed, 11 Nov 2026 00:07:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261111.html#8</description>
 </item>
 </channel></rss>

@@ -1401,7 +1401,7 @@
     "CWE-787"
    ],
    "desc_en": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: bridge: make ebt_snat ARP rewrite writable\n\nThe ebtables SNAT target keeps the Ethernet source address rewrite\nbehind skb_ensure_writable(skb, 0).  This is intentional: at the bridge\nebtables hooks the Ethernet header is addressed through\nskb_mac_header()/eth_hdr(), while skb->data points at the Ethernet\npayload.  Asking skb_ensure_writable() for ETH_HLEN bytes would check\nthe payload, not the Ethernet header, and would reintroduce the small\npacket regression fixed by commit 63137bc5882a.\n\nHowever, the optional ARP sender hardware address rewrite is different.\nIt writes through skb_store_bits() at an offset relative to skb->data:\n\n        skb_store_bits(skb, sizeof(struct arphdr), info->mac, ETH_ALEN)\n\nskb_header_pointer() only safely reads the ARP header; it does not make\nthe later sender hardware address range writable.  If that range is\nstill held in a nonlinear skb fragment backed by a splice-imported file\npage, skb_store_bits() maps the frag page and copies the new MAC address\ndirectly into it.\n\nEnsure the ARP SHA range is writable before reading the ARP header and\nbefore calling skb_store_bits().",
-   "fetched_at": "2026-10-16T22:02:12.187699+00:00",
+   "fetched_at": "2026-11-18T01:00:26.286496+00:00",
    "found": true,
    "id": "CVE-2026-53266",
    "last_modified": "2026-09-19T04:17:53.580",
@@ -1462,7 +1462,7 @@
     "CWE-693"
    ],
    "desc_en": "In Cellular Modem, there is a possible permission bypass due to a logic error in the code. This could lead to remote (proximal/adjacent) escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
-   "fetched_at": "2026-10-16T22:02:26.612132+00:00",
+   "fetched_at": "2026-11-18T01:00:35.013187+00:00",
    "found": true,
    "id": "CVE-2026-58704",
    "last_modified": "2026-10-07T19:17:39.150",
@@ -1614,10 +1614,10 @@
     "CWE-121"
    ],
    "desc_en": "A stack-based buffer overflow vulnerability in the CGI program of Zyxel GS1900-48HPv2 firmware versions through 2.90(ABTQ.1)C0 could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.",
-   "fetched_at": "2026-10-16T22:01:57.816920+00:00",
+   "fetched_at": "2026-11-18T01:00:19.116374+00:00",
    "found": true,
    "id": "CVE-2026-7273",
-   "last_modified": "2026-09-22T12:10:51.067",
+   "last_modified": "2026-10-25T23:10:00.167",
    "products": [
     [
      "zyxel",
@@ -1881,7 +1881,7 @@
     "CWE-295"
    ],
    "desc_en": "Improper certificate trust validation during VPN negotiation in Check Point Quantum Security Gateway may allow an unauthenticated remote attacker to execute arbitrary code on the Gateway.",
-   "fetched_at": "2026-10-16T22:01:50.635203+00:00",
+   "fetched_at": "2026-11-18T00:59:52.624671+00:00",
    "found": true,
    "id": "CVE-2026-85102",
    "last_modified": "2026-09-23T18:22:07.453",
@@ -2149,7 +2149,7 @@
     "CWE-22"
    ],
    "desc_en": "A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute arbitrary scripts on Check Point Management Server.",
-   "fetched_at": "2026-10-16T22:01:43.190197+00:00",
+   "fetched_at": "2026-11-18T00:59:45.580940+00:00",
    "found": true,
    "id": "CVE-2026-93616",
    "last_modified": "2026-09-23T16:38:38.987",
@@ -2415,5 +2415,5 @@
    "status": "Undergoing Analysis"
   }
  },
- "generated_at": "2026-11-17T16:09:53.469810+00:00"
+ "generated_at": "2026-11-18T00:59:45.515846+00:00"
 }

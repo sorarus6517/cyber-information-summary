@@ -3,50 +3,62 @@
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
 ■ JPCERT/CC(日本)
-・注意喚起: 2026年11月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)（2026年11月11日）
-  https://www.jpcert.or.jp/at/2026/at260035.html
+・Weekly Report: N-able N-centralに複数の脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#1
+・Weekly Report: ImageMagickを利用したアプリケーションに任意のファイルの読み書きなどにつながる脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#2
+・Weekly Report: Synology DiskStation Managerに複数の脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#3
+・Weekly Report: 複数のApple製品に脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#4
+・Weekly Report: PostgreSQLに複数の脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#5
+・Weekly Report: Apache HTTP Server 2.4に複数の脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#6
+・Weekly Report: 複数のIntel製品に脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#7
+・Weekly Report: Movable Typeにコードインジェクションの脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#8
+・Weekly Report: OpenSSLに複数の脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#9
+・Weekly Report: React Server Componentsに任意のコード実行につながる脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#10
+・Weekly Report: Node.jsに複数の脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#11
+・Weekly Report: MongoDBに複数の脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#12
+・Weekly Report: 複数のPalo Alto Networks製品に脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#13
+・Weekly Report: Atlassian Confluence Data Centerに任意のコード実行の脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#14
+・Weekly Report: Gitに複数の脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#15
+・Weekly Report: 複数のAdobe製品に脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#16
+・Weekly Report: 複数のIvanti製品に脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#17
+・Weekly Report: 複数のMozilla製品に脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#18
+・Weekly Report: 複数のFortinet製品に脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#19
+・Weekly Report: Google Chromeに複数の脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#20
+・Weekly Report: SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#21
+・Weekly Report: WebSAM WinShareにおける複数の脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#22
+・Weekly Report: KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#23
+・Weekly Report: JPCERT/CCが「インシデント調査報告書チェックリスト」を公開（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#24
+・Weekly Report: 複数のマイクロソフト製品に脆弱性（2026年11月18日）
+  https://www.jpcert.or.jp/wr/2026/wr261118.html#25
 
 ■ JVN(日本)
-・プリザンターにおける複数の脆弱性（2026年11月17日）
-  https://jvn.jp/jp/JVN02242982/
-・エレコム製無線LANルータにおける複数の脆弱性（2026年11月17日）
-  https://jvn.jp/vu/JVNVU91615135/
-・エレコム製無線LANルータにおけるOSコマンドインジェクションの脆弱性（2026年11月17日）
-  https://jvn.jp/vu/JVNVU92504317/
-・複数製品におけるmacOS（APFS）とのUnicode正規化不整合によるファイルアクセス制限回避の脆弱性（2026年11月17日）
-  https://jvn.jp/vu/JVNVU93605944/
-・富士電機製TELLUSにおける複数の脆弱性（2026年11月）（2026年11月17日）
-  https://jvn.jp/vu/JVNVU97628215/
-・JetBrains製YouTrackにおけるクロスサイトスクリプティングの脆弱性（2026年11月13日）
-  https://jvn.jp/jp/JVN76799957/
-・CISA ICS Advisory / ICS Medical Advisory（2026年11月12日）（2026年11月13日）
-  https://jvn.jp/vu/JVNVU90821966/
-・TightVNCおよびUltraVNCのWindows Viewerにおけるヒープベースのバッファオーバーフローの脆弱性（2026年11月13日）
-  https://jvn.jp/vu/JVNVU92656681/
-・ImageMagickを利用したアプリケーションにおける任意ファイル読み書きの脆弱性（2026年11月13日）
-  https://jvn.jp/vu/JVNVU95718857/
-・PromZardにおけるリモートコード実行の脆弱性（2026年11月13日）
-  https://jvn.jp/vu/JVNVU98641453/
-・ComfyUIのComfyUI-Easy-Use拡張機能における認証不要のパストラバーサルの脆弱性（2026年11月13日）
-  https://jvn.jp/vu/JVNVU99429639/
-・KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性（2026年11月12日）
-  https://jvn.jp/vu/JVNVU92635551/
-・BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）（2026年11月12日）
-  https://jvn.jp/vu/JVNVU97400824/
-・三菱電機数値制御装置におけるサービス運用妨害（DoS）の脆弱性（2026年11月12日）
-  https://jvn.jp/vu/JVNVU95523788/
-・SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性（2026年11月12日）
-  https://jvn.jp/jp/JVN64740097/
-・Apache HTTP Server 2.4における複数の脆弱性に対するアップデート（2026年11月11日）（2026年11月12日）
-  https://jvn.jp/vu/JVNVU90805396/
-・Intel製品に対するアップデート（2026年11月）（2026年11月11日）
-  https://jvn.jp/vu/JVNVU93337738/
-・Sleipnir Mobile for iPhone / iPadにおける不適切な証明書検証の脆弱性（2026年11月11日）
-  https://jvn.jp/vu/JVNVU93068550/
-・PHPにおける複数の任意のコードが実行可能な脆弱性（CVE-2026-109618、CVE-2026-109619）（2026年11月11日）
-  https://jvn.jp/vu/JVNVU99905564/
-・Movable Typeにおけるコードインジェクションの脆弱性（2026年11月11日）
-  https://jvn.jp/jp/JVN11786640/
+・OpenSSLにおける脆弱性に対するアップデート（2026年11月17日）（2026年11月18日）
+  https://jvn.jp/vu/JVNVU96847970/
+・CISA ICS Advisory / ICS Medical Advisory（2026年11月17日）（2026年11月18日）
+  https://jvn.jp/vu/JVNVU99888632/
 
 ■ CISA(米国)
 ・Siemens Mendix Studio Pro（2026年11月17日）
@@ -71,24 +83,12 @@
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06
 ・Siemens Simcenter Femap（2026年11月17日）
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10
-・CISA Adds Two Known Exploited Vulnerabilities to Catalog（2026年11月13日）
-  https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog
-・Siemens Desigo, Gridscale（2026年11月12日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02
-・Siemens RUGGEDCOM APE1808（2026年11月12日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05
-・Siemens RUGGEDCOM APE1808（2026年11月12日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04
-・Siemens Building Automation and Energy Products（2026年11月12日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01
-・Siemens Industrial Edge Management（2026年11月12日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03
+・Critical Java Vulnerability Requires Immediate Patching（2026年11月17日）
+  https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching
 
 ■ NCSC(英国)
 ・Why threat hunting should matter to every board（2026年11月17日）
   https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board
-・NCSC scheme will help critical organisations test their cyber defences（2026年11月11日）
-  https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences
 
 すべての項目: https://cyber-information-summary.pages.dev/
 週ごとのまとめ: https://cyber-information-summary.pages.dev/archive.html

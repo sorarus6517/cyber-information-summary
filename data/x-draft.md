@@ -12,17 +12,17 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 218 / 280 ]
+**本文** [ 267 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】11月17日
+【本日の公式セキュリティ情報】11月18日
 
 主な発表:
-・Siemens Mendix Studio Pro
-・Siemens .NET Client Library for SIMATIC S7 Webserver API
-・Siemens meta-iot2050
+・Weekly Report: N-able N-centralに複数の脆弱性
+・Weekly Report: Synology DiskStation Managerに複数の脆弱性
+・Weekly Report: OpenSSLに複数の脆弱性
 
-日本の機関（JVN）からは5件。
+日本の機関（JPCERT/CC・JVN）からは27件。
 詳細はリプライのリンクから。
 ```
 
@@ -38,16 +38,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 205 / 280 ]
+**本文** [ 238 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月16日〜11月22日
 
 主な発表:
-・Siemens Mendix Studio Pro
-・Siemens .NET Client Library for SIMATIC S7 Webserver API
+・Weekly Report: N-able N-centralに複数の脆弱性
+・Weekly Report: Synology DiskStation Managerに複数の脆弱性
 
-日本の機関（JVN）からは5件。
+日本の機関（JPCERT/CC・JVN）からは32件。
 詳細はリプライのリンクから。
 ```
 
@@ -63,12 +63,12 @@ https://cyber-information-summary.pages.dev/w/2026-W47.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
-### CISA（2026年11月17日）
+### JPCERT/CC（2026年11月18日）
 
-本文 [ 47 / 280 ]
+本文 [ 72 / 280 ]
 
 ```
-【CISA】Siemens Mendix Studio Pro
+【JPCERT/CC】Weekly Report: N-able N-centralに複数の脆弱性
 #セキュリティ
 ```
 
@@ -76,15 +76,79 @@ https://cyber-information-summary.pages.dev/w/2026-W47.html
 
 ```
 原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05
+https://www.jpcert.or.jp/wr/2026/wr261118.html#1
 ```
 
-### CISA（2026年11月17日）
+### JPCERT/CC（2026年11月18日）
+
+本文 [ 125 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: ImageMagickを利用したアプリケーションに任意のファイルの読み書きなどにつながる脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261118.html#2
+```
+
+### JPCERT/CC（2026年11月18日）
+
+本文 [ 84 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: Synology DiskStation Managerに複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261118.html#3
+```
+
+### JPCERT/CC（2026年11月18日）
+
+本文 [ 65 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: 複数のApple製品に脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261118.html#4
+```
+
+### JPCERT/CC（2026年11月18日）
+
+本文 [ 66 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: PostgreSQLに複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261118.html#5
+```
+
+### JPCERT/CC（2026年11月18日）
 
 本文 [ 78 / 280 ]
 
 ```
-【CISA】Siemens .NET Client Library for SIMATIC S7 Webserver API
+【JPCERT/CC】Weekly Report: Apache HTTP Server 2.4に複数の脆弱性
 #セキュリティ
 ```
 
@@ -92,15 +156,15 @@ https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05
 
 ```
 原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02
+https://www.jpcert.or.jp/wr/2026/wr261118.html#6
 ```
 
-### CISA（2026年11月17日）
+### JPCERT/CC（2026年11月18日）
 
-本文 [ 42 / 280 ]
+本文 [ 65 / 280 ]
 
 ```
-【CISA】Siemens meta-iot2050
+【JPCERT/CC】Weekly Report: 複数のIntel製品に脆弱性
 #セキュリティ
 ```
 
@@ -108,15 +172,15 @@ https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02
 
 ```
 原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11
+https://www.jpcert.or.jp/wr/2026/wr261118.html#7
 ```
 
-### CISA（2026年11月17日）
+### JPCERT/CC（2026年11月18日）
 
-本文 [ 43 / 280 ]
+本文 [ 86 / 280 ]
 
 ```
-【CISA】Siemens SIMATIC WinCC
+【JPCERT/CC】Weekly Report: Movable Typeにコードインジェクションの脆弱性
 #セキュリティ
 ```
 
@@ -124,15 +188,15 @@ https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11
 
 ```
 原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09
+https://www.jpcert.or.jp/wr/2026/wr261118.html#8
 ```
 
-### CISA（2026年11月17日）
+### JPCERT/CC（2026年11月18日）
 
-本文 [ 47 / 280 ]
+本文 [ 63 / 280 ]
 
 ```
-【CISA】Siemens RUGGEDCOM APE1808
+【JPCERT/CC】Weekly Report: OpenSSLに複数の脆弱性
 #セキュリティ
 ```
 
@@ -140,15 +204,15 @@ https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09
 
 ```
 原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07
+https://www.jpcert.or.jp/wr/2026/wr261118.html#9
 ```
 
-### CISA（2026年11月17日）
+### JPCERT/CC（2026年11月18日）
 
-本文 [ 47 / 280 ]
+本文 [ 99 / 280 ]
 
 ```
-【CISA】Dorsett Controls InfoScan
+【JPCERT/CC】Weekly Report: React Server Componentsに任意のコード実行につながる脆弱性
 #セキュリティ
 ```
 
@@ -156,15 +220,15 @@ https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07
 
 ```
 原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01
+https://www.jpcert.or.jp/wr/2026/wr261118.html#10
 ```
 
-### CISA（2026年11月17日）
+### JPCERT/CC（2026年11月18日）
 
-本文 [ 58 / 280 ]
+本文 [ 63 / 280 ]
 
 ```
-【CISA】Siemens Industrial Software Products
+【JPCERT/CC】Weekly Report: Node.jsに複数の脆弱性
 #セキュリティ
 ```
 
@@ -172,15 +236,15 @@ https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01
 
 ```
 原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04
+https://www.jpcert.or.jp/wr/2026/wr261118.html#11
 ```
 
-### CISA（2026年11月17日）
+### JPCERT/CC（2026年11月18日）
 
-本文 [ 69 / 280 ]
+本文 [ 63 / 280 ]
 
 ```
-【CISA】Siemens Industrial Automation Software Products
+【JPCERT/CC】Weekly Report: MongoDBに複数の脆弱性
 #セキュリティ
 ```
 
@@ -188,71 +252,7 @@ https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04
 
 ```
 原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03
-```
-
-### CISA（2026年11月17日）
-
-本文 [ 37 / 280 ]
-
-```
-【CISA】Siemens SIMATIC
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08
-```
-
-### CISA（2026年11月17日）
-
-本文 [ 34 / 280 ]
-
-```
-【CISA】Siemens ROS#
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06
-```
-
-### CISA（2026年11月17日）
-
-本文 [ 45 / 280 ]
-
-```
-【CISA】Siemens Simcenter Femap
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10
-```
-
-### NCSC（2026年11月17日）
-
-本文 [ 69 / 280 ]
-
-```
-【NCSC】Why threat hunting should matter to every board
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board
+https://www.jpcert.or.jp/wr/2026/wr261118.html#12
 ```
 
 ---
@@ -351,7 +351,7 @@ CVE-2026-106931（EG Secure Solutions SiteGuard Server Edition）に言及した
 - CISA 11月17日 … Siemens ROS#
 - CISA 11月17日 … Siemens Simcenter Femap
 
-### 「Google」に触れた発表（3機関・8件）
+### 「Google」に触れた発表（3機関・9件）
 
 同じ脆弱性とは限りません。見出しを見て、同じ話題だと確認できたものだけ使ってください。
 
@@ -363,4 +363,5 @@ CVE-2026-106931（EG Secure Solutions SiteGuard Server Edition）に言及した
 - JPCERT/CC 10月28日 … Weekly Report: Google Chromeに複数の脆弱性
 - JPCERT/CC 11月5日 … Weekly Report: Google Chromeに複数の脆弱性
 - JPCERT/CC 11月11日 … Weekly Report: Google Chromeに複数の脆弱性
+- JPCERT/CC 11月18日 … Weekly Report: Google Chromeに複数の脆弱性
 
