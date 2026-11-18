@@ -1301,7 +1301,7 @@
     "CWE-287"
    ],
    "desc_en": "A logic flow weakness in Remote Access and Mobile Access certificate validation in deprecated IKEv1 key exchange allows an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.",
-   "fetched_at": "2026-10-16T22:03:10.176296+00:00",
+   "fetched_at": "2026-11-18T20:39:00.960269+00:00",
    "found": true,
    "id": "CVE-2026-50751",
    "last_modified": "2026-08-04T05:16:39.710",
@@ -2415,5 +2415,5 @@
    "status": "Undergoing Analysis"
   }
  },
- "generated_at": "2026-11-18T11:52:11.335549+00:00"
+ "generated_at": "2026-11-18T20:39:00.818218+00:00"
 }

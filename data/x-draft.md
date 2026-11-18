@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年11月18日 自動生成）
+# Xの投稿下書き（2026年11月19日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -12,15 +12,14 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 267 / 280 ]
+**本文** [ 247 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】11月18日
 
 主な発表:
+・CISA Adds Four Known Exploited Vulnerabilities to Catalog
 ・OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性
-・ISC BINDにおける複数の脆弱性（2026年10月）
-・Weekly Report: Gitに複数の脆弱性
 
 日本の機関（JPCERT/CC・JVN・IPA）からは31件。
 詳細はリプライのリンクから。
@@ -38,14 +37,14 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 242 / 280 ]
+**本文** [ 257 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月16日〜11月22日
 
 主な発表:
+・CISA Adds Four Known Exploited Vulnerabilities to Catalog
 ・OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性
-・ISC BINDにおける複数の脆弱性（2026年10月）
 
 日本の機関（JPCERT/CC・JVN・IPA）からは36件。
 詳細はリプライのリンクから。
@@ -62,6 +61,22 @@ https://cyber-information-summary.pages.dev/w/2026-W47.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### CISA（2026年11月18日）
+
+本文 [ 79 / 280 ]
+
+```
+【CISA】CISA Adds Four Known Exploited Vulnerabilities to Catalog
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog
+```
 
 ### JVN（2026年11月18日）
 
@@ -237,22 +252,6 @@ https://www.jpcert.or.jp/wr/2026/wr261118.html#7
 ```
 原文はこちら
 https://www.jpcert.or.jp/wr/2026/wr261118.html#8
-```
-
-### JPCERT/CC（2026年11月18日）
-
-本文 [ 63 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: OpenSSLに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261118.html#9
 ```
 
 ---

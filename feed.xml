@@ -4,7 +4,14 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Wed, 18 Nov 2026 11:52:40 +0000</lastBuildDate>
+<lastBuildDate>Wed, 18 Nov 2026 20:39:01 +0000</lastBuildDate>
+<item>
+<title>[CISA(米国)] CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
+<link>https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog</description>
+</item>
 <item>
 <title>[JVN(日本)] OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性</title>
 <link>https://jvn.jp/vu/JVNVU99608534/</link>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU93605944/</guid>
 <pubDate>Tue, 17 Nov 2026 01:15:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU93605944/</description>
-</item>
-<item>
-<title>[JVN(日本)] 富士電機製TELLUSにおける複数の脆弱性（2026年11月）</title>
-<link>https://jvn.jp/vu/JVNVU97628215/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU97628215/</guid>
-<pubDate>Tue, 17 Nov 2026 00:50:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU97628215/</description>
 </item>
 </channel></rss>
