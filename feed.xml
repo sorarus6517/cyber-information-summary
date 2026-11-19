@@ -4,7 +4,14 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Wed, 18 Nov 2026 20:39:01 +0000</lastBuildDate>
+<lastBuildDate>Thu, 19 Nov 2026 02:37:38 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] Siemens製品に対するアップデート（2026年11月）</title>
+<link>https://jvn.jp/vu/JVNVU98354779/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU98354779/</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98354779/</description>
+</item>
 <item>
 <title>[CISA(米国)] CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
 <link>https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog</link>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU92504317/</guid>
 <pubDate>Tue, 17 Nov 2026 05:30:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU92504317/</description>
-</item>
-<item>
-<title>[JVN(日本)] 複数製品におけるmacOS（APFS）とのUnicode正規化不整合によるファイルアクセス制限回避の脆弱性</title>
-<link>https://jvn.jp/vu/JVNVU93605944/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU93605944/</guid>
-<pubDate>Tue, 17 Nov 2026 01:15:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU93605944/</description>
 </item>
 </channel></rss>

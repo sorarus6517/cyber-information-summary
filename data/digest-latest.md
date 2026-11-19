@@ -55,6 +55,8 @@
   https://www.jpcert.or.jp/wr/2026/wr261118.html#25
 
 ■ JVN(日本)
+・Siemens製品に対するアップデート（2026年11月）（2026年11月19日）
+  https://jvn.jp/vu/JVNVU98354779/
 ・OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性（2026年11月18日）
   https://jvn.jp/vu/JVNVU99608534/
 ・ISC BINDにおける複数の脆弱性（2026年10月）（2026年11月18日）
@@ -87,8 +89,6 @@
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01
 ・Siemens Industrial Software Products（2026年11月17日）
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04
-・Siemens Industrial Automation Software Products（2026年11月17日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03
 
 すべての項目: https://cyber-information-summary.pages.dev/
 週ごとのまとめ: https://cyber-information-summary.pages.dev/archive.html

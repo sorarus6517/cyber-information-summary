@@ -12,16 +12,15 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 247 / 280 ]
+**本文** [ 156 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】11月18日
+【本日の公式セキュリティ情報】11月19日
 
 主な発表:
-・CISA Adds Four Known Exploited Vulnerabilities to Catalog
-・OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性
+・Siemens製品に対するアップデート（2026年11月）
 
-日本の機関（JPCERT/CC・JVN・IPA）からは31件。
+日本の機関（JVN）からは1件。
 詳細はリプライのリンクから。
 ```
 
@@ -37,16 +36,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 257 / 280 ]
+**本文** [ 243 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月16日〜11月22日
 
 主な発表:
+・Siemens製品に対するアップデート（2026年11月）
 ・CISA Adds Four Known Exploited Vulnerabilities to Catalog
-・OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性
 
-日本の機関（JPCERT/CC・JVN・IPA）からは36件。
+日本の機関（JPCERT/CC・JVN・IPA）からは37件。
 詳細はリプライのリンクから。
 ```
 
@@ -61,6 +60,22 @@ https://cyber-information-summary.pages.dev/w/2026-W47.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### JVN（2026年11月19日）
+
+本文 [ 66 / 280 ]
+
+```
+【JVN】Siemens製品に対するアップデート（2026年11月）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU98354779/
+```
 
 ### CISA（2026年11月18日）
 
@@ -238,22 +253,6 @@ https://www.jpcert.or.jp/wr/2026/wr261118.html#6
 https://www.jpcert.or.jp/wr/2026/wr261118.html#7
 ```
 
-### JPCERT/CC（2026年11月18日）
-
-本文 [ 86 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Movable Typeにコードインジェクションの脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261118.html#8
-```
-
 ---
 
 ## 4. 照合ネタ（引用リポスト用）
@@ -333,7 +332,6 @@ CVE-2026-106931（EG Secure Solutions SiteGuard Server Edition）に言及した
 - CISA 10月22日 … Siemens RUGGEDCOM CROSSBOW Station Access Controller
 - CISA 10月29日 … Siemens Mendix SAML Module
 - JVN 11月2日 JVNVU#90141693 … Siemens製品に対するアップデート（2026年10月）
-- JVN 11月11日 JVNVU#98354779 … Siemens製品に対するアップデート（2026年11月）
 - CISA 11月12日 … Siemens Desigo, Gridscale
 - CISA 11月12日 … Siemens RUGGEDCOM APE1808
 - CISA 11月12日 … Siemens RUGGEDCOM APE1808
@@ -349,6 +347,7 @@ CVE-2026-106931（EG Secure Solutions SiteGuard Server Edition）に言及した
 - CISA 11月17日 … Siemens SIMATIC
 - CISA 11月17日 … Siemens ROS#
 - CISA 11月17日 … Siemens Simcenter Femap
+- JVN 11月19日 JVNVU#98354779 … Siemens製品に対するアップデート（2026年11月）
 
 ### 「Google」に触れた発表（3機関・9件）
 
