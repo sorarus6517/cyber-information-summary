@@ -4,7 +4,28 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Thu, 19 Nov 2026 11:49:36 +0000</lastBuildDate>
+<lastBuildDate>Thu, 19 Nov 2026 20:44:03 +0000</lastBuildDate>
+<item>
+<title>[CISA(米国)] Elecbrakes EB2, VM1, ELBC2000</title>
+<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02</description>
+</item>
+<item>
+<title>[CISA(米国)] libumqtt</title>
+<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03</description>
+</item>
+<item>
+<title>[CISA(米国)] Autonomy Logic OpenPLC Runtime</title>
+<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01</description>
+</item>
 <item>
 <title>[JVN(日本)] ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性</title>
 <link>https://jvn.jp/jp/JVN29068051/</link>
@@ -333,26 +354,5 @@
 <guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06</guid>
 <pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
 <description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens Simcenter Femap</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10</guid>
-<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10</description>
-</item>
-<item>
-<title>[NCSC(英国)] Why threat hunting should matter to every board</title>
-<link>https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board</link>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board</guid>
-<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-<description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board</description>
-</item>
-<item>
-<title>[CISA(米国)] Critical Java Vulnerability Requires Immediate Patching</title>
-<link>https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching</guid>
-<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching</description>
 </item>
 </channel></rss>

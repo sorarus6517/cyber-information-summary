@@ -1,7 +1,43 @@
 {
- "generated_at": "2026-11-19T11:49:27.926744+00:00",
- "count": 422,
+ "generated_at": "2026-11-19T20:44:00.200082+00:00",
+ "count": 425,
  "items": [
+  {
+   "title": "Elecbrakes EB2, VM1, ELBC2000",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+   "published": "2026-11-19T12:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-19T20:44:00.200082+00:00",
+   "source_id": "cisa",
+   "source_name": "CISA(米国)",
+   "country": "US",
+   "theme": "cyber",
+   "lang": "en"
+  },
+  {
+   "title": "libumqtt",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+   "published": "2026-11-19T12:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-19T20:44:00.200082+00:00",
+   "source_id": "cisa",
+   "source_name": "CISA(米国)",
+   "country": "US",
+   "theme": "cyber",
+   "lang": "en"
+  },
+  {
+   "title": "Autonomy Logic OpenPLC Runtime",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+   "published": "2026-11-19T12:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-19T20:44:00.200082+00:00",
+   "source_id": "cisa",
+   "source_name": "CISA(米国)",
+   "country": "US",
+   "theme": "cyber",
+   "lang": "en"
+  },
   {
    "title": "ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性",
    "url": "https://jvn.jp/jp/JVN29068051/",

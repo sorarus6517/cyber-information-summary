@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年11月19日 自動生成）
+# Xの投稿下書き（2026年11月20日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -12,14 +12,15 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 267 / 280 ]
+**本文** [ 189 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】11月19日
 
 主な発表:
-・ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性
-・複数のRuijie Networks製品におけるOSコマンドインジェクションの脆弱性
+・Elecbrakes EB2, VM1, ELBC2000
+・libumqtt
+・Autonomy Logic OpenPLC Runtime
 
 日本の機関（JVN・IPA）からは5件。
 詳細はリプライのリンクから。
@@ -37,14 +38,14 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 267 / 280 ]
+**本文** [ 178 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月16日〜11月22日
 
 主な発表:
-・ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性
-・Siemens製品に対するアップデート（2026年11月）
+・Elecbrakes EB2, VM1, ELBC2000
+・libumqtt
 
 日本の機関（JPCERT/CC・JVN・IPA）からは41件。
 詳細はリプライのリンクから。
@@ -61,6 +62,54 @@ https://cyber-information-summary.pages.dev/w/2026-W47.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### CISA（2026年11月19日）
+
+本文 [ 51 / 280 ]
+
+```
+【CISA】Elecbrakes EB2, VM1, ELBC2000
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02
+```
+
+### CISA（2026年11月19日）
+
+本文 [ 30 / 280 ]
+
+```
+【CISA】libumqtt
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03
+```
+
+### CISA（2026年11月19日）
+
+本文 [ 52 / 280 ]
+
+```
+【CISA】Autonomy Logic OpenPLC Runtime
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01
+```
 
 ### JVN（2026年11月19日）
 
@@ -204,54 +253,6 @@ https://jvn.jp/vu/JVNVU91196958/
 ```
 原文はこちら
 https://jvn.jp/jp/JVN19906678/
-```
-
-### JPCERT/CC（2026年11月18日）
-
-本文 [ 72 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: N-able N-centralに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261118.html#1
-```
-
-### JPCERT/CC（2026年11月18日）
-
-本文 [ 125 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: ImageMagickを利用したアプリケーションに任意のファイルの読み書きなどにつながる脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261118.html#2
-```
-
-### JPCERT/CC（2026年11月18日）
-
-本文 [ 84 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Synology DiskStation Managerに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261118.html#3
 ```
 
 ---

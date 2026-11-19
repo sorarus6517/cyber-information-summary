@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月19日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月20日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -81,14 +81,14 @@
   https://www.ipa.go.jp/security/security-alert/2026/1118-jre.html
 
 ■ CISA(米国)
+・Elecbrakes EB2, VM1, ELBC2000（2026年11月19日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02
+・libumqtt（2026年11月19日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03
+・Autonomy Logic OpenPLC Runtime（2026年11月19日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01
 ・CISA Adds Four Known Exploited Vulnerabilities to Catalog（2026年11月18日）
   https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog
-・Siemens Mendix Studio Pro（2026年11月17日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05
-・Siemens .NET Client Library for SIMATIC S7 Webserver API（2026年11月17日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02
-・Siemens meta-iot2050（2026年11月17日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11
 
 すべての項目: https://cyber-information-summary.pages.dev/
 週ごとのまとめ: https://cyber-information-summary.pages.dev/archive.html
