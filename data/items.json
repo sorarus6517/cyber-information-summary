@@ -1,7 +1,31 @@
 {
- "generated_at": "2026-11-19T02:37:37.308233+00:00",
- "count": 418,
+ "generated_at": "2026-11-19T11:49:27.926744+00:00",
+ "count": 422,
  "items": [
+  {
+   "title": "ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性",
+   "url": "https://jvn.jp/jp/JVN29068051/",
+   "published": "2026-11-19T05:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-19T11:49:27.926744+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "複数のRuijie Networks製品におけるOSコマンドインジェクションの脆弱性",
+   "url": "https://jvn.jp/jp/JVN28897261/",
+   "published": "2026-11-19T03:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-19T11:49:27.926744+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "Siemens製品に対するアップデート（2026年11月）",
    "url": "https://jvn.jp/vu/JVNVU98354779/",
@@ -10,6 +34,30 @@
    "first_seen": "2026-11-05T06:56:25.797139+00:00",
    "source_id": "jvn",
    "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "【事前準備のお願い】PHPのセキュリティリリース公開予定について（11月）",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html",
+   "published": "2026-11-18T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-19T11:49:27.926744+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "NGINXの複数の脆弱性対策について（CVE-2026-123007、CVE-2026-123633等）",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20261119.html",
+   "published": "2026-11-18T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-19T11:49:27.926744+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
    "country": "JP",
    "theme": "cyber",
    "lang": "ja"

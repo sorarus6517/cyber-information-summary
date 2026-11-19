@@ -1029,6 +1029,45 @@
    "published": "2026-10-31T06:16:34.550",
    "status": "Undergoing Analysis"
   },
+  "CVE-2026-123007": {
+   "cvss": {
+    "score": 8.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-191",
+    "CWE-787"
+   ],
+   "desc_en": "This issue affects NGINX Plus or NGINX Open Source configurations that use HTTP/2. When NGINX processes undisclosed traffic, the flow control window can exceed the allowed threshold, potentially resulting in a heap buffer overflow typically followed by an NGINX worker segmentation fault. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.\n\nImpact: An attacker could leverage this vulnerability to crash the NGINX worker process, corrupt its memory, or potentially execute code remotely. There is no control plane exposure; this is a data plane issue only.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+   "fetched_at": "2026-11-19T11:49:29.575210+00:00",
+   "found": true,
+   "id": "CVE-2026-123007",
+   "last_modified": "2026-11-19T06:16:53.520",
+   "products": [],
+   "published": "2026-11-18T16:18:04.047",
+   "status": "Received"
+  },
+  "CVE-2026-123633": {
+   "cvss": {
+    "score": 8.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-416"
+   ],
+   "desc_en": "When NGINX Plus or NGINX Open Source is configured to use HTTP/2 for client connections and proxy client requests to a backend, a specially crafted request can result in use-after-free in the worker process, if this process is running low on worker_connections. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.\n\n\n\n\nImpact:\n\n\n\nThis vulnerability may allow remote attackers to cause a denial-of-service (DoS) on the NGINX system or may allow a code execution. There is no control plane exposure; this is a data plane issue only.\n\n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+   "fetched_at": "2026-11-19T11:49:36.703961+00:00",
+   "found": true,
+   "id": "CVE-2026-123633",
+   "last_modified": "2026-11-19T06:16:53.710",
+   "products": [],
+   "published": "2026-11-18T16:18:04.207",
+   "status": "Received"
+  },
   "CVE-2026-19868": {
    "cvss": {
     "score": 7.5,
@@ -2415,5 +2454,5 @@
    "status": "Undergoing Analysis"
   }
  },
- "generated_at": "2026-11-19T02:37:38.797946+00:00"
+ "generated_at": "2026-11-19T11:49:29.423469+00:00"
 }

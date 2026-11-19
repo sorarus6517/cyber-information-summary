@@ -12,15 +12,16 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 156 / 280 ]
+**本文** [ 267 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】11月19日
 
 主な発表:
-・Siemens製品に対するアップデート（2026年11月）
+・ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性
+・複数のRuijie Networks製品におけるOSコマンドインジェクションの脆弱性
 
-日本の機関（JVN）からは1件。
+日本の機関（JVN・IPA）からは5件。
 詳細はリプライのリンクから。
 ```
 
@@ -36,16 +37,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 243 / 280 ]
+**本文** [ 267 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月16日〜11月22日
 
 主な発表:
+・ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性
 ・Siemens製品に対するアップデート（2026年11月）
-・CISA Adds Four Known Exploited Vulnerabilities to Catalog
 
-日本の機関（JPCERT/CC・JVN・IPA）からは37件。
+日本の機関（JPCERT/CC・JVN・IPA）からは41件。
 詳細はリプライのリンクから。
 ```
 
@@ -63,6 +64,38 @@ https://cyber-information-summary.pages.dev/w/2026-W47.html
 
 ### JVN（2026年11月19日）
 
+本文 [ 102 / 280 ]
+
+```
+【JVN】ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN29068051/
+```
+
+### JVN（2026年11月19日）
+
+本文 [ 88 / 280 ]
+
+```
+【JVN】複数のRuijie Networks製品におけるOSコマンドインジェクションの脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN28897261/
+```
+
+### JVN（2026年11月19日）
+
 本文 [ 66 / 280 ]
 
 ```
@@ -75,6 +108,38 @@ https://cyber-information-summary.pages.dev/w/2026-W47.html
 ```
 原文はこちら
 https://jvn.jp/vu/JVNVU98354779/
+```
+
+### IPA（2026年11月19日）
+
+本文 [ 90 / 280 ]
+
+```
+【IPA】【事前準備のお願い】PHPのセキュリティリリース公開予定について（11月）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html
+```
+
+### IPA（2026年11月19日）
+
+本文 [ 90 / 280 ]
+
+```
+【IPA】NGINXの複数の脆弱性対策について（CVE-2026-123007、CVE-2026-123633等）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.ipa.go.jp/security/security-alert/2026/alert20261119.html
 ```
 
 ### CISA（2026年11月18日）
@@ -187,70 +252,6 @@ https://www.jpcert.or.jp/wr/2026/wr261118.html#2
 ```
 原文はこちら
 https://www.jpcert.or.jp/wr/2026/wr261118.html#3
-```
-
-### JPCERT/CC（2026年11月18日）
-
-本文 [ 65 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のApple製品に脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261118.html#4
-```
-
-### JPCERT/CC（2026年11月18日）
-
-本文 [ 66 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: PostgreSQLに複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261118.html#5
-```
-
-### JPCERT/CC（2026年11月18日）
-
-本文 [ 78 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: Apache HTTP Server 2.4に複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261118.html#6
-```
-
-### JPCERT/CC（2026年11月18日）
-
-本文 [ 65 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のIntel製品に脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261118.html#7
 ```
 
 ---

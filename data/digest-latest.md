@@ -55,6 +55,10 @@
   https://www.jpcert.or.jp/wr/2026/wr261118.html#25
 
 ■ JVN(日本)
+・ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性（2026年11月19日）
+  https://jvn.jp/jp/JVN29068051/
+・複数のRuijie Networks製品におけるOSコマンドインジェクションの脆弱性（2026年11月19日）
+  https://jvn.jp/jp/JVN28897261/
 ・Siemens製品に対するアップデート（2026年11月）（2026年11月19日）
   https://jvn.jp/vu/JVNVU98354779/
 ・OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性（2026年11月18日）
@@ -69,6 +73,10 @@
   https://jvn.jp/vu/JVNVU99888632/
 
 ■ IPA(日本)
+・【事前準備のお願い】PHPのセキュリティリリース公開予定について（11月）（2026年11月19日）
+  https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html
+・NGINXの複数の脆弱性対策について（CVE-2026-123007、CVE-2026-123633等）（2026年11月19日）
+  https://www.ipa.go.jp/security/security-alert/2026/alert20261119.html
 ・Oracle Java の脆弱性対策について(2026年11月)（2026年11月18日）
   https://www.ipa.go.jp/security/security-alert/2026/1118-jre.html
 
@@ -81,14 +89,6 @@
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02
 ・Siemens meta-iot2050（2026年11月17日）
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11
-・Siemens SIMATIC WinCC（2026年11月17日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09
-・Siemens RUGGEDCOM APE1808（2026年11月17日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07
-・Dorsett Controls InfoScan（2026年11月17日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01
-・Siemens Industrial Software Products（2026年11月17日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04
 
 すべての項目: https://cyber-information-summary.pages.dev/
 週ごとのまとめ: https://cyber-information-summary.pages.dev/archive.html
