@@ -1,7 +1,43 @@
 {
- "generated_at": "2026-11-19T20:44:00.200082+00:00",
- "count": 425,
+ "generated_at": "2026-11-20T02:22:54.422958+00:00",
+ "count": 426,
  "items": [
+  {
+   "title": "SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性",
+   "url": "https://jvn.jp/jp/JVN64740097/",
+   "published": "2026-11-20T01:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-12T11:26:05.292676+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "CISA ICS Advisory / ICS Medical Advisory（2026年11月19日）",
+   "url": "https://jvn.jp/vu/JVNVU92814490/",
+   "published": "2026-11-20T00:30:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-20T02:22:54.422958+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Siemens製品に対するアップデート（2026年11月）",
+   "url": "https://jvn.jp/vu/JVNVU98354779/",
+   "published": "2026-11-20T00:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-05T06:56:25.797139+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "Elecbrakes EB2, VM1, ELBC2000",
    "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
@@ -56,18 +92,6 @@
    "published": "2026-11-19T03:00:00+00:00",
    "date_estimated": false,
    "first_seen": "2026-11-19T11:49:27.926744+00:00",
-   "source_id": "jvn",
-   "source_name": "JVN(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja"
-  },
-  {
-   "title": "Siemens製品に対するアップデート（2026年11月）",
-   "url": "https://jvn.jp/vu/JVNVU98354779/",
-   "published": "2026-11-19T00:00:00+00:00",
-   "date_estimated": false,
-   "first_seen": "2026-11-05T06:56:25.797139+00:00",
    "source_id": "jvn",
    "source_name": "JVN(日本)",
    "country": "JP",
@@ -882,18 +906,6 @@
    "title": "三菱電機数値制御装置におけるサービス運用妨害（DoS）の脆弱性",
    "url": "https://jvn.jp/vu/JVNVU95523788/",
    "published": "2026-11-12T03:15:00+00:00",
-   "date_estimated": false,
-   "first_seen": "2026-11-12T11:26:05.292676+00:00",
-   "source_id": "jvn",
-   "source_name": "JVN(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja"
-  },
-  {
-   "title": "SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性",
-   "url": "https://jvn.jp/jp/JVN64740097/",
-   "published": "2026-11-12T03:00:00+00:00",
    "date_estimated": false,
    "first_seen": "2026-11-12T11:26:05.292676+00:00",
    "source_id": "jvn",

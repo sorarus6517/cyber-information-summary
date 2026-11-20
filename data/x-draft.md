@@ -12,17 +12,16 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 189 / 280 ]
+**本文** [ 238 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】11月19日
+【本日の公式セキュリティ情報】11月20日
 
 主な発表:
-・Elecbrakes EB2, VM1, ELBC2000
-・libumqtt
-・Autonomy Logic OpenPLC Runtime
+・SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性
+・CISA ICS Advisory / ICS Medical Advisory（2026年11月19日）
 
-日本の機関（JVN・IPA）からは5件。
+日本の機関（JVN）からは3件。
 詳細はリプライのリンクから。
 ```
 
@@ -38,16 +37,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 178 / 280 ]
+**本文** [ 265 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月16日〜11月22日
 
 主な発表:
-・Elecbrakes EB2, VM1, ELBC2000
-・libumqtt
+・SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性
+・CISA ICS Advisory / ICS Medical Advisory（2026年11月19日）
 
-日本の機関（JPCERT/CC・JVN・IPA）からは41件。
+日本の機関（JPCERT/CC・JVN・IPA）からは43件。
 詳細はリプライのリンクから。
 ```
 
@@ -62,6 +61,54 @@ https://cyber-information-summary.pages.dev/w/2026-W47.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### JVN（2026年11月20日）
+
+本文 [ 87 / 280 ]
+
+```
+【JVN】SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN64740097/
+```
+
+### JVN（2026年11月20日）
+
+本文 [ 79 / 280 ]
+
+```
+【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年11月19日）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU92814490/
+```
+
+### JVN（2026年11月20日）
+
+本文 [ 66 / 280 ]
+
+```
+【JVN】Siemens製品に対するアップデート（2026年11月）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU98354779/
+```
 
 ### CISA（2026年11月19日）
 
@@ -143,22 +190,6 @@ https://jvn.jp/jp/JVN29068051/
 https://jvn.jp/jp/JVN28897261/
 ```
 
-### JVN（2026年11月19日）
-
-本文 [ 66 / 280 ]
-
-```
-【JVN】Siemens製品に対するアップデート（2026年11月）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU98354779/
-```
-
 ### IPA（2026年11月19日）
 
 本文 [ 90 / 280 ]
@@ -221,38 +252,6 @@ https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploite
 ```
 原文はこちら
 https://jvn.jp/vu/JVNVU99608534/
-```
-
-### JVN（2026年11月18日）
-
-本文 [ 63 / 280 ]
-
-```
-【JVN】ISC BINDにおける複数の脆弱性（2026年10月）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU91196958/
-```
-
-### JVN（2026年11月18日）
-
-本文 [ 96 / 280 ]
-
-```
-【JVN】Androidアプリ「宮内庁参観音声ガイド- 宮内庁公式アプリ」における複数の脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/jp/JVN19906678/
 ```
 
 ---
@@ -349,7 +348,7 @@ CVE-2026-106931（EG Secure Solutions SiteGuard Server Edition）に言及した
 - CISA 11月17日 … Siemens SIMATIC
 - CISA 11月17日 … Siemens ROS#
 - CISA 11月17日 … Siemens Simcenter Femap
-- JVN 11月19日 JVNVU#98354779 … Siemens製品に対するアップデート（2026年11月）
+- JVN 11月20日 JVNVU#98354779 … Siemens製品に対するアップデート（2026年11月）
 
 ### 「Google」に触れた発表（3機関・9件）
 

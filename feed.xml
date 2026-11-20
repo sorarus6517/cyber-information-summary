@@ -4,7 +4,28 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Thu, 19 Nov 2026 20:44:03 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 02:23:24 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性</title>
+<link>https://jvn.jp/jp/JVN64740097/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN64740097/</guid>
+<pubDate>Fri, 20 Nov 2026 01:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN64740097/</description>
+</item>
+<item>
+<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年11月19日）</title>
+<link>https://jvn.jp/vu/JVNVU92814490/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU92814490/</guid>
+<pubDate>Fri, 20 Nov 2026 00:30:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU92814490/</description>
+</item>
+<item>
+<title>[JVN(日本)] Siemens製品に対するアップデート（2026年11月）</title>
+<link>https://jvn.jp/vu/JVNVU98354779/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU98354779/</guid>
+<pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98354779/</description>
+</item>
 <item>
 <title>[CISA(米国)] Elecbrakes EB2, VM1, ELBC2000</title>
 <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02</link>
@@ -39,13 +60,6 @@
 <guid isPermaLink="true">https://jvn.jp/jp/JVN28897261/</guid>
 <pubDate>Thu, 19 Nov 2026 03:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN28897261/</description>
-</item>
-<item>
-<title>[JVN(日本)] Siemens製品に対するアップデート（2026年11月）</title>
-<link>https://jvn.jp/vu/JVNVU98354779/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU98354779/</guid>
-<pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98354779/</description>
 </item>
 <item>
 <title>[IPA(日本)] 【事前準備のお願い】PHPのセキュリティリリース公開予定について（11月）</title>
@@ -340,19 +354,5 @@
 <guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03</guid>
 <pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
 <description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens SIMATIC</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08</guid>
-<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens ROS#</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06</guid>
-<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06</description>
 </item>
 </channel></rss>

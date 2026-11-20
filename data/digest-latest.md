@@ -55,12 +55,16 @@
   https://www.jpcert.or.jp/wr/2026/wr261118.html#25
 
 ■ JVN(日本)
+・SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性（2026年11月20日）
+  https://jvn.jp/jp/JVN64740097/
+・CISA ICS Advisory / ICS Medical Advisory（2026年11月19日）（2026年11月20日）
+  https://jvn.jp/vu/JVNVU92814490/
+・Siemens製品に対するアップデート（2026年11月）（2026年11月20日）
+  https://jvn.jp/vu/JVNVU98354779/
 ・ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性（2026年11月19日）
   https://jvn.jp/jp/JVN29068051/
 ・複数のRuijie Networks製品におけるOSコマンドインジェクションの脆弱性（2026年11月19日）
   https://jvn.jp/jp/JVN28897261/
-・Siemens製品に対するアップデート（2026年11月）（2026年11月19日）
-  https://jvn.jp/vu/JVNVU98354779/
 ・OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性（2026年11月18日）
   https://jvn.jp/vu/JVNVU99608534/
 ・ISC BINDにおける複数の脆弱性（2026年10月）（2026年11月18日）
@@ -69,16 +73,12 @@
   https://jvn.jp/jp/JVN19906678/
 ・OpenSSLにおける脆弱性に対するアップデート（2026年11月17日）（2026年11月18日）
   https://jvn.jp/vu/JVNVU96847970/
-・CISA ICS Advisory / ICS Medical Advisory（2026年11月17日）（2026年11月18日）
-  https://jvn.jp/vu/JVNVU99888632/
 
 ■ IPA(日本)
 ・【事前準備のお願い】PHPのセキュリティリリース公開予定について（11月）（2026年11月19日）
   https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html
 ・NGINXの複数の脆弱性対策について（CVE-2026-123007、CVE-2026-123633等）（2026年11月19日）
   https://www.ipa.go.jp/security/security-alert/2026/alert20261119.html
-・Oracle Java の脆弱性対策について(2026年11月)（2026年11月18日）
-  https://www.ipa.go.jp/security/security-alert/2026/1118-jre.html
 
 ■ CISA(米国)
 ・Elecbrakes EB2, VM1, ELBC2000（2026年11月19日）
