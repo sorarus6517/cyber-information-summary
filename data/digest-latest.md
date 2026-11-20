@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月20日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月21日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -51,8 +51,6 @@
   https://www.jpcert.or.jp/wr/2026/wr261118.html#22
 ・Weekly Report: KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性（2026年11月18日）
   https://www.jpcert.or.jp/wr/2026/wr261118.html#23
-・Weekly Report: JPCERT/CCが「インシデント調査報告書チェックリスト」を公開（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#24
 
 ■ JVN(日本)
 ・SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性（2026年11月20日）
@@ -81,6 +79,8 @@
   https://www.ipa.go.jp/security/security-alert/2026/alert20261119.html
 
 ■ CISA(米国)
+・CISA Adds Four Known Exploited Vulnerabilities to Catalog（2026年11月20日）
+  https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog
 ・Elecbrakes EB2, VM1, ELBC2000（2026年11月19日）
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02
 ・libumqtt（2026年11月19日）

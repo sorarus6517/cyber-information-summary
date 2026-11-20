@@ -4,7 +4,14 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Fri, 20 Nov 2026 11:49:58 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 20:28:33 +0000</lastBuildDate>
+<item>
+<title>[CISA(米国)] CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
+<link>https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog</description>
+</item>
 <item>
 <title>[JPCERT/CC(日本)] 注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)</title>
 <link>https://www.jpcert.or.jp/at/2026/at260033.html</link>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07</guid>
 <pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
 <description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07</description>
-</item>
-<item>
-<title>[CISA(米国)] Dorsett Controls InfoScan</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01</guid>
-<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01</description>
 </item>
 </channel></rss>

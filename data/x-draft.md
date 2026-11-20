@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年11月20日 自動生成）
+# Xの投稿下書き（2026年11月21日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -61,6 +61,22 @@ https://cyber-information-summary.pages.dev/w/2026-W47.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### CISA（2026年11月20日）
+
+本文 [ 79 / 280 ]
+
+```
+【CISA】CISA Adds Four Known Exploited Vulnerabilities to Catalog
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog
+```
 
 ### JPCERT/CC（2026年11月20日）
 
@@ -236,22 +252,6 @@ https://jvn.jp/jp/JVN28897261/
 ```
 原文はこちら
 https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html
-```
-
-### IPA（2026年11月19日）
-
-本文 [ 90 / 280 ]
-
-```
-【IPA】NGINXの複数の脆弱性対策について（CVE-2026-123007、CVE-2026-123633等）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.ipa.go.jp/security/security-alert/2026/alert20261119.html
 ```
 
 ---

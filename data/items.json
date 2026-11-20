@@ -1,7 +1,19 @@
 {
- "generated_at": "2026-11-20T11:49:57.205993+00:00",
- "count": 427,
+ "generated_at": "2026-11-20T20:28:31.850166+00:00",
+ "count": 428,
  "items": [
+  {
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "published": "2026-11-20T12:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-20T20:28:31.850166+00:00",
+   "source_id": "cisa",
+   "source_name": "CISA(米国)",
+   "country": "US",
+   "theme": "cyber",
+   "lang": "en"
+  },
   {
    "title": "注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)",
    "url": "https://www.jpcert.or.jp/at/2026/at260033.html",
