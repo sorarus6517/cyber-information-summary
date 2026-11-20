@@ -12,16 +12,16 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 238 / 280 ]
+**本文** [ 267 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】11月20日
 
 主な発表:
-・SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性
-・CISA ICS Advisory / ICS Medical Advisory（2026年11月19日）
+・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)
+・Siemens製品に対するアップデート（2026年11月）
 
-日本の機関（JVN）からは3件。
+日本の機関（JPCERT/CC・JVN・IPA）からは5件。
 詳細はリプライのリンクから。
 ```
 
@@ -37,16 +37,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 265 / 280 ]
+**本文** [ 262 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月16日〜11月22日
 
 主な発表:
-・SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性
-・CISA ICS Advisory / ICS Medical Advisory（2026年11月19日）
+・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)
+・Elecbrakes EB2, VM1, ELBC2000
 
-日本の機関（JPCERT/CC・JVN・IPA）からは43件。
+日本の機関（JPCERT/CC・JVN・IPA）からは45件。
 詳細はリプライのリンクから。
 ```
 
@@ -61,6 +61,22 @@ https://cyber-information-summary.pages.dev/w/2026-W47.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### JPCERT/CC（2026年11月20日）
+
+本文 [ 119 / 280 ]
+
+```
+【JPCERT/CC】注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/at/2026/at260033.html
+```
 
 ### JVN（2026年11月20日）
 
@@ -108,6 +124,22 @@ https://jvn.jp/vu/JVNVU92814490/
 ```
 原文はこちら
 https://jvn.jp/vu/JVNVU98354779/
+```
+
+### IPA（2026年11月20日）
+
+本文 [ 58 / 280 ]
+
+```
+【IPA】PHPの脆弱性対策について（2026年11月）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.ipa.go.jp/security/security-alert/2026/alert20261120.html
 ```
 
 ### CISA（2026年11月19日）
@@ -222,38 +254,6 @@ https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html
 https://www.ipa.go.jp/security/security-alert/2026/alert20261119.html
 ```
 
-### CISA（2026年11月18日）
-
-本文 [ 79 / 280 ]
-
-```
-【CISA】CISA Adds Four Known Exploited Vulnerabilities to Catalog
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog
-```
-
-### JVN（2026年11月18日）
-
-本文 [ 80 / 280 ]
-
-```
-【JVN】OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU99608534/
-```
-
 ---
 
 ## 4. 照合ネタ（引用リポスト用）
@@ -272,8 +272,8 @@ CVE-2026-109618（PHP Group）に言及した公的機関の発表です。
 ・IPA 10月22日
 ・CISA 10月26日（悪用確認として登録）
 ・JPCERT/CC 10月28日
-・JPCERT/CC 10月29日
 ・JVN 11月11日 JVNVU#99905564
+・JPCERT/CC 11月20日
 ```
 
 ### CVE-2026-109619
@@ -286,8 +286,8 @@ CVE-2026-109619（PHP Group）に言及した公的機関の発表です。
 ・IPA 10月22日
 ・CISA 10月26日（悪用確認として登録）
 ・JPCERT/CC 10月28日
-・JPCERT/CC 10月29日
 ・JVN 11月11日 JVNVU#99905564
+・JPCERT/CC 11月20日
 ```
 
 ### CVE-2026-111497

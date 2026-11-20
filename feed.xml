@@ -4,7 +4,14 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Fri, 20 Nov 2026 02:23:24 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 11:49:58 +0000</lastBuildDate>
+<item>
+<title>[JPCERT/CC(日本)] 注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)</title>
+<link>https://www.jpcert.or.jp/at/2026/at260033.html</link>
+<guid isPermaLink="true">https://www.jpcert.or.jp/at/2026/at260033.html</guid>
+<pubDate>Fri, 20 Nov 2026 04:40:00 +0000</pubDate>
+<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/at/2026/at260033.html</description>
+</item>
 <item>
 <title>[JVN(日本)] SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性</title>
 <link>https://jvn.jp/jp/JVN64740097/</link>
@@ -25,6 +32,13 @@
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU98354779/</guid>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98354779/</description>
+</item>
+<item>
+<title>[IPA(日本)] PHPの脆弱性対策について（2026年11月）</title>
+<link>https://www.ipa.go.jp/security/security-alert/2026/alert20261120.html</link>
+<guid isPermaLink="true">https://www.ipa.go.jp/security/security-alert/2026/alert20261120.html</guid>
+<pubDate>Thu, 19 Nov 2026 15:00:00 +0000</pubDate>
+<description>IPA(日本) が公表。原文: https://www.ipa.go.jp/security/security-alert/2026/alert20261120.html</description>
 </item>
 <item>
 <title>[CISA(米国)] Elecbrakes EB2, VM1, ELBC2000</title>
@@ -340,19 +354,5 @@
 <guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01</guid>
 <pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
 <description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens Industrial Software Products</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04</guid>
-<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens Industrial Automation Software Products</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03</guid>
-<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03</description>
 </item>
 </channel></rss>

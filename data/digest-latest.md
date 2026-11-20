@@ -3,6 +3,8 @@
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
 ■ JPCERT/CC(日本)
+・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)（2026年11月20日）
+  https://www.jpcert.or.jp/at/2026/at260033.html
 ・Weekly Report: N-able N-centralに複数の脆弱性（2026年11月18日）
   https://www.jpcert.or.jp/wr/2026/wr261118.html#1
 ・Weekly Report: ImageMagickを利用したアプリケーションに任意のファイルの読み書きなどにつながる脆弱性（2026年11月18日）
@@ -51,8 +53,6 @@
   https://www.jpcert.or.jp/wr/2026/wr261118.html#23
 ・Weekly Report: JPCERT/CCが「インシデント調査報告書チェックリスト」を公開（2026年11月18日）
   https://www.jpcert.or.jp/wr/2026/wr261118.html#24
-・Weekly Report: 複数のマイクロソフト製品に脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#25
 
 ■ JVN(日本)
 ・SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性（2026年11月20日）
@@ -71,10 +71,10 @@
   https://jvn.jp/vu/JVNVU91196958/
 ・Androidアプリ「宮内庁参観音声ガイド- 宮内庁公式アプリ」における複数の脆弱性（2026年11月18日）
   https://jvn.jp/jp/JVN19906678/
-・OpenSSLにおける脆弱性に対するアップデート（2026年11月17日）（2026年11月18日）
-  https://jvn.jp/vu/JVNVU96847970/
 
 ■ IPA(日本)
+・PHPの脆弱性対策について（2026年11月）（2026年11月20日）
+  https://www.ipa.go.jp/security/security-alert/2026/alert20261120.html
 ・【事前準備のお願い】PHPのセキュリティリリース公開予定について（11月）（2026年11月19日）
   https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html
 ・NGINXの複数の脆弱性対策について（CVE-2026-123007、CVE-2026-123633等）（2026年11月19日）
