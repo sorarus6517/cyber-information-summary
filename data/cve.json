@@ -871,24 +871,100 @@
     "CWE-824"
    ],
    "desc_en": "PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE).",
-   "fetched_at": "2026-10-22T04:58:07.022821+00:00",
+   "fetched_at": "2026-11-21T11:16:27.945448+00:00",
    "found": true,
    "id": "CVE-2026-109618",
-   "last_modified": "2026-10-21T17:18:24.293",
+   "last_modified": "2026-11-20T12:18:18.987",
    "products": [
     [
      "php",
      "php"
+    ],
+    [
+     "siemens",
+     "ruggedcom_ape1808_firmware"
+    ],
+    [
+     "siemens",
+     "ruggedcom_ape1808"
+    ],
+    [
+     "paloaltonetworks",
+     "pan-os"
+    ],
+    [
+     "paloaltonetworks",
+     "panorama_m-200"
+    ],
+    [
+     "paloaltonetworks",
+     "panorama_m-300"
+    ],
+    [
+     "paloaltonetworks",
+     "panorama_m-500"
+    ],
+    [
+     "paloaltonetworks",
+     "panorama_m-600"
+    ],
+    [
+     "paloaltonetworks",
+     "panorama_m-700"
+    ],
+    [
+     "paloaltonetworks",
+     "panorama_virtual_appliance"
+    ],
+    [
+     "paloaltonetworks",
+     "wf-500"
+    ],
+    [
+     "paloaltonetworks",
+     "wf-500-b"
+    ],
+    [
+     "siemens",
+     "blueplanet_360_nx3_m6_wm_od_iisx_firmware"
+    ],
+    [
+     "siemens",
+     "blueplanet_360_nx3_m6_wm_od_iisx"
+    ],
+    [
+     "siemens",
+     "blueplanet_360_nx3_m6_wm_od_iisx-s_firmware"
+    ],
+    [
+     "siemens",
+     "blueplanet_360_nx3_m6_wm_od_iisx-s"
+    ],
+    [
+     "siemens",
+     "energy_engage"
+    ],
+    [
+     "siemens",
+     "local_monitoring_bt-monitoring-vm"
+    ],
+    [
+     "siemens",
+     "spectrum_power_4"
+    ],
+    [
+     "siemens",
+     "spectrum_power_7"
     ]
    ],
    "published": "2026-10-21T14:17:09.357",
-   "status": "Modified"
+   "status": "Analyzed"
   },
   "CVE-2026-109619": {
    "cvss": {
-    "score": 9.8,
-    "severity": "CRITICAL",
-    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "score": 8.1,
+    "severity": "HIGH",
+    "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "version": "3.1"
    },
    "cwe": [
@@ -897,18 +973,94 @@
     "CWE-824"
    ],
    "desc_en": "PHP has various global state that temporarily points into request memory. In some scenarios, global state may not be correctly reset, or may be repopulated after being reset. The global state may then refer to request memory even after it has been freed. Subsequent requests may read or branch on this stale state before it is fully initialized. Multiple strategies can trigger this condition and produce remote code execution (RCE).",
-   "fetched_at": "2026-10-22T04:58:14.225704+00:00",
+   "fetched_at": "2026-11-21T11:16:35.463421+00:00",
    "found": true,
    "id": "CVE-2026-109619",
-   "last_modified": "2026-10-21T21:17:52.623",
+   "last_modified": "2026-11-20T12:18:19.730",
    "products": [
     [
      "php",
      "php"
+    ],
+    [
+     "siemens",
+     "ruggedcom_ape1808_firmware"
+    ],
+    [
+     "siemens",
+     "ruggedcom_ape1808"
+    ],
+    [
+     "paloaltonetworks",
+     "pan-os"
+    ],
+    [
+     "paloaltonetworks",
+     "panorama_m-200"
+    ],
+    [
+     "paloaltonetworks",
+     "panorama_m-300"
+    ],
+    [
+     "paloaltonetworks",
+     "panorama_m-500"
+    ],
+    [
+     "paloaltonetworks",
+     "panorama_m-600"
+    ],
+    [
+     "paloaltonetworks",
+     "panorama_m-700"
+    ],
+    [
+     "paloaltonetworks",
+     "panorama_virtual_appliance"
+    ],
+    [
+     "paloaltonetworks",
+     "wf-500"
+    ],
+    [
+     "paloaltonetworks",
+     "wf-500-b"
+    ],
+    [
+     "siemens",
+     "amis_ts"
+    ],
+    [
+     "siemens",
+     "blueplanet_360_nx3_m6_wm_od_iisx-s_firmware"
+    ],
+    [
+     "siemens",
+     "blueplanet_360_nx3_m6_wm_od_iisx-s"
+    ],
+    [
+     "siemens",
+     "energy_engage"
+    ],
+    [
+     "siemens",
+     "spectrum_power_3"
+    ],
+    [
+     "siemens",
+     "spectrum_power_4"
+    ],
+    [
+     "siemens",
+     "spectrum_power_7"
+    ],
+    [
+     "siemens",
+     "spectrum_power_tg"
     ]
    ],
    "published": "2026-10-21T14:17:09.823",
-   "status": "Modified"
+   "status": "Analyzed"
   },
   "CVE-2026-110447": {
    "cvss": {
@@ -2459,5 +2611,5 @@
    "status": "Undergoing Analysis"
   }
  },
- "generated_at": "2026-11-21T02:24:49.710676+00:00"
+ "generated_at": "2026-11-21T11:16:27.574908+00:00"
 }
