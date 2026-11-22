@@ -350,11 +350,10 @@ CVE-2026-106931（EG Secure Solutions SiteGuard Server Edition）に言及した
 - CISA 11月17日 … Siemens Simcenter Femap
 - JVN 11月20日 JVNVU#98354779 … Siemens製品に対するアップデート（2026年11月）
 
-### 「Google」に触れた発表（3機関・9件）
+### 「Google」に触れた発表（3機関・8件）
 
 同じ脆弱性とは限りません。見出しを見て、同じ話題だと確認できたものだけ使ってください。
 
-- JPCERT/CC 10月7日 … Weekly Report: Google Chromeに複数の脆弱性
 - JPCERT/CC 10月15日 … Weekly Report: Google Chromeに複数の脆弱性
 - JVN 10月15日 JVNVU#95613365 … Google BoringSSL証明書検証における複数の名前制約回避の脆弱性
 - JPCERT/CC 10月21日 … Weekly Report: Google Chromeに複数の脆弱性
