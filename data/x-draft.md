@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年11月23日 自動生成）
+# Xの投稿下書き（2026年11月24日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -10,18 +10,17 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ---
 
-## 1. 本日のまとめ（注意: 3日前の分です。新しい発表がまだありません）
+## 1. 本日のまとめ
 
-**本文** [ 267 / 280 ]
+**本文** [ 156 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】11月20日
+【本日の公式セキュリティ情報】11月24日
 
 主な発表:
-・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)
 ・Siemens製品に対するアップデート（2026年11月）
 
-日本の機関（JPCERT/CC・JVN・IPA）からは5件。
+日本の機関（JVN）からは1件。
 詳細はリプライのリンクから。
 ```
 
@@ -37,16 +36,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 262 / 280 ]
+**本文** [ 225 / 280 ]
 
 ```
-【今週の公式セキュリティ情報】11月16日〜11月22日
+【今週の公式セキュリティ情報】11月23日〜11月29日
 
 主な発表:
-・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)
-・Elecbrakes EB2, VM1, ELBC2000
+・Siemens製品に対するアップデート（2026年11月）
+・CISA Adds Two Known Exploited Vulnerabilities to Catalog
 
-日本の機関（JPCERT/CC・JVN・IPA）からは45件。
+日本の機関（JVN）からは1件。
 詳細はリプライのリンクから。
 ```
 
@@ -54,7 +53,7 @@ https://cyber-information-summary.pages.dev/
 
 ```
 一覧はこちら
-https://cyber-information-summary.pages.dev/w/2026-W47.html
+https://cyber-information-summary.pages.dev/w/2026-W48.html
 #セキュリティ #脆弱性情報
 ```
 
@@ -62,71 +61,7 @@ https://cyber-information-summary.pages.dev/w/2026-W47.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
-### CISA（2026年11月20日）
-
-本文 [ 79 / 280 ]
-
-```
-【CISA】CISA Adds Four Known Exploited Vulnerabilities to Catalog
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog
-```
-
-### JPCERT/CC（2026年11月20日）
-
-本文 [ 119 / 280 ]
-
-```
-【JPCERT/CC】注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/at/2026/at260033.html
-```
-
-### JVN（2026年11月20日）
-
-本文 [ 87 / 280 ]
-
-```
-【JVN】SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/jp/JVN64740097/
-```
-
-### JVN（2026年11月20日）
-
-本文 [ 79 / 280 ]
-
-```
-【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年11月19日）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU92814490/
-```
-
-### JVN（2026年11月20日）
+### JVN（2026年11月24日）
 
 本文 [ 66 / 280 ]
 
@@ -142,12 +77,12 @@ https://jvn.jp/vu/JVNVU92814490/
 https://jvn.jp/vu/JVNVU98354779/
 ```
 
-### IPA（2026年11月20日）
+### CISA（2026年11月23日）
 
-本文 [ 58 / 280 ]
+本文 [ 78 / 280 ]
 
 ```
-【IPA】PHPの脆弱性対策について（2026年11月）
+【CISA】CISA Adds Two Known Exploited Vulnerabilities to Catalog
 #セキュリティ
 ```
 
@@ -155,103 +90,7 @@ https://jvn.jp/vu/JVNVU98354779/
 
 ```
 原文はこちら
-https://www.ipa.go.jp/security/security-alert/2026/alert20261120.html
-```
-
-### CISA（2026年11月19日）
-
-本文 [ 51 / 280 ]
-
-```
-【CISA】Elecbrakes EB2, VM1, ELBC2000
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02
-```
-
-### CISA（2026年11月19日）
-
-本文 [ 30 / 280 ]
-
-```
-【CISA】libumqtt
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03
-```
-
-### CISA（2026年11月19日）
-
-本文 [ 52 / 280 ]
-
-```
-【CISA】Autonomy Logic OpenPLC Runtime
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01
-```
-
-### JVN（2026年11月19日）
-
-本文 [ 102 / 280 ]
-
-```
-【JVN】ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/jp/JVN29068051/
-```
-
-### JVN（2026年11月19日）
-
-本文 [ 88 / 280 ]
-
-```
-【JVN】複数のRuijie Networks製品におけるOSコマンドインジェクションの脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/jp/JVN28897261/
-```
-
-### IPA（2026年11月19日）
-
-本文 [ 90 / 280 ]
-
-```
-【IPA】【事前準備のお願い】PHPのセキュリティリリース公開予定について（11月）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html
+https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog
 ```
 
 ---
@@ -348,7 +187,7 @@ CVE-2026-106931（EG Secure Solutions SiteGuard Server Edition）に言及した
 - CISA 11月17日 … Siemens SIMATIC
 - CISA 11月17日 … Siemens ROS#
 - CISA 11月17日 … Siemens Simcenter Femap
-- JVN 11月20日 JVNVU#98354779 … Siemens製品に対するアップデート（2026年11月）
+- JVN 11月24日 JVNVU#98354779 … Siemens製品に対するアップデート（2026年11月）
 
 ### 「Google」に触れた発表（3機関・8件）
 
