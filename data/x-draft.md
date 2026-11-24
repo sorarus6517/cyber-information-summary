@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年11月24日 自動生成）
+# Xの投稿下書き（2026年11月25日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -37,14 +37,14 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 221 / 280 ]
+**本文** [ 253 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月23日〜11月29日
 
 主な発表:
 ・Introducing CORNERSTONE: delivering external services for the NCSC
-・Zoraxyにおける複数の脆弱性
+・CISA Adds Three Known Exploited Vulnerabilities to Catalog
 
 日本の機関（JVN・IPA）からは3件。
 詳細はリプライのリンクから。
@@ -92,6 +92,70 @@ https://www.ncsc.gov.uk/blogs/introducing-cornerstone-delivering-external-servic
 ```
 原文はこちら
 https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks
+```
+
+### CISA（2026年11月24日）
+
+本文 [ 80 / 280 ]
+
+```
+【CISA】CISA Adds Three Known Exploited Vulnerabilities to Catalog
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog
+```
+
+### CISA（2026年11月24日）
+
+本文 [ 47 / 280 ]
+
+```
+【CISA】Danfoss AK-SM 8xxA Series
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03
+```
+
+### CISA（2026年11月24日）
+
+本文 [ 81 / 280 ]
+
+```
+【CISA】Schneider Electric EcoStruxure Power Build Rapsody software
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02
+```
+
+### CISA（2026年11月24日）
+
+本文 [ 70 / 280 ]
+
+```
+【CISA】AutomationDirect C-More EA9 Programming Software
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01
 ```
 
 ### JVN（2026年11月24日）

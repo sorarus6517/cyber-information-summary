@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月24日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月25日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -33,14 +33,6 @@
   https://www.jpcert.or.jp/wr/2026/wr261118.html#13
 ・Weekly Report: Atlassian Confluence Data Centerに任意のコード実行の脆弱性（2026年11月18日）
   https://www.jpcert.or.jp/wr/2026/wr261118.html#14
-・Weekly Report: Gitに複数の脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#15
-・Weekly Report: 複数のAdobe製品に脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#16
-・Weekly Report: 複数のIvanti製品に脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#17
-・Weekly Report: 複数のMozilla製品に脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#18
 
 ■ JVN(日本)
 ・Zoraxyにおける複数の脆弱性（2026年11月24日）
@@ -73,6 +65,14 @@
   https://www.ipa.go.jp/security/security-alert/2026/alert20261119.html
 
 ■ CISA(米国)
+・CISA Adds Three Known Exploited Vulnerabilities to Catalog（2026年11月24日）
+  https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog
+・Danfoss AK-SM 8xxA Series（2026年11月24日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03
+・Schneider Electric EcoStruxure Power Build Rapsody software（2026年11月24日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02
+・AutomationDirect C-More EA9 Programming Software（2026年11月24日）
+  https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01
 ・CISA Adds Two Known Exploited Vulnerabilities to Catalog（2026年11月23日）
   https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog
 ・CISA Adds Four Known Exploited Vulnerabilities to Catalog（2026年11月20日）
