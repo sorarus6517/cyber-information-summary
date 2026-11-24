@@ -1235,6 +1235,46 @@
    "published": "2026-11-18T16:18:04.207",
    "status": "Received"
   },
+  "CVE-2026-123890": {
+   "cvss": {
+    "score": 9.8,
+    "severity": "CRITICAL",
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "version": "3.1"
+   },
+   "cwe": [
+    "CWE-288"
+   ],
+   "desc_en": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.\nAffected versions: 9.1.x (fixed in 9.1.1.0200); 9.0.x (fixed in 9.0.2.0200); 8.0 (fixed in 8.0 U3m); 5.x (fixed in 5.2.5).\nTelco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 and Telco Cloud Infrastructure 3.0 are also affected (see KB463116).",
+   "fetched_at": "2026-11-24T13:52:16.047021+00:00",
+   "found": true,
+   "id": "CVE-2026-123890",
+   "last_modified": "2026-11-21T05:18:10.817",
+   "products": [
+    [
+     "vmware",
+     "telco_cloud_infrastructure"
+    ],
+    [
+     "vmware",
+     "telco_cloud_platform"
+    ],
+    [
+     "vmware",
+     "cloud_foundation"
+    ],
+    [
+     "vmware",
+     "vcenter_server"
+    ],
+    [
+     "vmware",
+     "vsphere_foundation"
+    ]
+   ],
+   "published": "2026-11-19T15:17:25.407",
+   "status": "Analyzed"
+  },
   "CVE-2026-19868": {
    "cvss": {
     "score": 7.5,
@@ -2621,5 +2661,5 @@
    "status": "Undergoing Analysis"
   }
  },
- "generated_at": "2026-11-24T01:42:28.159195+00:00"
+ "generated_at": "2026-11-24T13:52:15.953953+00:00"
 }

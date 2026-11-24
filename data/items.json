@@ -1,7 +1,43 @@
 {
- "generated_at": "2026-11-24T01:42:26.764507+00:00",
- "count": 429,
+ "generated_at": "2026-11-24T13:52:14.762448+00:00",
+ "count": 433,
  "items": [
+  {
+   "title": "Introducing CORNERSTONE: delivering external services for the NCSC",
+   "url": "https://www.ncsc.gov.uk/blogs/introducing-cornerstone-delivering-external-services-for-the-ncsc",
+   "published": "2026-11-24T12:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-24T13:52:14.762448+00:00",
+   "source_id": "ncsc",
+   "source_name": "NCSC(英国)",
+   "country": "GB",
+   "theme": "cyber",
+   "lang": "en"
+  },
+  {
+   "title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks",
+   "url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks",
+   "published": "2026-11-24T12:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-24T13:52:14.762448+00:00",
+   "source_id": "ncsc",
+   "source_name": "NCSC(英国)",
+   "country": "GB",
+   "theme": "cyber",
+   "lang": "en"
+  },
+  {
+   "title": "Zoraxyにおける複数の脆弱性",
+   "url": "https://jvn.jp/jp/JVN84156789/",
+   "published": "2026-11-24T03:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-24T13:52:14.762448+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "Siemens製品に対するアップデート（2026年11月）",
    "url": "https://jvn.jp/vu/JVNVU98354779/",
@@ -10,6 +46,18 @@
    "first_seen": "2026-11-05T06:56:25.797139+00:00",
    "source_id": "jvn",
    "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "VMware製品の脆弱性対策について(CVE-2026-123890)",
+   "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20261124.html",
+   "published": "2026-11-23T15:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-24T13:52:14.762448+00:00",
+   "source_id": "ipa",
+   "source_name": "IPA(日本)",
    "country": "JP",
    "theme": "cyber",
    "lang": "ja"

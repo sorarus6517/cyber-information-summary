@@ -41,16 +41,10 @@
   https://www.jpcert.or.jp/wr/2026/wr261118.html#17
 ・Weekly Report: 複数のMozilla製品に脆弱性（2026年11月18日）
   https://www.jpcert.or.jp/wr/2026/wr261118.html#18
-・Weekly Report: 複数のFortinet製品に脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#19
-・Weekly Report: Google Chromeに複数の脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#20
-・Weekly Report: SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#21
-・Weekly Report: WebSAM WinShareにおける複数の脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#22
 
 ■ JVN(日本)
+・Zoraxyにおける複数の脆弱性（2026年11月24日）
+  https://jvn.jp/jp/JVN84156789/
 ・Siemens製品に対するアップデート（2026年11月）（2026年11月24日）
   https://jvn.jp/vu/JVNVU98354779/
 ・SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性（2026年11月20日）
@@ -69,6 +63,8 @@
   https://jvn.jp/jp/JVN19906678/
 
 ■ IPA(日本)
+・VMware製品の脆弱性対策について(CVE-2026-123890)（2026年11月24日）
+  https://www.ipa.go.jp/security/security-alert/2026/alert20261124.html
 ・PHPの脆弱性対策について（2026年11月）（2026年11月20日）
   https://www.ipa.go.jp/security/security-alert/2026/alert20261120.html
 ・【事前準備のお願い】PHPのセキュリティリリース公開予定について（11月）（2026年11月19日）
@@ -89,6 +85,12 @@
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01
 ・CISA Adds Four Known Exploited Vulnerabilities to Catalog（2026年11月18日）
   https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog
+
+■ NCSC(英国)
+・Introducing CORNERSTONE: delivering external services for the NCSC（2026年11月24日）
+  https://www.ncsc.gov.uk/blogs/introducing-cornerstone-delivering-external-services-for-the-ncsc
+・Familiar weaknesses, exploited faster: defending against agentic cyber attacks（2026年11月24日）
+  https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks
 
 すべての項目: https://cyber-information-summary.pages.dev/
 週ごとのまとめ: https://cyber-information-summary.pages.dev/archive.html

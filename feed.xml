@@ -4,13 +4,41 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Tue, 24 Nov 2026 01:42:28 +0000</lastBuildDate>
+<lastBuildDate>Tue, 24 Nov 2026 13:52:16 +0000</lastBuildDate>
+<item>
+<title>[NCSC(英国)] Introducing CORNERSTONE: delivering external services for the NCSC</title>
+<link>https://www.ncsc.gov.uk/blogs/introducing-cornerstone-delivering-external-services-for-the-ncsc</link>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/introducing-cornerstone-delivering-external-services-for-the-ncsc</guid>
+<pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate>
+<description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/blogs/introducing-cornerstone-delivering-external-services-for-the-ncsc</description>
+</item>
+<item>
+<title>[NCSC(英国)] Familiar weaknesses, exploited faster: defending against agentic cyber attacks</title>
+<link>https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks</link>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks</guid>
+<pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate>
+<description>NCSC(英国) が公表。原文: https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks</description>
+</item>
+<item>
+<title>[JVN(日本)] Zoraxyにおける複数の脆弱性</title>
+<link>https://jvn.jp/jp/JVN84156789/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN84156789/</guid>
+<pubDate>Tue, 24 Nov 2026 03:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN84156789/</description>
+</item>
 <item>
 <title>[JVN(日本)] Siemens製品に対するアップデート（2026年11月）</title>
 <link>https://jvn.jp/vu/JVNVU98354779/</link>
 <guid isPermaLink="true">https://jvn.jp/vu/JVNVU98354779/</guid>
 <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98354779/</description>
+</item>
+<item>
+<title>[IPA(日本)] VMware製品の脆弱性対策について(CVE-2026-123890)</title>
+<link>https://www.ipa.go.jp/security/security-alert/2026/alert20261124.html</link>
+<guid isPermaLink="true">https://www.ipa.go.jp/security/security-alert/2026/alert20261124.html</guid>
+<pubDate>Mon, 23 Nov 2026 15:00:00 +0000</pubDate>
+<description>IPA(日本) が公表。原文: https://www.ipa.go.jp/security/security-alert/2026/alert20261124.html</description>
 </item>
 <item>
 <title>[CISA(米国)] CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
@@ -326,33 +354,5 @@
 <guid isPermaLink="true">https://www.ipa.go.jp/security/security-alert/2026/1118-jre.html</guid>
 <pubDate>Tue, 17 Nov 2026 15:00:00 +0000</pubDate>
 <description>IPA(日本) が公表。原文: https://www.ipa.go.jp/security/security-alert/2026/1118-jre.html</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens Mendix Studio Pro</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05</guid>
-<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens .NET Client Library for SIMATIC S7 Webserver API</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02</guid>
-<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens meta-iot2050</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11</guid>
-<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11</description>
-</item>
-<item>
-<title>[CISA(米国)] Siemens SIMATIC WinCC</title>
-<link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09</link>
-<guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09</guid>
-<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09</description>
 </item>
 </channel></rss>

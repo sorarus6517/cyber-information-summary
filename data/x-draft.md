@@ -12,15 +12,16 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 156 / 280 ]
+**本文** [ 263 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】11月24日
 
 主な発表:
-・Siemens製品に対するアップデート（2026年11月）
+・Introducing CORNERSTONE: delivering external services for the NCSC
+・Familiar weaknesses, exploited faster: defending against agentic cyber attacks
 
-日本の機関（JVN）からは1件。
+日本の機関（JVN・IPA）からは3件。
 詳細はリプライのリンクから。
 ```
 
@@ -36,16 +37,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 225 / 280 ]
+**本文** [ 221 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月23日〜11月29日
 
 主な発表:
-・Siemens製品に対するアップデート（2026年11月）
-・CISA Adds Two Known Exploited Vulnerabilities to Catalog
+・Introducing CORNERSTONE: delivering external services for the NCSC
+・Zoraxyにおける複数の脆弱性
 
-日本の機関（JVN）からは1件。
+日本の機関（JVN・IPA）からは3件。
 詳細はリプライのリンクから。
 ```
 
@@ -61,6 +62,54 @@ https://cyber-information-summary.pages.dev/w/2026-W48.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
+### NCSC（2026年11月24日）
+
+本文 [ 88 / 280 ]
+
+```
+【NCSC】Introducing CORNERSTONE: delivering external services for the NCSC
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.ncsc.gov.uk/blogs/introducing-cornerstone-delivering-external-services-for-the-ncsc
+```
+
+### NCSC（2026年11月24日）
+
+本文 [ 100 / 280 ]
+
+```
+【NCSC】Familiar weaknesses, exploited faster: defending against agentic cyber attacks
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks
+```
+
+### JVN（2026年11月24日）
+
+本文 [ 47 / 280 ]
+
+```
+【JVN】Zoraxyにおける複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN84156789/
+```
+
 ### JVN（2026年11月24日）
 
 本文 [ 66 / 280 ]
@@ -75,6 +124,22 @@ https://cyber-information-summary.pages.dev/w/2026-W48.html
 ```
 原文はこちら
 https://jvn.jp/vu/JVNVU98354779/
+```
+
+### IPA（2026年11月24日）
+
+本文 [ 68 / 280 ]
+
+```
+【IPA】VMware製品の脆弱性対策について(CVE-2026-123890)
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.ipa.go.jp/security/security-alert/2026/alert20261124.html
 ```
 
 ### CISA（2026年11月23日）
