@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月25日時点 / 27件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月26日時点 / 24件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -33,10 +33,6 @@
   https://www.ipa.go.jp/security/security-alert/2026/alert20261124.html
 ・PHPの脆弱性対策について（2026年11月）（2026年11月20日）
   https://www.ipa.go.jp/security/security-alert/2026/alert20261120.html
-・【事前準備のお願い】PHPのセキュリティリリース公開予定について（11月）（2026年11月19日）
-  https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html
-・NGINXの複数の脆弱性対策について（CVE-2026-123007、CVE-2026-123633等）（2026年11月19日）
-  https://www.ipa.go.jp/security/security-alert/2026/alert20261119.html
 
 ■ CISA(米国)
 ・CISA Adds Three Known Exploited Vulnerabilities to Catalog（2026年11月24日）
@@ -57,8 +53,6 @@
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03
 ・Autonomy Logic OpenPLC Runtime（2026年11月19日）
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01
-・CISA Adds Four Known Exploited Vulnerabilities to Catalog（2026年11月18日）
-  https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog
 
 ■ NCSC(英国)
 ・Introducing CORNERSTONE: delivering external services for the NCSC（2026年11月24日）
