@@ -12,16 +12,16 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 263 / 280 ]
+**本文** [ 222 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】11月24日
+【本日の公式セキュリティ情報】11月25日
 
 主な発表:
-・Introducing CORNERSTONE: delivering external services for the NCSC
-・Familiar weaknesses, exploited faster: defending against agentic cyber attacks
+・Apache Tomcatにおける複数の脆弱性（2026年11月19日）
+・源内Webにおけるサーバサイドリクエストフォージェリの脆弱性
 
-日本の機関（JVN・IPA）からは3件。
+日本の機関（JVN）からは5件。
 詳細はリプライのリンクから。
 ```
 
@@ -37,16 +37,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 253 / 280 ]
+**本文** [ 237 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月23日〜11月29日
 
 主な発表:
-・Introducing CORNERSTONE: delivering external services for the NCSC
-・CISA Adds Three Known Exploited Vulnerabilities to Catalog
+・Apache Tomcatにおける複数の脆弱性（2026年11月19日）
+・源内Webにおけるサーバサイドリクエストフォージェリの脆弱性
 
-日本の機関（JVN・IPA）からは3件。
+日本の機関（JVN・IPA）からは7件。
 詳細はリプライのリンクから。
 ```
 
@@ -61,6 +61,86 @@ https://cyber-information-summary.pages.dev/w/2026-W48.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### JVN（2026年11月25日）
+
+本文 [ 72 / 280 ]
+
+```
+【JVN】Apache Tomcatにおける複数の脆弱性（2026年11月19日）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU92527429/
+```
+
+### JVN（2026年11月25日）
+
+本文 [ 78 / 280 ]
+
+```
+【JVN】源内Webにおけるサーバサイドリクエストフォージェリの脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN78929433/
+```
+
+### JVN（2026年11月25日）
+
+本文 [ 66 / 280 ]
+
+```
+【JVN】Siemens製品に対するアップデート（2026年11月）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU98354779/
+```
+
+### JVN（2026年11月25日）
+
+本文 [ 80 / 280 ]
+
+```
+【JVN】OpenSSLにおける脆弱性に対するアップデート（2026年11月24日）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU95723901/
+```
+
+### JVN（2026年11月25日）
+
+本文 [ 79 / 280 ]
+
+```
+【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年11月24日）
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/vu/JVNVU93291989/
+```
 
 ### NCSC（2026年11月24日）
 
@@ -174,54 +254,6 @@ https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01
 https://jvn.jp/jp/JVN84156789/
 ```
 
-### JVN（2026年11月24日）
-
-本文 [ 66 / 280 ]
-
-```
-【JVN】Siemens製品に対するアップデート（2026年11月）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU98354779/
-```
-
-### IPA（2026年11月24日）
-
-本文 [ 68 / 280 ]
-
-```
-【IPA】VMware製品の脆弱性対策について(CVE-2026-123890)
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.ipa.go.jp/security/security-alert/2026/alert20261124.html
-```
-
-### CISA（2026年11月23日）
-
-本文 [ 78 / 280 ]
-
-```
-【CISA】CISA Adds Two Known Exploited Vulnerabilities to Catalog
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog
-```
-
 ---
 
 ## 4. 照合ネタ（引用リポスト用）
@@ -316,7 +348,7 @@ CVE-2026-106931（EG Secure Solutions SiteGuard Server Edition）に言及した
 - CISA 11月17日 … Siemens SIMATIC
 - CISA 11月17日 … Siemens ROS#
 - CISA 11月17日 … Siemens Simcenter Femap
-- JVN 11月24日 JVNVU#98354779 … Siemens製品に対するアップデート（2026年11月）
+- JVN 11月25日 JVNVU#98354779 … Siemens製品に対するアップデート（2026年11月）
 
 ### 「Google」に触れた発表（3機関・8件）
 

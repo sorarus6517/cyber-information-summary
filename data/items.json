@@ -1,7 +1,67 @@
 {
- "generated_at": "2026-11-24T23:29:57.613550+00:00",
- "count": 437,
+ "generated_at": "2026-11-25T08:45:04.513229+00:00",
+ "count": 441,
  "items": [
+  {
+   "title": "Apache Tomcatにおける複数の脆弱性（2026年11月19日）",
+   "url": "https://jvn.jp/vu/JVNVU92527429/",
+   "published": "2026-11-25T06:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-25T08:45:04.513229+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "源内Webにおけるサーバサイドリクエストフォージェリの脆弱性",
+   "url": "https://jvn.jp/jp/JVN78929433/",
+   "published": "2026-11-25T03:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-25T08:45:04.513229+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "Siemens製品に対するアップデート（2026年11月）",
+   "url": "https://jvn.jp/vu/JVNVU98354779/",
+   "published": "2026-11-25T00:15:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-05T06:56:25.797139+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "OpenSSLにおける脆弱性に対するアップデート（2026年11月24日）",
+   "url": "https://jvn.jp/vu/JVNVU95723901/",
+   "published": "2026-11-25T00:00:15+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-25T08:45:04.513229+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "CISA ICS Advisory / ICS Medical Advisory（2026年11月24日）",
+   "url": "https://jvn.jp/vu/JVNVU93291989/",
+   "published": "2026-11-25T00:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-25T08:45:04.513229+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "Introducing CORNERSTONE: delivering external services for the NCSC",
    "url": "https://www.ncsc.gov.uk/blogs/introducing-cornerstone-delivering-external-services-for-the-ncsc",
@@ -80,18 +140,6 @@
    "published": "2026-11-24T03:00:00+00:00",
    "date_estimated": false,
    "first_seen": "2026-11-24T13:52:14.762448+00:00",
-   "source_id": "jvn",
-   "source_name": "JVN(日本)",
-   "country": "JP",
-   "theme": "cyber",
-   "lang": "ja"
-  },
-  {
-   "title": "Siemens製品に対するアップデート（2026年11月）",
-   "url": "https://jvn.jp/vu/JVNVU98354779/",
-   "published": "2026-11-24T00:00:00+00:00",
-   "date_estimated": false,
-   "first_seen": "2026-11-05T06:56:25.797139+00:00",
    "source_id": "jvn",
    "source_name": "JVN(日本)",
    "country": "JP",

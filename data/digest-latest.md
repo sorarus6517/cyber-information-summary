@@ -1,44 +1,24 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月25日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月25日時点 / 27件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
 ■ JPCERT/CC(日本)
 ・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)（2026年11月20日）
   https://www.jpcert.or.jp/at/2026/at260033.html
-・Weekly Report: N-able N-centralに複数の脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#1
-・Weekly Report: ImageMagickを利用したアプリケーションに任意のファイルの読み書きなどにつながる脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#2
-・Weekly Report: Synology DiskStation Managerに複数の脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#3
-・Weekly Report: 複数のApple製品に脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#4
-・Weekly Report: PostgreSQLに複数の脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#5
-・Weekly Report: Apache HTTP Server 2.4に複数の脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#6
-・Weekly Report: 複数のIntel製品に脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#7
-・Weekly Report: Movable Typeにコードインジェクションの脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#8
-・Weekly Report: OpenSSLに複数の脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#9
-・Weekly Report: React Server Componentsに任意のコード実行につながる脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#10
-・Weekly Report: Node.jsに複数の脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#11
-・Weekly Report: MongoDBに複数の脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#12
-・Weekly Report: 複数のPalo Alto Networks製品に脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#13
-・Weekly Report: Atlassian Confluence Data Centerに任意のコード実行の脆弱性（2026年11月18日）
-  https://www.jpcert.or.jp/wr/2026/wr261118.html#14
 
 ■ JVN(日本)
+・Apache Tomcatにおける複数の脆弱性（2026年11月19日）（2026年11月25日）
+  https://jvn.jp/vu/JVNVU92527429/
+・源内Webにおけるサーバサイドリクエストフォージェリの脆弱性（2026年11月25日）
+  https://jvn.jp/jp/JVN78929433/
+・Siemens製品に対するアップデート（2026年11月）（2026年11月25日）
+  https://jvn.jp/vu/JVNVU98354779/
+・OpenSSLにおける脆弱性に対するアップデート（2026年11月24日）（2026年11月25日）
+  https://jvn.jp/vu/JVNVU95723901/
+・CISA ICS Advisory / ICS Medical Advisory（2026年11月24日）（2026年11月25日）
+  https://jvn.jp/vu/JVNVU93291989/
 ・Zoraxyにおける複数の脆弱性（2026年11月24日）
   https://jvn.jp/jp/JVN84156789/
-・Siemens製品に対するアップデート（2026年11月）（2026年11月24日）
-  https://jvn.jp/vu/JVNVU98354779/
 ・SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性（2026年11月20日）
   https://jvn.jp/jp/JVN64740097/
 ・CISA ICS Advisory / ICS Medical Advisory（2026年11月19日）（2026年11月20日）
@@ -47,12 +27,6 @@
   https://jvn.jp/jp/JVN29068051/
 ・複数のRuijie Networks製品におけるOSコマンドインジェクションの脆弱性（2026年11月19日）
   https://jvn.jp/jp/JVN28897261/
-・OpenJDKにおけるヒープベースのバッファオーバーフローの脆弱性（2026年11月18日）
-  https://jvn.jp/vu/JVNVU99608534/
-・ISC BINDにおける複数の脆弱性（2026年10月）（2026年11月18日）
-  https://jvn.jp/vu/JVNVU91196958/
-・Androidアプリ「宮内庁参観音声ガイド- 宮内庁公式アプリ」における複数の脆弱性（2026年11月18日）
-  https://jvn.jp/jp/JVN19906678/
 
 ■ IPA(日本)
 ・VMware製品の脆弱性対策について(CVE-2026-123890)（2026年11月24日）

@@ -4,7 +4,42 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Tue, 24 Nov 2026 23:29:59 +0000</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 08:45:06 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] Apache Tomcatにおける複数の脆弱性（2026年11月19日）</title>
+<link>https://jvn.jp/vu/JVNVU92527429/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU92527429/</guid>
+<pubDate>Wed, 25 Nov 2026 06:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU92527429/</description>
+</item>
+<item>
+<title>[JVN(日本)] 源内Webにおけるサーバサイドリクエストフォージェリの脆弱性</title>
+<link>https://jvn.jp/jp/JVN78929433/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN78929433/</guid>
+<pubDate>Wed, 25 Nov 2026 03:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN78929433/</description>
+</item>
+<item>
+<title>[JVN(日本)] Siemens製品に対するアップデート（2026年11月）</title>
+<link>https://jvn.jp/vu/JVNVU98354779/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU98354779/</guid>
+<pubDate>Wed, 25 Nov 2026 00:15:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98354779/</description>
+</item>
+<item>
+<title>[JVN(日本)] OpenSSLにおける脆弱性に対するアップデート（2026年11月24日）</title>
+<link>https://jvn.jp/vu/JVNVU95723901/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU95723901/</guid>
+<pubDate>Wed, 25 Nov 2026 00:00:15 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU95723901/</description>
+</item>
+<item>
+<title>[JVN(日本)] CISA ICS Advisory / ICS Medical Advisory（2026年11月24日）</title>
+<link>https://jvn.jp/vu/JVNVU93291989/</link>
+<guid isPermaLink="true">https://jvn.jp/vu/JVNVU93291989/</guid>
+<pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU93291989/</description>
+</item>
 <item>
 <title>[NCSC(英国)] Introducing CORNERSTONE: delivering external services for the NCSC</title>
 <link>https://www.ncsc.gov.uk/blogs/introducing-cornerstone-delivering-external-services-for-the-ncsc</link>
@@ -53,13 +88,6 @@
 <guid isPermaLink="true">https://jvn.jp/jp/JVN84156789/</guid>
 <pubDate>Tue, 24 Nov 2026 03:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN84156789/</description>
-</item>
-<item>
-<title>[JVN(日本)] Siemens製品に対するアップデート（2026年11月）</title>
-<link>https://jvn.jp/vu/JVNVU98354779/</link>
-<guid isPermaLink="true">https://jvn.jp/vu/JVNVU98354779/</guid>
-<pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/vu/JVNVU98354779/</description>
 </item>
 <item>
 <title>[IPA(日本)] VMware製品の脆弱性対策について(CVE-2026-123890)</title>
@@ -326,33 +354,5 @@
 <guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#20</guid>
 <pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
 <description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#20</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: SS1／SS1クラウドおよびそのODM製品rocoeyesにおける複数の脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#21</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#21</guid>
-<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#21</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: WebSAM WinShareにおける複数の脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#22</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#22</guid>
-<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#22</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: KUSANAGIにおけるHTTPヘッダーインジェクションの脆弱性</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#23</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#23</guid>
-<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#23</description>
-</item>
-<item>
-<title>[JPCERT/CC(日本)] Weekly Report: JPCERT/CCが「インシデント調査報告書チェックリスト」を公開</title>
-<link>https://www.jpcert.or.jp/wr/2026/wr261118.html#24</link>
-<guid isPermaLink="true">https://www.jpcert.or.jp/wr/2026/wr261118.html#24</guid>
-<pubDate>Wed, 18 Nov 2026 00:15:00 +0000</pubDate>
-<description>JPCERT/CC(日本) が公表。原文: https://www.jpcert.or.jp/wr/2026/wr261118.html#24</description>
 </item>
 </channel></rss>
