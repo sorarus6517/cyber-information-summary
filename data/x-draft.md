@@ -12,16 +12,17 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 222 / 280 ]
+**本文** [ 259 / 280 ]
 
 ```
-【本日の公式セキュリティ情報】11月25日
+【本日の公式セキュリティ情報】11月26日
 
 主な発表:
-・Apache Tomcatにおける複数の脆弱性（2026年11月19日）
-・源内Webにおけるサーバサイドリクエストフォージェリの脆弱性
+・Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性
+・baserCMSにおける複数の脆弱性
+・Weekly Report: Rubyに複数の脆弱性
 
-日本の機関（JVN）からは5件。
+日本の機関（JPCERT/CC・JVN）からは24件。
 詳細はリプライのリンクから。
 ```
 
@@ -37,16 +38,16 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 237 / 280 ]
+**本文** [ 238 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月23日〜11月29日
 
 主な発表:
-・Apache Tomcatにおける複数の脆弱性（2026年11月19日）
-・源内Webにおけるサーバサイドリクエストフォージェリの脆弱性
+・Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性
+・baserCMSにおける複数の脆弱性
 
-日本の機関（JVN・IPA）からは7件。
+日本の機関（JPCERT/CC・JVN・IPA）からは31件。
 詳細はリプライのリンクから。
 ```
 
@@ -62,12 +63,12 @@ https://cyber-information-summary.pages.dev/w/2026-W48.html
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
 
-### JVN（2026年11月25日）
+### JVN（2026年11月26日）
 
-本文 [ 72 / 280 ]
+本文 [ 90 / 280 ]
 
 ```
-【JVN】Apache Tomcatにおける複数の脆弱性（2026年11月19日）
+【JVN】Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性
 #セキュリティ
 ```
 
@@ -75,15 +76,31 @@ https://cyber-information-summary.pages.dev/w/2026-W48.html
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU92527429/
+https://jvn.jp/jp/JVN16383801/
 ```
 
-### JVN（2026年11月25日）
+### JVN（2026年11月26日）
+
+本文 [ 49 / 280 ]
+
+```
+【JVN】baserCMSにおける複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://jvn.jp/jp/JVN25972114/
+```
+
+### JPCERT/CC（2026年11月26日）
 
 本文 [ 78 / 280 ]
 
 ```
-【JVN】源内Webにおけるサーバサイドリクエストフォージェリの脆弱性
+【JPCERT/CC】Weekly Report: 複数のPalo Alto Networks製品に脆弱性
 #セキュリティ
 ```
 
@@ -91,15 +108,15 @@ https://jvn.jp/vu/JVNVU92527429/
 
 ```
 原文はこちら
-https://jvn.jp/jp/JVN78929433/
+https://www.jpcert.or.jp/wr/2026/wr261126.html#1
 ```
 
-### JVN（2026年11月25日）
+### JPCERT/CC（2026年11月26日）
 
-本文 [ 66 / 280 ]
+本文 [ 84 / 280 ]
 
 ```
-【JVN】Siemens製品に対するアップデート（2026年11月）
+【JPCERT/CC】Weekly Report: Synology DiskStation Managerに複数の脆弱性
 #セキュリティ
 ```
 
@@ -107,127 +124,15 @@ https://jvn.jp/jp/JVN78929433/
 
 ```
 原文はこちら
-https://jvn.jp/vu/JVNVU98354779/
+https://www.jpcert.or.jp/wr/2026/wr261126.html#2
 ```
 
-### JVN（2026年11月25日）
-
-本文 [ 80 / 280 ]
-
-```
-【JVN】OpenSSLにおける脆弱性に対するアップデート（2026年11月24日）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU95723901/
-```
-
-### JVN（2026年11月25日）
-
-本文 [ 79 / 280 ]
-
-```
-【JVN】CISA ICS Advisory / ICS Medical Advisory（2026年11月24日）
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://jvn.jp/vu/JVNVU93291989/
-```
-
-### NCSC（2026年11月24日）
-
-本文 [ 88 / 280 ]
-
-```
-【NCSC】Introducing CORNERSTONE: delivering external services for the NCSC
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.ncsc.gov.uk/blogs/introducing-cornerstone-delivering-external-services-for-the-ncsc
-```
-
-### NCSC（2026年11月24日）
-
-本文 [ 100 / 280 ]
-
-```
-【NCSC】Familiar weaknesses, exploited faster: defending against agentic cyber attacks
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks
-```
-
-### CISA（2026年11月24日）
-
-本文 [ 80 / 280 ]
-
-```
-【CISA】CISA Adds Three Known Exploited Vulnerabilities to Catalog
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog
-```
-
-### CISA（2026年11月24日）
-
-本文 [ 47 / 280 ]
-
-```
-【CISA】Danfoss AK-SM 8xxA Series
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03
-```
-
-### CISA（2026年11月24日）
-
-本文 [ 81 / 280 ]
-
-```
-【CISA】Schneider Electric EcoStruxure Power Build Rapsody software
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02
-```
-
-### CISA（2026年11月24日）
+### JPCERT/CC（2026年11月26日）
 
 本文 [ 70 / 280 ]
 
 ```
-【CISA】AutomationDirect C-More EA9 Programming Software
+【JPCERT/CC】Weekly Report: Microsoft Edgeに複数の脆弱性
 #セキュリティ
 ```
 
@@ -235,15 +140,15 @@ https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02
 
 ```
 原文はこちら
-https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01
+https://www.jpcert.or.jp/wr/2026/wr261126.html#3
 ```
 
-### JVN（2026年11月24日）
+### JPCERT/CC（2026年11月26日）
 
-本文 [ 47 / 280 ]
+本文 [ 84 / 280 ]
 
 ```
-【JVN】Zoraxyにおける複数の脆弱性
+【JPCERT/CC】Weekly Report: IBM Guardium Data Protectionに複数の脆弱性
 #セキュリティ
 ```
 
@@ -251,7 +156,103 @@ https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01
 
 ```
 原文はこちら
-https://jvn.jp/jp/JVN84156789/
+https://www.jpcert.or.jp/wr/2026/wr261126.html#4
+```
+
+### JPCERT/CC（2026年11月26日）
+
+本文 [ 80 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: UniFi Access Applicationに複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261126.html#5
+```
+
+### JPCERT/CC（2026年11月26日）
+
+本文 [ 60 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: Rubyに複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261126.html#6
+```
+
+### JPCERT/CC（2026年11月26日）
+
+本文 [ 67 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: Drupal coreに複数の脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261126.html#7
+```
+
+### JPCERT/CC（2026年11月26日）
+
+本文 [ 66 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: 複数のSplunk製品に脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261126.html#8
+```
+
+### JPCERT/CC（2026年11月26日）
+
+本文 [ 64 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: 複数のASUS製品に脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261126.html#9
+```
+
+### JPCERT/CC（2026年11月26日）
+
+本文 [ 62 / 280 ]
+
+```
+【JPCERT/CC】Weekly Report: 複数のF5製品に脆弱性
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.jpcert.or.jp/wr/2026/wr261126.html#10
 ```
 
 ---
@@ -303,6 +304,17 @@ CVE-2026-111497（Google Brotli）に言及した公的機関の発表です。
 ・JVN 11月12日 JVNVU#97400824
 ```
 
+### CVE-2026-123007
+
+そのまま投稿できます [ 82 / 280 ]
+
+```
+CVE-2026-123007に言及した公的機関の発表です。
+
+・IPA 11月19日
+・JPCERT/CC 11月26日
+```
+
 ### CVE-2026-106931
 
 そのまま投稿できます [ 153 / 280 ]
@@ -349,17 +361,4 @@ CVE-2026-106931（EG Secure Solutions SiteGuard Server Edition）に言及した
 - CISA 11月17日 … Siemens ROS#
 - CISA 11月17日 … Siemens Simcenter Femap
 - JVN 11月25日 JVNVU#98354779 … Siemens製品に対するアップデート（2026年11月）
-
-### 「Google」に触れた発表（3機関・8件）
-
-同じ脆弱性とは限りません。見出しを見て、同じ話題だと確認できたものだけ使ってください。
-
-- JPCERT/CC 10月15日 … Weekly Report: Google Chromeに複数の脆弱性
-- JVN 10月15日 JVNVU#95613365 … Google BoringSSL証明書検証における複数の名前制約回避の脆弱性
-- JPCERT/CC 10月21日 … Weekly Report: Google Chromeに複数の脆弱性
-- CISA 10月27日 … 悪用確認(KEV): Google Brotli — Unchecked Return Value (CVE-2026-111497)
-- JPCERT/CC 10月28日 … Weekly Report: Google Chromeに複数の脆弱性
-- JPCERT/CC 11月5日 … Weekly Report: Google Chromeに複数の脆弱性
-- JPCERT/CC 11月11日 … Weekly Report: Google Chromeに複数の脆弱性
-- JPCERT/CC 11月18日 … Weekly Report: Google Chromeに複数の脆弱性
 

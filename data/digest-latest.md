@@ -1,12 +1,58 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月26日時点 / 24件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月26日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
 ■ JPCERT/CC(日本)
-・注意喚起: PHPにおける複数の脆弱性（CVE-2026-109618、CVE-2026-109619）に関する注意喚起 (更新)（2026年11月20日）
-  https://www.jpcert.or.jp/at/2026/at260033.html
+・Weekly Report: 複数のPalo Alto Networks製品に脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#1
+・Weekly Report: Synology DiskStation Managerに複数の脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#2
+・Weekly Report: Microsoft Edgeに複数の脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#3
+・Weekly Report: IBM Guardium Data Protectionに複数の脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#4
+・Weekly Report: UniFi Access Applicationに複数の脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#5
+・Weekly Report: Rubyに複数の脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#6
+・Weekly Report: Drupal coreに複数の脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#7
+・Weekly Report: 複数のSplunk製品に脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#8
+・Weekly Report: 複数のASUS製品に脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#9
+・Weekly Report: 複数のF5製品に脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#10
+・Weekly Report: ILIASに複数の脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#11
+・Weekly Report: Firefoxに複数の脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#12
+・Weekly Report: プリザンターに複数の脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#13
+・Weekly Report: AutoSys Workload Automationに複数の脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#14
+・Weekly Report: Google Chromeに複数の脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#15
+・Weekly Report: 複数のOracle製品に脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#16
+・Weekly Report: 複数のAtlassian製品に脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#17
+・Weekly Report: GitLabに複数の脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#18
+・Weekly Report: ONLYOFFICE Docsに複数の脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#19
+・Weekly Report: Apache Shiroに複数の脆弱性（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#20
+・Weekly Report: nginxにおける複数の脆弱性（CVE-2026-123007など）について（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#21
+・Weekly Report: 認証を有効にしていないNode-REDに悪意ある制御フローが登録される問題（CVE-2026-58115）について（2026年11月26日）
+  https://www.jpcert.or.jp/wr/2026/wr261126.html#22
 
 ■ JVN(日本)
+・Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性（2026年11月26日）
+  https://jvn.jp/jp/JVN16383801/
+・baserCMSにおける複数の脆弱性（2026年11月26日）
+  https://jvn.jp/jp/JVN25972114/
 ・Apache Tomcatにおける複数の脆弱性（2026年11月19日）（2026年11月25日）
   https://jvn.jp/vu/JVNVU92527429/
 ・源内Webにおけるサーバサイドリクエストフォージェリの脆弱性（2026年11月25日）
@@ -19,22 +65,14 @@
   https://jvn.jp/vu/JVNVU93291989/
 ・Zoraxyにおける複数の脆弱性（2026年11月24日）
   https://jvn.jp/jp/JVN84156789/
-・SoftBank製Airターミナル6におけるOSコマンドインジェクションの脆弱性（2026年11月20日）
-  https://jvn.jp/jp/JVN64740097/
-・CISA ICS Advisory / ICS Medical Advisory（2026年11月19日）（2026年11月20日）
-  https://jvn.jp/vu/JVNVU92814490/
-・ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性（2026年11月19日）
-  https://jvn.jp/jp/JVN29068051/
-・複数のRuijie Networks製品におけるOSコマンドインジェクションの脆弱性（2026年11月19日）
-  https://jvn.jp/jp/JVN28897261/
 
 ■ IPA(日本)
 ・VMware製品の脆弱性対策について(CVE-2026-123890)（2026年11月24日）
   https://www.ipa.go.jp/security/security-alert/2026/alert20261124.html
-・PHPの脆弱性対策について（2026年11月）（2026年11月20日）
-  https://www.ipa.go.jp/security/security-alert/2026/alert20261120.html
 
 ■ CISA(米国)
+・CISA Adds 10 Known Exploited Vulnerabilities to Catalog（2026年11月25日）
+  https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog
 ・CISA Adds Three Known Exploited Vulnerabilities to Catalog（2026年11月24日）
   https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog
 ・Danfoss AK-SM 8xxA Series（2026年11月24日）
@@ -47,12 +85,6 @@
   https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog
 ・CISA Adds Four Known Exploited Vulnerabilities to Catalog（2026年11月20日）
   https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog
-・Elecbrakes EB2, VM1, ELBC2000（2026年11月19日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02
-・libumqtt（2026年11月19日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03
-・Autonomy Logic OpenPLC Runtime（2026年11月19日）
-  https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01
 
 ■ NCSC(英国)
 ・Introducing CORNERSTONE: delivering external services for the NCSC（2026年11月24日）
