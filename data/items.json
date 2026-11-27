@@ -1,7 +1,31 @@
 {
- "generated_at": "2026-11-27T01:46:01.924899+00:00",
- "count": 466,
+ "generated_at": "2026-11-27T12:38:22.184486+00:00",
+ "count": 468,
  "items": [
+  {
+   "title": "EspoCRMにおけるクロスサイトスクリプティングの脆弱性",
+   "url": "https://jvn.jp/jp/JVN36592422/",
+   "published": "2026-11-27T03:00:15+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-27T12:38:22.184486+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
+  {
+   "title": "スマートフォンアプリ「マイナアプリ（旧マイナポータルアプリ）」における入力リストによる制限が不十分なことに起因する複数の脆弱性",
+   "url": "https://jvn.jp/jp/JVN19729125/",
+   "published": "2026-11-27T03:00:00+00:00",
+   "date_estimated": false,
+   "first_seen": "2026-11-27T12:38:22.184486+00:00",
+   "source_id": "jvn",
+   "source_name": "JVN(日本)",
+   "country": "JP",
+   "theme": "cyber",
+   "lang": "ja"
+  },
   {
    "title": "Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性",
    "url": "https://jvn.jp/jp/JVN16383801/",

@@ -4,7 +4,21 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Fri, 27 Nov 2026 01:46:04 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 12:38:22 +0000</lastBuildDate>
+<item>
+<title>[JVN(日本)] EspoCRMにおけるクロスサイトスクリプティングの脆弱性</title>
+<link>https://jvn.jp/jp/JVN36592422/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN36592422/</guid>
+<pubDate>Fri, 27 Nov 2026 03:00:15 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN36592422/</description>
+</item>
+<item>
+<title>[JVN(日本)] スマートフォンアプリ「マイナアプリ（旧マイナポータルアプリ）」における入力リストによる制限が不十分なことに起因する複数の脆弱性</title>
+<link>https://jvn.jp/jp/JVN19729125/</link>
+<guid isPermaLink="true">https://jvn.jp/jp/JVN19729125/</guid>
+<pubDate>Fri, 27 Nov 2026 03:00:00 +0000</pubDate>
+<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN19729125/</description>
+</item>
 <item>
 <title>[JVN(日本)] Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性</title>
 <link>https://jvn.jp/jp/JVN16383801/</link>
@@ -340,19 +354,5 @@
 <guid isPermaLink="true">https://jvn.jp/jp/JVN29068051/</guid>
 <pubDate>Thu, 19 Nov 2026 05:00:00 +0000</pubDate>
 <description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN29068051/</description>
-</item>
-<item>
-<title>[JVN(日本)] 複数のRuijie Networks製品におけるOSコマンドインジェクションの脆弱性</title>
-<link>https://jvn.jp/jp/JVN28897261/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN28897261/</guid>
-<pubDate>Thu, 19 Nov 2026 03:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN28897261/</description>
-</item>
-<item>
-<title>[IPA(日本)] 【事前準備のお願い】PHPのセキュリティリリース公開予定について（11月）</title>
-<link>https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html</link>
-<guid isPermaLink="true">https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html</guid>
-<pubDate>Wed, 18 Nov 2026 15:00:00 +0000</pubDate>
-<description>IPA(日本) が公表。原文: https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261119.html</description>
 </item>
 </channel></rss>

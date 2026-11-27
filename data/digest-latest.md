@@ -49,6 +49,10 @@
   https://www.jpcert.or.jp/wr/2026/wr261126.html#22
 
 ■ JVN(日本)
+・EspoCRMにおけるクロスサイトスクリプティングの脆弱性（2026年11月27日）
+  https://jvn.jp/jp/JVN36592422/
+・スマートフォンアプリ「マイナアプリ（旧マイナポータルアプリ）」における入力リストによる制限が不十分なことに起因する複数の脆弱性（2026年11月27日）
+  https://jvn.jp/jp/JVN19729125/
 ・Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性（2026年11月26日）
   https://jvn.jp/jp/JVN16383801/
 ・baserCMSにおける複数の脆弱性（2026年11月26日）
@@ -81,10 +85,6 @@
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02
 ・AutomationDirect C-More EA9 Programming Software（2026年11月24日）
   https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01
-・CISA Adds Two Known Exploited Vulnerabilities to Catalog（2026年11月23日）
-  https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog
-・CISA Adds Four Known Exploited Vulnerabilities to Catalog（2026年11月20日）
-  https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog
 
 ■ NCSC(英国)
 ・Introducing CORNERSTONE: delivering external services for the NCSC（2026年11月24日）
