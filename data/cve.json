@@ -1592,10 +1592,10 @@
     "CWE-434"
    ],
    "desc_en": "Adobe Commerce is affected by an Unrestricted Upload of File with Dangerous Type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Exploitation of this issue requires user interaction in that a victim must visit a maliciously crafted URL or interact with a compromised web page. Scope is changed.",
-   "fetched_at": "2026-10-27T22:20:59.827318+00:00",
+   "fetched_at": "2026-11-27T01:46:04.286286+00:00",
    "found": true,
    "id": "CVE-2026-48356",
-   "last_modified": "2026-10-27T20:17:14.683",
+   "last_modified": "2026-10-28T13:34:50.330",
    "products": [
     [
      "adobe",
@@ -1615,7 +1615,7 @@
     ]
    ],
    "published": "2026-07-14T20:17:08.437",
-   "status": "Modified"
+   "status": "Analyzed"
   },
   "CVE-2026-50751": {
    "cvss": {
@@ -2761,5 +2761,5 @@
    "status": "Undergoing Analysis"
   }
  },
- "generated_at": "2026-11-26T17:01:15.952437+00:00"
+ "generated_at": "2026-11-27T01:46:04.108006+00:00"
 }
