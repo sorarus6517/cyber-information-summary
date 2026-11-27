@@ -4,7 +4,14 @@
 <link>https://cyber-information-summary.pages.dev/</link>
 <description>米国CISA・日本JPCERT/CC・JVN・IPA・英国NCSCが公表したサイバーセキュリティの注意喚起を、日本語で横断的にまとめています。</description>
 <language>ja</language>
-<lastBuildDate>Fri, 27 Nov 2026 12:38:22 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 22:44:50 +0000</lastBuildDate>
+<item>
+<title>[CISA(米国)] CISA Adds Three Known Exploited Vulnerabilities to Catalog</title>
+<link>https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog</link>
+<guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog</guid>
+<pubDate>Fri, 27 Nov 2026 12:00:00 +0000</pubDate>
+<description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog</description>
+</item>
 <item>
 <title>[JVN(日本)] EspoCRMにおけるクロスサイトスクリプティングの脆弱性</title>
 <link>https://jvn.jp/jp/JVN36592422/</link>
@@ -347,12 +354,5 @@
 <guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01</guid>
 <pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
 <description>CISA(米国) が公表。原文: https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01</description>
-</item>
-<item>
-<title>[JVN(日本)] ブラウザ拡張機能「Win Bird 授業支援」におけるクロスサイトスクリプティングの脆弱性</title>
-<link>https://jvn.jp/jp/JVN29068051/</link>
-<guid isPermaLink="true">https://jvn.jp/jp/JVN29068051/</guid>
-<pubDate>Thu, 19 Nov 2026 05:00:00 +0000</pubDate>
-<description>JVN(日本) が公表。原文: https://jvn.jp/jp/JVN29068051/</description>
 </item>
 </channel></rss>

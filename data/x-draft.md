@@ -1,4 +1,4 @@
-# Xの投稿下書き（2026年11月27日 自動生成）
+# Xの投稿下書き（2026年11月28日 自動生成）
 
 **本文を投稿したあと、その投稿に自分でリプライしてリンクを貼ってください。**
 Xは外部リンクを含む投稿の表示を抑える傾向があるため、本文にはリンクを入れず、
@@ -12,12 +12,13 @@ Xは外部リンクを含む投稿の表示を抑える傾向があるため、�
 
 ## 1. 本日のまとめ
 
-**本文** [ 162 / 280 ]
+**本文** [ 223 / 280 ]
 
 ```
 【本日の公式セキュリティ情報】11月27日
 
 主な発表:
+・CISA Adds Three Known Exploited Vulnerabilities to Catalog
 ・EspoCRMにおけるクロスサイトスクリプティングの脆弱性
 
 日本の機関（JVN）からは2件。
@@ -36,14 +37,14 @@ https://cyber-information-summary.pages.dev/
 
 ## 2. 今週のまとめ
 
-**本文** [ 261 / 280 ]
+**本文** [ 250 / 280 ]
 
 ```
 【今週の公式セキュリティ情報】11月23日〜11月29日
 
 主な発表:
+・CISA Adds Three Known Exploited Vulnerabilities to Catalog
 ・EspoCRMにおけるクロスサイトスクリプティングの脆弱性
-・Androidアプリ「東京消防庁公式アプリ」におけるパストラバーサルの脆弱性
 
 日本の機関（JPCERT/CC・JVN・IPA）からは33件。
 詳細はリプライのリンクから。
@@ -60,6 +61,22 @@ https://cyber-information-summary.pages.dev/w/2026-W48.html
 ---
 
 ## 3. 1件ずつ紹介する下書き（新しい順に最大12件）
+
+### CISA（2026年11月27日）
+
+本文 [ 80 / 280 ]
+
+```
+【CISA】CISA Adds Three Known Exploited Vulnerabilities to Catalog
+#セキュリティ
+```
+
+リプライ [ 36 / 280 ]
+
+```
+原文はこちら
+https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog
+```
 
 ### JVN（2026年11月27日）
 
@@ -235,22 +252,6 @@ https://www.jpcert.or.jp/wr/2026/wr261126.html#6
 ```
 原文はこちら
 https://www.jpcert.or.jp/wr/2026/wr261126.html#7
-```
-
-### JPCERT/CC（2026年11月26日）
-
-本文 [ 66 / 280 ]
-
-```
-【JPCERT/CC】Weekly Report: 複数のSplunk製品に脆弱性
-#セキュリティ
-```
-
-リプライ [ 36 / 280 ]
-
-```
-原文はこちら
-https://www.jpcert.or.jp/wr/2026/wr261126.html#8
 ```
 
 ---

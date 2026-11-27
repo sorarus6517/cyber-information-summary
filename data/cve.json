@@ -1547,13 +1547,30 @@
     "CWE-778"
    ],
    "desc_en": "VMware ESX contains an insufficient logging vulnerability. A malicious administrator could exploit this issue to perform certain operations without them being logged.",
-   "fetched_at": "2026-10-28T19:38:08.113043+00:00",
+   "fetched_at": "2026-11-27T22:44:50.002988+00:00",
    "found": true,
    "id": "CVE-2026-41709",
-   "last_modified": "2026-07-30T19:07:59.843",
-   "products": [],
+   "last_modified": "2026-10-29T17:29:11.590",
+   "products": [
+    [
+     "vmware",
+     "esxi"
+    ],
+    [
+     "vmware",
+     "cloud_foundation"
+    ],
+    [
+     "vmware",
+     "telco_cloud_platform"
+    ],
+    [
+     "vmware",
+     "vsphere_foundation"
+    ]
+   ],
    "published": "2026-07-30T14:16:57.420",
-   "status": "Awaiting Analysis"
+   "status": "Analyzed"
   },
   "CVE-2026-46300": {
    "cvss": {
@@ -2761,5 +2778,5 @@
    "status": "Undergoing Analysis"
   }
  },
- "generated_at": "2026-11-27T12:38:22.855134+00:00"
+ "generated_at": "2026-11-27T22:44:49.902634+00:00"
 }

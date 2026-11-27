@@ -1,4 +1,4 @@
-件名: 今週のサイバー注意喚起まとめ(2026年11月27日時点 / 40件)
+件名: 今週のサイバー注意喚起まとめ(2026年11月28日時点 / 40件)
 
 公式セキュリティ情報まとめ です。直近1週間に各国の公的機関が公表した注意喚起をまとめました。
 
@@ -70,11 +70,9 @@
 ・Zoraxyにおける複数の脆弱性（2026年11月24日）
   https://jvn.jp/jp/JVN84156789/
 
-■ IPA(日本)
-・VMware製品の脆弱性対策について(CVE-2026-123890)（2026年11月24日）
-  https://www.ipa.go.jp/security/security-alert/2026/alert20261124.html
-
 ■ CISA(米国)
+・CISA Adds Three Known Exploited Vulnerabilities to Catalog（2026年11月27日）
+  https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog
 ・CISA Adds 10 Known Exploited Vulnerabilities to Catalog（2026年11月25日）
   https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog
 ・CISA Adds Three Known Exploited Vulnerabilities to Catalog（2026年11月24日）
